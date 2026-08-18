@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients</title>
+    <link rel="icon" type="image/x-icon" href="image/Maverik.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+   <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Modal -->
+<div class="modal fade contactform" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get A Quote!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form method="post" accept-charset="utf-8" id="enquery_request3" action="/main/sendEnquery">
+          <input type="text" name="name" placeholder="Name*" class="form-control form-control-sm" id="name" required="">
+          <input type="text" name="number" placeholder="Mobile*" class="form-control form-control-sm" id="number" required="">
+          <input type="email" name="email" placeholder="Email Id*" class="form-control form-control-sm" id="email" required="">
+          <textarea name="message" rows="4" placeholder="Message" class="form-control form-control-sm" id="message"></textarea>
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+      </div>
+       
+    </div>
+  </div>
+</div>
+    <!-- Header -->
+     <header class="header">
+        <nav class="nav container-fluid">
+            <div class="logo">
+                <a href="index.html">
+                <img src="image/Maverik.png" alt="">
+                </a>
+            </div>
+            <div class="div-sp">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li class="has-submenu"><a href="index.html#products">Products</a>
+                    <ul class="submenu">
+            <li><a href="hand-dryers.html">Hand Dryers</a></li>
+            <li><a href="shop_dryers.html">Soap Dispensers</a></li>
+            <li><a href="paper_dispenser.html">Paper Dispensers</a></li>
+        </ul>
+                </li>
+                <!-- <li><a href="events.html">Events</a></li> -->
+                <li><a href="clints.html">Clients</a></li>
+                <!-- <li><a href="Catalogue.html">Catalogue</a></li> -->
+                <li><a href="contactus.html">Contact</a></li>
+                 <!-- <div class="div-search">
+    <div class="input-search">
+        <input type="search" placeholder="Search...">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div> -->
+<div class="div-form-now">
+    <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+</div>
+            </ul>
+            <div class="buttion-linkhead">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+
+         <div class="container-fluid pad0">
+  <style>
+    .client-box {
+      background-color: #fff;
+      border: 1px solid #dedede;
+      padding: 10px 0px;
+      margin: 15px 0;
+      text-align: center;
+    }
+    .client-image {
+          width: 100%;
+    display: block;
+    height: 150px;
+    object-fit: contain;
+    }
+    .pagetitle h1{
+            margin: 30px 0 15px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+    font-weight: 600;
+    }
+    .section-title h2{
+       margin: 30px 0 15px;
+          font-size: 32px; 
+    padding-left: 15px;
+    text-align: center;
+    color: #000;
+    }
+    @media (max-width: 768px) {
+      .client-box {
+        margin: 10px 0;
+      }
+    }
+  </style>
+
+  <div class="container">
+    <div class="pagetitle">
+        <h1>Our Clients</h1>
+    </div>
+    <div class="section-title"> 
+      <!-- <h2>MNC / CORPORATE</h2> -->
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/DLF.avif" alt="Client 1" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/Double_Tree_by_Hilton.avif" alt="Client 2" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/Fairfield.avif" alt="L & T" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/Hyatt_Regency.avif " alt="Google" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/IBIS.avif" alt="Apple" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/ITC_Grand_Bharat.avif" alt="Accenture" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/Lemon_Tree.avif" alt="Client 9" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/Radisson.avif" alt="GMR" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/Taj_Hotel.avif" alt="GMR" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/The_Lalit.avif" alt="GMR" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/The_Oberoi_Group.webp" alt="GMR" class="client-image">
+      </div>
+      <div class="col-md-3 col-xs-4 client-box">
+        <img src="image/clintlogo/Westin.avif" alt="GMR" class="client-image">
+      </div> 
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Footer -->
+     
+             <div class="footer-section container">
+    <div class="footer-content">
+        <div class="di-footer">
+            <div class="image">
+                <img src="image/Maverik.png" alt="Ennwin Logo" style="height: 100px; width: auto;">
+            </div>
+            <p class="footer-text">Manufactured and Marketed by:</p>
+            <h4 class="footer-header">ENNWIN INDUSTRIES PRIVATE LIMITED</h4>
+            <h4 class="footer-header">M/s. Sannuthi Shubharam Estate</h4>
+            <p class="footer-text">
+                #170/1, Marsur Gate, Anekal, Bengaluru - 562106.<br>
+                Mobile: 7483837722, 9663538037 | E-mail: info@ennwin.in
+            </p>
+        </div>
+    </div>
+    <div class="certificate-section">
+        <img src="image/isocertificate.jpeg" alt="Certificate 1" class="certificate-img">
+        <!-- <img src="image/footerimg3.png" alt="Certificate 2" class="certificate-img"> -->
+    </div>
+</div> 
+
+ <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenuBtn.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenuBtn.contains(e.target) && !navLinks.contains(e.target)) {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Initialize Swiper
+        const swiper = new Swiper('.clients-slider', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50
+                }
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.app-card, .feature, .about-text, .about-image, .product-card, .event-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add some interactive hover effects
+        document.querySelectorAll('.app-card, .product-card, .event-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>    

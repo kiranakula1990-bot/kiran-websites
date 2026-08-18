@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="icon" type="image/x-icon" href="image/hygex.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="assets/style.css">
+
+   <style>
+    .page-title-default {
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0 !important;
+    color: #fff;
+    text-align: center;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page-title-default .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.page-title-default .container {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title-default h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+
+.small-section {
+    padding: 50px 0;
+}
+
+.get-in-touch .row {
+    align-items: center;
+}
+
+.contact-img {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contact-img img {
+    width: auto !important;
+    height: 540px !important;
+    object-fit: cover !important;
+}
+
+.log-in {
+    padding: 20px;
+    box-shadow: 3px 5px 13px #dfdfdf;
+}
+
+.get-in-touch h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.001em;
+    color: #1c2d3a;
+}
+
+.get-in-touch .form-group {
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+}
+
+.input-group-prepend {
+    display: flex;
+    align-items: center;
+}
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.log-in .input-group input {
+    border: none;
+    border-bottom: 1px solid #999797;
+    color: #586167;
+}
+
+.btn-gradient {
+    border: 2px solid transparent;
+    background: #133c6b;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: .5px;
+    transition: all .5s ease;
+    padding: 8px 15px;
+}
+
+.div-infocontact {
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+    background: #133c6b;
+    transition: .6s;
+    box-shadow: 
+        0 2.8px 2.2px rgba(0,0,0,0.05),
+        0 6.7px 5.3px rgba(0,0,0,0.07),
+        0 12.5px 10px rgba(0,0,0,0.09),
+        0 22.3px 17.9px rgba(0,0,0,0.12),
+        0 41.8px 33.4px rgba(0,0,0,0.14),
+        0 100px 80px rgba(0,0,0,0.2);
+}
+
+.div-infocontact .icon {
+    margin-bottom: 10px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.div-infocontact .icon i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.div-infocontact .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+.div-infocontact .summery{
+  padding: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#contactss {
+    padding-bottom: 30px;
+}
+
+.image-in-to-iid iframe {
+  width: 100%;
+    height: 400px;
+}
+
+@media only screen and (min-width: 993px) {
+    .image-in-to-iid {
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </style>
+</head>
+<body>
+    <!-- Modal -->
+<div class="modal fade contactform" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get A Quote!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form method="post" accept-charset="utf-8" id="enquery_request3" action="/main/sendEnquery">
+          <input type="text" name="name" placeholder="Name*" class="form-control form-control-sm" id="name" required="">
+          <input type="text" name="number" placeholder="Mobile*" class="form-control form-control-sm" id="number" required="">
+          <input type="email" name="email" placeholder="Email Id*" class="form-control form-control-sm" id="email" required="">
+          <textarea name="message" rows="4" placeholder="Message" class="form-control form-control-sm" id="message"></textarea>
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+      </div>
+       
+    </div>
+  </div>
+</div>
+    <!-- Header -->
+     <header class="header">
+        <nav class="nav container-fluid">
+            <div class="logo">
+                <a href="index.html">
+                <img src="image/hygex.png" alt="">
+                </a>
+            </div>
+            <div class="div-sp">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li class="has-submenu"><a href="index.html#products">Products</a>
+                    <ul class="submenu">
+            <li><a href="Buckets-rollets.html">Buckets, Trollets & Carts</a></li>
+            <li><a href="Mopping-Systems.html">Mopping Systems</a></li>
+            <li><a href="Microfibres.html">Microfibres</a></li>
+            <li><a href="brooms-brushes.html">Brooms & Brushes</a></li>
+            <li><a href="window-cleaning.html">Window Cleaning Products</a></li>
+            <li><a href="scrubbing-tools.html">Scrubbing Tools</a></li>
+            <!-- <li><a href="handles-rods.html">Handles & Rods</a></li>  -->
+        </ul>
+                </li>
+                <!-- <li><a href="events.html">Events</a></li> -->
+                <li><a href="clints.html">Clients</a></li>
+                <!-- <li><a href="Catalogue.html">Catalogue</a></li> -->
+                <li><a href="contactus.html">Contact</a></li>
+                 <!-- <div class="div-search">
+    <div class="input-search">
+        <input type="search" placeholder="Search...">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div> -->
+<div class="div-form-now">
+    <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+</div>
+            </ul>
+            <div class="buttion-linkhead">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="contact-section">
+      <div class="page-title-default" style="background-image: url('image/bannerhygex2.jpg');">
+  <div class="overlay"></div>
+  <div class="container">
+    <h1 class="entry-title title">Contact Us</h1>
+  </div>
+</div>
+        <div class="container">
+   <!-- Page Title Section -->
+
+
+<!-- Contact Form Section -->
+<section class="small-section get-in-touch">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Contact Image -->
+      <div class="col-lg-6 col-md-6">
+        <div class="contact-img text-center">
+          <img src="image/washing.webp" alt="Washing Service" class="img-fluid">
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6 col-md-6">
+        <div class="log-in">
+          <div class="mb-4 text-start">
+            <h2>Let's Get In Touch</h2>
+          </div>
+
+          <form class="row gx-3"  >
+            
+            <!-- Name -->
+            <div class="form-group col-md-12">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <!-- User Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="1em" height="1em" viewBox="0 0 24 24">
+                      <path fill="currentColor" d="M9.775 12q-.9 0-1.5-.675T7.8 9.75l.325-2.45q.2-1.425 1.3-2.363T12 4q1.475 0 2.575.938t1.3 2.362l.325 2.45q.125.9-.475 1.575t-1.5.675h-4.45ZM4 20v-2.8q0-.85.438-1.563T5.6 14.55q1.55-.775 3.15-1.163T12 13q1.65 0 3.25.388t3.15 1.162q.725.375 1.163 1.088T20 17.2V20H4Z"/>
+                    </svg>
+                  </div>
+                </div>
+                <input type="text" placeholder="Enter your name" required class="form-control">
+              </div>
+            </div>
+
+            <!-- Mobile Number -->
+            <div class="form-group col-md-6">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <!-- Phone Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="1em" height="1em" viewBox="0 0 256 256">
+                      <path fill="currentColor" d="m222.37 158.46-47.11-21.11a16 16 0 0 0-15.17 1.4l-24.09 21.65c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71a16 16 0 0 0 1.32-15.06L97.54 33.64a16 16 0 0 0-16.62-9.52A56.26 56.26 0 0 0 32 80c0 79.4 64.6 144 144 144a56.26 56.26 0 0 0 55.88-48.92a16 16 0 0 0-9.51-16.62Z"/>
+                    </svg>
+                  </div>
+                </div>
+                <input type="tel" placeholder="Phone Number" maxlength="10" required class="form-control">
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group col-md-6">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <!-- Email Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="1em" height="1em" viewBox="0 0 24 24">
+                      <path fill="currentColor" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7L4 8v10h16V8l-8 5Z"/>
+                    </svg>
+                  </div>
+                </div>
+                <input type="email" placeholder="Email address" required class="form-control">
+              </div>
+            </div>
+
+            <!-- Business Name -->
+            <div class="form-group col-md-6">
+              <input type="text" placeholder="Business Name" required class="form-control">
+            </div>
+
+            <!-- Industry -->
+            <div class="form-group col-md-6">
+              <input type="text" placeholder="Industry" required class="form-control">
+            </div>
+
+            <!-- Message -->
+            <div class="form-group col-md-12">
+              <textarea cols="30" rows="5" placeholder="Message" class="form-control"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="col-md-12 submit-btn">
+              <button type="submit" class="btn-gradient">Send Your Message</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+</div>
+<!-- Contact Info Section -->
+<div id="contacts">
+  <div class="container">
+
+    <!-- Address Info -->
+    <div class="row mb-4">
+      <div class="col-lg-12">
+        <div class="div-infocontact">
+          <div class="div-ff">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="spacecont1">
+              <div class="text">India</div>
+              <div class="summery">
+                ENNWIN INDUSTRIES PRIVATE LIMITED <br>
+                M/s. Sannuthi Shubharam Estate<br>
+                #170/1, Marsur Gate, Anekal, Bengaluru - 562106.<br>
+                Mobile: 9663538037 | Email: info@ennwin.in
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   
+
+  </div>
+   <!-- Google Map -->
+    <div class=" ">
+      <div class="  form-contact-color text-left">
+        <div class="image-in-to-iid text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3891.1202861278366!2d77.69818641132991!3d12.77069958747445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6f42b33f7f7b%3A0xf772e38ff2255fb7!2sEnnwin%20Industries%20Private%20Limited!5e0!3m2!1sen!2sin!4v1725386124448!5m2!1sen!2sin"
+            width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+</div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Footer -->
+     
+             <div class="footer-section container">
+    <div class="footer-content">
+        <div class="di-footer">
+            <div class="image">
+                <img src="image/hygex.png" alt="Ennwin Logo" style="height: 100px; width: auto;">
+            </div>
+            <p class="footer-text">Manufactured and Marketed by:</p>
+            <h4 class="footer-header">ENNWIN INDUSTRIES PRIVATE LIMITED</h4>
+            <h4 class="footer-header">M/s. Sannuthi Shubharam Estate</h4>
+            <p class="footer-text">
+                #170/1, Marsur Gate, Anekal, Bengaluru - 562106.<br>
+                Mobile: 7483837722, 9663538037 | E-mail: info@ennwin.in
+            </p>
+        </div>
+    </div>
+    <div class="certificate-section">
+        <img src="image/isocertificate.jpeg" alt="Certificate 1" class="certificate-img">
+        <!-- <img src="image/footerimg3.png" alt="Certificate 2" class="certificate-img"> -->
+    </div>
+</div> 
+ <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenuBtn.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenuBtn.contains(e.target) && !navLinks.contains(e.target)) {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Initialize Swiper
+        const swiper = new Swiper('.clients-slider', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50
+                }
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.app-card, .feature, .about-text, .about-image, .product-card, .event-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add some interactive hover effects
+        document.querySelectorAll('.app-card, .product-card, .event-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>    

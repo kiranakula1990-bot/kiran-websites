@@ -1,0 +1,71 @@
+name: Deploy sites to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      site:
+        description: "Site folder to deploy (or 'all')"
+        required: true
+        default: all
+
+permissions:
+  contents: read
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      sites: ${{ steps.set.outputs.sites }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - id: set
+        shell: bash
+        run: |
+          ALL='["marvelconsultants","evochem","hygex","mavrick","ennwin","efcs"]'
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ github.event.inputs.site }}" = "all" ]; then echo "sites=$ALL" >> $GITHUB_OUTPUT
+            else echo "sites=[\"${{ github.event.inputs.site }}\"]" >> $GITHUB_OUTPUT; fi
+            exit 0
+          fi
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then BEFORE=$(git rev-parse HEAD~1 2>/dev/null || echo ""); fi
+          CHANGED=$(git diff --name-only "$BEFORE" HEAD 2>/dev/null | cut -d/ -f1 | sort -u)
+          SITES=()
+          for s in marvelconsultants evochem hygex mavrick ennwin efcs; do
+            echo "$CHANGED" | grep -qx "$s" && SITES+=("\"$s\"")
+          done
+          # evochem-source changes rebuild+deploy evochem
+          echo "$CHANGED" | grep -qx "evochem-source" && ! printf '%s\n' "${SITES[@]}" | grep -q evochem && SITES+=("\"evochem\"")
+          JSON=$(IFS=,; echo "[${SITES[*]}]")
+          echo "sites=$JSON" >> $GITHUB_OUTPUT
+          echo "Will deploy: $JSON"
+
+  deploy:
+    needs: detect
+    if: needs.detect.outputs.sites != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        site: ${{ fromJson(needs.detect.outputs.sites) }}
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Evochem (Angular) if needed
+        if: matrix.site == 'evochem'
+        working-directory: evochem-source
+        run: |
+          npm ci
+          npx ng build --configuration production
+          # copy build output over the deploy folder, keep _redirects
+          rsync -a --delete --exclude _redirects dist/evochem/browser/ ../evochem/
+
+      - name: Deploy ${{ matrix.site }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy ${{ matrix.site }} --project-name ${{ matrix.site }} --branch main --commit-dirty=true

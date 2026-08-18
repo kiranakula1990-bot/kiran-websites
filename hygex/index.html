@@ -1,0 +1,592 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HygeX India - Leading Hygiene Solutions</title>
+    <link rel="icon" type="image/x-icon" href="image/hygex.png">
+
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+   <link rel="stylesheet" href="assets/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+   <style>
+    
+
+ 
+
+
+
+ 
+
+   </style>
+</head>
+<body>
+    
+<!-- Modal -->
+<div class="modal fade contactform" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get A Quote!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form method="post" accept-charset="utf-8" id="enquery_request3" action="/main/sendEnquery">
+          <input type="text" name="name" placeholder="Name*" class="form-control form-control-sm" id="name" required="">
+          <input type="text" name="number" placeholder="Mobile*" class="form-control form-control-sm" id="number" required="">
+          <input type="email" name="email" placeholder="Email Id*" class="form-control form-control-sm" id="email" required="">
+          <textarea name="message" rows="4" placeholder="Message" class="form-control form-control-sm" id="message"></textarea>
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+      </div>
+       
+    </div>
+  </div>
+</div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container-fluid">
+            <div class="logo">
+                <a href="index.html">
+                <img src="image/hygex.png" alt="">
+                </a>
+            </div>
+            <div class="div-sp">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li class="has-submenu"><a href="index.html#products">Products</a>
+                    <ul class="submenu">
+            <li><a href="Buckets-rollets.html">Buckets, Trollets & Carts</a></li>
+            <li><a href="Mopping-Systems.html">Mopping Systems</a></li>
+            <li><a href="Microfibres.html">Microfibres</a></li>
+            <li><a href="brooms-brushes.html">Brooms & Brushes</a></li>
+            <li><a href="window-cleaning.html">Window Cleaning Products</a></li>
+            <li><a href="scrubbing-tools.html">Scrubbing Tools</a></li>
+            <!-- <li><a href="handles-rods.html">Handles & Rods</a></li>  -->
+        </ul>
+                </li>
+                <!-- <li><a href="events.html">Events</a></li> -->
+                <li><a href="clints.html">Clients</a></li>
+                <!-- <li><a href="Catalogue.html">Catalogue</a></li> -->
+                <li><a href="contactus.html">Contact</a></li>
+                 <!-- <div class="div-search">
+    <div class="input-search">
+        <input type="search" placeholder="Search...">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div> -->
+<div class="div-form-now">
+    <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+</div>
+            </ul>
+            <div class="buttion-linkhead">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <div class="hero-sectionslier">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="image/hygexbanner1.png" class="d-block w-100" alt="...">
+     </div> 
+    <div class="carousel-item ">
+      <img src="image/hygexbanner2.png" class="d-block w-100" alt="...">
+    </div> 
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
+ 
+     <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                     <a href="Buckets-rollets.html">
+                    <div class="product-image">
+                        <img src="image/product/Trolleys_Carts.webp" alt="BUCKETS, TROLLEYS & CARTS">
+
+                    </div>
+                    <div class="product-info">
+                        <h3>Buckets, Trollets & Carts</h3>
+                                                <div class="product-overlay">
+                            <a href="Buckets-rollets.html" class="view-products-btn">View Products</a>
+                        </div>
+                     </div>
+                     </a>
+                </div>
+                
+                <div class="product-card"> 
+                    <a href="Mopping-Systems.html">
+                    <div class="product-image">
+                        <img src="image/product/Mopping_Systems.webp" alt="Mopping_Systems.webp">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Mopping Systems</h3>
+                        <div class="product-overlay">
+                            <a href="Mopping-Systems.html" class="view-products-btn">View Products</a>
+                        </div>
+                     </div>
+                     </a>
+                </div>
+                
+                <div class="product-card"> 
+                    <a href="Microfibres.html">
+                    <div class="product-image">
+                        <img src="image/product/Microfibers.webp" alt="Important_Products.webp">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Microfibres  </h3>
+                        <div class="product-overlay">
+                            <a href="Microfibres.html" class="view-products-btn">View Products</a>
+                        </div>
+                     </div>
+                     </a>
+                </div>
+                <div class="product-card">
+                     <a href="brooms-brushes.html">
+                    <div class="product-image">
+                        <img src="image/product/Brooms_Brushes.webp" alt="BUCKETS, TROLLEYS & CARTS">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Brooms & Brushes</h3>
+                        <div class="product-overlay">
+                            <a href="brooms-brushes.html" class="view-products-btn">View Products</a>
+                        </div>
+                     </div>
+                     </a>
+                </div>
+                
+                <div class="product-card"> 
+                    <a href="window-cleaning.html">
+                    <div class="product-image">
+                        <img src="image/product/Window_Cleaning_High_Access.webp" alt="Mopping_Systems.webp">
+                       
+                    </div>
+                    <div class="product-info">
+                        <h3>Window Cleaning Products  </h3>
+                         <div class="product-overlay">
+                            <a href="window-cleaning.html" class="view-products-btn">View Products</a>
+                        </div>
+                     </div>
+                     </a>
+                </div>
+                
+                <div class="product-card"> 
+                    <a href="scrubbing-tools.html">
+                    <div class="product-image">
+                        <img src="image/product/Scrubbing_Tools.webp" alt="Important_Products.webp">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Scrubbing Tools  </h3>
+                        <div class="product-overlay">
+                            <a href="scrubbing-tools.html" class="view-products-btn">View Products</a>
+                        </div>
+                     </div>
+                     </a>
+                </div>
+                <!-- <div class="product-card"> 
+                    <a href="">
+                    <div class="product-image">
+                        <img src="image/product/Handles_Rods.webp" alt="Important_Products.webp">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Handles & Rods  </h3>
+                        <div class="product-overlay">
+                            <a href="#" class="view-products-btn">View Products</a>
+                        </div>
+                     </div>
+                     </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- About Section --> 
+    <section class="who-we-are">
+    <div class="container">
+        <div class="who-container">
+        <div class="row">
+            <div class="col-lg-7 col-md-12">
+ <!-- Left Content -->
+        <div class="who-content">
+            <h2 class="who-title"><span class="who-title-span">Who <b>We Are</b></span></h2>
+            <p class="who-description">
+                At Hygex, we believe cleanliness should be smart, simple, and affordable for everyone. 
+                As part of Ennwin Industries, we specialize in manual cleaning solutions designed to make 
+                everyday cleaning easier, faster, and more effective.
+            </p>
+            <p class="who-description">
+                From buckets and mopping systems to brooms, brushes, microfibres, and window cleaning tools, 
+                our products combine practical design, durable materials, and cost efficiency — giving you 
+                the perfect balance of performance and value.
+            </p>
+            <p class="who-description">
+                Whether you’re cleaning a home, office, hotel, or large facility, Hygex offers the tools you 
+                can trust to get the job done right, without breaking the budget.
+            </p>
+        </div>
+            </div>
+            <div class="col-lg-5 col-md-7" style="margin: auto;">
+                <!-- Right Box -->
+        <div class="who-box">
+            <div class="who-box-left">
+                <img src="https://ik.imagekit.io/whatsappsongstatus/dolphy/tr:q-50,f-auto/banner/callimg.jpg?auto=format" alt="Support" class="who-support-icon">
+            </div>
+            <div class="who-box-right">
+                <img src="image/hygex.png" alt="Dolphy Logo" style="width: 100%;">
+                <span class="who-link">
+                    <a href="contactus.html" target="_blank"><h6>Service Request Form</h6></a>
+                </span>
+            </div>
+            <div class="who-contact">
+                <h5>Get A Quotation!</h5>
+                <span class="who-phone">+91 96635 38037</span>
+            </div>
+        </div>
+            </div>
+        </div>
+       
+
+        
+
+    </div>
+    </div>
+</section>
+
+
+     <!-- Clients Section -->
+    <section class="clients" id="clients">
+        <div class="container">
+            <h2>Our Trusted Clients</h2>
+            <div class="swiper clients-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/DLF.avif" alt="GMR">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/Double_Tree_by_Hilton.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/Fairfield.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/Hyatt_Regency.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/IBIS.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/ITC_Grand_Bharat.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/Lemon_Tree.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/Radisson.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/Taj_Hotel.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/The_Lalit.avif" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/The_Oberoi_Group.webp" alt="GVK">
+                        </div>
+                    </div> 
+                    <div class="swiper-slide">
+                        <div class="client-slide">
+                            <img src="image/clintlogo/Westin.avif" alt="GVK">
+                        </div>
+                    </div> 
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Applications Section -->
+    <section class="applications" id="applications">
+        <div class="container">
+            <h2>Suggestive Site Applications</h2>
+            <div class="app-grid">
+                <div class="app-card">
+                    <div class="app-icon"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.67 20.76"><title>Asset 27</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M17.64,5.5V3.34C17,3,16.77,2.52,16.18,2.21a9.48,9.48,0,0,0,.06,2.22,6.3,6.3,0,0,0,1.4,1.07M16.18,8.08l1.44.83,0-2.19c-.54-.24-.94-.72-1.46-.9Zm0,7.21,1.45.36c0-2.33.21-2.08-.67-2.38a3.37,3.37,0,0,0-.78-.24Zm0-3.61,1.45.6v-2a3.26,3.26,0,0,0-1.46-.85Zm0,7.22,1.46.13V16.85l-1.46-.23ZM18.56,6.24A9.73,9.73,0,0,0,20,7.33c0-.49.15-1.66-.17-2l-1.29-1Zm0,3.2A11.17,11.17,0,0,0,20,10.3l0-1.84a7.86,7.86,0,0,0-1.47-1Zm0,6.43,1.45.36V14.4a4.92,4.92,0,0,0-1.47-.51Zm0-3.2,1.44.6,0-1.84a6.71,6.71,0,0,0-1.47-.73Zm0,6.39,1.44.13,0-1.87-1.46-.27Zm3.85-9.9V7.57A15.47,15.47,0,0,0,21,6.39C21,7.58,20.52,8.18,22.42,9.16ZM21,19.27l1.39.09c0-.3,0-.58,0-.87l-.05-.58s0-.06,0-.08l0-.08L21,17.48A4.87,4.87,0,0,0,21,19.27ZM21,13.56a3.81,3.81,0,0,0,1.46.7V12.65L21,11.93Zm0-2.68,1.45.86V10.27A4.08,4.08,0,0,0,21,9.17Zm0,5.56,1.46.38V15.2L21,14.7ZM13.17,2.24V5.41l1.23-.36V1.66C14,1.77,13.38,1.88,13.17,2.24Zm0,4.55,0,3.33,1.24-.25V6.47ZM10.68,3V6.18l1.24-.36V2.64Zm0,4.46v3.16l1.23-.27V7.21ZM4.55,9.24v2.67l1.23-.19V8.91Zm0-3.87,0,2.7A2,2,0,0,0,5.8,7.59V4.93ZM2.07,9.94v2.54l1.23-.24V9.61Zm0-3.62V8.86L3.29,8.5V5.87ZM6,19.84H10.5c0-2.26.44-3.69-2.2-3.44S6,17.35,6,19.84Zm5-6.15v-1.5l.31,0v1.24l.76-.1v.25Zm-1.78.25V12.42l1.12-.15v.25l-.81.12V13l.75-.11v.25l-.75.11v.41l.84-.12v.26Zm-1.32.18V12.86l-.44.07v-.26l1.2-.17v.26l-.45.06v1.26Zm-2.09-.46a.5.5,0,0,0,.12.37.32.32,0,0,0,.3.09.46.46,0,0,0,.3-.17.65.65,0,0,0,.12-.41.51.51,0,0,0-.12-.38.34.34,0,0,0-.3-.08.42.42,0,0,0-.31.17A.63.63,0,0,0,5.76,13.66Zm-.32.05a1,1,0,0,1,.07-.4.79.79,0,0,1,.14-.23.74.74,0,0,1,.2-.16,1,1,0,0,1,.32-.11.64.64,0,0,1,.54.14.68.68,0,0,1,.2.55.86.86,0,0,1-.2.6.79.79,0,0,1-.53.28.6.6,0,0,1-.54-.13A.7.7,0,0,1,5.44,13.71Zm-1.83,1V13.2l.31,0v.6l.6-.08v-.6l.3,0v1.51l-.3.05v-.67l-.6.09v.66Zm6-12.36v8.44c0,.69.16.78-.44.85V4.5c-.08-.32-1.68-.82-2-.93-.55-.19-1.52.36-2.09.59C3.9,4.65,2.17,5.47,1,5.79v6.54c0,1.12.13,1-1,1.14v2.27l15.41-2c.11.68.15.56-1.55.77l-1.72.2-3.59.44L1.49,16l-.05,3.87H.92v.92H23.67v-.92h-.52v-12c0-.82-.17-.71-.61-1.12L20.78,5c-.32-.29-.54-.59-.87-.88L15.44,0Z" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+                    </div>
+                    <h3>Hotel</h3>
+                 </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.52 17.97"><title>Asset 26</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M4.22,10l.37-.23v.35l-.37.23Zm.58-.37.37-.24v.35L4.8,10Zm-.58,1.4.37-.23v.34l-.37.23Zm.58-.37.37-.24v.34L4.8,11Zm-.58,1.39.37-.23v.34l-.37.23Zm.58-.37.37-.24v.34l-.37.24Zm-.58,1.35.37-.23v.34l-.37.23Zm.58-.37.37-.24v.34L4.8,13Zm-.58,1.39.37-.23v.35l-.37.23Zm.58-.37.37-.24v.35l-.37.23ZM4.22,15.1l.37-.23v.35l-.37.23Zm.58-.37.37-.24v.35l-.37.23ZM7.41,9.9,7,9.79V9.44l.45.12Zm-.65-.15-.44-.12V9.28l.44.12Zm.65,1.16L7,10.8v-.35l.45.11Zm-.65-.15-.44-.12v-.35l.44.12Zm.65,1.16L7,11.81v-.35l.45.11Zm-.65-.15-.44-.12V11.3l.44.12Zm.65,1.16L7,12.81v-.35l.45.12Zm-.65-.16-.44-.11v-.35l.44.11Zm.65,1.17L7,13.82v-.35l.45.12Zm-.65-.16-.44-.11v-.35l.44.11ZM7.41,15,7,14.83v-.35l.45.12Zm-.65-.16-.44-.12v-.34l.44.11Zm3.08-1.14.61-.4v.58l-.61.39Zm-1,.62.61-.38v.57l-.61.4Zm1-2.33.61-.4v.58l-.61.39Zm-1,.63.61-.4v.58l-.61.39Zm1-2.34.61-.4v.58l-.61.39Zm-1,.62.61-.39V11l-.61.39Zm1-2.17.61-.4v.58l-.61.39Zm-1,.62.61-.38v.57l-.61.39Zm1-3.93.61-.4v.57l-.61.39Zm0,1.6.61-.4v.58l-.61.38Zm-1,.62.61-.39v.58l-.61.39Zm0-1.71.61-.39v.58l-.61.39Zm3.68,6.83-.7-.46v.67l.7.44Zm1.12.72L13,13v.66l.71.45Zm-1.12-2.69-.7-.46V11l.7.44Zm1.12.72L13,11v.66l.71.45ZM12.55,8.77l-.7-.46V9l.7.44Zm1.12.72L13,9v.67l.71.44ZM12.55,7l-.7-.46v.66l.7.45Zm1.12.72L13,7.26v.66l.71.45ZM12.55,3.17l-.7-.46v.67l.7.45Zm0,1.85-.7-.46v.66l.7.45Zm1.12.72L13,5.29V6l.71.45Zm0-2L13,3.32V4l.71.45Zm5,7.4-1.47-.93v.35l1.47.92Zm0,1.21-1.47-.92v.35l1.47.92Zm0,1.18-1.47-.92V13l1.47.93Zm0,1.15-1.5-.88v.35l1.5.87Zm-2.38-.52v-.3l-1.48.49v.3Zm0-1v-.3l-1.49.49v.31Zm0-1V12l-1.49.49v.3Zm0-.92V11l-1.49.5v.3Zm0-.91v-.3l-1.5.49v.3Zm4,6V14.31l-.08-.14-1-.61V10.63l-.08-.14L16.83,9l-.14,0-2.27.76,0-7.25a.22.22,0,0,0-.09-.17L11.17,0A.22.22,0,0,0,11,0a.21.21,0,0,0-.11.19V3.13L8.2,4.75a.19.19,0,0,0-.1.17V9L5.61,8.17H5.53v0l0,0h0L3.77,9.43a.17.17,0,0,0-.07.13v6.5A18.85,18.85,0,0,0,0,17.61S2.35,17,5.4,16.45h0l.33-.05h0a38.25,38.25,0,0,1,5.64-.52A33.34,33.34,0,0,1,23.52,18,16,16,0,0,0,20.26,16.46Z" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+                    </div>
+                    <h3>Corporate</h3>
+                 </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.52 19.36"><title>Asset 25</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M12.42.8c0,.65.18,1.32,1.06,1.28A1,1,0,0,0,13.57,0c-.47-.07-1.15.35-1.15.79M6,7.24a1,1,0,1,0,2,.12C8,6,6,5.94,6,7.24ZM9.2,4.38a1,1,0,1,0,2-.24C11.23,3.13,9.2,2.92,9.2,4.38Zm1.54,8.34,2.43-2.25.45.48.06-1.87L11.81,9l.45.48L9.84,11.76ZM9.28,9.45,8,10.73C8,10,8.11,9.45,7.75,9A1.09,1.09,0,0,0,6.34,8.9c-.72.47-.5,2.7-.48,3.94l0,0c-2,0-4.72-.48-5.66,2.19a3.25,3.25,0,0,0,3.29,4.26c4.08,0,3.82.42,6.06-1.82l7.92-7.93C18.5,8.47,18.88,9.4,20.82,9a3.22,3.22,0,0,0-.18-6.37c-5.24-.41-4.42.6-6.2,1.79,0-.86.13-1.71-.53-2a1,1,0,0,0-1.5,1c0,2.23.4,2.57-.5,3.43a5,5,0,0,1-.68.63c0-.65.1-1.22-.28-1.54A1.1,1.1,0,0,0,9.5,6c-.4.37-.3.92-.3,1.61l0,1.65C9.27,9.45,9.24,9.39,9.28,9.45Z" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+
+                    </div>
+                    <h3>Shopping Mall</h3>
+                 </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.67 20.94"><title>Asset 24</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M23.67,8.9V7.5c-.43-.33-.4-.17-1-.28a4.49,4.49,0,0,0-4.11-3.57c1.22-1,.29-1.75-.17-1.83a.93.93,0,0,0-.57,1.75l-.16.07A6.38,6.38,0,0,0,16.34,4a4.69,4.69,0,0,0-2.61,3.19c-.52.11-.87,0-1,.48A1.93,1.93,0,0,0,12.88,9a45.57,45.57,0,0,0,5.42.08c1.17,0,4.63.24,5.37-.19M4,.06C-.74.83.3,8,5.15,7.27,9.7,6.58,8.92-.74,4,.06ZM0,8.29V20.94H9.66V13.53A8,8,0,0,1,11,15a11.35,11.35,0,0,0,1.22,1.41,1.54,1.54,0,0,0,1.91-.1c.46-.5,2.93-4.26,3.38-4.5.86-.47,3.33-.81,3.43-1.82H15.43c-.35.53-.77,1-1.15,1.56A9,9,0,0,1,13,13.06a17.84,17.84,0,0,1-1.11-1.62c-.45-.64-1.69-2.85-2.43-3A10.32,10.32,0,0,0,7,8.2L4.89,16.79c-.06.21-.1.37-.16.57a1.6,1.6,0,0,1-.11.33c-.12.29,0,.11-.14.24L2,8.17Z" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+                         
+                    </div>
+                    <h3>Restaurant</h3>
+                 </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.64 24.19"><title>Asset 23</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M9.22,3.16a1.19,1.19,0,0,0,2.37.13,1.19,1.19,0,0,0-2.37-.13M0,6.58H20.8a13.51,13.51,0,0,0-2.5-1.71L10.53,0A16.86,16.86,0,0,0,7.86,1.54L.65,6.05C.22,6.3.28,6.16,0,6.58Z" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M.26,20.54c0,.43-.05.66.4.66H20.15c.49,0,.39-.31.39-1.05H.66c-.31,0-.4.09-.4.39" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M1.45,7.77c0,.3.09.39.39.39H19c.5,0,.4-.3.4-1H1.45Z" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M1.45,19c0,.43-.05.66.39.66H19.36V18.57H1.84c-.3,0-.39.09-.39.39" style="fill:#86b13c;fill-rule:evenodd"></path><rect x="2.37" y="8.69" width="1.97" height="9.35" style="fill:#86b13c"></rect><rect x="5.92" y="8.69" width="1.97" height="9.35" style="fill:#86b13c"></rect><rect x="12.9" y="8.69" width="1.97" height="9.35" style="fill:#86b13c"></rect><rect x="16.46" y="8.69" width="1.98" height="9.35" style="fill:#86b13c"></rect><path d="M9.48,18h1.58c.3,0,.4-.09.4-.4v-9h-2Z" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M11.69,21.84c0,.49.52.73.94.93A7,7,0,0,0,14,23.3a12.79,12.79,0,0,0,2.45.39c.15,0,.33,0,.48,0s.25,0,.45,0a12.5,12.5,0,0,0,4.12-.64,6.35,6.35,0,0,0,1.28-.63.69.69,0,0,0,.37-.73,3,3,0,0,0-.4-1.25A4.64,4.64,0,0,0,21,18.85a4.77,4.77,0,0,0-1.16-.51,2.4,2.4,0,0,1-.21.38l-1.4,2.35a1.76,1.76,0,0,1-.24.38c0-.36-.11-1.25-.12-1.68s-.12-.26.09-.75a5.8,5.8,0,0,1,.27-.62,2.06,2.06,0,0,0-.38.07c-.14,0-.27,0-.42,0a4.72,4.72,0,0,1-.82-.06,8.54,8.54,0,0,1,.36,1l-.14,1.66c0,.31.06.32-.07.41L15,18.34a6.52,6.52,0,0,0-1.9,1c-.11.09-.14.14-.24.21a4.11,4.11,0,0,0-.77.94A3.2,3.2,0,0,0,11.69,21.84Z" style="fill:#86b13c;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9348803162574768px"></path><path d="M11.8,21.76c0,.5.53.73.95.94a6.73,6.73,0,0,0,1.39.53,12.79,12.79,0,0,0,2.45.39c.15,0,.32,0,.48,0s.25,0,.45,0A12.5,12.5,0,0,0,21.64,23a6.26,6.26,0,0,0,1.27-.63.7.7,0,0,0,.38-.73,3,3,0,0,0-.4-1.25,4.72,4.72,0,0,0-1.73-1.62A5.22,5.22,0,0,0,20,18.26a2.56,2.56,0,0,1-.22.39L18.39,21a1.38,1.38,0,0,1-.25.39c0-.37-.1-1.25-.12-1.68s-.12-.27.09-.75c.09-.2.17-.44.27-.63a3.11,3.11,0,0,0-.37.08c-.14,0-.28,0-.43,0a3.61,3.61,0,0,1-.81-.07,9.2,9.2,0,0,1,.35,1L17,21c0,.31.06.31-.07.41l-1.83-3.15a7.09,7.09,0,0,0-1.9,1c-.1.08-.14.13-.23.21a3.87,3.87,0,0,0-.77.94,3.2,3.2,0,0,0-.39,1.31" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M12.79,12c.12.18.6.28.6.42v1.56c.44,0,.4,0,.39-.27V12.53a1.05,1.05,0,0,1,.26.13l.26.13.51.27.51.26,1.54.8c.69.34.35.33,1,0l2.06-1A15.75,15.75,0,0,0,22,12L17.37,9.91C17.29,9.91,13,11.91,12.79,12Z" style="fill:#86b13c;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9348803162574768px"></path><path d="M12.91,11.89c.12.18.6.28.6.42v1.55c.44,0,.39,0,.39-.26V12.46a.71.71,0,0,1,.26.13l.26.13.51.27.52.26L17,14c.68.35.34.34,1,0s1.38-.7,2.07-1a15.75,15.75,0,0,0,2-1.11L17.49,9.84c-.08,0-4.37,2-4.58,2.05" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M14.53,14.81A3.06,3.06,0,0,0,15.34,17a2.91,2.91,0,0,0,1.94.91,2.74,2.74,0,0,0,1.39-.29,3.09,3.09,0,0,0,1.46-3.76,1.11,1.11,0,0,1-.1-.29c-.15,0-1.78.89-2,1a6.65,6.65,0,0,1-.65.33,11,11,0,0,1-1.29-.64l-1.32-.68-.19.54A3.14,3.14,0,0,0,14.53,14.81Z" style="fill:#86b13c;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9348803162574768px"></path><path d="M14.64,14.73A3.09,3.09,0,0,0,15.46,17a2.88,2.88,0,0,0,1.94.91,2.81,2.81,0,0,0,1.38-.29,3.1,3.1,0,0,0,1.47-3.76,1.11,1.11,0,0,1-.1-.29c-.15,0-1.78.89-2,1s-.55.32-.64.34a12,12,0,0,1-1.3-.64l-1.32-.68-.18.53a2.7,2.7,0,0,0-.09.66" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M13.15,15.08H14c-.08-.16-.17-.84-.24-1h-.39C13.38,14.18,13.18,15,13.15,15.08Z" style="fill:#86b13c;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.9348803162574768px"></path><path d="M13.27,15h.87c-.08-.15-.17-.83-.25-1h-.38c0,.1-.21.93-.24,1" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+
+                    </div>
+                    <h3>Education Institute</h3>
+                 </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.44 16.05"><title>Asset 18</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M2.67,11H3.86V9.78H2.67Zm1.85,0H5.71V9.79H4.54ZM2.67,6.86H3.86V5.69H2.68Zm0,2H3.85V7.7H2.67Zm1.85-2H5.7V5.7H4.53Zm0,2H5.71V7.71H4.54Zm5.56,5.4h3.47V10H10.08ZM11.38.42A2.89,2.89,0,0,0,8.82,3.64a2.92,2.92,0,1,0,4.76-2.58A2.89,2.89,0,0,0,11.38.42ZM11,2.58H9.89V4H11V5.14h1.45V4h1.1V2.59H12.45V1.47H11ZM19.91,11H21.1V9.78H19.92Zm-1.85,0h1.19V9.79H18.08Zm1.85-4.08h1.17l0-1.18H19.92Zm0,2h1.18V7.7H19.92Zm-1.85-2h1.17l0-1.17H18.07Zm0,2h1.18V7.71H18.08ZM7.32,14.35H6.78C6.63,13.64,6.7,10,6.7,9s0-4.92,0-5.42c-1.33,0-2.67,0-4,0-.45,0-1.17-.06-1.3.7-.06.35,0,5.4,0,6,0,1.33-.06,2.69,0,4H0v1.7H23.44v-1.7H22.13c.08-.7,0-7.15,0-8a18.8,18.8,0,0,0,0-2c-.11-.77-.89-.7-1.33-.7-1.36,0-2.73,0-4.08,0-.06.5,0,7,0,8.1a15.14,15.14,0,0,1-.08,2.63h-.54c.1-1,0-8.21,0-9.39V2.62A6.82,6.82,0,0,0,16,.42C15.69-.14,14.89,0,14.1,0H9.38c-.78,0-1.61-.16-2,.37a6,6,0,0,0-.14,2.19V12C7.28,12.77,7.25,13.6,7.32,14.35Z" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+
+                    </div>
+                    <h3>Hospital</h3>
+                 </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.63 16.67"><title>Asset 17</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M0,10.21v1.08a6,6,0,0,1,.08.79,11.11,11.11,0,0,0,1,3.42,8.13,8.13,0,0,0,.66,1.11l0,0c.14.05,2,0,2.18,0H19.45a.66.66,0,0,0,.2,0l.06,0a10.14,10.14,0,0,0,.78-1.37,10.72,10.72,0,0,0,1-5.48l-.57.31a10.64,10.64,0,0,1-.36,3.4,9.72,9.72,0,0,1-1.17,2.63H2.14a9.06,9.06,0,0,1-.89-1.79A10.14,10.14,0,0,1,14.9,1.48a10.45,10.45,0,0,1,3.32,2.4l.3.35a10.1,10.1,0,0,1,1.23,1.83l.43.91.52-.24a8.35,8.35,0,0,0-.65-1.35A10.79,10.79,0,0,0,14.65.73,13.28,13.28,0,0,0,11.33,0H10.15C10,0,9.23.1,9,.14a10.55,10.55,0,0,0-2.92.91A10.1,10.1,0,0,0,4.51,2c-.4.28-.57.45-.88.69a12.16,12.16,0,0,0-.95.95A10.58,10.58,0,0,0,.13,9.06c0,.2-.1,1.06-.13,1.15" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M21.64,7.91a.22.22,0,0,0,.18.41c.27-.08.12-.56-.18-.41m-1.87.93c-.12,0-.21.1-.17.27a.21.21,0,0,0,.28.16A.22.22,0,1,0,19.77,8.84Zm.91-.46a.23.23,0,0,0,.2.41C21.14,8.66,21,8.22,20.68,8.38ZM15,11.2a.22.22,0,1,0,.14.42A.22.22,0,0,0,15,11.2Zm1.92-.94a.22.22,0,1,0,.14.42C17.29,10.58,17.17,10.16,16.89,10.26Zm1.92-1a.23.23,0,1,0,.12.44A.23.23,0,0,0,18.81,9.3Zm-1,.48a.23.23,0,1,0,.12.44C18.23,10.15,18.14,9.69,17.85,9.78Zm-1.92.94a.22.22,0,1,0,.13.43A.22.22,0,0,0,15.93,10.72Zm7.7-2.92V7.51a2.36,2.36,0,0,0-.15-.25.79.79,0,0,0-.22-.18,1.35,1.35,0,0,0-.58-.22,4.18,4.18,0,0,0-2.56.59c-1.8.86-3.6,1.76-5.4,2.62-.13.06-.41.24-.55.22L12.82,10a.66.66,0,0,0-.63.1c-.39.21-.71.24-.68.52s.45.49.59.62a7.67,7.67,0,0,0,1.41,1,1.41,1.41,0,0,0,1.28.14c.39-.13.79-.28,1.17-.44l1.13-.46c0,.65,0,1.31,0,2,0,.27-.13,1.11.6.63a5.31,5.31,0,0,0,.86-1.58c.2-.45.39-.91.58-1.38.37-.92.09-.61.91-1,.55-.3,3-1.65,3.39-2A.82.82,0,0,0,23.63,7.8Z" style="fill:#86b13c;fill-rule:evenodd"></path><polygon points="7.59 15.88 11.51 15.88 10.64 9.61 8.46 9.61 7.59 15.88" style="fill:#86b13c;fill-rule:evenodd"></polygon><polygon points="3.61 14.7 4.84 14.7 4.85 15.87 7.28 15.88 7.58 13.74 6.83 13.73 6.83 12.45 7.76 12.45 7.81 12.06 6.83 12.04 6.82 11.39 6.3 11.39 6.3 12.04 5.49 12.04 5.48 11.39 4.96 11.39 4.95 12.04 4.14 12.04 4.14 11.39 3.61 11.39 3.61 14.7" style="fill:#86b13c;fill-rule:evenodd"></polygon><polygon points="7.89 9.35 11.25 9.35 12 7.13 7.15 7.13 7.89 9.35" style="fill:#86b13c;fill-rule:evenodd"></polygon><polygon points="9.32 5.94 7.69 5.95 7.69 4.38 7.19 4.38 7.19 5.94 6.76 5.95 6.76 6.87 12.38 6.87 12.38 5.95 11.97 5.95 11.96 4.38 11.47 4.38 11.46 5.95 9.84 5.95 9.82 4.38 9.34 4.38 9.32 5.94" style="fill:#86b13c;fill-rule:evenodd"></polygon><polygon points="3.22 11.13 3.35 11.14 7.82 11.14 7.94 11.14 8.09 10.09 7.96 10.09 3.4 10.09 3.22 10.09 3.22 11.13" style="fill:#86b13c;fill-rule:evenodd"></polygon><polygon points="7.84 3.63 6.77 3.63 6.77 4.17 12.37 4.17 12.39 3.63 9.11 3.63 9.1 3.16 8.86 3.17 8.86 3.63 8.09 3.63 8.08 2.96 7.84 2.96 7.84 3.63" style="fill:#86b13c;fill-rule:evenodd"></polygon><path d="M17.69,8.24c-.28-.05-.71-.2-1-.28l-1-.27a3,3,0,0,0-1.11-.12c-.14,0-.33.13-.36.28s.15.3.26.39l1.08.84c.21.16.15.16.42,0s.58-.29.87-.43l.43-.2.4-.2h0Z" style="fill:#86b13c;fill-rule:evenodd"></path><polygon points="5.48 13.73 6.3 13.73 6.3 12.46 5.48 12.45 5.48 13.73" style="fill:#86b13c;fill-rule:evenodd"></polygon><rect x="3.91" y="12.68" width="1.27" height="0.82" transform="translate(-8.56 17.61) rotate(-89.86)" style="fill:#86b13c"></rect><path d="M7.83,2a.41.41,0,1,0,.28.76A.41.41,0,0,0,7.83,2" style="fill:#86b13c;fill-rule:evenodd"></path><path d="M8.87,2.48A.28.28,0,1,0,9.1,3c.32-.14.11-.69-.23-.5" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+
+                    </div>
+                    <h3>Airport</h3>
+                 </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.55 19.69"><title>Asset 16</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path d="M4.16,5.39c.35,0,.72,0,1.07,0h3c.07,0,.22,0,.26,0s.23-2.33.25-2.59H4.86c0,.21-.12.44-.18.65l-.35,1.3a5.26,5.26,0,0,0-.17.65m4.91,0h4.29a3.59,3.59,0,0,0,0-.64l-.15-1.89s0,0,0-.07H10.28c-.18,0-.83,0-1,0S9.06,5.31,9.07,5.39Zm3.25,3.55a1,1,0,1,0,1.09.84A1,1,0,0,0,12.32,8.94ZM5,8.94a.93.93,0,0,0-.62.35,1,1,0,0,0,.91,1.58A1,1,0,0,0,5,8.94ZM9,.56a.84.84,0,1,0,.22,1.66A.84.84,0,0,0,9,.56ZM21.2,12v-.89L20.66,11a9.76,9.76,0,0,1-3.13-1,5.39,5.39,0,0,1-1.91-2.22c-.07-.12-.13-.3-.19-.41,0,.24,0,1,0,1.29V10c0,.36,0,.29.19.46a7.08,7.08,0,0,0,1.22.74,10.18,10.18,0,0,0,3.74.8C20.74,12,21,12,21.2,12ZM0,19.69H1.49s.05-.1.09-.15l.14-.22a5.74,5.74,0,0,1,.36-.5l.23-.27,0-.06.12-.13,0-.07L2.77,18A2.77,2.77,0,0,1,3,17.8l.26-.24A6.87,6.87,0,0,1,3.94,17l.57-.42.15-.11c.3-.19.6-.39.91-.56a6.72,6.72,0,0,1,.66-.32l.34-.14a13,13,0,0,1,2.34-.61l.43-.06,1.54-.17.11,0h.23l.85,0-.7.36c-.23.13-.45.27-.67.42L9.82,16c-.17.14-.33.3-.48.45l-.7.85-.5.75L8,18.25c-.11.2-.22.39-.33.6s-.24.48-.35.73a.54.54,0,0,1,0,.11H9.58l.16-.43a6.1,6.1,0,0,1,.38-.82c.18-.31.36-.63.57-.92l.12-.17.27-.34a8.31,8.31,0,0,1,.65-.68l.57-.48a6.51,6.51,0,0,1,1.16-.63l.43-.17a7.83,7.83,0,0,1,1.94-.45,5.17,5.17,0,0,1,.57,0l2.37,0h4.78V14.1H21.64c0-.1,0-.15,0-.24V13.6c.08,0,.17,0,.21-.15a7.86,7.86,0,0,0,0-1.1c0-.13,0-.22,0-.36a6.45,6.45,0,0,0,0-1.1c-.06-.16-.35-.2-.51-.23s-.42-.08-.64-.11a6.21,6.21,0,0,1-.62-.14c-.39-.1-.78-.22-1.16-.34L18.67,10a4.15,4.15,0,0,1-.86-.45c-.15-.1-.28-.22-.42-.33a3.76,3.76,0,0,1-.82-.87.76.76,0,0,0-.08-.11,5.58,5.58,0,0,1-.35-.58L16,7.24l-.06-.13a22.57,22.57,0,0,1-.79-2.21l-.54-2.09c-.07-.29-.16-.6-.23-.9a2.13,2.13,0,0,0-.2-.55A1.83,1.83,0,0,0,14,1.12a2.32,2.32,0,0,0-1.61-1A3,3,0,0,0,11.74,0c-.25,0-4.2,0-4.46,0H6.92A3.86,3.86,0,0,0,5.23.6a2.37,2.37,0,0,0-.52.61l-.13.23a4.22,4.22,0,0,0-.33.8C4.13,2.62,4,3,3.9,3.39s-.24.77-.34,1.16c0,.1-.05.2-.07.3s0,.2-.07.3c-.1.41-.17.84-.25,1.25a5,5,0,0,0-.11,1.4V9.3a5.48,5.48,0,0,0,.29,2.34l.11.27a2.1,2.1,0,0,0,.6.89,2,2,0,0,0,1.07.44,1,1,0,0,0,.06.16l.08.16c0,.12.09.22.13.33s.27.6.28.66l-.25.1-.24.09c-.4.16-.79.33-1.17.52l-.34.16-.11.06a7.66,7.66,0,0,0-1.24.79L.84,17.49a2.84,2.84,0,0,0-.26.24L.32,18l-.17.17-.08.08a.23.23,0,0,0-.07.1H0Z" style="fill:#86b13c;fill-rule:evenodd"></path></g></g></svg>
+
+                    </div>
+                    <h3>Metro</h3>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+     <!-- Events Section -->
+    <!-- <section class="events" id="events">
+        <div class="container">
+            <h2>Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <img src="image/exbition.webp" alt="Aahar Event" class="event-image">
+                    <div class="event-overlay">
+                        <h3>AAHAR - Food & Hospitality Fair</h3>
+                     </div>
+                </div>
+                
+                <div class="event-card">
+                    <img src="image/exbition1.webp" alt="NOVACANCY Exhibition" class="event-image">
+                    <div class="event-overlay">
+                        <h3>NOVACANCY - Hotel Industry Expo</h3>
+                     </div>
+                </div>
+                
+                <div class="event-card">
+                    <img src="image/exbition2.webp" alt="India International Hospitality Expo" class="event-image">
+                    <div class="event-overlay">
+                        <h3>India International Hospitality Expo</h3>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    
+
+     
+
+    <!-- Footer -->
+     
+             <div class="footer-section container">
+    <div class="footer-content">
+        <div class="di-footer">
+            <div class="image">
+                <img src="image/hygex.png" alt="Ennwin Logo" style="height: 100px; width: auto;">
+            </div>
+            <p class="footer-text">Manufactured and Marketed by:</p>
+            <h4 class="footer-header">ENNWIN INDUSTRIES PRIVATE LIMITED</h4>
+            <h4 class="footer-header">M/s. Sannuthi Shubharam Estate</h4>
+            <p class="footer-text">
+                #170/1, Marsur Gate, Anekal, Bengaluru - 562106.<br>
+                Mobile: 9663538037 | E-mail: info@ennwin.in
+            </p>
+        </div>
+    </div>
+    <div class="certificate-section">
+        <img src="image/isocertificate.jpeg" alt="Certificate 1" class="certificate-img">
+        <!-- <img src="image/footerimg3.png" alt="Certificate 2" class="certificate-img"> -->
+    </div>
+</div> 
+
+           
+
+    <!-- Swiper JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenuBtn.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenuBtn.contains(e.target) && !navLinks.contains(e.target)) {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Initialize Swiper
+        const swiper = new Swiper('.clients-slider', {
+            loop: true,
+            spaceBetween: 20,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 20
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 20
+                }
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.app-card, .feature, .about-text, .about-image, .product-card, .event-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add some interactive hover effects
+        document.querySelectorAll('.app-card, .product-card, .event-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>

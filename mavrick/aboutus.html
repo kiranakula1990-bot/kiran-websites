@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US</title>
+    <link rel="icon" type="image/x-icon" href="image/Maverik.png">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/style.css">
+
+
+
+       <style>
+                 .rich-text__blocks {
+    padding: 50px 0px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.rich-text__blocks .h1 {
+           text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+    font-weight: 600;
+}
+.rich-text__text p {
+    font-size: 17px;
+    color: rgba(37,37,37,0.75);
+    line-height: 1.6;
+    text-align: justify;
+}
+.rich-text__text .boldsm {
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
+    text-align: start;
+}
+.product-list {
+    list-style: none;
+    padding-left: 0;
+}
+.product-list li {
+    font-size: 16px;
+    color: rgba(37,37,37,0.9);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.product-list li i {
+    color: #28a745;
+    font-size: 18px;
+    margin-right: 10px;
+    background: #eaf7ed;
+    padding: 6px;
+    border-radius: 50%;
+}
+
+
+
+.product-card-sd {
+    background: #fff;
+    padding: 25px 20px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+    cursor: pointer;
+}
+.product-card-sd i {
+    font-size: 23px;
+    color: #fff;
+    background: #0a2c71; 
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.product-card-sd h5 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.product-card-sd p {
+    font-size: 15px;
+    color: rgba(37,37,37,0.75); 
+    text-align: center;
+    margin-bottom: 0px;
+}
+.product-card-sd:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+                    @media (max-width: 767px) {
+                        .rich-text__blocks .h1{
+                            margin-bottom: 1rem;
+                        }
+                    }
+            </style>
+            <style>
+                    .click-text-1 {
+                        margin: 20px 0px;
+                        width: 100%;
+                        padding: 50px 15px;
+                        border-radius: 10px;
+                        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+                        /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); */
+                    }
+
+                    .click-text-1 .vertical-tab {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                    }
+
+                    .click-text-1 .vertical-tab .nav-tabs {
+                        flex-direction: column;
+                        width: 20%;
+                        border: none;
+                    }
+
+                    .click-text-1 .vertical-tab .nav-tabs .nav-item {
+                        margin-bottom: 10px;
+                    }
+
+                    .click-text-1 .vertical-tab .nav-tabs .nav-link {
+                        background: transparent;
+                        color: black;
+                        font-weight: 600;
+                        font-size: 16px;
+                        text-align: left;
+                        border: 1px solid #087c7c;
+                        transition: all 0.3s ease;
+                    }
+
+                    .click-text-1 .vertical-tab .nav-tabs .nav-link.active,
+                    .click-text-1 .vertical-tab .nav-tabs .nav-link:hover {
+                        color: #fff;
+                        background-color: #087c7c;
+                    }
+
+                    .click-text-1 .tab-content {
+                        width: 78%;
+                        padding: 0px 20px;
+                        background-image: url(image/our\ values\ bg-01.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+
+                    .click-text-1 .vision-1 {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 30px;
+                    }
+
+                    .click-text-1 .vision-2 {
+                        text-align: center;
+                        flex: 1;
+                        min-width: 250px;
+                    }
+
+                    .click-text-1 .vision-3 img {
+                        width: 100%;
+                        max-width: 300px;
+                        height: auto;
+                    }
+
+                    .click-text-1 .tab-content h3 {
+                        font-size: 24px;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        margin-bottom: 15px;
+                        color: white;
+                    }
+
+                    .click-text-1 .tab-content p {
+                        line-height: 1.7;
+                        font-size: 15px;
+                        color: white;
+                        text-align: justify;
+                    }
+
+                    @media (max-width: 767px) {
+                        .click-text-1 .vertical-tab {
+                            flex-direction: column;
+                        }
+
+                        .click-text-1 .vertical-tab .nav-tabs {
+                            width: 100%;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            margin-bottom: 20px;
+                        }
+
+                        .click-text-1 .tab-content {
+                            width: 100%;
+                        }
+
+                        .click-text-1 .vision-1 {
+                            flex-direction: column;
+                            text-align: center;
+                        }
+
+
+                    }
+                </style>
+                 <style>
+                .shapingTheFuture__main {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    background-color: #087c7c;
+                    padding: 50px;
+                    text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+
+                .shapingTheFuture__main h4 {
+                    font-size: 30px;
+                    font-weight: 800;
+                    line-height: 1.2;
+                    color: #ffffff;
+                    margin: 0 0 20px;
+                    text-transform: uppercase;
+                }
+
+                .shapingTheFuture__main p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 1.5;
+                    color: #ffffff;
+                    margin: 0;
+                }
+            </style>
+  <style>
+    .aboutus-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutus-banner .video-wrapper {
+  height: 100vh;
+}
+
+.aboutus-banner video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus-banner-content {
+  background: rgba(0, 0, 0, 0.4); /* dark overlay for text readability */
+  padding: 0 20px;
+}
+
+.aboutus-banner h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.aboutus-banner .text-highlight {
+  color: #087c7c;
+}
+
+@media (max-width: 767px) {
+ .aboutus-banner .video-wrapper {
+    height: 300px;
+  }
+
+  .aboutus-banner h2 {
+    font-size: 1.5rem;
+  }
+}
+
+</style>
+            <style>
+                .panIndianPresence {
+    padding: 30px 0px 60px 0px;
+}
+.panIndianPresence .panIndianPresence__main {
+    display: flex
+;
+    flex-direction: column;
+}
+            </style>
+</head>
+
+<body>
+ <!-- Modal -->
+<div class="modal fade contactform" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get A Quote!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form method="post" accept-charset="utf-8" id="enquery_request3" action="/main/sendEnquery">
+          <input type="text" name="name" placeholder="Name*" class="form-control form-control-sm" id="name" required="">
+          <input type="text" name="number" placeholder="Mobile*" class="form-control form-control-sm" id="number" required="">
+          <input type="email" name="email" placeholder="Email Id*" class="form-control form-control-sm" id="email" required="">
+          <textarea name="message" rows="4" placeholder="Message" class="form-control form-control-sm" id="message"></textarea>
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+      </div>
+       
+    </div>
+  </div>
+</div>
+    <!-- Header -->
+     <header class="header">
+        <nav class="nav container-fluid">
+            <div class="logo">
+                <a href="index.html">
+                <img src="image/Maverik.png" alt="">
+                </a>
+            </div>
+            <div class="div-sp">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li class="has-submenu"><a href="index.html#products">Products</a>
+                    <ul class="submenu">
+            <li><a href="hand-dryers.html">Hand Dryers</a></li>
+            <li><a href="shop_dryers.html">Soap Dispensers</a></li>
+            <li><a href="paper_dispenser.html">Paper Dispensers</a></li>
+        </ul>
+                </li>
+                <!-- <li><a href="events.html">Events</a></li> -->
+                <li><a href="clints.html">Clients</a></li>
+                <!-- <li><a href="Catalogue.html">Catalogue</a></li> -->
+                <li><a href="contactus.html">Contact</a></li>
+                 <!-- <div class="div-search">
+    <div class="input-search">
+        <input type="search" placeholder="Search...">
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+</div> -->
+<div class="div-form-now">
+    <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+</div>
+            </ul>
+            <div class="buttion-linkhead">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <div class="makeanquery" data-bs-toggle="modal" data-bs-target="#exampleModal">Make an Enquiry</div>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            </div>
+        </nav>
+    </header>
+    
+
+
+
+
+
+
+
+
+    <div class="aboutus-sectionpage">
+        <div class="aboutus-banner ">
+  <div class="video-wrapper position-relative">
+    <video autoplay loop muted playsinline class="w-100 h-100 object-fit-cover">
+      <source src="image/sustainablity video.mp4" type="video/mp4">
+       
+    </video>
+    <div class="aboutus-banner-content position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="text-uppercase text-white fw-bold">
+              An Ecological Choice to Make Life Easier. <span class="text-highlight">Maverick</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="container">
+            
+ 
+
+             <div class="rich-text__blocks">
+    <h2 class="h1">About Us</h2>
+    <div class="rich-text__text rte">
+        <p>
+            At <b>Maverick</b>, we believe a washroom says as much about a business as its boardroom. 
+            That’s why we craft innovative hygiene solutions combining <b>superior performance</b> 
+            with <b>aesthetic appeal</b>.
+        </p>
+
+        <p>
+            Backed by <b>Ennwin Industries’</b> manufacturing expertise, Maverick products deliver:
+        </p>
+
+        <div class="row g-4" style="margin-bottom: 40px;">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="product-card-sd">
+                    <i class="fas fa-shield-alt"></i>
+                    <h5>Long-Term Reliability</h5>
+                    <p>Built for heavy use in commercial environments.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="product-card-sd">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h5>Optimal Hygiene</h5>
+                    <p>Touch-free, easy-clean designs.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="product-card-sd">
+                    <i class="fas fa-tools"></i>
+                    <h5>Effortless Maintenance</h5>
+                    <p>Simple refills and servicing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+           
+           
+            
+
+             
+        </div>
+        <section class="panIndianPresence">
+  <div class="container">
+    <div class="panIndianPresence__main">
+      <div class="panIndianPresence__heading">
+        <!-- Heading can go here if needed -->
+      </div>
+      <div class="panIndianPresence__map">
+        <video class="w-100" autoplay loop muted>
+          <source src="https://dolphy.in/image/IMG_8575.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+    <div class=" click-text-1">
+                 
+
+                <div class="vertical-tab" role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" id="aboutTabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="vision-tab" data-bs-toggle="tab" href="#vision"
+                                role="tab">Vision</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="mission-tab" data-bs-toggle="tab" href="#mission"
+                                role="tab">Mission</a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="vision" role="tabpanel">
+                            <div class="vision-1">
+                                <div class="vision-2">
+                                    <h3>Our Vision</h3>
+                                    <p>
+                                        People in India are often fascinated by the standards of cleanliness in first
+                                        world countries. We aim to bridge the gap by educating the market on the
+                                        significance of cleanliness, & help people implement smart cleaning practices
+                                        easily, by making them adept in cleaning technique selection. We also thrive to
+                                        introduce people to touch-free practices and other technologies that help in
+                                        significantly reducing health hazards on the cleaning personnel.
+                                    </p>
+                                </div>
+                                <div class="vision-3">
+                                    <img src="image/our vision icon-01.png" alt="Our Vision">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="mission" role="tabpanel">
+                            <div class="vision-1">
+                                <div class="vision-2">
+                                    <h3>Our Mission</h3>
+                                    <p>
+                                        We aim to sustainable & organically reach every corner of India, simultaneously
+                                        growing our distribution abroad. We also aim at vertical growth by becoming the
+                                        largest and most profitable janitorial manufacturer in India. Last but not the
+                                        least, become one of India’s most-loved brands with excellent customer service.
+                                    </p>
+                                </div>
+                                <div class="vision-3">
+                                    <img src="image/our mission-01.png" alt="Our Mission">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+              <div class="shapingTheFuture__main">
+    <h4>Our Values</h4>
+    <p>Hygiene | Performance | Design | Reliability</p>
+</div>
+</div>
+    </div>
+
+<!-- Footer -->
+     
+            <div class="footer-section container">
+    <div class="footer-content">
+        <div class="di-footer">
+            <div class="image">
+                <img src="image/Maverik.png" alt="Ennwin Logo" style="height: 100px; width: auto;">
+            </div>
+            <p class="footer-text">Manufactured and Marketed by:</p>
+            <h4 class="footer-header">ENNWIN INDUSTRIES PRIVATE LIMITED</h4>
+            <h4 class="footer-header">M/s. Sannuthi Shubharam Estate</h4>
+            <p class="footer-text">
+                #170/1, Marsur Gate, Anekal, Bengaluru - 562106.<br>
+                Mobile: 7483837722, 9663538037 | E-mail: info@ennwin.in
+            </p>
+        </div>
+    </div>
+    <div class="certificate-section">
+        <img src="image/isocertificate.jpeg" alt="Certificate 1" class="certificate-img">
+        <!-- <img src="image/footerimg3.png" alt="Certificate 2" class="certificate-img"> -->
+    </div>
+</div> 
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Mobile menu functionality
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenuBtn.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!mobileMenuBtn.contains(e.target) && !navLinks.contains(e.target)) {
+                mobileMenuBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+
+        // Initialize Swiper
+        const swiper = new Swiper('.clients-slider', {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 40
+                },
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 50
+                }
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease-out forwards';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.app-card, .feature, .about-text, .about-image, .product-card, .event-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add some interactive hover effects
+        document.querySelectorAll('.app-card, .product-card, .event-card').forEach(card => {
+            card.addEventListener('mouseenter', function () {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+
+            card.addEventListener('mouseleave', function () {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabLinks = document.querySelectorAll('#aboutTabs a');
+
+            tabLinks.forEach(link => {
+                link.addEventListener('mouseenter', function () {
+                    const tab = new bootstrap.Tab(link);
+                    tab.show();
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
