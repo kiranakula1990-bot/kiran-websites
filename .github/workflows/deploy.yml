@@ -19,7 +19,7 @@ jobs:
     outputs:
       sites: ${{ steps.set.outputs.sites }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with: { fetch-depth: 0 }
       - id: set
         shell: bash
@@ -52,7 +52,7 @@ jobs:
         site: ${{ fromJson(needs.detect.outputs.sites) }}
       fail-fast: false
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Build Evochem (Angular) if needed
         if: matrix.site == 'evochem'
