@@ -1,0 +1,43 @@
+{
+  "name": "Marvel Consultants",
+  "description": "Property, tax and government compliance consultants in Bengaluru (BBMP Khata/e-Khata, property tax, plan approvals, GST registration, notices and appeals).",
+  "url": "https://www.marvelconsultants.co.in",
+  "provider": {
+    "organization": "Marvel Consultants",
+    "url": "https://www.marvelconsultants.co.in"
+  },
+  "version": "1.0",
+  "documentationUrl": "https://www.marvelconsultants.co.in/llms.txt",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "skills": [
+    {
+      "id": "services-catalogue",
+      "name": "List services",
+      "description": "Read the service catalogue",
+      "url": "https://www.marvelconsultants.co.in/api/services.json"
+    },
+    {
+      "id": "content",
+      "name": "Read guides and service pages",
+      "description": "Markdown mirrors of every page",
+      "url": "https://www.marvelconsultants.co.in/llms-full.txt"
+    },
+    {
+      "id": "lead",
+      "name": "Hand over a lead",
+      "description": "Direct the person to the enquiry form or WhatsApp; a human consultant replies the same working day.",
+      "url": "https://www.marvelconsultants.co.in/contact/",
+      "whatsapp": "https://wa.me/919187598642",
+      "phone": "+919187598642"
+    }
+  ],
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ]
+}
