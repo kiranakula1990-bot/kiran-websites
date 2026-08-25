@@ -51,10 +51,10 @@ strong{color:var(--ink)}
 /* top bar + header */
 .topbar{background:var(--ink);color:#C9D2E3;font-size:.85rem}
 .topbar .wrap{display:flex;justify-content:space-between;align-items:center;min-height:36px;gap:1rem}
-.topbar a{color:#fff;text-decoration:none;font-family:var(--mono);font-size:.82rem}
+.topbar a{color:#fff;text-decoration:none;font-family:var(--mono);font-size:.82rem;white-space:nowrap}
 .topbar a:hover{color:var(--brass)}
 .topbar .tb-r{display:flex;gap:1.25rem}
-@media (max-width:720px){.topbar .tb-l{display:none}.topbar .wrap{justify-content:center}}
+@media (max-width:720px){.topbar .tb-l{display:none}.topbar .wrap{justify-content:center;min-height:40px}.topbar a.mail{display:none}.topbar .tb-r{gap:1.6rem;flex-wrap:nowrap}.topbar a{font-size:.85rem;padding:.4rem 0}}
 .site-header{background:var(--paper);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:50}
 .site-header .wrap{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:1rem}
 .brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
