@@ -277,3 +277,26 @@ strong{color:var(--ink)}
 .situations h3{font-size:1.05rem;font-family:var(--sans);font-weight:600;margin-bottom:.3rem}
 .situations p{margin:0;font-size:.93rem}
 @media (max-width:640px){.situations{grid-template-columns:1fr}}
+
+/* photography */
+.page-head .wrap.has-img{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:2.5rem;align-items:center}
+.page-head .head-img{aspect-ratio:3/2;overflow:hidden;border-radius:var(--r);box-shadow:var(--shadow);border-bottom:3px solid var(--brass)}
+.page-head .head-img img{width:100%;height:100%;object-fit:cover}
+@media (max-width:900px){.page-head .wrap.has-img{grid-template-columns:1fr;gap:1.5rem}.page-head .head-img{aspect-ratio:16/9}}
+.photo-band{position:relative;margin:0;height:clamp(220px,32vw,420px);overflow:hidden;border-bottom:1px solid var(--rule)}
+.photo-band img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-band figcaption{position:absolute;left:0;right:0;bottom:0;padding:.7rem 0;background:linear-gradient(180deg,transparent,rgba(15,30,60,.75));color:#fff;font-family:var(--mono);font-size:.78rem;letter-spacing:.05em}
+.photo-band figcaption .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.ledger-row.has-img{grid-template-columns:150px 2fr 3fr auto}
+.ledger-row .row-img{aspect-ratio:4/3;overflow:hidden;border-radius:4px}
+.ledger-row .row-img img{width:100%;height:100%;object-fit:cover}
+@media (max-width:860px){.ledger-row.has-img{grid-template-columns:1fr}.ledger-row .row-img{aspect-ratio:16/7}}
+.card.has-img{padding:0}
+.card.has-img .card-img{aspect-ratio:16/9;overflow:hidden}
+.card.has-img .card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.card.has-img:hover .card-img img{transform:scale(1.03)}
+.card.has-img .card-body{padding:1.2rem 1.4rem 1.4rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+.card.has-img .card-body h3{margin:0}
+.prose figure.inline-img{margin:1.4rem 0;border-radius:var(--r);overflow:hidden}
+.prose figure.inline-img img{width:100%;aspect-ratio:2/1;object-fit:cover}
+.prose figure.inline-img figcaption{font-size:.82rem;color:var(--muted);padding:.4rem 0 0}
