@@ -2,7 +2,7 @@
 
 > Monthly, quarterly and annual GST compliance for Bengaluru businesses: GSTR-1, GSTR-3B, GSTR-9 and 9C, ITC reconciliation with GSTR-2B, e-invoicing and e-way bills, and a compliance calendar that keeps notices away. Marvel Consultants manages the rhythm.
 
-Source: https://www.marvelconsultants.co.in/business/gst-returns-compliance/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/business/gst-returns-compliance/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Most GST notices are born in a return: an ITC claim that GSTR-2B did not support, a GSTR-1 that did not match 3B, an annual return filed from memory. Compliance is a monthly discipline, not a year-end task.
 

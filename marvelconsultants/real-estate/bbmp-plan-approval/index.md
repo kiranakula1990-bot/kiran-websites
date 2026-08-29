@@ -2,7 +2,7 @@
 
 > Building plan sanction from BBMP or BDA in Bengaluru: eligibility (Khata, layout approval, road width, zoning), documents, the online application, scrutiny, fees and follow-up to sanction; plan alteration and layout approval. Marvel Consultants manages the government-facing process with your architect.
 
-Source: https://www.marvelconsultants.co.in/real-estate/bbmp-plan-approval/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/real-estate/bbmp-plan-approval/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Sanction depends on the site before it depends on the drawing. We establish eligibility first, then carry the application through scrutiny to sanction.
 

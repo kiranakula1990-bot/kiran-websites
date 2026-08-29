@@ -2,7 +2,7 @@
 
 > Simple, reliable help for Bengaluru property owners: e-Khata, Khata transfer, B Khata to A Khata conversion, property tax, document verification before buying, sale readiness, plan approval and NRI property services. Start with your situation.
 
-Source: https://www.marvelconsultants.co.in/property/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/property/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 You do not need to know the name of the government procedure. Tell us what you are trying to do with the property, and we will identify what needs to be done — and help you get it done.
 

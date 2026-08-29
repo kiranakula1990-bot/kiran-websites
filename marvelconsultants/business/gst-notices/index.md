@@ -2,7 +2,7 @@
 
 > Received a GST notice in Bengaluru? Marvel Consultants reads it the same day, explains what it demands and by when, and prepares the reply with the reconciliation to support it — scrutiny (ASMT-10), intimation (DRC-01A), show-cause notices under sections 73 and 74, ITC mismatch, audit and summons.
 
-Source: https://www.marvelconsultants.co.in/business/gst-notices/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/business/gst-notices/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 A notice is a deadline with a document attached. What matters in the first 48 hours is identifying which notice it is, what it actually alleges, and the date by which a reply must be on the portal.
 

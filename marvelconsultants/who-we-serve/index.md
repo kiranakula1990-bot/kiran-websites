@@ -2,7 +2,7 @@
 
 > Marvel Consultants serves three kinds of client in Bengaluru: businesses with GST and compliance needs, real-estate developers and builders with approvals and project compliance, and property owners — including NRIs — with Khata, e-Khata, tax and documentation.
 
-Source: https://www.marvelconsultants.co.in/who-we-serve/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/who-we-serve/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 One firm, three audiences. The offices are the same; the needs are not.
 

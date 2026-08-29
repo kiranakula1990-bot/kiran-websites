@@ -2,7 +2,7 @@
 
 > Before you pay for a property in Bengaluru, verify the title chain, Encumbrance Certificate, Khata (A or B), property tax and approvals. Marvel Consultants does the due diligence and supports registration and Khata transfer after purchase.
 
-Source: https://www.marvelconsultants.co.in/property/buy/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/property/buy/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Most property problems in Bengaluru are bought, not created. A site with a B Khata, a flat whose parent Khata was never bifurcated, a seller whose name does not match the tax record, an Encumbrance Certificate with a gap year — each of these is cheap to find before the agreement and expensive to fix after registration.
 

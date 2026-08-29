@@ -2,7 +2,7 @@
 
 > What happens after you contact Marvel Consultants: free first assessment, a written scope and fixed fee, the documents we need, how filing and follow-up work, how you get updates, and what we do not do. Bengaluru property, BBMP and GST matters.
 
-Source: https://www.marvelconsultants.co.in/how-we-work/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/how-we-work/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 No mystery about the process. This is what an engagement looks like, start to finish.
 

@@ -2,7 +2,7 @@
 
 > Marvel Consultants supports builders, developers and landowners in Bengaluru with BBMP and BDA plan approvals, Khata and e-Khata for projects, property tax assessment, documentation and government liaison across the project life-cycle.
 
-Source: https://www.marvelconsultants.co.in/real-estate/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/real-estate/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Approvals, Khata for every unit, tax assessment, documentation and the office follow-up that keeps a project moving. We work as the compliance partner alongside your architect, advocate and site team.
 

@@ -2,7 +2,7 @@
 
 > Get the BBMP Khata transferred to your name after a purchase, inheritance, gift or partition. Documents, process, fees, timelines and the mistakes that cause rejection — and Marvel Consultants' end-to-end Khata transfer service in Bengaluru.
 
-Source: https://www.marvelconsultants.co.in/property/khata-transfer/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/property/khata-transfer/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 The sale deed makes you the owner; the Khata transfer makes BBMP's record say so. Until it is done, tax notices, the e-Khata and every future application still point at the previous owner.
 

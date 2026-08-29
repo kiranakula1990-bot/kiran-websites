@@ -2,7 +2,7 @@
 
 > Your enquiry has reached Marvel Consultants. A consultant will reply the same working day.
 
-Source: https://www.marvelconsultants.co.in/contact/thank-you/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/contact/thank-you/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 A consultant will read it and reply by WhatsApp or phone, normally the same working day.
 

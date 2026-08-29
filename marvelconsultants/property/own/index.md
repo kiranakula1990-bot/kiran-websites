@@ -2,7 +2,7 @@
 
 > Own a house, flat or site in Bengaluru? Keep the BBMP record correct: e-Khata, Khata transfer after purchase or inheritance, property-tax assessment and corrections to names, area or usage. Marvel Consultants handles the applications and follow-up.
 
-Source: https://www.marvelconsultants.co.in/property/own/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/property/own/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Ownership in Bengaluru has two layers: the registered deed, and BBMP's record of the property — Khata, e-Khata and the property-tax account. The deed rarely changes; the record must be kept current every time something happens: you buy, a parent passes away, you build, you extend, you rent to a business, or the city redraws a ward.
 

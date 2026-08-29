@@ -2,7 +2,7 @@
 
 > Independent verification of property documents in Bengaluru: title chain, Encumbrance Certificate, Khata and e-Khata status, property tax, layout approval, sanctioned plan and occupancy certificate — with a written risk note. For buyers, sellers, lenders and owners resolving a problem.
 
-Source: https://www.marvelconsultants.co.in/property/document-verification/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/property/document-verification/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 A written answer to the only question that matters before you pay: is this property what the seller says it is, in the records that count?
 

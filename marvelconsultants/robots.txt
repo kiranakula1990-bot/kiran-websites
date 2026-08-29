@@ -1,5 +1,34 @@
+# Marvel Consultants — robots.txt
+# Search engines and AI assistants are welcome to crawl and cite this site.
 User-agent: *
 Allow: /
 
-# Sitemap
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+# Mobile HTML variants live under /m/ and are served at the canonical URLs to phones; do not index them directly.
+Disallow: /m/
+
 Sitemap: https://www.marvelconsultants.co.in/sitemap.xml
+# Machine-readable overview for LLM agents
+# https://www.marvelconsultants.co.in/llms.txt

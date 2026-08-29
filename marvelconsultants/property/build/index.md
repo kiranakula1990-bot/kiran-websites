@@ -2,7 +2,7 @@
 
 > Building a house or extending in Bengaluru? Check whether your site can get BBMP or BDA plan sanction, what documents and Khata status are required, and how the approval process works. Marvel Consultants handles eligibility, filing and follow-up.
 
-Source: https://www.marvelconsultants.co.in/property/build/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/property/build/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Construction without sanction is the most expensive shortcut in Bengaluru: it blocks the occupancy certificate, complicates the property-tax assessment, weakens resale and exposes the building to notices. But sanction is not automatic — the site's Khata, the layout's approval status, road width and setbacks decide whether a plan can be sanctioned at all.
 

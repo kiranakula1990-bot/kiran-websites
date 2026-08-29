@@ -2,7 +2,7 @@
 
 > Call, WhatsApp or write to Marvel Consultants in Bengaluru. Tell us your property problem or request a business consultation; a consultant replies the same working day. Office at Yeshwanthpur Industrial Suburb, Bengaluru 560022.
 
-Source: https://www.marvelconsultants.co.in/contact/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/contact/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Same-working-day replies. Two forms below — one for property owners, one for businesses and developers — or just call.
 

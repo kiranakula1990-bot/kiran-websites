@@ -2,7 +2,7 @@
 
 > The registrations a business needs to operate in Bengaluru: BBMP trade licence, Karnataka Shops & Establishments, professional tax, MSME/Udyam, PAN/TAN, GST, and support for company, LLP and partnership formation. Marvel Consultants files and renews them.
 
-Source: https://www.marvelconsultants.co.in/business/registrations/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/business/registrations/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Every registration is small on its own and a nuisance together. We keep the set current so an inspection, a tender or a bank never finds a gap.
 

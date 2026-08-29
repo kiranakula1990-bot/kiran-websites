@@ -2,7 +2,7 @@
 
 > GST registration for businesses in Bengaluru and Karnataka: who must register, threshold limits, documents, the online process, common reasons for rejection, and amendments, additional place of business, composition scheme and cancellation. Filed correctly by Marvel Consultants.
 
-Source: https://www.marvelconsultants.co.in/business/gst-registration/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/business/gst-registration/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Registration is the first filing the department sees from your business. Done right, the GSTIN arrives without a query; done carelessly, it becomes the first entry in a compliance history.
 

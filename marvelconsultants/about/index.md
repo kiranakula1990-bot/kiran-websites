@@ -2,7 +2,7 @@
 
 > Marvel Consultants is a Bengaluru professional services firm handling BBMP, Khata, property documentation, plan approvals and GST matters for property owners, developers and businesses since 2014. Meet the team, our approach and what we do not do.
 
-Source: https://www.marvelconsultants.co.in/about/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/about/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 A Bengaluru firm that knows the offices, reads the records and says plainly what can and cannot be done.
 

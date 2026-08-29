@@ -2,7 +2,7 @@
 
 > Plain-language definitions of the terms Bengaluru property owners and businesses meet: Khata, A Khata, B Khata, e-Khata, e-Aasthi, EPID, Encumbrance Certificate, RTC/Pahani, mutation, bifurcation, DC conversion, guidance value, occupancy certificate, GSTIN, GSTR-2B, ITC, ASMT-10, DRC-01A, sections 73 and 74, APL-01.
 
-Source: https://www.marvelconsultants.co.in/glossary/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/glossary/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Short definitions, written for owners and finance teams — not for lawyers.
 

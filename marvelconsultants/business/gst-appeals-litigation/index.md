@@ -2,7 +2,7 @@
 
 > Adverse GST order in Bengaluru? Marvel Consultants files the first appeal (APL-01) within the three-month limit, advises on the pre-deposit, prepares grounds and evidence, and represents you before the appellate authority — and coordinates with counsel for tribunal and court stages.
 
-Source: https://www.marvelconsultants.co.in/business/gst-appeals-litigation/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/business/gst-appeals-litigation/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 An order is not the end of the argument — but the clock on it is short. Three months to appeal, a pre-deposit to file, and the case you make now is the case the tribunal will read later.
 

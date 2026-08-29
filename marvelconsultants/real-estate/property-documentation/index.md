@@ -2,7 +2,7 @@
 
 > Documentation for land parcels and real-estate projects in Bengaluru: title chain, Encumbrance Certificate, RTC/Pahani, conversion order, layout approval, Khata and tax records — obtained, verified and organised for lenders, buyers and authorities. Marvel Consultants builds the record set.
 
-Source: https://www.marvelconsultants.co.in/real-estate/property-documentation/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/real-estate/property-documentation/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 A project is only as bankable as its land file. We assemble, verify and organise the records so lenders, buyers' advocates and authorities find what they need — and nothing they should not.
 

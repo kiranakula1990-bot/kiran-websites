@@ -2,7 +2,7 @@
 
 > The complete catalogue of Marvel Consultants services in Bengaluru: BBMP e-Khata, Khata transfer, B Khata to A Khata, property tax, plan approval, document verification, NRI property services, GST registration, returns, notices, appeals and business registrations.
 
-Source: https://www.marvelconsultants.co.in/services/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/services/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Every service we offer, grouped by who needs it. If you are not sure which applies, start from your situation instead.
 

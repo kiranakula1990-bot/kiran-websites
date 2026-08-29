@@ -2,7 +2,7 @@
 
 > Practical guides written from real cases in Bengaluru: BBMP e-Khata, Khata transfer, B Khata to A Khata conversion, Panchayat and BDA Khata, e-Khata for businesses, GST late fees — plus a glossary of property and tax terms.
 
-Source: https://www.marvelconsultants.co.in/resources/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/resources/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Written from the cases we handle. Read the process before you pay for it — many owners complete simple applications themselves after reading, and call us for the ones that go wrong.
 

@@ -2,7 +2,7 @@
 
 > Living outside India and own property in Bengaluru? Marvel Consultants handles Khata transfer, e-Khata, property tax, document verification, sale readiness and BBMP applications remotely, working with a registered power of attorney. Clear updates by WhatsApp and email.
 
-Source: https://www.marvelconsultants.co.in/property/nri/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/property/nri/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 Bengaluru property owned from abroad accumulates problems quietly: tax in a relative's name, a Khata never transferred after a parent's passing, an e-Khata that was never created, a tenant who changed the use. Each is fixable — but the government offices need documents, signatures and presence that an NRI cannot easily give.
 

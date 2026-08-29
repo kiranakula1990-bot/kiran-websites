@@ -2,7 +2,7 @@
 
 > GST registration, monthly and annual returns, ITC reconciliation, replies to GST notices, appeals and litigation, and business registrations for companies in Bengaluru and Karnataka. Consultative, representation-led service.
 
-Source: https://www.marvelconsultants.co.in/business/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-25
+Source: https://www.marvelconsultants.co.in/business/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
 
 From a first GST registration to a show-cause notice running into crores, Marvel Consultants handles the filing, the reconciliation, the reply and the hearing — so your finance team is not learning tax procedure under a deadline.
 
