@@ -158,113 +158,137 @@
   "legacyPages": [
     {
       "name": "BBMP e-Khata services",
-      "url": "https://www.marvelconsultants.co.in/bbmp-e-khata-services.html"
+      "url": "https://www.marvelconsultants.co.in/bbmp-e-khata-services.html",
+      "markdown": "https://www.marvelconsultants.co.in/bbmp-e-khata-services.md"
     },
     {
       "name": "BBMP property tax: assessment, payment & appeals",
-      "url": "https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.html"
+      "url": "https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.html",
+      "markdown": "https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.md"
     },
     {
       "name": "B-Khata to A-Khata conversion service",
-      "url": "https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/"
+      "url": "https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/",
+      "markdown": "https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/index.md"
     },
     {
       "name": "BBMP documentation, trade licence & approvals",
-      "url": "https://www.marvelconsultants.co.in/bbmp.html"
+      "url": "https://www.marvelconsultants.co.in/bbmp.html",
+      "markdown": "https://www.marvelconsultants.co.in/bbmp.md"
     },
     {
       "name": "GST services overview",
-      "url": "https://www.marvelconsultants.co.in/gst.html"
+      "url": "https://www.marvelconsultants.co.in/gst.html",
+      "markdown": "https://www.marvelconsultants.co.in/gst.md"
     },
     {
       "name": "GST audit & compliance",
-      "url": "https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.html"
+      "url": "https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.html",
+      "markdown": "https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.md"
     },
     {
       "name": "GST dispute resolution & litigation",
-      "url": "https://www.marvelconsultants.co.in/gst-dispute-resolution-litigation-bengaluru.html"
+      "url": "https://www.marvelconsultants.co.in/gst-dispute-resolution-litigation-bengaluru.html",
+      "markdown": "https://www.marvelconsultants.co.in/gst-dispute-resolution-litigation-bengaluru.md"
     },
     {
       "name": "GST advisory",
-      "url": "https://www.marvelconsultants.co.in/gst-advisory.html"
+      "url": "https://www.marvelconsultants.co.in/gst-advisory.html",
+      "markdown": "https://www.marvelconsultants.co.in/gst-advisory.md"
     },
     {
       "name": "About Marvel Consultants",
-      "url": "https://www.marvelconsultants.co.in/about.html"
+      "url": "https://www.marvelconsultants.co.in/about.html",
+      "markdown": "https://www.marvelconsultants.co.in/about.md"
     },
     {
       "name": "Careers",
-      "url": "https://www.marvelconsultants.co.in/career.html"
+      "url": "https://www.marvelconsultants.co.in/career.html",
+      "markdown": "https://www.marvelconsultants.co.in/career.md"
     },
     {
       "name": "Contact",
-      "url": "https://www.marvelconsultants.co.in/contact.html"
+      "url": "https://www.marvelconsultants.co.in/contact.html",
+      "markdown": "https://www.marvelconsultants.co.in/contact.md"
     },
     {
       "name": "All guides",
-      "url": "https://www.marvelconsultants.co.in/blog.html"
+      "url": "https://www.marvelconsultants.co.in/blog.html",
+      "markdown": "https://www.marvelconsultants.co.in/blog.md"
     }
   ],
   "guides": [
     {
       "title": "BBMP B-Khata to A-Khata conversion: 2026 guide",
       "url": "https://www.marvelconsultants.co.in/blog/bbmp-b-khata-to-a-khata-conversion-bangalore-2026.html",
-      "topic": "Khata"
+      "topic": "Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/bbmp-b-khata-to-a-khata-conversion-bangalore-2026.md"
     },
     {
       "title": "How to convert B Khata to A Khata: fees, documents, process",
       "url": "https://www.marvelconsultants.co.in/blog/b-khata-to-a-khata-conversion-bangalore-fees-documents-process.html",
-      "topic": "Khata"
+      "topic": "Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/b-khata-to-a-khata-conversion-bangalore-fees-documents-process.md"
     },
     {
       "title": "How to apply for BBMP E Khata online",
       "url": "https://www.marvelconsultants.co.in/blog/e-khata-online-in-bangalore.html",
-      "topic": "E-Khata"
+      "topic": "E-Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/e-khata-online-in-bangalore.md"
     },
     {
       "title": "BBMP E Khata: complete guide to E Aasthi, A/B Khata & conversion",
       "url": "https://www.marvelconsultants.co.in/blog/e-aasthi-a-khata-b-khata-conversion.html",
-      "topic": "E-Khata"
+      "topic": "E-Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/e-aasthi-a-khata-b-khata-conversion.md"
     },
     {
       "title": "E-Khata online in Bangalore & Karnataka: complete guide",
       "url": "https://www.marvelconsultants.co.in/blog/e-khata-online-bangalore-karnataka-complete-guide.html",
-      "topic": "E-Khata"
+      "topic": "E-Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/e-khata-online-bangalore-karnataka-complete-guide.md"
     },
     {
       "title": "Panchayat Khata vs E-Khata: which one do you need?",
       "url": "https://www.marvelconsultants.co.in/blog/panchayat-khata-vs-e-khata.html",
-      "topic": "Khata"
+      "topic": "Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/panchayat-khata-vs-e-khata.md"
     },
     {
       "title": "Panchayat Khata guide",
       "url": "https://www.marvelconsultants.co.in/blog/panchayat-khata-guide.html",
-      "topic": "Khata"
+      "topic": "Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/panchayat-khata-guide.md"
     },
     {
       "title": "Khata transfer guide",
       "url": "https://www.marvelconsultants.co.in/blog/khata-transfer-guide.html",
-      "topic": "Khata"
+      "topic": "Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/khata-transfer-guide.md"
     },
     {
       "title": "BDA Khata transfer guide",
       "url": "https://www.marvelconsultants.co.in/blog/bda-khata-transfer-guide.html",
-      "topic": "Khata"
+      "topic": "Khata",
+      "markdown": "https://www.marvelconsultants.co.in/blog/bda-khata-transfer-guide.md"
     },
     {
       "title": "e-Khata errors that delay business transactions",
       "url": "https://www.marvelconsultants.co.in/blog/e-khata-errors-that-delay-business-transactions.html",
-      "topic": "Business"
+      "topic": "Business",
+      "markdown": "https://www.marvelconsultants.co.in/blog/e-khata-errors-that-delay-business-transactions.md"
     },
     {
       "title": "Why businesses should outsource e-Khata compliance",
       "url": "https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.html",
-      "topic": "Business"
+      "topic": "Business",
+      "markdown": "https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.md"
     },
     {
       "title": "GST late filing fee",
       "url": "https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.html",
-      "topic": "GST"
+      "topic": "GST",
+      "markdown": "https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.md"
     }
   ]
 }

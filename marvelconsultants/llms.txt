@@ -39,30 +39,30 @@ Every page below has a clean Markdown version (linked) and an HTML version at th
 - [How we work: from first message to closed file](https://www.marvelconsultants.co.in/how-we-work/index.md): What happens after you contact Marvel Consultants: free first assessment, a written scope and fixed fee, the documents we need, how filing and follow-up work, how you get updates, and what we do not do. Bengaluru property, BBMP and GST matters.
 - [Contact Marvel Consultants](https://www.marvelconsultants.co.in/contact/index.md): Call, WhatsApp or write to Marvel Consultants in Bengaluru. Tell us your property problem or request a business consultation; a consultant replies the same working day. Office at Yeshwanthpur Industrial Suburb, Bengaluru 560022.
 
-## Existing guides (HTML)
-- [BBMP B-Khata to A-Khata conversion: 2026 guide](https://www.marvelconsultants.co.in/blog/bbmp-b-khata-to-a-khata-conversion-bangalore-2026.html)
-- [How to convert B Khata to A Khata: fees, documents, process](https://www.marvelconsultants.co.in/blog/b-khata-to-a-khata-conversion-bangalore-fees-documents-process.html)
-- [How to apply for BBMP E Khata online](https://www.marvelconsultants.co.in/blog/e-khata-online-in-bangalore.html)
-- [BBMP E Khata: complete guide to E Aasthi, A/B Khata & conversion](https://www.marvelconsultants.co.in/blog/e-aasthi-a-khata-b-khata-conversion.html)
-- [E-Khata online in Bangalore & Karnataka: complete guide](https://www.marvelconsultants.co.in/blog/e-khata-online-bangalore-karnataka-complete-guide.html)
-- [Panchayat Khata vs E-Khata: which one do you need?](https://www.marvelconsultants.co.in/blog/panchayat-khata-vs-e-khata.html)
-- [Panchayat Khata guide](https://www.marvelconsultants.co.in/blog/panchayat-khata-guide.html)
-- [Khata transfer guide](https://www.marvelconsultants.co.in/blog/khata-transfer-guide.html)
-- [BDA Khata transfer guide](https://www.marvelconsultants.co.in/blog/bda-khata-transfer-guide.html)
-- [e-Khata errors that delay business transactions](https://www.marvelconsultants.co.in/blog/e-khata-errors-that-delay-business-transactions.html)
-- [Why businesses should outsource e-Khata compliance](https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.html)
-- [GST late filing fee](https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.html)
+## Guides (Markdown mirrors; the HTML page is at the same path with .html)
+- [BBMP B-Khata to A-Khata conversion: 2026 guide](https://www.marvelconsultants.co.in/blog/bbmp-b-khata-to-a-khata-conversion-bangalore-2026.md): Convert your Bangalore property from B-Khata to A-Khata under the 2026 GBA scheme. Eligibility, documents, fees & step-by-step process. Free consult: +91 91875 98642
+- [How to convert B Khata to A Khata: fees, documents, process](https://www.marvelconsultants.co.in/blog/b-khata-to-a-khata-conversion-bangalore-fees-documents-process.md): Learn the complete B Khata to A Khata conversion process in Bangalore, including eligibility, required documents, fees, timelines, and expert assistance from Marvel Consultants.
+- [How to apply for BBMP E Khata online](https://www.marvelconsultants.co.in/blog/e-khata-online-in-bangalore.md): Owning a property in Bangalore requires proper documentation and updated municipal property records. BBMP E Khata has become an important part of property…
+- [BBMP E Khata: complete guide to E Aasthi, A/B Khata & conversion](https://www.marvelconsultants.co.in/blog/e-aasthi-a-khata-b-khata-conversion.md): Property documentation is an important part of owning, selling, transferring, or developing a property in Bangalore. With the digitization of property…
+- [E-Khata online in Bangalore & Karnataka: complete guide](https://www.marvelconsultants.co.in/blog/e-khata-online-bangalore-karnataka-complete-guide.md): Complete guide to E-Khata online in Bangalore & Karnataka. Learn about digital property records, BBMP E Khata application, required documents, and certificate download.
+- [Panchayat Khata vs E-Khata: which one do you need?](https://www.marvelconsultants.co.in/blog/panchayat-khata-vs-e-khata.md): Confused between Panchayat Khata and E-Khata? Learn the key differences, eligibility, conversion process and which one applies to your property in Bangalore.
+- [Panchayat Khata guide](https://www.marvelconsultants.co.in/blog/panchayat-khata-guide.md): Complete guide to Panchayat Khata transfer in Karnataka. Learn eligibility, required documents, step-by-step process, and expert tips for hassle-free property ownership.
+- [Khata transfer guide](https://www.marvelconsultants.co.in/blog/khata-transfer-guide.md): Complete guide to BBMP Khata Transfer in Bangalore. Learn the step-by-step process, required documents, fees, and tips for a hassle-free khata transfer experience.
+- [BDA Khata transfer guide](https://www.marvelconsultants.co.in/blog/bda-khata-transfer-guide.md): Get complete information on BDA Khata transfer in Bangalore. Learn about the process, fees, and how to apply online for hassle-free khata transfer services.
+- [e-Khata errors that delay business transactions](https://www.marvelconsultants.co.in/blog/e-khata-errors-that-delay-business-transactions.md): In Bengaluru’s evolving property ecosystem, digital documentation has become the backbone of real estate and business transactions. Among these, BBMP e…
+- [Why businesses should outsource e-Khata compliance](https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.md): The rapid digitization of municipal property records in Bengaluru has fundamentally changed how businesses manage property ownership, documentation, and…
+- [GST late filing fee](https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.md): Understand GST late filing penalties, GSTR-1 late fees, and how to calculate them. Know if GST late filing fee is allowable under income tax rules.
 
-## Existing service pages (HTML)
-- [BBMP e-Khata services](https://www.marvelconsultants.co.in/bbmp-e-khata-services.html)
-- [BBMP property tax: assessment, payment & appeals](https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.html)
-- [B-Khata to A-Khata conversion service](https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/)
-- [BBMP documentation, trade licence & approvals](https://www.marvelconsultants.co.in/bbmp.html)
-- [GST services overview](https://www.marvelconsultants.co.in/gst.html)
-- [GST audit & compliance](https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.html)
-- [GST dispute resolution & litigation](https://www.marvelconsultants.co.in/gst-dispute-resolution-litigation-bengaluru.html)
-- [GST advisory](https://www.marvelconsultants.co.in/gst-advisory.html)
-- [About Marvel Consultants](https://www.marvelconsultants.co.in/about.html)
-- [Careers](https://www.marvelconsultants.co.in/career.html)
-- [Contact](https://www.marvelconsultants.co.in/contact.html)
-- [All guides](https://www.marvelconsultants.co.in/blog.html)
+## Established service pages (Markdown mirrors)
+- [BBMP e-Khata services](https://www.marvelconsultants.co.in/bbmp-e-khata-services.md): Expert BBMP e-Khata services in Bengaluru. We handle e-Aasthi portal filing, Khata transfer, B-Khata to A-Khata conversion, name corrections and status follow-ups. Call +91 91875 98642.
+- [BBMP property tax: assessment, payment & appeals](https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.md): BBMP property tax assessment and payment assistance in Bengaluru. Marvel Consultants helps with property tax filing, payment, and BBMP compliance.
+- [B-Khata to A-Khata conversion service](https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/index.md): Convert your Bangalore property from B-Khata to A-Khata under the 2026 GBA scheme. Eligibility, documents, fees & step-by-step process. Free consult: +91 91875 98642
+- [BBMP documentation, trade licence & approvals](https://www.marvelconsultants.co.in/bbmp.md): BBMP documentation services in Bangalore: trade license, property tax, khata transfer, approvals and compliance. Contact Marvel Consultants.
+- [GST services overview](https://www.marvelconsultants.co.in/gst.md): Professional GST registration, filing, returns and compliance services in Bangalore. Marvel Consultants – hassle-free GST support.
+- [GST audit & compliance](https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.md): GST audit and compliance services in Bengaluru. Marvel Consultants offers GST return filing, tax audit under GST, compliance rating improvement, and regulatory support.
+- [GST dispute resolution & litigation](https://www.marvelconsultants.co.in/gst-dispute-resolution-litigation-bengaluru.md): Expert legal representation for GST disputes and litigation in Bengaluru. Marvel Consultants helps businesses with GST appeals, dispute resolution, and tax court representation.
+- [GST advisory](https://www.marvelconsultants.co.in/gst-advisory.md): Expert GST compliance, audit and dispute resolution services in Bengaluru. Navigate GST with clarity, compliance, and court-ready solutions.
+- [About Marvel Consultants](https://www.marvelconsultants.co.in/about.md): Marvel Consultants is a professional tax, compliance, and business advisory firm helping businesses with regulatory compliance, financial planning, and risk-optimized processes in Bangalore.
+- [Careers](https://www.marvelconsultants.co.in/career.md): Join Marvel Consultants. Explore career opportunities in GST, tax compliance, legal advisory, and BBMP services in Bangalore. Grow with our expert team.
+- [Contact](https://www.marvelconsultants.co.in/contact.md): Contact Marvel Consultants for GST, legal, and BBMP documentation services in Bangalore. Call or request a consultation today.
+- [All guides](https://www.marvelconsultants.co.in/blog.md): Expert insights on GST, tax compliance, BBMP khata, legal advisory, and business consulting in Bengaluru. Marvel Consultants blog.
