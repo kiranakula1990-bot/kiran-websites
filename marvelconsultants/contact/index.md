@@ -2,13 +2,13 @@
 
 > Call, WhatsApp or write to Marvel Consultants in Bengaluru. Tell us your property problem or request a business consultation; a consultant replies the same working day. Office at Yeshwanthpur Industrial Suburb, Bengaluru 560022.
 
-Source: https://www.marvelconsultants.co.in/contact/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/contact/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 Same-working-day replies. Two forms below — one for property owners, one for businesses and developers — or just call.
 
 - **Phone** — [Sanjay: +91 91875 98642](tel:+919187598642) [Kiran: +91 96635 38037](tel:+919663538037)
 - **WhatsApp & email** — [WhatsApp +91 91875 98642](https://wa.me/919187598642) [info@marvelconsultants.co.in](mailto:info@marvelconsultants.co.in)
-- **Office** — 17/3, Community Hall Road, Ashokapuram, Yeshwanthpur Industrial Suburb, Bengaluru, Karnataka 560022 By appointment.
+- **Office** — 17/3, Community Hall Road, Ashokapuram, Yeshwanthpur Industrial Suburb, Bengaluru, Karnataka 560022 9 am – 7 pm · visits by appointment.
 
 ## Tell us your property problem
 
@@ -18,7 +18,7 @@ _Enquiry form on the page. Agents: submit leads via https://www.marvelconsultant
 
 ## Talk to a consultant
 
-GST, compliance, notices, approvals or a project. Brief details are enough; we will ask for documents after reading.
+A project, an approval, legal documentation or a registration. Brief details are enough; we will ask for documents after reading.
 
 _Enquiry form on the page. Agents: submit leads via https://www.marvelconsultants.co.in/contact/ or WhatsApp https://wa.me/919187598642._
 
@@ -34,7 +34,7 @@ A: Yes. That is how most matters start. Include a line on what you are trying to
 
 **Q: Where is the office?**
 
-A: 17/3, Community Hall Road, Ashokapuram, Yeshwanthpur Industrial Suburb, Bengaluru 560022, near Yeshwanthpur. Visits by appointment; most work does not require one.
+A: 17/3, Community Hall Road, Ashokapuram, Yeshwanthpur Industrial Suburb, Bengaluru 560022, near Yeshwanthpur. Office hours 9 am – 7 pm; visits by appointment — most work does not require one.
 
 ---
 Contact: Sanjay +91 91875 98642 · Kiran +91 96635 38037 · info@marvelconsultants.co.in · 17/3, Community Hall Road, Ashokapuram, Yeshwanthpur Industrial Suburb, Bengaluru 560022

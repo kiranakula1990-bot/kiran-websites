@@ -130,6 +130,18 @@ What does Marvel Consultants' service actually cover?
 
 Eligibility verification, document preparation and review, portal filing, Aadhaar E-KYC coordination, payment guidance, and continuous follow-up with BBMP until your A-Khata certificate is issued. Government fees are paid separately, directly to BBMP.
 
+Has the BBMP B-Khata to A-Khata conversion fee changed recently?
+
+Yes — a rebate window closed on 23 August 2026, after which the applicable rate changed. Confirm the current rate on BBMP's e-Aasthi portal before applying.
+
+Where can I find the latest conversion process details?
+
+See our full B-Khata to A-Khata Conversion pillar guide for the current process, documents, and fee information.
+
+Who can help me with my conversion application?
+
+Marvel Consultants handles B-Khata to A-Khata conversion applications end to end — see our e-Khata services page.
+
 ### &#128222; Ready to Convert Your Property to A-Khata?
 
 The 2% conversion fee window closes on 23 August 2026 — act while it's open. Call Sanjay: [+91 91875 98642](https://www.marvelconsultants.co.in/blog/tel:+919187598642) | Call Kiran: [+91 96635 38037](https://www.marvelconsultants.co.in/blog/tel:+919663538037)

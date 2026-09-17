@@ -650,7 +650,7 @@
 
     </script>
      <script>
-        document.querySelector('.toggleBtn').addEventListener('click', function() {
+        var _tb=document.querySelector('.toggleBtn'); if(_tb) _tb.addEventListener('click', function() {
     var sidebar = document.querySelector('.leftslidebaR');
     if (sidebar.style.left === '0%') {
         sidebar.style.left = '-110%';
@@ -776,6 +776,7 @@ message: "Not Applicable",
     </style>
     <a href="https://wa.me/918904312966" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 
+<!-- efcs-nav-fix --><script>document.addEventListener("DOMContentLoaded",function(){var oc=document.getElementById("offcanvasExample");if(oc){oc.addEventListener("click",function(e){var a=e.target.closest("a[href]");if(!a||a.getAttribute("href")===" ")return;try{if(window.bootstrap&&bootstrap.Offcanvas){var inst=bootstrap.Offcanvas.getInstance(oc)||bootstrap.Offcanvas.getOrCreateInstance(oc);inst.hide();}}catch(err){}});}});</script>
 </body>
 
 </html>

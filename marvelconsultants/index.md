@@ -1,88 +1,114 @@
 # Property, tax and government compliance consultants in Bengaluru
 
-> Marvel Consultants helps property owners, developers and businesses in Bengaluru with BBMP Khata, e-Khata, property tax, plan approvals, document verification, GST registration, notices and appeals. Talk to an expert.
+> Marvel Consultants provides property legal verification, documentation, registration support, BBMP Khata and e-Khata, property tax, plan approvals and government liaisoning in Bengaluru — for owners, buyers, NRIs and real-estate developers. Talk to an expert.
 
-Source: https://www.marvelconsultants.co.in/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
-Marvel Consultants helps **property owners**, **real-estate developers** and **businesses** in Bengaluru get their BBMP, Khata, property-tax, approval and GST matters done correctly — with the paperwork, the office visits and the follow-up handled for you.
+Marvel Consultants helps **property owners**, **buyers**, **NRIs** and **real-estate developers** handle legal verification, documentation, registration, Khata, approvals and government liaisoning across Bengaluru — with one accountable point of contact.
 
 ## What are you trying to do with your property?
 
-- [Buy a property](https://www.marvelconsultants.co.in/property/buy/) — Verify title, EC, Khata, tax before you pay
-- [Sell a property](https://www.marvelconsultants.co.in/property/sell/) — Get Khata, tax and documents sale-ready
-- [Manage what I own](https://www.marvelconsultants.co.in/property/own/) — e-Khata, Khata transfer, tax, corrections
-- [Build or develop](https://www.marvelconsultants.co.in/property/build/) — BBMP / BDA plan approval and permissions
-- [Fix a property problem](https://www.marvelconsultants.co.in/property/resolve/) — Wrong names, B Khata, missing records
-- [I am an NRI](https://www.marvelconsultants.co.in/property/nri/) — Handle it remotely, with power of attorney
+- [Buying a property](https://www.marvelconsultants.co.in/property/buy/) — Verify title, approvals and records before you commit
+- [Selling a property](https://www.marvelconsultants.co.in/property/sell/) — Make Khata, tax and documents transaction-ready
+- [Managing a property](https://www.marvelconsultants.co.in/property/own/) — e-Khata, transfer, corrections, tax and records
+- [Building / developing](https://www.marvelconsultants.co.in/property/build/) — Approvals, compliance, Khata and liaisoning
+- [Need legal documentation](https://www.marvelconsultants.co.in/legal-services/) — Agreements, deeds, POA and registration support
+- [I am an NRI](https://www.marvelconsultants.co.in/property/nri/) — Handle Bengaluru property matters remotely
 
-## Three kinds of client. One firm that knows the offices.
+## Four verticals. One firm that knows the offices.
 
-The same team, the same relationships with BBMP, BDA, sub-registrar and GST offices — applied to three very different needs.
+Legal-documentation coordination and government-facing execution under one engagement — for owners, buyers, NRIs and developers.
 
-### GST, tax, compliance, notices and appeals — https://www.marvelconsultants.co.in/business/
+### Property legal verification, documentation & registration — https://www.marvelconsultants.co.in/legal-services/
 
-Owners, directors and finance teams of startups, SMEs and established firms in Karnataka.
+Property verification, title due diligence, drafting, deeds, POA, registration and dispute-support coordination.
 
-- GST registration (https://www.marvelconsultants.co.in/business/gst-registration/)
-- Returns & compliance (https://www.marvelconsultants.co.in/business/gst-returns-compliance/)
-- GST notices & replies (https://www.marvelconsultants.co.in/business/gst-notices/)
-- Appeals & litigation (https://www.marvelconsultants.co.in/business/gst-appeals-litigation/)
-- Audit & reconciliation (https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.html)
-- Business registrations (https://www.marvelconsultants.co.in/business/registrations/)
+- Legal verification & title due diligence (https://www.marvelconsultants.co.in/legal-services/#verification)
+- Agreements & contracts (https://www.marvelconsultants.co.in/legal-services/#agreements)
+- Sale / gift / release / partition deeds (https://www.marvelconsultants.co.in/legal-services/#deeds)
+- Registration support (https://www.marvelconsultants.co.in/legal-services/#registration)
+- Power of attorney (https://www.marvelconsultants.co.in/legal-services/#poa)
+- Notices & dispute support (https://www.marvelconsultants.co.in/legal-services/#disputes)
 
-### BBMP approvals, project compliance, government liaison — https://www.marvelconsultants.co.in/real-estate/
+### Khata, e-Khata, tax, corrections and municipal records — https://www.marvelconsultants.co.in/property/
 
-Builders, developers, landowners and real-estate businesses with projects in and around Bengaluru.
-
-- BBMP & BDA plan approval (https://www.marvelconsultants.co.in/real-estate/bbmp-plan-approval/)
-- Project compliance & liaison (https://www.marvelconsultants.co.in/real-estate/project-compliance-liaison/)
-- Project documentation (https://www.marvelconsultants.co.in/real-estate/property-documentation/)
-- Khata & e-Khata for projects (https://www.marvelconsultants.co.in/bbmp-e-khata-services.html)
-- Property tax assessment (https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.html)
-
-### Khata, e-Khata, property tax, documents — and problems — https://www.marvelconsultants.co.in/property/
-
-Individuals and families who own, buy, sell or inherit property in Bengaluru, including NRIs.
+Khata/e-Khata, tax, bifurcation, amalgamation, record corrections and municipal documentation.
 
 - BBMP e-Khata (https://www.marvelconsultants.co.in/bbmp-e-khata-services.html)
 - Khata transfer (https://www.marvelconsultants.co.in/property/khata-transfer/)
 - B Khata to A Khata (https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/)
 - Property tax (https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.html)
 - Document verification (https://www.marvelconsultants.co.in/property/document-verification/)
-- NRI property services (https://www.marvelconsultants.co.in/property/nri/)
+- Fix a property problem (https://www.marvelconsultants.co.in/property/resolve/)
 
-## Tell us. We assess. We execute. You get the record you need.
+### Approvals, project documentation, CC/OC and bulk Khata — https://www.marvelconsultants.co.in/real-estate/
 
-1. **Tell us** — A call, WhatsApp or the form. Describe the situation in your words — you do not need to know the name of the government procedure.
-2. **Assess** — We check your documents and the official records, and tell you what applies, what it costs, what is missing and how long it realistically takes.
-3. **Execute** — We prepare and file the application, attend the office, answer queries and follow up until it moves. You get updates without chasing.
-4. **Complete** — You receive the certificate, order, approval or reply — and a clear note of anything to do next (renewals, tax, records to keep).
+Approvals, project documentation, CC/OC, bulk Khata work and government liaisoning at project scale.
+
+- BBMP & BDA plan approval (https://www.marvelconsultants.co.in/real-estate/bbmp-plan-approval/)
+- Project compliance & liaisoning (https://www.marvelconsultants.co.in/real-estate/project-compliance-liaison/)
+- Project documentation (https://www.marvelconsultants.co.in/real-estate/property-documentation/)
+- Khata & e-Khata for projects (https://www.marvelconsultants.co.in/bbmp-e-khata-services.html)
+- Property tax assessment (https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.html)
+
+### Remote documentation, POA and registration support — https://www.marvelconsultants.co.in/property/nri/
+
+Remote property documentation, POA, due diligence, registration and post-registration support — without repeated travel.
+
+- NRI journey (https://www.marvelconsultants.co.in/property/nri/)
+- Remote due diligence (https://www.marvelconsultants.co.in/property/document-verification/)
+- POA support (https://www.marvelconsultants.co.in/legal-services/#poa)
+- Khata & e-Khata (https://www.marvelconsultants.co.in/bbmp-e-khata-services.html)
+- Property tax (https://www.marvelconsultants.co.in/bbmp-property-tax-assessment-payment-bengaluru.html)
+
+## Tell us. We assess. We execute. You receive the outcome.
+
+1. **Tell us** — Share the property, documents and objective by call, WhatsApp or the form.
+2. **We assess** — We identify the process, missing records, dependencies, fees and the expected timeline — before you commit.
+3. **We execute** — Documentation, filing, office visits, queries and follow-up are coordinated end-to-end.
+4. **You receive the outcome** — The document, approval, filing outcome or clear next step — with the records you should retain.
 
 ## Expertise you can check, not a marketing claim.
 
-- **We know the offices** — Over a decade of daily work with BBMP zonal and ward offices, BDA, sub-registrar offices and the GST department in Bengaluru. We know what each office actually asks for.
-- **Complex cases are the norm** — Name mismatches across sale deed, tax record and Khata; inherited and partitioned property; B Khata sites; revenue-land conversions; multi-year GST disputes. Ordinary cases we often tell you how to do yourself.
-- **Developer relationships** — We support builders and developers on approvals, Khata for new projects and compliance across the project life-cycle — so we understand the property from the developer side too.
-- **End-to-end, not advice-only** — We prepare, file, attend and follow up. You are not handed a checklist and left to queue.
-- **Plain language** — You will know what is being filed, why, and what the authority can and cannot be expected to do. No jargon, no guarantees we cannot keep.
-- **Responsive** — Same-working-day replies on WhatsApp and phone. Two named consultants — Sanjay and Kiran — not a call centre.
+- **Bengaluru process knowledge** — Practical, daily experience with BBMP, BDA, Sub-Registrar and allied property authorities — we know what each office actually asks for.
+- **One point of contact** — Legal-documentation coordination and government-facing execution under one engagement. You are not passed between an advocate, an agent and a runner.
+- **Complex cases welcomed** — Record mismatches, missing documents, legacy Khata issues, inherited and partitioned property, and project-scale work are the norm here, not the exception.
+- **Developer capability** — Bulk documentation and unit-level Khata/e-Khata workflows — 350- and 590-unit projects delivered — not only individual homeowner cases.
+- **Plain-language updates** — Scope, dependencies, fees and realistic timelines explained before work starts. No jargon, no guarantees we cannot keep.
+- **A named team** — A 14-member team led by managing partners Sanjay Chintala and Kiran Akula, working across all BBMP zones and panchayat offices.
 
-## Resolving GST conflicts and BBMP documentation compliance
+## Project-scale execution, on the record.
 
-For over a decade, Marvel Consultants has helped businesses and property owners across Karnataka navigate the complexities of GST and BBMP documentation. Our expertise includes resolving GST disputes, managing BBMP documentation compliance, transfer of legal titles, BBMP e-Khata services, plan approvals from government agencies and professional consulting to address intricate legal and procedural challenges.
+Client names anonymised; details published with the developer's knowledge. Turnaround figures are completed-project results for Marvel-coordinated work; authority processing remains with the authority.
 
-With a team of skilled professionals we deliver measurable results, guiding clients toward secure outcomes. Our strong working relationships with government offices and their processes give us a practical edge in facilitating resolutions for our clients.
+- **350-unit residential project** (https://www.marvelconsultants.co.in/real-estate/) — The developer required land e-Khata, Khata bifurcation and separate e-Khata records for all 350 units of a completed project. We reviewed the land and project documents, coordinated the land e-Khata, completed the bifurcation and managed each unit's e-Khata application. Delivered within a 45-day turnaround.
+- **590-unit development** (https://www.marvelconsultants.co.in/real-estate/) — End-to-end coordination across Building Plan Approval, Completion Certificate, Occupancy Certificate, Panchayat e-Khata, Khata bifurcation and individual e-Khata documentation for all 590 units — completed with a 45-day turnaround, supporting a smoother handover.
+- **NRI & individual owners** (https://www.marvelconsultants.co.in/property/nri/) — E-Khata applications, Khata rectification, BBMP notice and property-tax dispute resolution for domestic and NRI owners — document verification, application support and liaisoning throughout, even when the owner is overseas.
+
+- Since 2014 property documentation and liaisoning in Bengaluru
+- 14-member team led by managing partners Sanjay Chintala and Kiran Akula
+- All BBMP zones and panchayat offices worked with regularly
+- Sobha · Pashmina among developer teams we have supported
+
+Read our reviews on Google — genuine, unedited and from real matters. [Read our Google reviews](https://share.google/6fWvCRRSBNFuJ5yHl)
+
+## Documentation is the product. Liaisoning is the craft.
+
+Since 2014, Marvel Consultants has helped property owners, businesses and developers across Bengaluru and Karnataka navigate property records, municipal approvals and regulatory processes: legal and documentation coordination, transfer of titles, BBMP Khata and e-Khata services, property tax, plan approvals and the follow-up that actually closes a file.
+
+With a 14-member team and strong working relationships with government offices and their processes, we deliver measurable results — and we say plainly what an authority can and cannot be expected to do.
 
 ### Our values
 
-At Marvel Consultants, confidentiality and discretion are paramount. We operate with integrity and respect for our clients' privacy. Strategically located in Bengaluru and working across Karnataka, we are equipped to provide efficient, expert solutions for tax litigation and documentation matters, and we are committed to delivering value by addressing your needs with the highest level of service and professionalism.
+At Marvel Consultants, confidentiality and discretion are paramount. We operate with integrity and respect for our clients' privacy. Based in Bengaluru and working across Karnataka, we are equipped to provide efficient, expert solutions for property documentation and liaisoning matters, and we are committed to delivering value by addressing your needs with the highest level of service and professionalism.
 
 ### What we handle, in brief
 
-- **Document extraction and transfer:** Sale deed, Encumbrance Certificate, Khata (BBMP / BIAPPA / BMRDA / BDA), Patta, Passbook, Chitta, agricultural land and panchayat records
-- **Document verification:** Property ownership, legal and litigation records, land and municipal records
+- **Legal verification:** Ownership chain, title documents, EC, Khata, tax records and approvals reviewed and gaps identified; formal legal opinions by enrolled advocates / associated counsel where required
+- **Agreements & deeds:** Sale agreements, lease and rental agreements, MOU/JDA, and sale / gift / release / partition / rectification deeds
+- **Registration support:** Document readiness, stamp-duty and registration coordination, Sub-Registrar process support and post-registration record updates
+- **Document extraction & verification:** Certified copies of sale deeds, EC (digital and manual), Khata (BBMP / BIAPPA / BMRDA / BDA), Patta, Passbook, Chitta, agricultural land and panchayat records; ownership, legal and municipal record checks
 - **Plan approval:** BBMP and BDA plan approval, building approval, plan alteration, layout and utilities approvals
-- **GST representation:** Representing clients before the GST authorities in disputes and appeals; ensuring compliance with documentation and procedural requirements
 
 ## Read the process before you pay for it
 
@@ -97,13 +123,16 @@ At Marvel Consultants, confidentiality and discretion are paramount. We operate 
 - BDA Khata transfer guide — https://www.marvelconsultants.co.in/blog/bda-khata-transfer-guide.html
 - e-Khata errors that delay business transactions — https://www.marvelconsultants.co.in/blog/e-khata-errors-that-delay-business-transactions.html
 - Why businesses should outsource e-Khata compliance — https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.html
-- GST late filing fee — https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.html
 
 ## Frequently asked questions
 
+**Q: What should be verified before buying a property in Bengaluru?**
+
+A: The ownership chain (mother deed to the current deed), Encumbrance Certificate for an adequate period, Khata status (A or B) and e-Khata on BBMP's e-Aasthi system, property-tax records, layout approval and — for buildings — the sanctioned plan and occupancy certificate. Our [legal verification service](https://www.marvelconsultants.co.in/legal-services/) checks all of these at source and reports in writing.
+
 **Q: What is the difference between A Khata and B Khata in Bengaluru?**
 
-A: A Khata is BBMP's register for properties that comply with building bye-laws and approved layouts; it is needed for building plan sanction, bank loans and a clean sale. B Khata (the "B register") records properties with irregularities such as unapproved layouts or pending conversion — they are taxed but carry restricted rights. Eligible B Khata properties can be converted; see our [B Khata to A Khata service](https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/).
+A: A Khata is BBMP's register for properties that comply with building bye-laws and approved layouts; it is needed for building plan sanction, bank loans and a clean sale. B Khata (the "B register") records properties with irregularities — they are taxed but carry restricted rights. Eligible B Khata properties can be converted; see our [B Khata to A Khata service](https://www.marvelconsultants.co.in/bbmp/b-khata-to-a-khata-conversion/).
 
 **Q: Is e-Khata mandatory to sell or register property in Bengaluru?**
 
@@ -111,15 +140,15 @@ A: Within BBMP limits, e-Khata (the digital Khata on BBMP's e-Aasthi system) is 
 
 **Q: I bought a property but the Khata and tax receipts are still in the seller's name. What do I do?**
 
-A: You need a Khata transfer (mutation) at the BBMP ward office, supported by the registered sale deed, Encumbrance Certificate, latest tax-paid receipt and identity documents. Until it is done, tax notices and the official record stay in the seller's name. See [Khata transfer](https://www.marvelconsultants.co.in/property/khata-transfer/).
+A: You need a Khata transfer (mutation) at the BBMP ward office, supported by the registered sale deed, Encumbrance Certificate, latest tax-paid receipt and identity documents. Until it is done, tax notices and the official record stay in the seller's name. See [Khata transfer](https://www.marvelconsultants.co.in/property/khata-transfer/) — from ₹15,000, typically 45 days.
 
-**Q: I received a GST notice. How much time do I have?**
+**Q: Can an NRI complete a Bengaluru property transaction through a Power of Attorney?**
 
-A: It depends on the notice: a scrutiny notice (ASMT-10) typically gives 30 days, a show-cause notice under section 73/74 gives a date in the notice, and an appeal against an order must be filed within three months. Do not let the date pass — an ex-parte order is much harder to undo. See [GST notices and replies](https://www.marvelconsultants.co.in/business/gst-notices/).
+A: Yes — with a correctly executed POA (before the Indian consulate or a notary abroad, then adjudicated/registered in Karnataka). We advise on the scope and format, coordinate execution and act alongside your POA holder for verification, registration and Khata work. See [NRI services](https://www.marvelconsultants.co.in/property/nri/).
 
-**Q: Can you get BBMP plan approval for a house on a site in a revenue layout?**
+**Q: Do you provide legal opinions or appear in court?**
 
-A: Only if the site is eligible — typically an A Khata (or converted) site in an approved layout with the required road width and setbacks. For B Khata or revenue sites the first step is usually Khata conversion. We assess eligibility before you spend on drawings. See [plan approval](https://www.marvelconsultants.co.in/real-estate/bbmp-plan-approval/).
+A: Marvel Consultants provides property documentation, verification, registration support and government liaisoning. Where a matter requires a formal legal opinion, legal representation or other professional advocacy services, that work is undertaken by enrolled advocates / associated legal counsel as applicable — coordinated within the same engagement so you keep one point of contact.
 
 **Q: Do you charge for the first consultation?**
 

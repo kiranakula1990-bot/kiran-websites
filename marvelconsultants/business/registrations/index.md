@@ -1,12 +1,12 @@
 # Business and government registrations in Bengaluru
 
-> The registrations a business needs to operate in Bengaluru: BBMP trade licence, Karnataka Shops & Establishments, professional tax, MSME/Udyam, PAN/TAN, GST, and support for company, LLP and partnership formation. Marvel Consultants files and renews them.
+> The registrations a business needs to operate in Bengaluru: BBMP trade licence, Karnataka Shops & Establishments, professional tax, MSME/Udyam, PAN/TAN, and support for company, LLP and partnership formation. Marvel Consultants files and renews them.
 
-Source: https://www.marvelconsultants.co.in/business/registrations/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/business/registrations/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 Every registration is small on its own and a nuisance together. We keep the set current so an inspection, a tender or a bank never finds a gap.
 
-Operating a business in Bengaluru involves a stack of registrations with different authorities and different renewal cycles: BBMP for the trade licence, the Labour Department for Shops & Establishments, the Commercial Taxes Department for professional tax, the Ministry of MSME for Udyam, the Income Tax Department for PAN/TAN, the Registrar of Companies for corporate entities, and the GST department. We handle the applications and the calendar.
+Operating a business in Bengaluru involves a stack of registrations with different authorities and different renewal cycles: BBMP for the trade licence, the Labour Department for Shops & Establishments, the Commercial Taxes Department for professional tax, the Ministry of MSME for Udyam, the Income Tax Department for PAN/TAN, and the Registrar of Companies for corporate entities. We handle the applications and the calendar.
 
 ## Who this is for
 
@@ -21,7 +21,7 @@ Operating a business in Bengaluru involves a stack of registrations with differe
 - Karnataka Shops & Commercial Establishments registration and renewals
 - Professional tax enrolment and registration (employer and employees) and periodic filings
 - MSME / Udyam registration and updates
-- PAN, TAN and GST registration (see [GST registration](https://www.marvelconsultants.co.in/business/gst-registration/))
+- PAN and TAN registration coordination
 - Company, LLP and partnership formation support with a company secretary/CA where statutory certification is required
 - A registrations register with renewal dates, and reminders
 
@@ -65,9 +65,9 @@ Most registrations are issued within weeks; BBMP trade licences can take longer 
 
 A: BBMP requires a trade licence for trades and activities listed under its bye-laws carried on within its limits — most commercial premises, including many offices, shops, clinics and food businesses. The category and fee depend on the activity and area. We confirm applicability for your premises.
 
-**Q: Do I need Shops & Establishments registration if I have GST?**
+**Q: Is Shops & Establishments registration needed for a small office?**
 
-A: Yes; they are unrelated. Shops & Establishments is a Karnataka labour-law registration for commercial establishments and is required irrespective of GST status.
+A: Yes. Shops & Establishments is a Karnataka labour-law registration for commercial establishments and applies irrespective of your other registrations.
 
 **Q: What is professional tax in Karnataka?**
 

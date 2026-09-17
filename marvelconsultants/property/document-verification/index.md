@@ -2,7 +2,7 @@
 
 > Independent verification of property documents in Bengaluru: title chain, Encumbrance Certificate, Khata and e-Khata status, property tax, layout approval, sanctioned plan and occupancy certificate — with a written risk note. For buyers, sellers, lenders and owners resolving a problem.
 
-Source: https://www.marvelconsultants.co.in/property/document-verification/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/property/document-verification/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 A written answer to the only question that matters before you pay: is this property what the seller says it is, in the records that count?
 
@@ -41,7 +41,7 @@ Verification is not a legal opinion on title — an advocate gives that — and 
 
 ## Timeline and fees
 
-A typical residential verification is completed within days of receiving the documents; obtaining EC or certified copies from the sub-registrar adds time that depends on the office. Fixed fee quoted on scope; government fees for EC and copies are separate.
+**Starting professional fee:** from ₹30,000, typically completed in about 15 days from receiving the documents; obtaining EC or certified copies from the sub-registrar adds time that depends on the office. Fixed fee confirmed on scope; government fees for EC and copies are separate.
 
 > **Not sure this is the right service?** Send us the situation in a couple of lines. We will tell you what applies — and if it is something you can do yourself. → https://www.marvelconsultants.co.in/contact/
 

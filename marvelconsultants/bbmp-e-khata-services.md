@@ -1,12 +1,12 @@
-# BBMP E-Khata Services in Bengaluru | Apply, Transfer &amp; Status | Marvel Consultants
+# BBMP E-Khata Services in Bangalore | Marvel Consultants
 
-> Expert BBMP e-Khata services in Bengaluru. We handle e-Aasthi portal filing, Khata transfer, B-Khata to A-Khata conversion, name corrections and status follow-ups. Call +91 91875 98642.
+> End-to-end BBMP e-Khata application, conversion and correction support in Bangalore. See the process and what we handle for you.
 
 Source: https://www.marvelconsultants.co.in/bbmp-e-khata-services.html  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642
 
 Secure Your Property’s Legitimacy with Professional BBMP E-Khata Assistance
 
-At [Marvel Consultants](https://www.marvelconsultants.co.in/index.html), we specialize in end-to-end BBMP e-Khata services for residential and commercial properties in Bengaluru. With rising regulatory requirements — including mandatory e-Khata for property transactions and building plan approvals — our expert team ensures your property documentation is complete, compliant, and accepted the first time.
+[Marvel Consultants](https://www.marvelconsultants.co.in/contact/) handles BBMP e-Khata applications, B-to-A khata conversion, and khata correction for Bangalore property owners end to end — from document preparation through e-Aasthi portal submission to follow-up with BBMP.
 
 ## BBMP e-Khata services in Bengaluru by Marvel Consultants
 
@@ -149,6 +149,14 @@ The mutation fee is 2% of stamp duty paid at registration (minimum ₹500), plus
 You can check your status on the BBMP e-Aasthi portal ([bbmpeaasthi.karnataka.gov.in](https://bbmpeaasthi.karnataka.gov.in)) using your application number or PID. Marvel Consultants also proactively tracks your application status on your behalf.
 
 Yes. E-Khata applies to all residential properties within BBMP limits including flats and apartments. The property must have an Occupancy Certificate and comply with BBMP building regulations.
+
+Application, conversion, and correction support for BBMP e-Khata records, handled end-to-end via the e-Aasthi portal.
+
+e-Khata is the digital property record maintained on BBMP's e-Aasthi portal, replacing paper-based khata processes.
+
+Yes — this is one of our core e-Khata services; see our full B-Khata to A-Khata conversion guide for the process and current fee.
+
+Contact us with your property details and we'll guide you through document preparation and e-Aasthi portal submission.
 
 ## Related Services
 

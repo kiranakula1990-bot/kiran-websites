@@ -39,6 +39,7 @@
 .nav .has-menu>button::after{content:"";display:inline-block;width:.45em;height:.45em;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-left:.45em;vertical-align:.2em}
 .menu{position:absolute;left:0;top:100%;background:var(--paper);border:1px solid var(--rule);border-radius:var(--r);box-shadow:var(--shadow);min-width:560px;padding:1rem;display:none;grid-template-columns:repeat(3,1fr);gap:1rem}
 .has-menu.open .menu{display:grid}
+.menu.menu4{min-width:840px;grid-template-columns:repeat(4,1fr)}
 .menu h4{font-size:.78rem;font-family:var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--plum);margin:0 0 .5rem;padding:.4rem .5rem;border-bottom:1px solid var(--rule)}
 .menu a{padding:.35rem .5rem;font-weight:400;font-size:.92rem;color:var(--slate)}
 .menu a:hover{color:var(--plum);background:var(--plum-tint);border-radius:4px}
@@ -64,7 +65,7 @@
 .site-footer .legal p{max-width:none}
 .mobile-bar{display:none}
 @media (max-width:720px){.topbar .tb-l{display:none}.topbar .wrap{justify-content:center;min-height:40px}.topbar a.mail{display:none}.topbar .tb-r{gap:1.6rem;flex-wrap:nowrap}.topbar a{font-size:.85rem;padding:.4rem 0}}
-@media (max-width:980px){.nav-toggle{display:block}.nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper);border-bottom:1px solid var(--rule);flex-direction:column;align-items:stretch;padding:.5rem 20px 1rem;box-shadow:var(--shadow)}.nav.open{display:flex}.menu{position:static;display:none;min-width:0;grid-template-columns:1fr;box-shadow:none;border:0;border-left:2px solid var(--rule);border-radius:0;padding:.25rem 0 .5rem .75rem;margin:0 0 .5rem .8rem}.nav-cta{margin:.5rem 0 0}}
+@media (max-width:980px){.nav-toggle{display:block}.nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper);border-bottom:1px solid var(--rule);flex-direction:column;align-items:stretch;padding:.5rem 20px 1rem;box-shadow:var(--shadow)}.nav.open{display:flex}.menu,.menu.menu4{position:static;display:none;min-width:0;grid-template-columns:1fr;grid-template-columns:1fr;box-shadow:none;border:0;border-left:2px solid var(--rule);border-radius:0;padding:.25rem 0 .5rem .75rem;margin:0 0 .5rem .8rem}.nav-cta{margin:.5rem 0 0}}
 @media (max-width:800px){.cta-band .wrap{grid-template-columns:1fr}}
 @media (max-width:900px){.site-footer .cols{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.site-footer .cols{grid-template-columns:1fr}}

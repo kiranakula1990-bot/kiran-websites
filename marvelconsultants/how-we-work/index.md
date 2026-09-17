@@ -1,8 +1,8 @@
 # How we work: from first message to closed file
 
-> What happens after you contact Marvel Consultants: free first assessment, a written scope and fixed fee, the documents we need, how filing and follow-up work, how you get updates, and what we do not do. Bengaluru property, BBMP and GST matters.
+> What happens after you contact Marvel Consultants: free first assessment, a written scope and fixed fee, the documents we need, how filing and follow-up work, how you get updates, and what we do not do. Bengaluru property, BBMP and legal documentation matters.
 
-Source: https://www.marvelconsultants.co.in/how-we-work/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/how-we-work/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 No mystery about the process. This is what an engagement looks like, start to finish.
 
@@ -14,7 +14,7 @@ No mystery about the process. This is what an engagement looks like, start to fi
 
 ## Fees
 
-Fixed professional fees, quoted after assessment, per matter (or monthly for ongoing GST compliance; per stage or per unit for projects). Government fees, stamp duty, betterment charges, pre-deposits and statutory levies are paid to the authority and are always separate. We do not charge "facilitation" or unexplained expenses.
+Fixed professional fees, quoted after assessment, per matter (per stage or per unit for project work). Government fees, stamp duty, betterment charges, pre-deposits and statutory levies are paid to the authority and are always separate. We do not charge "facilitation" or unexplained expenses.
 
 ## What we need from you
 
@@ -46,7 +46,7 @@ A: A fixed professional fee agreed before work starts, quoted after a free first
 
 **Q: Can you guarantee the approval or the timeline?**
 
-A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the sub-registrar or the GST department. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
+A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the Sub-Registrar or the concerned authority. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
 
 ---
 Contact: Sanjay +91 91875 98642 · Kiran +91 96635 38037 · info@marvelconsultants.co.in · 17/3, Community Hall Road, Ashokapuram, Yeshwanthpur Industrial Suburb, Bengaluru 560022

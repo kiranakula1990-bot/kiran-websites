@@ -2,7 +2,7 @@
 
 > Get the BBMP Khata transferred to your name after a purchase, inheritance, gift or partition. Documents, process, fees, timelines and the mistakes that cause rejection — and Marvel Consultants' end-to-end Khata transfer service in Bengaluru.
 
-Source: https://www.marvelconsultants.co.in/property/khata-transfer/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/property/khata-transfer/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 The sale deed makes you the owner; the Khata transfer makes BBMP's record say so. Until it is done, tax notices, the e-Khata and every future application still point at the previous owner.
 
@@ -54,9 +54,9 @@ Khata transfer — also called mutation — is BBMP's process for recording a ch
 
 ## Timeline and fees
 
-Straightforward transfers after a sale are typically completed in a few weeks once the file is complete; inheritance and partition cases take longer because of the additional documents. We give a specific estimate after seeing the documents.
+**Starting professional fees:** Khata transfer after purchase from ₹15,000; after inheritance from ₹25,000. Typical completion: about 45 days once the file is complete — inheritance and partition cases can take longer because of the additional documents.
 
-BBMP's transfer fee is prescribed as a percentage of the stamp duty paid on the transfer document and is paid to BBMP. Our professional fee is fixed and quoted before we start.
+BBMP's transfer fee is prescribed as a percentage of the stamp duty paid on the transfer document and is paid to BBMP. Our professional fee is fixed and confirmed before we start.
 
 > **Not sure this is the right service?** Send us the situation in a couple of lines. We will tell you what applies — and if it is something you can do yourself. → https://www.marvelconsultants.co.in/contact/
 

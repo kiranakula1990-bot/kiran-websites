@@ -1,3 +1,8 @@
 /index-new.html / 301
 /index-new / 301
+/business/ /legal-services/ 301
+/business/gst-registration/ /legal-services/ 301
+/business/gst-returns-compliance/ /legal-services/ 301
+/business/gst-notices/ /legal-services/ 301
+/business/gst-appeals-litigation/ /legal-services/ 301
 /m/* /:splat 301
