@@ -2,9 +2,9 @@
 
 > Marvel Consultants supports builders, developers and landowners in Bengaluru with BBMP and BDA plan approvals, Khata and e-Khata for projects, property tax assessment, documentation and government liaison across the project life-cycle.
 
-Source: https://www.marvelconsultants.co.in/real-estate/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/real-estate/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
-Approvals, Khata for every unit, tax assessment, documentation and the office follow-up that keeps a project moving. We work as the compliance partner alongside your architect, advocate and site team.
+Approvals, Khata for every unit, tax assessment, documentation and the office follow-up that keeps a project moving — proven at 350- and 590-unit scale. We work as the documentation partner alongside your architect, advocate and site team.
 
 ## What we handle across a project
 
@@ -29,14 +29,17 @@ Approvals, Khata for every unit, tax assessment, documentation and the office fo
 3. **File & follow** — Applications filed with complete annexures; regular office follow-up; you get a status note, not a shrug.
 4. **Close & hand over** — Sanctioned plans, Khata and tax records organised for sales, lenders and buyers.
 
-## Experience you can ask about
+## Project-scale execution, on the record
 
-We describe project work in general terms here because client confidentiality applies. On a call we can discuss relevant experience for your project type and location.
+Client names anonymised; published with the developer's knowledge. Turnaround figures are completed-project results for Marvel-coordinated work; authority processing remains with the authority.
 
-- 10+ years working daily with BBMP, BDA and sub-registrar offices in Bengaluru
-- Residential, commercial, layouts approvals and Khata across project types
-- Documentation-first every filing backed by a verified record set
-- Two named consultants Sanjay and Kiran — direct access, not a helpline
+- **350-unit residential project — end-to-end e-Khata** — A leading residential developer required land e-Khata, Khata bifurcation and separate e-Khata records for all 350 units of a completed project. We reviewed the land and project documents, coordinated the land e-Khata, completed the bifurcation and managed each unit's individual e-Khata application. Delivered within a 45-day turnaround, giving the developer organised, updated municipal records for every unit.
+- **590-unit development — approvals to unit records** — A large residential development needed support across Building Plan Approval, Completion Certificate, Occupancy Certificate, Panchayat e-Khata, Khata bifurcation and individual e-Khata for all 590 units. We coordinated every stage end-to-end and completed the assignment within a 45-day turnaround — structured, unit-wise documentation that supported a smoother handover and future transactions.
+
+- Since 2014 working daily with BBMP, BDA and Sub-Registrar offices
+- 940+ units documented across the two projects above alone
+- All BBMP zones and panchayat offices, with a 14-member team
+- Sobha · Pashmina among developer teams we have supported
 
 ## Developer FAQs
 
@@ -54,7 +57,7 @@ A: A scoped fee per stage or per unit (for Khata/e-Khata work), agreed in writin
 
 **Q: Can you guarantee the approval or the timeline?**
 
-A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the sub-registrar or the GST department. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
+A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the Sub-Registrar or the concerned authority. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
 
 _Enquiry form on the page. Agents: submit leads via https://www.marvelconsultants.co.in/contact/ or WhatsApp https://wa.me/919187598642._
 

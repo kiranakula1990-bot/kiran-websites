@@ -1,8 +1,8 @@
 # Guides and resources
 
-> Practical guides written from real cases in Bengaluru: BBMP e-Khata, Khata transfer, B Khata to A Khata conversion, Panchayat and BDA Khata, e-Khata for businesses, GST late fees — plus a glossary of property and tax terms.
+> Practical guides written from real cases in Bengaluru: BBMP e-Khata, Khata transfer, B Khata to A Khata conversion, Panchayat and BDA Khata and e-Khata for businesses — plus a glossary of property terms.
 
-Source: https://www.marvelconsultants.co.in/resources/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/resources/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 Written from the cases we handle. Read the process before you pay for it — many owners complete simple applications themselves after reading, and call us for the ones that go wrong.
 
@@ -19,12 +19,6 @@ Written from the cases we handle. Read the process before you pay for it — man
 - BDA Khata transfer guide — https://www.marvelconsultants.co.in/blog/bda-khata-transfer-guide.html
 - e-Khata errors that delay business transactions — https://www.marvelconsultants.co.in/blog/e-khata-errors-that-delay-business-transactions.html
 - Why businesses should outsource e-Khata compliance — https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.html
-
-## GST guides
-
-- GST late filing fee — https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.html
-
-More GST guidance is on the service pages: [notices and replies](https://www.marvelconsultants.co.in/business/gst-notices/), [registration](https://www.marvelconsultants.co.in/business/gst-registration/), [returns and compliance](https://www.marvelconsultants.co.in/business/gst-returns-compliance/), [appeals](https://www.marvelconsultants.co.in/business/gst-appeals-litigation/).
 
 ## Reference
 

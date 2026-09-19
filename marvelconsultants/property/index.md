@@ -2,7 +2,7 @@
 
 > Simple, reliable help for Bengaluru property owners: e-Khata, Khata transfer, B Khata to A Khata conversion, property tax, document verification before buying, sale readiness, plan approval and NRI property services. Start with your situation.
 
-Source: https://www.marvelconsultants.co.in/property/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/property/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 You do not need to know the name of the government procedure. Tell us what you are trying to do with the property, and we will identify what needs to be done — and help you get it done.
 
@@ -55,6 +55,21 @@ Title chain, EC, Khata, tax and approvals checked before you buy — or before a
 - Buyer journey (https://www.marvelconsultants.co.in/property/buy/)
 - Resolve a property problem (https://www.marvelconsultants.co.in/property/resolve/)
 
+## Starting professional fees
+
+Fixed fees confirmed before work starts. Government fees, stamp duty and statutory charges are always separate and paid to the authority. Complex matters are quoted after a free assessment.
+
+| Service | Starting professional fee | Typical time |
+| --- | --- | --- |
+| e-Khata creation / correction | from ₹15,000 | ~45 days |
+| Khata transfer after purchase | from ₹15,000 | ~45 days |
+| Khata transfer after inheritance | from ₹25,000 | ~45 days |
+| B Khata → A Khata eligibility check | Free | — |
+| Property tax correction / arrears | from ₹10,000 | ~45 days |
+| Property document verification (before buying) | from ₹30,000 | ~15 days |
+
+Timelines are typical completed-case durations for Marvel-coordinated work once the file is complete; authority processing remains with the authority.
+
 ## From "something is wrong" to a corrected record
 
 1. **Tell us** — WhatsApp a few lines and photos of what you have — sale deed, tax receipt, Khata, any notice.
@@ -86,7 +101,7 @@ A: A fixed professional fee agreed before work starts, quoted after a free first
 
 **Q: Can you guarantee the approval or the timeline?**
 
-A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the sub-registrar or the GST department. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
+A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the Sub-Registrar or the concerned authority. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
 
 ---
 Contact: Sanjay +91 91875 98642 · Kiran +91 96635 38037 · info@marvelconsultants.co.in · 17/3, Community Hall Road, Ashokapuram, Yeshwanthpur Industrial Suburb, Bengaluru 560022

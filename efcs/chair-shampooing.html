@@ -73,7 +73,7 @@
                     <div class="div-ulsec">
                         <div class="systumm-hai caret">
                             <div class="div-name"> 
-                                <a href="index.html#Aboutus1">
+                                <a href="/#Aboutus1">
                                 <p>ABOUT US</p>
                             </a>
                             </div> 
@@ -85,7 +85,7 @@
                     <div class="div-ulsec">
                         <div class="systumm-hai caret">
                             <div class="div-name"> 
-                                <a href="index.html#services1">
+                                <a href="/#services1">
                                 <p>SERVICES</p>
                             </a>
                             </div>
@@ -140,7 +140,7 @@
                     <div class="div-ulsec">
                         <div class="systumm-hai caret">
                             <div class="div-name"> 
-                                <a href="index.html#faq1">
+                                <a href="/#faq1">
                                 <p>FAQ</p>
                             </a>
                             </div> 
@@ -176,7 +176,7 @@
                     <div class="div-ulsec">
                         <div class="systumm-hai caret">
                             <div class="div-name"> 
-                                <a href="index.html#project1">
+                                <a href="/#project1">
                                 <p>PROJECT</p>
                             </a>
                             </div> 
@@ -238,10 +238,10 @@
                             <a href="/" class="menu-link main-menu-link">HOME<span class="arrow"></span></a>
                         </li>
                         <li class=" ">
-                            <a href="index.html#Aboutus1" class="menu-link main-menu-link">ABOUT US<span class="arrow"></span></a>
+                            <a href="/#Aboutus1" class="menu-link main-menu-link">ABOUT US<span class="arrow"></span></a>
                         </li>
                         <li class=" ">
-                            <a href="index.html#services1" class="menu-link main-menu-link">Services<span class="arrow"></span></a>
+                            <a href="/#services1" class="menu-link main-menu-link">Services<span class="arrow"></span></a>
                             <ul class="sub-menu menu-odd  menu-depth-1">
                                 <li class="sub-menu-item "><a href="marble-restoration-polishing.html" class="menu-link sub-menu-link">Marble restoration and polishing</a></li>
                                 <li class="sub-menu-item "><a href="granite-restoration-and-polishing.html" class="menu-link sub-menu-link">Granite Restoration and polishing </a></li>
@@ -259,7 +259,7 @@
                             </ul>
                         </li>
                         <li class=" ">
-                            <a href="index.html#faq1" class="menu-link main-menu-link">FAQ<span class="arrow"></span></a>
+                            <a href="/#faq1" class="menu-link main-menu-link">FAQ<span class="arrow"></span></a>
                         </li>
                         <li class=" ">
                             <a href="blogdetail.html" class="menu-link main-menu-link">BLOG <span class="arrow"></span></a>
@@ -268,7 +268,7 @@
                             <a href="contact.html" class="menu-link main-menu-link">CONTACT<span class="arrow"></span></a>
                         </li>
                         <li class=" ">
-                            <a href="index.html#project1" class="menu-link main-menu-link">PROJECT<span class="arrow"></span></a>
+                            <a href="/#project1" class="menu-link main-menu-link">PROJECT<span class="arrow"></span></a>
                         </li>
 
 
@@ -671,16 +671,16 @@
                     <div class="span-footer">
                         <h6>Quick Links</h6>
                         <ul class="footerlist">
-                            <a href="index.html#Aboutus1 ">
+                            <a href="/#Aboutus1 ">
                                 <li>About Us</li>
                             </a>
-                            <a href="index.html#project1">
+                            <a href="/#project1">
                                 <li>Projects</li>
                             </a>
-                            <a href="index.html#services1">
+                            <a href="/#services1">
                                 <li>Our Services</li>
                             </a>
-                            <a href="index.html#faq1 ">
+                            <a href="/#faq1 ">
                                 <li>Help & FAQs</li>
                             </a>
                             <a href="blogdetail.html">
@@ -718,7 +718,7 @@
                             <a href="mosaic-polishing.html">
                                 <li>Mosaic polishing </li>
                             </a>
-                            <a href="index.html#services1">
+                            <a href="/#services1">
                                 <li>View All Services</li>
                             </a>
                             
@@ -766,7 +766,7 @@
 
     </script>
      <script>
-        document.querySelector('.toggleBtn').addEventListener('click', function() {
+        var _tb=document.querySelector('.toggleBtn'); if(_tb) _tb.addEventListener('click', function() {
     var sidebar = document.querySelector('.leftslidebaR');
     if (sidebar.style.left === '0%') {
         sidebar.style.left = '-110%';
@@ -892,6 +892,7 @@
     </style>
     <a href="https://wa.me/918904312966" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
 
+<!-- efcs-nav-fix --><script>document.addEventListener("DOMContentLoaded",function(){function jumpTo(id){var el=document.getElementById(id);if(el)el.scrollIntoView({behavior:"auto",block:"start"});}var oc=document.getElementById("offcanvasExample");if(oc){oc.addEventListener("click",function(e){var a=e.target.closest("a[href]");if(!a||a.getAttribute("href")===" ")return;try{if(window.bootstrap&&bootstrap.Offcanvas){var inst=bootstrap.Offcanvas.getInstance(oc)||bootstrap.Offcanvas.getOrCreateInstance(oc);inst.hide();}}catch(err){}var href=a.getAttribute("href")||"";var hi=href.indexOf("#");if(hi>-1){var base=href.slice(0,hi).replace(/^//,"").replace(/^index.html$/,"");var here=location.pathname.replace(/^//,"").replace(/^index.html$/,"");if(base===""||base===here){var id=href.slice(hi+1);setTimeout(function(){jumpTo(id);},450);}}});}});</script>
 </body>
 
 </html>

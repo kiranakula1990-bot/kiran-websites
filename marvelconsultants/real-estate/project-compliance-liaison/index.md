@@ -2,7 +2,7 @@
 
 > Government liaison and compliance for real-estate projects in Bengaluru: BBMP and BDA correspondence, inspections and notices, utility connections and NOCs, Khata and e-Khata for units, property tax assessment and the office follow-up that keeps files moving from commencement to handover.
 
-Source: https://www.marvelconsultants.co.in/real-estate/project-compliance-liaison/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-08-29
+Source: https://www.marvelconsultants.co.in/real-estate/project-compliance-liaison/  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642  ·  Last reviewed: 2026-09-17
 
 Projects stall on paperwork more often than on construction. We are the team that keeps the file complete and the office informed — from commencement to the day the last buyer registers.
 
@@ -70,7 +70,7 @@ A: Yes, for BDA, BMRDA and BIAPPA jurisdictions and the relevant panchayat/munic
 
 **Q: Can you guarantee the approval or the timeline?**
 
-A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the sub-registrar or the GST department. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
+A: No, and you should be wary of anyone who does. Approvals rest with BBMP, BDA, the Sub-Registrar or the concerned authority. What we control is a complete, correct application, follow-up with the office, and honest communication about where it stands.
 
 **Q: Do I need to visit your office to start?**
 

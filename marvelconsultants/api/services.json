@@ -1,9 +1,24 @@
 {
   "organization": "Marvel Consultants",
   "url": "https://www.marvelconsultants.co.in",
-  "updated": "2026-08-29",
+  "updated": "2026-09-17",
   "disclaimer": "Private professional services firm; not affiliated with any government authority.",
   "services": [
+    {
+      "name": "Property legal services",
+      "url": "https://www.marvelconsultants.co.in/legal-services/",
+      "markdown": "https://www.marvelconsultants.co.in/legal-services/index.md",
+      "description": "Property legal verification, title due diligence coordination, agreements and contracts, sale / gift / release / partition deeds, registration support, power of attorney and dispute-support coordination in Bengaluru — for buyers, sellers, owners, NRIs and developers.",
+      "serviceType": "Property legal documentation and coordination",
+      "areaServed": "Bengaluru, Karnataka, India",
+      "pricing": "Quotation after free assessment",
+      "contact": {
+        "phone": "+919187598642",
+        "whatsapp": "https://wa.me/919187598642",
+        "email": "info@marvelconsultants.co.in",
+        "form": "https://www.marvelconsultants.co.in/contact/"
+      }
+    },
     {
       "name": "Khata transfer (BBMP mutation)",
       "url": "https://www.marvelconsultants.co.in/property/khata-transfer/",
@@ -11,7 +26,7 @@
       "description": "Get the BBMP Khata transferred to your name after a purchase, inheritance, gift or partition. Documents, process, fees, timelines and the mistakes that cause rejection — and Marvel Consultants' end-to-end Khata transfer service in Bengaluru.",
       "serviceType": "Property documentation service",
       "areaServed": "Bengaluru, Karnataka, India",
-      "pricing": "Quotation after free assessment",
+      "pricing": "From ₹15,000 (purchase) / ₹25,000 (inheritance) professional fee; typically ~45 days. Government fees separate.",
       "contact": {
         "phone": "+919187598642",
         "whatsapp": "https://wa.me/919187598642",
@@ -26,67 +41,7 @@
       "description": "Independent verification of property documents in Bengaluru: title chain, Encumbrance Certificate, Khata and e-Khata status, property tax, layout approval, sanctioned plan and occupancy certificate — with a written risk note. For buyers, sellers, lenders and owners resolving a problem.",
       "serviceType": "Due diligence",
       "areaServed": "Bengaluru, Karnataka, India",
-      "pricing": "Quotation after free assessment",
-      "contact": {
-        "phone": "+919187598642",
-        "whatsapp": "https://wa.me/919187598642",
-        "email": "info@marvelconsultants.co.in",
-        "form": "https://www.marvelconsultants.co.in/contact/"
-      }
-    },
-    {
-      "name": "GST registration",
-      "url": "https://www.marvelconsultants.co.in/business/gst-registration/",
-      "markdown": "https://www.marvelconsultants.co.in/business/gst-registration/index.md",
-      "description": "GST registration for businesses in Bengaluru and Karnataka: who must register, threshold limits, documents, the online process, common reasons for rejection, and amendments, additional place of business, composition scheme and cancellation. Filed correctly by Marvel Consultants.",
-      "serviceType": "Tax registration service",
-      "areaServed": "Bengaluru, Karnataka, India",
-      "pricing": "Quotation after free assessment",
-      "contact": {
-        "phone": "+919187598642",
-        "whatsapp": "https://wa.me/919187598642",
-        "email": "info@marvelconsultants.co.in",
-        "form": "https://www.marvelconsultants.co.in/contact/"
-      }
-    },
-    {
-      "name": "GST returns and compliance",
-      "url": "https://www.marvelconsultants.co.in/business/gst-returns-compliance/",
-      "markdown": "https://www.marvelconsultants.co.in/business/gst-returns-compliance/index.md",
-      "description": "Monthly, quarterly and annual GST compliance for Bengaluru businesses: GSTR-1, GSTR-3B, GSTR-9 and 9C, ITC reconciliation with GSTR-2B, e-invoicing and e-way bills, and a compliance calendar that keeps notices away. Marvel Consultants manages the rhythm.",
-      "serviceType": "Tax compliance service",
-      "areaServed": "Bengaluru, Karnataka, India",
-      "pricing": "Quotation after free assessment",
-      "contact": {
-        "phone": "+919187598642",
-        "whatsapp": "https://wa.me/919187598642",
-        "email": "info@marvelconsultants.co.in",
-        "form": "https://www.marvelconsultants.co.in/contact/"
-      }
-    },
-    {
-      "name": "GST notice reply and representation",
-      "url": "https://www.marvelconsultants.co.in/business/gst-notices/",
-      "markdown": "https://www.marvelconsultants.co.in/business/gst-notices/index.md",
-      "description": "Received a GST notice in Bengaluru? Marvel Consultants reads it the same day, explains what it demands and by when, and prepares the reply with the reconciliation to support it — scrutiny (ASMT-10), intimation (DRC-01A), show-cause notices under sections 73 and 74, ITC mismatch, audit and summons.",
-      "serviceType": "Tax representation service",
-      "areaServed": "Bengaluru, Karnataka, India",
-      "pricing": "Quotation after free assessment",
-      "contact": {
-        "phone": "+919187598642",
-        "whatsapp": "https://wa.me/919187598642",
-        "email": "info@marvelconsultants.co.in",
-        "form": "https://www.marvelconsultants.co.in/contact/"
-      }
-    },
-    {
-      "name": "GST appeals and litigation",
-      "url": "https://www.marvelconsultants.co.in/business/gst-appeals-litigation/",
-      "markdown": "https://www.marvelconsultants.co.in/business/gst-appeals-litigation/index.md",
-      "description": "Adverse GST order in Bengaluru? Marvel Consultants files the first appeal (APL-01) within the three-month limit, advises on the pre-deposit, prepares grounds and evidence, and represents you before the appellate authority — and coordinates with counsel for tribunal and court stages.",
-      "serviceType": "Tax litigation support",
-      "areaServed": "Bengaluru, Karnataka, India",
-      "pricing": "Quotation after free assessment",
+      "pricing": "From ₹30,000 professional fee; typically ~15 days. Government fees separate.",
       "contact": {
         "phone": "+919187598642",
         "whatsapp": "https://wa.me/919187598642",
@@ -98,7 +53,7 @@
       "name": "Business and government registrations",
       "url": "https://www.marvelconsultants.co.in/business/registrations/",
       "markdown": "https://www.marvelconsultants.co.in/business/registrations/index.md",
-      "description": "The registrations a business needs to operate in Bengaluru: BBMP trade licence, Karnataka Shops & Establishments, professional tax, MSME/Udyam, PAN/TAN, GST, and support for company, LLP and partnership formation. Marvel Consultants files and renews them.",
+      "description": "The registrations a business needs to operate in Bengaluru: BBMP trade licence, Karnataka Shops & Establishments, professional tax, MSME/Udyam, PAN/TAN, and support for company, LLP and partnership formation. Marvel Consultants files and renews them.",
       "serviceType": "Business registration service",
       "areaServed": "Bengaluru, Karnataka, India",
       "pricing": "Quotation after free assessment",
@@ -175,26 +130,6 @@
       "name": "BBMP documentation, trade licence & approvals",
       "url": "https://www.marvelconsultants.co.in/bbmp.html",
       "markdown": "https://www.marvelconsultants.co.in/bbmp.md"
-    },
-    {
-      "name": "GST services overview",
-      "url": "https://www.marvelconsultants.co.in/gst.html",
-      "markdown": "https://www.marvelconsultants.co.in/gst.md"
-    },
-    {
-      "name": "GST audit & compliance",
-      "url": "https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.html",
-      "markdown": "https://www.marvelconsultants.co.in/gst-audit-compliance-bengaluru.md"
-    },
-    {
-      "name": "GST dispute resolution & litigation",
-      "url": "https://www.marvelconsultants.co.in/gst-dispute-resolution-litigation-bengaluru.html",
-      "markdown": "https://www.marvelconsultants.co.in/gst-dispute-resolution-litigation-bengaluru.md"
-    },
-    {
-      "name": "GST advisory",
-      "url": "https://www.marvelconsultants.co.in/gst-advisory.html",
-      "markdown": "https://www.marvelconsultants.co.in/gst-advisory.md"
     },
     {
       "name": "About Marvel Consultants",
@@ -283,12 +218,6 @@
       "url": "https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.html",
       "topic": "Business",
       "markdown": "https://www.marvelconsultants.co.in/blog/why-businesses-should-outsource-e-khata.md"
-    },
-    {
-      "title": "GST late filing fee",
-      "url": "https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.html",
-      "topic": "GST",
-      "markdown": "https://www.marvelconsultants.co.in/blog/gst-late-filing-fee.md"
     }
   ]
 }
