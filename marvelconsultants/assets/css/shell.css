@@ -70,6 +70,7 @@
 @media (max-width:900px){.site-footer .cols{grid-template-columns:1fr 1fr}}
 @media (max-width:520px){.site-footer .cols{grid-template-columns:1fr}}
 @media (max-width:760px){.mobile-bar{display:grid;grid-template-columns:1fr 1fr 1.4fr;gap:.4rem;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--ink);padding:.5rem .6rem;box-shadow:0 -4px 16px rgba(0,0,0,.2)}.mobile-bar a{display:flex;align-items:center;justify-content:center;gap:.35rem;color:#fff;text-decoration:none;font-weight:600;font-size:.85rem;padding:.6rem .4rem;border-radius:4px}.mobile-bar .call{background:var(--ink-2)}.mobile-bar .wa{background:var(--wa)}.mobile-bar .form-link{background:var(--plum)}}
+@media (min-width:981px){.site-header .wrap{position:relative}.nav>li.has-menu{position:static}.menu.menu4{left:auto;right:20px;min-width:0;width:min(900px,calc(100vw - 40px));max-height:calc(100vh - 130px);overflow-y:auto}}
 
 /* shell resets — defend against bare element rules in legacy stylesheets (style.css, blog.min.css, bootstrap) */
 .site-header *,.topbar *,.site-footer *,.cta-band *,.mobile-bar *{box-sizing:border-box}

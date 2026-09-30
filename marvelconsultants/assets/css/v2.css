@@ -301,3 +301,6 @@ strong{color:var(--ink)}
 .prose figure.inline-img{margin:1.4rem 0;border-radius:var(--r);overflow:hidden}
 .prose figure.inline-img img{width:100%;aspect-ratio:2/1;object-fit:cover}
 .prose figure.inline-img figcaption{font-size:.82rem;color:var(--muted);padding:.4rem 0 0}
+
+/* Desktop mega-menu: anchor to header, not the Services button, so all 4 columns (incl. NRI) stay on-screen */
+@media (min-width:981px){.site-header .wrap{position:relative}.nav>li.has-menu{position:static}.menu.menu4{left:auto;right:20px;min-width:0;width:min(900px,calc(100vw - 40px));max-height:calc(100vh - 130px);overflow-y:auto}}
