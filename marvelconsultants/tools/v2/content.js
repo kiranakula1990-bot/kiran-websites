@@ -183,7 +183,7 @@ pages.push({
 
 
 pages.push({
-  path: '/legal-services/', layout: 'page', section: 'hub', photo: 'property',
+  path: '/legal-services/', layout: 'page', section: 'hub', photo: 'legal',
   title: 'Property Legal Services in Bengaluru',
   metaTitle: 'Property Legal Services in Bengaluru | Marvel Consultants',
   desc: 'Property legal verification, title due diligence coordination, agreements and contracts, sale / gift / release / partition deeds, registration support, power of attorney and dispute-support coordination in Bengaluru — for buyers, sellers, owners, NRIs and developers.',
