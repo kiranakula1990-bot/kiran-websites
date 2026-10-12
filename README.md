@@ -1,6 +1,8 @@
 # Kiran's websites — source + deployment
 
 Six static websites hosted on **Cloudflare Pages** (account: kiranakula1990@gmail.com).
+Since 2026-10-12 all six domains use Cloudflare nameservers (DNS, email records and redirects live in
+the Cloudflare zones), so **a push to `main` is the only deploy step** — nothing goes to AWS any more.
 
 | Folder | Live domain | Pages project |
 |---|---|---|
@@ -29,6 +31,19 @@ Manual redeploy of a site without a code change: Actions → *Deploy sites to Cl
 **Run workflow** → type the folder name (or `all`).
 
 Rollback: Cloudflare dashboard → Workers & Pages → project → Deployments → "Rollback to this deployment".
+
+## Files that keep the URLs identical to the old AWS hosting (don't delete)
+- `<site>/_worker.js` — copy of `_shared/s3-parity-worker.js` (Evochem has its own): serves `/page.html`
+  with 200 (Pages would 308 it to `/page`), returns 404 + home page for missing URLs, and passes
+  304/5xx through. After editing a worker, purge the zone cache in Cloudflare.
+- `<site>/404.html` — only switches Pages out of SPA mode; the worker hides it.
+- `evochem/` is **build output**: CI rebuilds it from `evochem-source/` on every Evochem deploy
+  (keeping `_worker.js` and `404.html`). Edit `evochem-source/`, never `evochem/`.
+
+## Contact forms (leads)
+All forms post to the `glint-email-relay` Lambda (Glint AWS account), not the old backend.
+Hygex/Mavrick use `assets/js/lead-form.js` (source: `_shared/lead-form.js`) → info@ennwin.in.
+A new recipient address must be added to the Lambda's allowlist first.
 
 ## Local deploy (fallback, no GitHub needed)
 ```
