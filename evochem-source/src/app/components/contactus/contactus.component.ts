@@ -12,7 +12,7 @@ import { ToastrService } from 'ngx-toastr';
 export class ContactusComponent {
 
 
-  private apiUrl = 'https://test.glintcloudshops.com/api/sendEmail';
+  private apiUrl = 'https://psdiw5luaqoyb3pcxljybzw6j40sqgve.lambda-url.ap-south-1.on.aws/'; // glint-email-relay Lambda
   private recipientEmail = 'info@ennwin.in'; // Replace with actual recipient email
   private templateUrl = 'https://evochem.co.in/assets/templates/contactus.html'; // Replace with the actual URL
 
