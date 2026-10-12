@@ -13,7 +13,9 @@ export default {
     const asset = (p) => env.ASSETS.fetch(new Request(new URL(p + url.search, url), request));
     const notFound = async () => {
       const home = await asset('/');
-      return new Response(home.body, { status: 404, headers: home.headers });
+      const h = new Headers(home.headers);
+      h.set('Cache-Control', 'no-store'); // never let the edge cache a 404 (a transient miss once cached CSS as 404)
+      return new Response(home.body, { status: 404, headers: h });
     };
 
     const semi = path.indexOf(';');
@@ -24,17 +26,17 @@ export default {
     const last = path.slice(path.lastIndexOf('/') + 1);
     if (path.endsWith('/') || !last.includes('.')) {   // prerendered route
       const r = await asset(path.endsWith('/') ? path : path + '/');
-      return r.status === 200 ? r : notFound();
+      return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
     }
     if (last === 'index.html') {                          // /route/index.html -> 200 on AWS too
       const r = await asset(path.slice(0, -'index.html'.length));
-      return r.status === 200 ? r : notFound();
+      return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
     }
     if (last.endsWith('.html')) {                         // e.g. the Google verification file; Pages stores it as /name
       const r = await asset(path.slice(0, -'.html'.length));
-      return r.status === 200 ? r : notFound();
+      return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
     }
     const r = await env.ASSETS.fetch(request);           // js, css, images, sitemap ...
-    return r.status === 200 ? r : notFound();
+    return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
   },
 };

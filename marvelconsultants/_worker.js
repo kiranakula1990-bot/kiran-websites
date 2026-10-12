@@ -12,7 +12,9 @@ export default {
     const asset = (p) => env.ASSETS.fetch(new Request(new URL(p + url.search, url), request));
     const notFound = async () => {
       const home = await asset('/');
-      return new Response(home.body, { status: 404, headers: home.headers });
+      const h = new Headers(home.headers);
+      h.set('Cache-Control', 'no-store'); // never let the edge cache a 404 (a transient miss once cached CSS as 404)
+      return new Response(home.body, { status: 404, headers: h });
     };
 
     // 404.html exists only to switch Pages out of SPA mode; it was never a page on this site
@@ -20,21 +22,21 @@ export default {
 
     if (path.endsWith('/')) {                       // directory index
       const r = await asset(path);
-      return r.status === 200 ? r : notFound();
+      return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
     }
     if (last === 'index.html') {                    // /dir/index.html
       const r = await asset(path.slice(0, -'index.html'.length));
-      return r.status === 200 ? r : notFound();
+      return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
     }
     if (last.endsWith('.html')) {                   // /page.html -> Pages stores it as /page
       const r = await asset(path.slice(0, -'.html'.length));
-      return r.status === 200 ? r : notFound();
+      return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
     }
     if (!last.includes('.')) {                      // /dir -> 302 /dir/ if it is a folder, else 404 (exactly as S3)
       const dir = await asset(path + '/');
-      return dir.status === 200 ? Response.redirect(url.origin + path + '/' + url.search, 302) : notFound();
+      return dir.status >= 500 ? dir : dir.status === 200 ? Response.redirect(url.origin + path + '/' + url.search, 302) : notFound();
     }
     const r = await env.ASSETS.fetch(request);      // css, js, images, xml, txt ...
-    return r.status === 200 ? r : notFound();
+    return r.status === 200 ? r : r.status >= 500 ? r : notFound(); // 5xx passes through, never cached as 404
   },
 };
