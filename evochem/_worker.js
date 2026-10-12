@@ -26,6 +26,10 @@ export default {
       const r = await asset(path.endsWith('/') ? path : path + '/');
       return r.status === 200 ? r : notFound();
     }
+    if (last === 'index.html') {                          // /route/index.html -> 200 on AWS too
+      const r = await asset(path.slice(0, -'index.html'.length));
+      return r.status === 200 ? r : notFound();
+    }
     if (last.endsWith('.html')) {                         // e.g. the Google verification file; Pages stores it as /name
       const r = await asset(path.slice(0, -'.html'.length));
       return r.status === 200 ? r : notFound();
