@@ -1,28 +1,42 @@
-// Cloudflare Pages advanced-mode worker: keep the S3/CloudFront URL scheme.
-// Pages normally 308-redirects /page.html -> /page. This site's links (and Google's index) use
-// /page.html, so serve those directly with 200, and send the extensionless form to the .html URL
-// with a single 301 so there is only one URL per page.
+// Cloudflare Pages advanced-mode worker (_worker.js): serve URLs exactly like the old S3 website + CloudFront.
+// Copied into each static site folder (see _shared/README). Pages' own HTML handling differs from S3:
+//   Pages: /page.html -> 308 /page, /page -> page.html, missing page -> 200 (no 404.html) or 404.html
+//   S3:    /page.html -> 200,       /page -> 404,        /dir -> 302 /dir/, missing page -> 404 with index.html body
+// The folder must contain a top-level 404.html so Pages reports missing files as 404 (not an SPA fallback),
+// which is what the existence checks below rely on.
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
     const path = url.pathname;
+    const last = path.slice(path.lastIndexOf('/') + 1);
+    const asset = (p) => env.ASSETS.fetch(new Request(new URL(p + url.search, url), request));
+    const notFound = async () => {
+      const home = await env.ASSETS.fetch(new Request(new URL('/', url))); // unconditional: the 404 body must be the full page
+      const h = new Headers(home.headers);
+      h.set('Cache-Control', 'no-store'); // never let the edge cache a 404 (a transient miss once cached CSS as 404)
+      return new Response(home.body, { status: 404, headers: h });
+    };
 
-    if (path.endsWith('.html')) {
-      // /index.html and /dir/index.html -> fetch the directory; /page.html -> fetch /page
-      const target = path.endsWith('/index.html') ? path.slice(0, -'index.html'.length) : path.slice(0, -'.html'.length);
-      const res = await env.ASSETS.fetch(new Request(new URL(target + url.search, url), request));
-      if (res.status === 200) return res;
-      return env.ASSETS.fetch(request);
-    }
+    // 404.html exists only to switch Pages out of SPA mode; it was never a page on this site
+    if (path === '/404.html') return notFound();
 
-    const res = await env.ASSETS.fetch(request);
-    // An extensionless path that Pages resolved to a file (not a directory) is /page -> page.html
-    if (res.status === 200 && path !== '/' && !path.endsWith('/') && !/\.[a-z0-9]+$/i.test(path)) {
-      const html = await env.ASSETS.fetch(new Request(new URL(path + '/', url), request));
-      if (html.status !== 200) {
-        return Response.redirect(new URL(path + '.html' + url.search, url).toString(), 301);
-      }
+    if (path.endsWith('/')) {                       // directory index
+      const r = await asset(path);
+      return r.status === 200 || r.status === 304 || r.status >= 500 ? r : notFound(); // 304 = cache/browser revalidation
     }
-    return res;
+    if (last === 'index.html') {                    // /dir/index.html
+      const r = await asset(path.slice(0, -'index.html'.length));
+      return r.status === 200 || r.status === 304 || r.status >= 500 ? r : notFound(); // 304 = cache/browser revalidation
+    }
+    if (last.endsWith('.html')) {                   // /page.html -> Pages stores it as /page
+      const r = await asset(path.slice(0, -'.html'.length));
+      return r.status === 200 || r.status === 304 || r.status >= 500 ? r : notFound(); // 304 = cache/browser revalidation
+    }
+    if (!last.includes('.')) {                      // /dir -> 302 /dir/ if it is a folder, else 404 (exactly as S3)
+      const dir = await asset(path + '/');
+      return dir.status >= 500 ? dir : dir.status === 200 || dir.status === 304 ? Response.redirect(url.origin + path + '/' + url.search, 302) : notFound();
+    }
+    const r = await env.ASSETS.fetch(request);      // css, js, images, xml, txt ...
+    return r.status === 200 || r.status === 304 || r.status >= 500 ? r : notFound(); // 304 = cache/browser revalidation
   },
 };
