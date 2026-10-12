@@ -162,35 +162,10 @@ function header(p) {
     <li><a href="/who-we-serve/">Who we serve</a></li>
     <li><a href="/about/">About</a></li>
     <li><a href="/resources/">Guides</a></li>
-    <li><a href="/blog.html">Blogs</a></li>
     <li><a href="/contact/">Contact</a></li>
     <li class="nav-cta"><a class="btn btn-primary btn-sm" href="/contact/" data-cta="nav_talk_expert">Talk to an expert</a></li>
   </ul>
 </div></header>
-`;
-}
-// floating email + WhatsApp buttons on the right edge of every page (desktop, mobile and legacy shells)
-const ICON_MAIL = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>';
-const ICON_WA = '<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>';
-function sideCta(prefix = '') {
-  // "Email us" opens the on-page email form (v2.js); mailto stays as the no-JS fallback
-  return `<div class="side-cta" aria-label="Contact Marvel Consultants">
-  <a class="sc-mail" href="mailto:${SITE.email}" data-open-mail data-cta="${prefix}side_email" title="Email ${SITE.email}">${ICON_MAIL}<span>Email us</span></a>
-  <a class="sc-wa" href="${SITE.wa}" target="_blank" rel="noopener" data-cta="${prefix}side_whatsapp" title="WhatsApp ${SITE.phone1.display}">${ICON_WA}<span>WhatsApp</span></a>
-</div>
-<dialog class="mail-dialog" id="mail-dialog" aria-labelledby="md-title"><div class="md-inner">
-  <div class="md-head"><p class="md-title" id="md-title">Email Marvel Consultants</p><button type="button" class="md-close" aria-label="Close">&times;</button></div>
-  <p class="md-sub">Write your message here and it goes straight to <strong>${SITE.email}</strong>. We reply the same working day.</p>
-  <form class="md-form" data-enquiry="Marvel Website - Email enquiry" data-form="${prefix}side_email" data-success="inline" novalidate>
-    <div><label for="md-name">Your name</label><input id="md-name" name="name" type="text" required autocomplete="name"></div>
-    <div><label for="md-email">Your email</label><input id="md-email" name="email" type="email" required autocomplete="email" placeholder="so we can reply"></div>
-    <div class="full"><label for="md-mobile">Mobile number <span class="opt">(optional)</span></label><input id="md-mobile" name="mobile" type="tel" inputmode="numeric" autocomplete="tel" placeholder="10-digit mobile"></div>
-    <div class="full"><label for="md-message">Message</label><textarea id="md-message" name="message" required rows="5" placeholder="Tell us about your property or the help you need"></textarea></div>
-    <div class="hp" aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
-    <div class="status full" role="status" aria-live="polite"></div>
-    <div class="full md-actions"><button type="submit" class="md-send">Send email</button><a class="md-alt" href="mailto:${SITE.email}">or use your own email app</a></div>
-  </form>
-</div></dialog>
 `;
 }
 function footer() {
@@ -207,10 +182,10 @@ function footer() {
   </div>
   <div class="legal">
     <p>Marvel Consultants is a private professional services firm and is not affiliated with BBMP, BDA, Sub-Registrar offices or any government authority. We provide property documentation, process coordination and liaisoning services. Where an engagement requires a legal opinion, reserved legal work, litigation or court representation, such work is handled by enrolled advocates / associated legal counsel as applicable to the engagement. Government fees and statutory charges are separate from our professional fees, and approvals and outcomes remain subject to the concerned authority. Office hours 9 am – 7 pm; visits by appointment. Page last reviewed ${SITE.updated}.</p>
-    <p>© 2026 Marvel Consultants. All rights reserved. · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/career.html">Careers</a></p>
+    <p>© 2026 Marvel Consultants. All rights reserved. · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/career.html">Careers</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/llms.txt">llms.txt</a></p>
   </div>
 </div></footer>
-${sideCta()}<div class="mobile-bar">
+<div class="mobile-bar">
   <a class="call" href="tel:${SITE.phone1.tel}" data-cta="sticky_call">Call</a>
   <a class="wa" href="${SITE.wa}" target="_blank" rel="noopener" data-cta="sticky_whatsapp">WhatsApp</a>
   <a class="form-link" href="/contact/#problem" data-cta="sticky_form">Tell us your problem</a>
@@ -240,8 +215,6 @@ function block(b) {
     case 'faq': return `<h2 id="faq">${b.title || 'Frequently asked questions'}</h2><div class="faq">${b.items.map(f => `<details><summary>${f.q}</summary><div class="a"><p>${f.a}</p></div></details>`).join('')}</div>\n`;
     case 'guides': return `<ul class="guides">${b.items.map(g => `<li><a href="${g[1]}">${g[0]}</a><span>${g[2] || ''}</span></li>`).join('')}</ul>\n`;
     case 'trust': return `<div class="trust">${b.items.map(i => `<div><strong>${i[0]}</strong><span>${i[1]}</span></div>`).join('')}</div>\n`;
-    // [name, logo file in /assets/image/clients/]; no logo → the name as text
-    case 'clients': return `<ul class="clients">${b.items.map(([n, logo]) => `<li>${logo ? `<img src="/assets/image/clients/${logo}" alt="${esc(n)}" title="${esc(n)}" loading="lazy">` : esc(n)}</li>`).join('')}</ul>\n`;
     case 'form': return formHtml(b);
     case 'cta': return `<div class="note" style="border-color:var(--plum);display:flex;flex-wrap:wrap;gap:1rem;align-items:center;justify-content:space-between"><div><strong>${b.title}</strong><br>${b.text}</div><a class="btn btn-primary" href="${b.href || '/contact/'}" data-cta="${b.cta || 'inline_cta'}">${b.label || 'Talk to an expert'}</a></div>\n`;
     case 'html': return b.html + '\n';
@@ -328,7 +301,6 @@ function md(p) {
       case 'faq': lines.push(`## ${b.title || 'Frequently asked questions'}`, ''); b.items.forEach(f => lines.push(`**Q: ${strip(f.q)}**`, '', `A: ${mdInline(f.a)}`, '')); break;
       case 'guides': b.items.forEach(g => lines.push(`- ${g[0]} — ${SITE.url}${g[1]}`)); lines.push(''); break;
       case 'trust': b.items.forEach(i => lines.push(`- ${strip(i[0])} ${strip(i[1])}`)); lines.push(''); break;
-      case 'clients': b.items.forEach(([n]) => lines.push(`- ${n}`)); lines.push(''); break;
       case 'cta': lines.push(`> **${strip(b.title)}** ${strip(b.text)} → ${SITE.url}${b.href || '/contact/'}`, ''); break;
       case 'form': lines.push(`_Enquiry form on the page. Agents: submit leads via ${SITE.url}/contact/ or WhatsApp ${SITE.wa}._`, ''); break;
     }
@@ -342,4 +314,4 @@ function mdInline(h) {
 }
 
 function shell() { const f = footer(); return { header: header({}), footer: f.slice(0, f.lastIndexOf('</body>')), gtmNoscript: `<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=${SITE.gtm}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>` }; }
-module.exports = { SITE, NAV, OLD_GUIDES, OLD_PAGES, renderPage, md, block, actions, ctaBand, esc, strip, slug, headOnly: head, shell, sideCta };
+module.exports = { SITE, NAV, OLD_GUIDES, OLD_PAGES, renderPage, md, block, actions, ctaBand, esc, strip, slug, headOnly: head, shell };

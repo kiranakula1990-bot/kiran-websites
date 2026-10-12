@@ -23,7 +23,7 @@ function header() {
 </header>
 <nav class="m-menu" id="m-menu" aria-label="Main menu">
   ${group('journeys')}${group('legal')}${group('property')}${group('realEstate')}${group('nri')}
-  <a href="/services/">All services</a><a href="/who-we-serve/">Who we serve</a><a href="/about/">About</a><a href="/resources/">Guides</a><a href="/blog.html">Blogs</a><a href="/contact/">Contact</a>
+  <a href="/services/">All services</a><a href="/who-we-serve/">Who we serve</a><a href="/about/">About</a><a href="/resources/">Guides</a><a href="/contact/">Contact</a>
   <div class="contact"><a class="btn btn-primary" href="/contact/#problem" data-cta="m_menu_problem">Tell us your property problem</a><a class="btn btn-wa" href="${SITE.wa}" target="_blank" rel="noopener" data-cta="m_menu_wa">WhatsApp ${SITE.phone1.display}</a></div>
 </nav>
 `;
@@ -37,9 +37,9 @@ function footer() {
   <details><summary>Developer services</summary>${list(NAV.realEstate.items)}</details>
   <details><summary>Property &amp; BBMP</summary>${list([...NAV.property.items, ...NAV.journeys.items])}</details>
   <details><summary>Guides &amp; pages</summary>${list([...OLD_GUIDES.map(g => [g[0], g[1]]), ...OLD_PAGES])}</details>
-  <div class="legal"><p>Marvel Consultants is a private professional services firm and is not affiliated with BBMP, BDA, Sub-Registrar offices or any government authority. We provide property documentation, process coordination and liaisoning services. Where an engagement requires a legal opinion, reserved legal work, litigation or court representation, such work is handled by enrolled advocates / associated legal counsel as applicable to the engagement. Government fees and statutory charges are separate from our professional fees, and approvals and outcomes remain subject to the concerned authority. Office hours 9 am – 7 pm; visits by appointment. Page last reviewed ${SITE.updated}.</p><p>© 2026 Marvel Consultants · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/career.html">Careers</a></p></div>
+  <div class="legal"><p>Marvel Consultants is a private professional services firm and is not affiliated with BBMP, BDA, Sub-Registrar offices or any government authority. We provide property documentation, process coordination and liaisoning services. Where an engagement requires a legal opinion, reserved legal work, litigation or court representation, such work is handled by enrolled advocates / associated legal counsel as applicable to the engagement. Government fees and statutory charges are separate from our professional fees, and approvals and outcomes remain subject to the concerned authority. Office hours 9 am – 7 pm; visits by appointment. Page last reviewed ${SITE.updated}.</p><p>© 2026 Marvel Consultants · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/career.html">Careers</a> · <a href="/sitemap.xml">Sitemap</a> · <a href="/llms.txt">llms.txt</a></p></div>
 </footer>
-${R.sideCta('m_')}<div class="mobile-bar"><a class="call" href="tel:${SITE.phone1.tel}" data-cta="m_sticky_call">Call</a><a class="wa" href="${SITE.wa}" target="_blank" rel="noopener" data-cta="m_sticky_wa">WhatsApp</a><a class="form-link" href="/contact/#problem" data-cta="m_sticky_form">Tell us your problem</a></div>
+<div class="mobile-bar"><a class="call" href="tel:${SITE.phone1.tel}" data-cta="m_sticky_call">Call</a><a class="wa" href="${SITE.wa}" target="_blank" rel="noopener" data-cta="m_sticky_wa">WhatsApp</a><a class="form-link" href="/contact/#problem" data-cta="m_sticky_form">Tell us your problem</a></div>
 <script src="/assets/js/v2.js" defer></script>
 </body>
 </html>
@@ -84,7 +84,6 @@ ${block(H.photo)}
 <section class="section"><div class="sec-head"><p class="eyebrow">${H.serve.eyebrow}</p><h2>${H.serve.h2}</h2><p>${H.serve.text}</p></div>${block(H.serve.ledger)}</section>
 <section class="section alt"><div class="sec-head"><p class="eyebrow">${H.how.eyebrow}</p><h2>${H.how.h2}</h2></div>${block(H.how.steps)}</section>
 <section class="section"><div class="sec-head"><p class="eyebrow">${H.why.eyebrow}</p><h2>${H.why.h2}</h2></div>${block(H.why.cards)}</section>
-<section class="section alt"><div class="sec-head"><p class="eyebrow">${H.clients.eyebrow}</p><h2>${H.clients.h2}</h2></div>${block(H.clients.list)}</section>
 <section class="section"><div class="sec-head"><p class="eyebrow">${H.expertise.eyebrow}</p><h2>${H.expertise.h2}</h2></div>${H.expertise.paras.map(t => `<p>${t}</p>`).join('')}<div class="faq"><details><summary>${H.expertise.values.title}</summary><div class="a"><p>${H.expertise.values.text}</p></div></details><details><summary>${H.expertise.brief.title}</summary><div class="a"><ul>${H.expertise.brief.items.map(([k, v]) => `<li><strong>${k}:</strong> ${v}</li>`).join('')}</ul></div></details></div></section>
 <section class="section alt"><div class="sec-head"><p class="eyebrow">${H.guides.eyebrow}</p><h2>${H.guides.h2}</h2><p>${H.guides.text}</p></div>${block(H.guides.list)}<p style="margin-top:1rem"><a class="btn btn-outline arrow" href="${H.guides.more.href}">${H.guides.more.label} </a></p></section>
 <section class="section"><div class="sec-head"><p class="eyebrow">${H.faq.eyebrow}</p><h2>${H.faq.h2}</h2></div>${block(H.faq.block)}</section>

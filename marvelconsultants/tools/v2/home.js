@@ -26,7 +26,7 @@ const HOME = {
   photo: { t: 'photo', img: 'hero', alt: 'Bengaluru city skyline in daylight', caption: 'Bengaluru — every file we handle is for a property or a project in this city.', credit: 'BBMP · BDA · Sub-Registrar · Revenue · BESCOM · BWSSB' },
   serve: { eyebrow: 'Core services', h2: 'Four verticals. One firm that knows the offices.', text: 'Legal-documentation coordination and government-facing execution under one engagement — for owners, buyers, NRIs and developers.',
     ledger: { t: 'ledger', rows: [
-      { ref: 'Legal services', img: 'legal', title: 'Property legal verification, documentation & registration', href: '/legal-services/', who: 'Property verification, title due diligence, drafting, deeds, POA, registration and dispute-support coordination.', items: [['Legal verification & title due diligence', '/legal-services/#verification'], ['Agreements & contracts', '/legal-services/#agreements'], ['Sale / gift / release / partition deeds', '/legal-services/#deeds'], ['Registration support', '/legal-services/#registration'], ['Power of attorney', '/legal-services/#poa'], ['Notices & dispute support', '/legal-services/#disputes']], go: 'Legal services' },
+      { ref: 'Legal services', img: 'property', title: 'Property legal verification, documentation & registration', href: '/legal-services/', who: 'Property verification, title due diligence, drafting, deeds, POA, registration and dispute-support coordination.', items: [['Legal verification & title due diligence', '/legal-services/#verification'], ['Agreements & contracts', '/legal-services/#agreements'], ['Sale / gift / release / partition deeds', '/legal-services/#deeds'], ['Registration support', '/legal-services/#registration'], ['Power of attorney', '/legal-services/#poa'], ['Notices & dispute support', '/legal-services/#disputes']], go: 'Legal services' },
       { ref: 'Property & BBMP', img: 'own', title: 'Khata, e-Khata, tax, corrections and municipal records', href: '/property/', who: 'Khata/e-Khata, tax, bifurcation, amalgamation, record corrections and municipal documentation.', items: [['BBMP e-Khata', '/bbmp-e-khata-services.html'], ['Khata transfer', '/property/khata-transfer/'], ['B Khata to A Khata', '/bbmp/b-khata-to-a-khata-conversion/'], ['Property tax', '/bbmp-property-tax-assessment-payment-bengaluru.html'], ['Document verification', '/property/document-verification/'], ['Fix a property problem', '/property/resolve/']], go: 'Property & BBMP' },
       { ref: 'Developer services', img: 'realestate', title: 'Approvals, project documentation, CC/OC and bulk Khata', href: '/real-estate/', who: 'Approvals, project documentation, CC/OC, bulk Khata work and government liaisoning at project scale.', items: [['BBMP & BDA plan approval', '/real-estate/bbmp-plan-approval/'], ['Project compliance & liaisoning', '/real-estate/project-compliance-liaison/'], ['Project documentation', '/real-estate/property-documentation/'], ['Khata & e-Khata for projects', '/bbmp-e-khata-services.html'], ['Property tax assessment', '/bbmp-property-tax-assessment-payment-bengaluru.html']], go: 'Developer services' },
       { ref: 'NRI services', img: 'nri', title: 'Remote documentation, POA and registration support', href: '/property/nri/', who: 'Remote property documentation, POA, due diligence, registration and post-registration support — without repeated travel.', items: [['NRI journey', '/property/nri/'], ['Remote due diligence', '/property/document-verification/'], ['POA support', '/legal-services/#poa'], ['Khata & e-Khata', '/bbmp-e-khata-services.html'], ['Property tax', '/bbmp-property-tax-assessment-payment-bengaluru.html']], go: 'NRI services' },
@@ -45,7 +45,6 @@ const HOME = {
     { title: 'Plain-language updates', text: 'Scope, dependencies, fees and realistic timelines explained before work starts. No jargon, no guarantees we cannot keep.' },
     { title: 'A named team', text: 'A 14-member team led by managing partners Sanjay Chintala and Kiran Akula, working across all BBMP zones and panchayat offices.' },
   ] } },
-  clients: { eyebrow: 'Our clients', h2: 'Trusted by developers and companies across Bengaluru', list: { t: 'clients', items: [['Sobha', 'sobha.png'], ['Pashmina Developers', 'pashmina.png'], ['IQVIA', 'iqvia.svg'], ['Penwriters'], ['General Electric', 'general-electric.svg'], ['Ajax Engineering', 'ajax-engineering.svg']] } },
   cases: { eyebrow: 'Case studies', h2: 'Project-scale execution, on the record.', text: 'Client names anonymised; details published with the developer\'s knowledge. Turnaround figures are completed-project results for Marvel-coordinated work; authority processing remains with the authority.',
     cards: { t: 'cards', items: [
       { title: '350-unit residential project', ref: 'e-Khata delivery', text: 'The developer required land e-Khata, Khata bifurcation and separate e-Khata records for all 350 units of a completed project. We reviewed the land and project documents, coordinated the land e-Khata, completed the bifurcation and managed each unit\'s e-Khata application. Delivered within a 45-day turnaround.', href: '/real-estate/', more: 'Developer services' },
@@ -116,11 +115,6 @@ ${block(H.photo)}
   ${block(H.why.cards)}
 </div></section>
 
-<section class="section clients-band"><div class="wrap">
-  <div class="sec-head"><p class="eyebrow">${H.clients.eyebrow}</p><h2>${H.clients.h2}</h2></div>
-  ${block(H.clients.list)}
-</div></section>
-
 <section class="section alt"><div class="wrap">
   <div class="sec-head"><p class="eyebrow">${H.cases.eyebrow}</p><h2>${H.cases.h2}</h2><p>${H.cases.text}</p></div>
   ${block(H.cases.cards)}
@@ -156,7 +150,6 @@ const HOME_MD_BLOCKS = [
   { t: 'h2', text: HOME.serve.h2 }, { t: 'p', html: HOME.serve.text }, HOME.serve.ledger,
   { t: 'h2', text: HOME.how.h2 }, HOME.how.steps,
   { t: 'h2', text: HOME.why.h2 }, HOME.why.cards,
-  { t: 'h2', text: HOME.clients.h2 }, HOME.clients.list,
   { t: 'h2', text: HOME.cases.h2 }, { t: 'p', html: HOME.cases.text }, HOME.cases.cards, HOME.trust,
   { t: 'p', html: `${HOME.reviews.text} <a href="${HOME.reviews.href}">${HOME.reviews.label}</a>` },
   { t: 'h2', text: HOME.expertise.h2 }, ...HOME.expertise.paras.map(t => ({ t: 'p', html: t })), { t: 'h3', text: HOME.expertise.values.title }, { t: 'p', html: HOME.expertise.values.text }, { t: 'h3', text: HOME.expertise.brief.title }, { t: 'ul', items: HOME.expertise.brief.items.map(([k, v]) => `<strong>${k}:</strong> ${v}`) },
