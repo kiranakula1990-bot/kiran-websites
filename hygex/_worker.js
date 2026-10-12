@@ -15,6 +15,9 @@ export default {
       return new Response(home.body, { status: 404, headers: home.headers });
     };
 
+    // 404.html exists only to switch Pages out of SPA mode; it was never a page on this site
+    if (path === '/404.html') return notFound();
+
     if (path.endsWith('/')) {                       // directory index
       const r = await asset(path);
       return r.status === 200 ? r : notFound();
