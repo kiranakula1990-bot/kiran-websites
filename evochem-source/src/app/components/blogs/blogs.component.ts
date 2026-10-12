@@ -1,6 +1,6 @@
-import { Component, Inject, OnDestroy, OnInit } from '@angular/core';
+import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DOCUMENT } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 
 interface Faq { q: string; a: string; }
 interface BlogMeta {
@@ -73,7 +73,8 @@ export class BlogsComponent implements OnInit, OnDestroy {
     ]
   };
 
-  constructor(private route: ActivatedRoute, @Inject(DOCUMENT) private document: Document) {}
+  constructor(private route: ActivatedRoute, @Inject(DOCUMENT) private document: Document,
+              @Inject(PLATFORM_ID) private platformId: Object) {}
 
   get currentFaqs(): Faq[] {
     return this.faqData[this.blogType] || [];
@@ -109,7 +110,9 @@ export class BlogsComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    window.scrollTo(0, 0);
+    if (isPlatformBrowser(this.platformId)) {
+      window.scrollTo(0, 0);
+    }
     this.route.params.subscribe(params => {
       this.blogType = params['type'] || this.blogType;
       this.injectFaqSchema();

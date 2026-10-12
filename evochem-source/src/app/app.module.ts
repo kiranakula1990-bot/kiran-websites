@@ -16,6 +16,7 @@ import { ToastrComponentlessModule, ToastrModule, ToastrService } from 'ngx-toas
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
+import { LandingComponent } from './components/landing/landing.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +28,9 @@ import { BlogsComponent } from './components/blogs/blogs.component';
     ProductComponent,
     ContactusComponent,
     SolutionsComponent,
-    BlogsComponent
-    
+    BlogsComponent,
+    LandingComponent
+
   ],
   imports: [
     BrowserModule,

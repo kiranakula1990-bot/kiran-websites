@@ -1,6 +1,7 @@
 [
     {
       "id": 1,
+      "slug": "commercial-building",
       "title": "Commercial Building",
       "image": "assets/image/CommercialBuildings.jpg",
       "alt": "Commercial-Buildings1",
@@ -38,6 +39,7 @@
     },
     {
       "id": 2,
+      "slug": "food-and-beverages-processing",
       "title": "Food And Beverages Processing",
       "image": "assets/image/FoodProcessing.jpg",
       "alt": "FoodProcessing",
@@ -99,6 +101,7 @@
     },
     {
       "id": 3,
+      "slug": "manufacturing-and-warehousing",
       "title": "Manufacturing and Warehousing",
       "image": "assets/image/Manufacturing&Warehouse.jpg",
       "alt": "Manufacturing&Warehouse",
@@ -142,6 +145,7 @@
     },
     {
       "id": 4,
+      "slug": "hospitality-and-food-service",
       "title": "Hospitality And Food Service",
       "image": "assets/image/Hospitality&FoodService.png",
       "alt": "Hospitality&FoodService",
@@ -198,6 +202,7 @@
     },
     {
       "id": 5,
+      "slug": "health-care-facility",
       "title": "Health Care Facility",
       "image": "assets/image/HealthCareFacility.jpg",
       "alt": "HealthCareFacility",
@@ -241,6 +246,7 @@
     },
     {
       "id": 6,
+      "slug": "commercial-laundries",
       "title": "Commercial Laundries",
       "image": "assets/image/CommercialLaundries.jpg",
       "alt": "CommercialLaundries",

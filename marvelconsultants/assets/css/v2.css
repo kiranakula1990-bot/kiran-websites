@@ -80,6 +80,8 @@ strong{color:var(--ink)}
   .nav-toggle{display:block}
   .nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--paper);border-bottom:1px solid var(--rule);flex-direction:column;align-items:stretch;padding:.5rem 20px 1rem;box-shadow:var(--shadow)}
   .nav.open{display:flex}
+  /* the menu hangs off the sticky header, so it must scroll itself or the lower service groups can't be reached (116px = top bar + header; 5rem clears the mobile bottom bar) */
+  .nav.open{max-height:calc(100vh - 116px);max-height:calc(100dvh - 116px);overflow-y:auto;overscroll-behavior:contain;padding-bottom:5rem}
   .menu,.menu.menu4{position:static;display:none;min-width:0;grid-template-columns:1fr;grid-template-columns:1fr;box-shadow:none;border:0;border-left:2px solid var(--rule);border-radius:0;padding:.25rem 0 .5rem .75rem;margin:0 0 .5rem .8rem}
   .nav-cta{margin:.5rem 0 0}
 }

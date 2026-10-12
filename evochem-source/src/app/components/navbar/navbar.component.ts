@@ -52,7 +52,7 @@ export class NavbarComponent {
       .subscribe(() => {
         // Check for fragment in URL after navigation
         const fragment = this.route.snapshot.fragment;
-        if (fragment) {
+        if (fragment && typeof document !== 'undefined') {
           // Delay to ensure the DOM is fully rendered
           setTimeout(() => {
             const element = document.getElementById(fragment);
@@ -74,7 +74,7 @@ export class NavbarComponent {
   
   navigateToCatgory(industry: any)
   {
-    this.router.navigate(['/categories', industry.id]);
+    this.router.navigate(['/categories', industry.slug]);
   }
 
   navigateToSolutions(solution: string)

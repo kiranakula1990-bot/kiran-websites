@@ -59,7 +59,7 @@ jobs:
         working-directory: evochem-source
         run: |
           npm ci
-          npx ng build --configuration production
+          npm run build -- --configuration production   # runs prebuild, which regenerates routes.txt for prerendering
           # copy build output over the deploy folder, keep _redirects
           rsync -a --delete --exclude _redirects dist/evochem/browser/ ../evochem/
 

@@ -6,6 +6,7 @@ import { ProductComponent } from './components/product/product.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { SolutionsComponent } from './components/solutions/solutions.component';
 import { BlogsComponent } from './components/blogs/blogs.component';
+import { LandingComponent } from './components/landing/landing.component';
 
 const routes: Routes = [
   {
@@ -65,6 +66,11 @@ const routes: Routes = [
       description: 'Expert cleaning tips, hygiene insights and industry guidance from Evochem, a leading cleaning chemical manufacturer in India.'
     }
   },
+  // Keyword landing pages (SEO priority brief, Oct 2026). Head tags come from seo/landing-pages.ts.
+  { path: 'food-processing-cleaning-chemicals', component: LandingComponent, data: { landing: 'food-processing-cleaning-chemicals' } },
+  { path: 'commercial-kitchen-cleaning-chemicals', component: LandingComponent, data: { landing: 'commercial-kitchen-cleaning-chemicals' } },
+  { path: 'cip-cleaning-chemicals', component: LandingComponent, data: { landing: 'cip-cleaning-chemicals' } },
+  { path: 'cleaning-chemicals-manufacturer-bangalore', component: LandingComponent, data: { landing: 'cleaning-chemicals-manufacturer-bangalore' } },
   { path: '**', redirectTo: '' } // Wildcard route for 404
 ];
 

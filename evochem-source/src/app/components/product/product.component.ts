@@ -31,8 +31,8 @@ export class ProductComponent implements OnInit, AfterViewInit {
   constructor(private route: ActivatedRoute, private dataService: DataService, @Inject(PLATFORM_ID) private platformId: Object, private router: Router) {
 
     this.productId = this.route.snapshot.paramMap.get('productId');
-    this.industryId = this.route.snapshot.paramMap.get('solution');
-    this.solutionType = this.route.snapshot.paramMap.get('solutionType');
+    this.industryId = this.navState('solution');
+    this.solutionType = this.navState('solutionType');
 
    // console.log("print code: " + this.industryId)
   /*  this.dataService.getIndustries().subscribe(val=>{
@@ -67,6 +67,13 @@ export class ProductComponent implements OnInit, AfterViewInit {
 
   }
 
+  // breadcrumb context set by category/solutions pages via router state (absent on direct loads)
+  private navState(key: string): string | null {
+    const state = this.router.getCurrentNavigation()?.extras?.state
+      ?? (isPlatformBrowser(this.platformId) ? history.state : null);
+    return state?.[key] != null ? String(state[key]) : null;
+  }
+
   industryId: string | null = null;
   solutionType: string | null = null;
 
@@ -98,7 +105,7 @@ export class ProductComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     
     this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
+      if (event instanceof NavigationEnd && isPlatformBrowser(this.platformId)) {
         // This will refresh the component
         //window.location.reload();
         window.scrollTo(0, 0); // Scroll to the top of the page
@@ -107,8 +114,8 @@ export class ProductComponent implements OnInit, AfterViewInit {
 
     this.route.params.subscribe(params =>{
       this.productId = this.route.snapshot.paramMap.get('productId');
-      this.industryId = this.route.snapshot.paramMap.get('solution');
-      this.solutionType = this.route.snapshot.paramMap.get('solutionType');
+      this.industryId = this.navState('solution');
+      this.solutionType = this.navState('solutionType');
       this.initializeProduct();
     })
 

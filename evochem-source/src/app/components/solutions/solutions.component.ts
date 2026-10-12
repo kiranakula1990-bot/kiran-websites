@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { DataService } from '../../services/data.service';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 
@@ -16,10 +17,11 @@ export class SolutionsComponent implements OnInit{
   solutions: any[] = [];
 
 
-  constructor(private dataService: DataService, private route: ActivatedRoute, private router: Router)
+  constructor(private dataService: DataService, private route: ActivatedRoute, private router: Router,
+              @Inject(PLATFORM_ID) private platformId: Object)
   {
     this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
+      if (event instanceof NavigationEnd && isPlatformBrowser(this.platformId)) {
         // This will refresh the component
         //window.location.reload();
         window.scrollTo(0, 0); // Scroll to the top of the page
@@ -94,7 +96,7 @@ export class SolutionsComponent implements OnInit{
 
   goToProductPage(product: any) {
     const formattedCode = this.formatCode(product.code);
-    this.router.navigate(['/product', formattedCode , { solutionType : this.selectedSolutionType.id }]);
+    this.router.navigate(['/product', formattedCode], { state: { solutionType: this.selectedSolutionType.id } });
   }
 
   selectSolutionFromLabel(selectedTitle: string) {

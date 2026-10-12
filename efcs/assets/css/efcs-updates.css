@@ -1,0 +1,523 @@
+/* EFCS website changes (Oct 2026) — loaded after style.css and bootstrap so these rules win.
+   Brand colours reused from style.css: #50735f (green), #102f1c (dark green), #4b5b68 (text). */
+
+/* ---------- Header: social top bar + logo and nav on one line ---------- */
+.page-header-topbar {
+    background: #102f1c;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+.page-header-topbar .topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 42px;
+}
+.page-header-topbar .topbar-social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.page-header-topbar a {
+    color: #fff;
+}
+.page-header-topbar a:hover {
+    color: #b9d3c3;
+}
+.page-header-topbar .topbar-social a {
+    font-size: 16px;
+    line-height: 1;
+}
+.page-header-topbar .topbar-phone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+    background: #50735f;
+    align-self: stretch;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.page-header-topbar .topbar-phone i {
+    font-size: 15px;
+}
+.efcs-header .page-header-menu {
+    border-top: none;
+    flex: 1;
+}
+.efcs-header .page-header-div {
+    border-bottom: 3px solid #50735f;
+}
+.efcs-header .header-main {
+    padding: 8px 0;
+    gap: 10px;
+}
+.efcs-header .header-main .logo {
+    flex: 0 0 auto;
+    max-width: 200px;
+}
+.efcs-header .header-main .logo img {
+    height: 50px;
+    max-width: 100%;
+}
+.efcs-header .btn-phoneviewitem {
+    flex: 0 0 auto;
+}
+.efcs-header .quote-button-wrap {
+    margin: 0 0 0 6px;
+}
+@media (min-width: 768px) {
+    .efcs-header .menu {
+        justify-content: flex-end;
+    }
+    .efcs-header .menu > li > a,
+    .efcs-header .menu > li:first-child > a {
+        padding: 15px 13px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 1200px) {
+    .efcs-header .menu > li > a,
+    .efcs-header .menu > li:first-child > a {
+        padding: 15px 20px;
+    }
+}
+/* Tablet: the full menu no longer fits next to the logo, so use the mobile menu */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .efcs-header .page-header-menu {
+        display: none !important;
+    }
+    .efcs-header .menubar-phone {
+        display: block;
+    }
+    .efcs-header .menubar-phone i {
+        font-size: 25px;
+        color: #50735f;
+    }
+    .efcs-header .header-main {
+        justify-content: space-between;
+    }
+}
+@media (max-width: 767.98px) {
+    .efcs-header.page-header {
+        position: relative;
+    }
+    .efcs-header .header-main .logo img {
+        height: 40px;
+    }
+    .page-header-topbar {
+        font-size: 13px;
+    }
+    .page-header-topbar .topbar-inner {
+        min-height: 36px;
+    }
+    .page-header-topbar .topbar-social {
+        gap: 13px;
+    }
+    .page-header-topbar .topbar-phone {
+        font-size: 13px;
+        padding: 0 12px;
+    }
+    .page-header-topbar .topbar-label,
+    .page-header-topbar .topbar-phone .phone-2,
+    .page-header-topbar .topbar-phone .phone-sep {
+        display: none;
+    }
+}
+.page-header.sticky .page-header-div {
+    left: 0;
+}
+
+/* ---------- Justified paragraphs (desktop and mobile) ---------- */
+p,
+.services-circle-item .description,
+.service_sectionpage .services-circle-item .description-p,
+.legal-page li {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+/* blocks that were centred keep their centred look on the last line */
+.text-center,
+.how-works p,
+.cta-section .cta-content p,
+.newsletter-wrap p,
+.get-banner-text p,
+.testimonial-item-inside p,
+.serviceslink .description-p,
+.page-banner p,
+.feature-wrapper > .feature-image p {
+    text-align-last: center;
+}
+.feature-text.text-right p {
+    text-align-last: right;
+}
+.footer-section p,
+.pbmit-post-item .pbmit-content-wrapper .pbmit-post-para,
+.post-meta,
+.contact-card p,
+.modal p {
+    text-align: left;
+    text-align-last: auto;
+}
+
+/* ---------- Home hero buttons: make the text readable ---------- */
+.introduction_slider .hero-cta-buttons .btn-white {
+    background: #fff;
+    color: #102f1c;
+    border: 2px solid #fff;
+    font-weight: 600;
+    padding: 10px 26px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+.introduction_slider .hero-cta-buttons .btn-white + .btn-white {
+    background: #50735f;
+    border-color: #50735f;
+    color: #fff;
+}
+.introduction_slider .hero-cta-buttons .btn-white:hover {
+    background: #102f1c;
+    border-color: #102f1c;
+    color: #fff;
+}
+@media (max-width: 768.98px) {
+    .introduction_slider .hero-cta-buttons {
+        margin-top: 8px;
+        gap: 8px;
+    }
+    .introduction_slider .hero-cta-buttons .btn-white {
+        font-size: 12px;
+        padding: 6px 14px;
+    }
+}
+
+/* ---------- Services scroller on the home page ---------- */
+.services-scroller {
+    position: relative;
+    margin: 60px 0 30px;
+    padding: 0 50px;
+}
+.services-scroller .swiper-services {
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.services-scroller .services-circle-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 10px 10px 0;
+}
+.services-scroller .services-circle-item-img {
+    display: block;
+}
+.services-scroller .services-circle-item-title {
+    text-align: center;
+    background: transparent;
+}
+.services-scroller .services-circle-item .description {
+    text-align: justify;
+    text-align-last: center;
+}
+.services-scroller .swiper-button-prev,
+.services-scroller .swiper-button-next {
+    top: 140px;
+}
+.services-scroller .swiper-button-prev {
+    left: 0;
+}
+.services-scroller .swiper-button-next {
+    right: 0;
+}
+.services-scroller .swiper-button-next:after,
+.services-scroller .swiper-button-prev:after {
+    color: #fff;
+}
+@media (max-width: 1024.98px) {
+    .services-scroller .swiper-button-prev,
+    .services-scroller .swiper-button-next {
+        top: 120px;
+    }
+}
+@media (max-width: 993px) {
+    .services-scroller .swiper-button-prev,
+    .services-scroller .swiper-button-next {
+        background: #50735f;
+    }
+}
+@media (max-width: 550.98px) {
+    .services-scroller {
+        padding: 0 36px;
+        margin-top: 30px;
+    }
+    .services-scroller .swiper-button-prev,
+    .services-scroller .swiper-button-next {
+        top: 90px;
+    }
+}
+
+/* ---------- Service pages: centred FAQ ---------- */
+.service_sectionpage .faqsection .link-section {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+
+/* ---------- Enquiry form (popup): centred title and a fresher look ---------- */
+#exampleModal .modal-content {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(16, 47, 28, 0.3);
+}
+#exampleModal .modal-header {
+    background: #50735f;
+    border-bottom: none;
+    padding: 16px 20px;
+}
+#exampleModal .modal-header .modal-title {
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+#exampleModal .modal-header .btn-close {
+    filter: invert(1) grayscale(1) brightness(2);
+    opacity: 0.9;
+    margin: 0;
+}
+#exampleModal .modal-body {
+    padding: 22px 24px 24px;
+}
+#exampleModal .contact-form label {
+    font-weight: 600;
+    color: #102f1c;
+    font-size: 15px;
+    margin: 10px 0 5px;
+}
+#exampleModal .contact-form label .req {
+    color: #c0392b;
+    margin-left: 2px;
+}
+#exampleModal .contact-form input,
+#exampleModal .contact-form select {
+    font-size: 15px;
+    color: #102f1c;
+    border: 1px solid #c9d8ce;
+    border-radius: 8px;
+    background: #f7faf8;
+}
+#exampleModal .contact-form input:focus,
+#exampleModal .contact-form select:focus {
+    border-color: #50735f;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(80, 115, 95, 0.2);
+    outline: none;
+}
+#exampleModal .contact-form button[type="submit"] {
+    background: #50735f;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 8px;
+    margin-top: 18px;
+    text-transform: uppercase;
+}
+#exampleModal .contact-form button[type="submit"]:hover {
+    background: #102f1c;
+}
+.form-hint {
+    display: block;
+    font-size: 12px;
+    color: #6b7785;
+    margin-top: 3px;
+}
+input:user-invalid,
+select:user-invalid {
+    border-color: #c0392b !important;
+}
+
+/* ---------- Page banner with the page title ---------- */
+.page-banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+/* blog posts: the featured image is a real <img> (kept for image search) laid out like a background */
+.page-banner .page-banner-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page-banner .page-banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(16, 47, 28, 0.55), rgba(16, 47, 28, 0.75));
+}
+.page-banner .page-banner-content {
+    position: relative;
+    z-index: 1;
+    padding: 50px 15px;
+}
+.page-banner .page-banner-title {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0 auto;
+    max-width: 1000px;
+    line-height: 1.25;
+}
+.page-banner .page-banner-breadcrumb {
+    font-size: 15px;
+    color: #e6efe9;
+}
+.page-banner .page-banner-breadcrumb a {
+    color: #fff;
+}
+.page-banner .page-banner-breadcrumb a:hover {
+    text-decoration: underline !important;
+}
+.page-banner .page-banner-breadcrumb .sep {
+    margin: 0 8px;
+    opacity: 0.8;
+}
+.page-banner--post {
+    min-height: 400px;
+}
+@media (max-width: 767.98px) {
+    .page-banner {
+        min-height: 190px;
+    }
+    .page-banner--post {
+        min-height: 260px;
+    }
+    .page-banner .page-banner-title {
+        font-size: 24px;
+    }
+    .page-banner .page-banner-content {
+        padding: 35px 15px;
+    }
+    .page-banner .page-banner-breadcrumb {
+        font-size: 13px;
+    }
+}
+.page-banner ~ .service_sectionpage {
+    margin-top: 40px;
+}
+.blog_sectionpage .blogpagesection {
+    margin-top: 50px;
+}
+.contact-section .contact-ussection {
+    padding-top: 40px;
+}
+.legal-page {
+    padding-top: 40px;
+}
+/* blog posts: the featured image now lives in the banner, keep the text in a readable column */
+.blog_sectionpage .bog-detailpage {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 15px 10px;
+}
+
+/* ---------- Footer copyright bar ---------- */
+.footer-section {
+    padding-bottom: 0;
+}
+.footer-copyright {
+    margin-top: 30px;
+    padding: 14px 15px;
+    border-top: 1px solid #dfe6e2;
+    text-align: center;
+    font-size: 14px;
+    color: #4b5b68;
+}
+.footer-copyright p {
+    margin: 0;
+    text-align: center;
+    text-align-last: center;
+}
+@media (max-width: 767.98px) {
+    .footer-copyright {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+/* ---------- Contact page: highlighted contact details ---------- */
+.contact-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+    margin: 20px 0 25px;
+}
+.contact-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: #fff;
+    border: 1px solid #dbe5de;
+    border-left: 4px solid #50735f;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 6px 18px rgba(16, 47, 28, 0.06);
+}
+.contact-card .contact-card-icon {
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #50735f;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.contact-card .contact-card-label {
+    font-weight: 600;
+    color: #102f1c;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+.contact-card .contact-card-text {
+    color: #4b5b68;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+.contact-card .contact-card-text a {
+    color: #4b5b68;
+}
+.contact-card .contact-card-text a:hover {
+    color: #50735f;
+}
+@media (max-width: 575.98px) {
+    .contact-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ---------- New About / FAQ pages ---------- */
+.standalone-page .Aboutus {
+    padding-top: 50px;
+}
+.standalone-page .faqsection {
+    margin-top: 50px;
+}

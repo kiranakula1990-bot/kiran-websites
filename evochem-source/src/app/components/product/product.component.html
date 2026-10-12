@@ -14,8 +14,8 @@
                         <nav class="bradcmS" aria-label="Breadcrumb">
                             <ol class="breadcrumb-list">
                                 <li><a [routerLink]="['/']" class="breadcrumb-link se1">Home</a></li>
-                                <li *ngIf="selectedIndustry"><a [routerLink]="['/categories/' + selectedIndustry.id]" class="breadcrumb-link se1">{{selectedIndustry?.title}}</a></li>
-                                <li *ngIf="selectedSolutionType"><a [routerLink]="['/solutions/' + selectedSolutionType.id]" class="breadcrumb-link se1">{{selectedSolutionType?.title}}</a></li>
+                                <li *ngIf="selectedIndustry"><a [routerLink]="['/categories', selectedIndustry.slug]" class="breadcrumb-link se1">{{selectedIndustry?.title}}</a></li>
+                                <li *ngIf="selectedSolutionType"><a [routerLink]="['/solutions', selectedSolutionType.code]" class="breadcrumb-link se1">{{selectedSolutionType?.title}}</a></li>
                                 <li><span class="breadcrumb-link breadcrumb-link-last" aria-current="page">{{selectedProduct?.title}}</span></li>
                             </ol>
                         </nav>

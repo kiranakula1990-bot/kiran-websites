@@ -84,7 +84,9 @@ export class CategoryComponent {
   setSelectedIndustry(id: any) {
    
   
-    this.selectedIndustry = this.industries.find(industry => industry.id + "" === id + "");
+    // Accepts the slug (/categories/food-and-beverages-processing) or the legacy numeric id (/categories/2).
+    this.selectedIndustry = this.industries.find(industry => industry.slug === id || industry.id + "" === id + "")
+      || this.industries[0];
     //console.log("selectd category: " + JSON.stringify(this.selectedIndustry.categories));
     this.selectCategory(this.selectedIndustry.categories[0]);
    
@@ -92,7 +94,8 @@ export class CategoryComponent {
   }
 
   navigateToIndustry(id: any) {
-      this.router.navigate(['../'+ id], { relativeTo: this.route });
+      const industry = this.industries.find(i => i.id + "" === id + "");
+      this.router.navigate(['/categories', industry?.slug || id]);
   }
 
 
@@ -124,6 +127,7 @@ export class CategoryComponent {
 
   goToProductPage(product: any) {
     const formattedCode = this.formatCode(product.code);
-    this.router.navigate(['/product', formattedCode , { solution: this.selectedIndustry.id }]);
+    // pass the selection as navigation state, not matrix params, so the URL stays /product/<code>
+    this.router.navigate(['/product', formattedCode], { state: { solution: this.selectedIndustry.id } });
   }
 }
