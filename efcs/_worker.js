@@ -27,9 +27,9 @@ export default {
       const r = await asset(path.slice(0, -'.html'.length));
       return r.status === 200 ? r : notFound();
     }
-    if (!last.includes('.')) {                      // /dir -> /dir/ if it is a folder, else 404 (as S3)
+    if (!last.includes('.')) {                      // /dir -> 302 /dir/ if it is a folder, else 404 (exactly as S3)
       const dir = await asset(path + '/');
-      return dir.status === 200 ? Response.redirect(url.origin + path + '/' + url.search, 301) : notFound();
+      return dir.status === 200 ? Response.redirect(url.origin + path + '/' + url.search, 302) : notFound();
     }
     const r = await env.ASSETS.fetch(request);      // css, js, images, xml, txt ...
     return r.status === 200 ? r : notFound();
