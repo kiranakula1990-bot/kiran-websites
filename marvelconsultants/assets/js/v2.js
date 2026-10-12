@@ -67,7 +67,7 @@
       };
       var btn = form.querySelector('button[type="submit"]');
       btn.disabled = true; status.className = 'status'; status.textContent = 'Sending…';
-      fetch('https://test.glintcloudshops.com/api/sendEmail', {
+      fetch('https://psdiw5luaqoyb3pcxljybzw6j40sqgve.lambda-url.ap-south-1.on.aws/', {
         method: 'POST', headers: { 'Content-Type': 'application/json', 'x-tenant': 'default-t' }, body: JSON.stringify(payload)
       }).then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
