@@ -1,18 +1,36 @@
-// Enquiry form -> glint-email-relay Lambda (same request body as the old /api/sendEmail).
+// Enquiry forms -> glint-email-relay Lambda (same request body as the old /api/sendEmail).
 // Include with: <script src="/assets/js/lead-form.js" data-subject="Hygex Website Enquiry" defer></script>
-// The form posted to /main/sendEnquery, which never existed on the static site.
+// Handles the "Get A Quote" modal (#enquery_request3, which posted to /main/sendEnquery that never existed)
+// and the contact page form (.row.gx-3, whose fields have no names so it only reloaded the page).
 (function () {
   var script = document.currentScript;
   var subject = (script && script.getAttribute('data-subject')) || 'Website Enquiry';
   var ENDPOINT = 'https://psdiw5luaqoyb3pcxljybzw6j40sqgve.lambda-url.ap-south-1.on.aws/';
   var TEMPLATE = 'https://glintcloudshopuploads.s3.ap-south-1.amazonaws.com/templates/Ennvintemplate.html';
 
+  // Read fields by type/placeholder, since one of the forms has no name/id attributes.
+  function collect(form) {
+    var d = { fullName: '', mobileNumber: '', email: '', message: '' }, extra = [];
+    var fields = form.querySelectorAll('input, textarea, select');
+    for (var i = 0; i < fields.length; i++) {
+      var el = fields[i], v = (el.value || '').trim();
+      var key = ((el.id || '') + ' ' + (el.name || '') + ' ' + (el.placeholder || '')).toLowerCase();
+      if (!v || el.type === 'submit' || el.type === 'hidden' || el.type === 'button') continue;
+      if (el.type === 'email' || /email/.test(key)) d.email = v;
+      else if (el.type === 'tel' || /mobile|phone|number/.test(key)) d.mobileNumber = v;
+      else if (el.tagName === 'TEXTAREA' || /message/.test(key)) d.message = v;
+      else if (!d.fullName && /name/.test(key) && !/business|company/.test(key)) d.fullName = v;
+      else extra.push((el.placeholder || el.name || 'Field') + ': ' + v);
+    }
+    if (extra.length) d.message = extra.join(' | ') + (d.message ? '\n\n' + d.message : '');
+    return d;
+  }
+
   function wire(form) {
     form.setAttribute('action', '#');
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var val = function (id) { var el = form.querySelector('#' + id); return el ? el.value.trim() : ''; };
-      var btn = form.querySelector('[type=submit]');
+      var btn = form.querySelector('[type=submit], button:not([type=button])');
       if (btn) { btn.disabled = true; btn.dataset.label = btn.innerHTML; btn.innerHTML = 'Sending...'; }
       fetch(ENDPOINT, {
         method: 'POST',
@@ -21,7 +39,7 @@
           recipientEmail: 'info@ennwin.in',
           subject: subject + ' (' + location.hostname + location.pathname + ')',
           templateURl: TEMPLATE,
-          templateData: { fullName: val('name'), mobileNumber: val('number'), email: val('email'), message: val('message') }
+          templateData: collect(form)
         })
       }).then(function (r) {
         if (!r.ok) throw new Error(r.status);
@@ -35,6 +53,6 @@
     });
   }
 
-  var forms = document.querySelectorAll('form#enquery_request3, form[action="/main/sendEnquery"]');
+  var forms = document.querySelectorAll('form#enquery_request3, form[action="/main/sendEnquery"], form.row.gx-3');
   for (var i = 0; i < forms.length; i++) wire(forms[i]);
 })();
