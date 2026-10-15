@@ -1,4 +1,4 @@
-// Cloudflare Pages advanced-mode worker (_worker.js): serve URLs exactly like the old S3 website + CloudFront.
+﻿// Cloudflare Pages advanced-mode worker (_worker.js): serve URLs exactly like the old S3 website + CloudFront.
 // Copied into each static site folder (see _shared/README). Pages' own HTML handling differs from S3:
 //   Pages: /page.html -> 308 /page, /page -> page.html, missing page -> 200 (no 404.html) or 404.html
 //   S3:    /page.html -> 200,       /page -> 404,        /dir -> 302 /dir/, missing page -> 404 with index.html body
@@ -63,6 +63,10 @@ export default {
       return new Response(home.body, { status: 404, headers: h });
     };
 
+    // Redirect replaced khata-transfer article to its new canonical URL
+    if (path === '/blog/khata-transfer-after-registration-bangalore.html') {
+      return Response.redirect(url.origin + '/blog/khata-transfer-after-sale-deed-bangalore.html' + url.search, 301);
+    }
     // 404.html exists only to switch Pages out of SPA mode; it was never a page on this site
     if (path === '/404.html') return notFound();
 
@@ -88,3 +92,5 @@ export default {
     return r.status === 200 || r.status === 304 || r.status >= 500 ? r : notFound(); // 304 = cache/browser revalidation
   },
 };
+
+
