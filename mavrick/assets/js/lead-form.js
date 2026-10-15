@@ -5,7 +5,7 @@
 (function () {
   var script = document.currentScript;
   var subject = (script && script.getAttribute('data-subject')) || 'Website Enquiry';
-  var ENDPOINT = 'https://psdiw5luaqoyb3pcxljybzw6j40sqgve.lambda-url.ap-south-1.on.aws/';
+  var ENDPOINT = '/api/contact';
   var TEMPLATE = 'https://glintcloudshopuploads.s3.ap-south-1.amazonaws.com/templates/Ennvintemplate.html';
 
   // Read fields by type/placeholder, since one of the forms has no name/id attributes.

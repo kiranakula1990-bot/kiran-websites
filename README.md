@@ -61,10 +61,15 @@ header/menu, broken characters and the old CSS that pushes images off the screen
 5. Open the page at phone width before pushing: nothing should scroll sideways.
 
 ## Contact forms (leads)
-All forms post to the `glint-email-relay` Lambda (Glint AWS account), not the old backend.
-Evochem's form posts to its own `/api/contact` (in `evochem/_worker.js`), which relays to the Lambda server-side.
-Hygex/Mavrick use `assets/js/lead-form.js` (source: `_shared/lead-form.js`) → info@ennwin.in.
-A new recipient address must be added to the Lambda's allowlist first.
+Every form posts to its own site's `/api/contact` (same origin), never to AWS directly. The site's `_worker.js`
+checks the request came from that site, forces the site's inbox and email template (`RELAY_SITES` in the worker;
+Evochem has its own handler in `evochem/_worker.js`) and calls the `glint-email-relay` Lambda (Glint AWS account)
+server-side with the `x-relay-key` header, read from the Pages secret `RELAY_KEY` (set on every project).
+- efcs → vinesh@efcs.co.in · ennwin, hygex, mavrick, evochem → info@ennwin.in · marvelconsultants → info@marvelconsultants.co.in
+- Hygex/Mavrick use `assets/js/lead-form.js` (source: `_shared/lead-form.js`).
+- New form code: post the usual body (`recipientEmail, subject, templateURl, templateData`) to `/api/contact`.
+- A new inbox must be added to the Lambda's allowlist and to `RELAY_SITES` first.
+- Changing the key: update `RELAY_KEY` on all Pages projects, redeploy them, then update the Lambda's env.
 
 ## Local deploy (fallback, no GitHub needed)
 ```
