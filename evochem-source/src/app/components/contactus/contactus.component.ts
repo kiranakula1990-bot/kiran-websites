@@ -12,11 +12,12 @@ import { ToastrService } from 'ngx-toastr';
 export class ContactusComponent {
 
 
-  private apiUrl = 'https://test.glintcloudshops.com/api/sendEmail';
-  private recipientEmail = 'info@ennwin.in'; // Replace with actual recipient email
-  private templateUrl = 'https://evochem.co.in/assets/templates/contactus.html'; // Replace with the actual URL
+  // Same-origin endpoint in evochem/_worker.js; it validates the form and relays it to the email Lambda
+  // server-side, so the browser never sees the AWS URL, recipient or template.
+  private apiUrl = '/api/contact';
 
   contactForm: FormGroup;
+  sending = false;
 
   constructor(private fb: FormBuilder, private http: HttpClient, private toastr: ToastrService) {
     this.contactForm = this.fb.group({
@@ -25,7 +26,8 @@ export class ContactusComponent {
       mobileNumber: ['', [Validators.required, Validators.pattern(/^[0-9]{10}$/)]],
       message: ['', Validators.required],
       businessName: [''],
-      industry: ['']
+      industry: [''],
+      website: [''] // honeypot
     });
   }
 
@@ -39,17 +41,20 @@ export class ContactusComponent {
 
   onSubmit() {
     this.submitAttempted = true;
-    if (this.contactForm.valid) {
+    if (this.contactForm.valid && !this.sending) {
       const formData: FormData = this.contactForm.value;
-      console.log('Form Data: ', formData);
+      this.sending = true;
 
       this.sendEmail(formData).subscribe({
         next: () => {
+          this.sending = false;
           this.toastr.success('Your message has been sent successfully!', 'Success');
           this.contactForm.reset(); // Clear the form after successful submission
+          this.submitAttempted = false;
         },
         error: (error) => {
-          console.error('Error sending message:', error);
+          this.sending = false;
+          console.error('Error sending message:', error.status);
           this.toastr.error('There was an error sending your message. Please try again later.', 'Error');
         }
       });
@@ -60,20 +65,8 @@ export class ContactusComponent {
   }
 
   sendEmail(formData: FormData): Observable<any> {
-    const emailRequest = {
-      recipientEmail: this.recipientEmail,
-      subject: 'Customer Enquiry From Evochem website',
-      htmlS3FileId: 0, // Replace with actual S3 file ID
-      templateURl: this.templateUrl,
-      templateData: formData
-    };
-
-    const headers = new HttpHeaders({
-      'Content-Type': 'application/json',
-      'x-tenant': 'default-t'
-    });
-
-    return this.http.post(this.apiUrl, JSON.stringify(emailRequest), { headers });
+    const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    return this.http.post(this.apiUrl, JSON.stringify(formData), { headers });
   }
 
  
@@ -87,4 +80,5 @@ export interface FormData {
   businessName: string;
   industry: string;
   message: string;
+  website: string;
 }

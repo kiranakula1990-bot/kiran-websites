@@ -1,0 +1,61 @@
+<ng-container *ngIf="index">
+<div class="page-title-default" [ngStyle]="{'background-image': 'url(\'' + index.banner + '\')'}">
+    <div class="overlay"></div>
+    <div class="container text-banner">
+        <h1 class="entry-title title">{{ index.h1 }}</h1>
+        <p class="p2-text" style="color:white">{{ index.tagline }}</p>
+    </div>
+</div>
+
+<div class="container pb-5">
+
+    <div class="blog-section">
+        <div class="wpb_wrapper-des">
+            <nav class="cp-breadcrumb" aria-label="Breadcrumb">
+                <ol class="breadcrumb-list">
+                    <li><a routerLink="/">Home</a></li>
+                    <li><span class="breadcrumb-link-last" aria-current="page">{{ index.name }}</span></li>
+                </ol>
+            </nav>
+            <p class="p2-text" *ngFor="let para of index.intro">{{ para }}</p>
+
+            <!-- /products/: every category with all of its products -->
+            <ng-container *ngFor="let group of groups">
+                <h2 class="h2-heading cp-group-heading"><a [routerLink]="groupPath(group)">{{ groupLabel[group.id] }}</a></h2>
+                <p class="p2-text">{{ group.description }}</p>
+                <p class="p2-text"><a [routerLink]="groupPath(group)">View the {{ groupLabel[group.id] | lowercase }} range →</a></p>
+                <ul class="cp-products">
+                    <li *ngFor="let p of group.products">
+                        <a [routerLink]="productPath(p.slug)" class="cp-product">
+                            <img [src]="p.thumbnail || 'assets/image/productcate1.png'" [alt]="p.title + ' (' + p.code + ')'" width="120" height="120" loading="lazy">
+                            <span class="cp-product__body">
+                                <span class="cp-product__code">{{ p.code }}</span>
+                                <span class="cp-product__title">{{ p.title }}</span>
+                                <span class="cp-product__desc">{{ p.details.description }}</span>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </ng-container>
+
+            <ul *ngIf="cards.length" class="cp-cards">
+                <li *ngFor="let card of cards">
+                    <a [routerLink]="card.path" class="cp-card">
+                        <img [src]="card.image" [alt]="card.title" width="480" height="270" loading="lazy">
+                        <span class="cp-card__body">
+                            <span *ngIf="card.eyebrow" class="cp-card__eyebrow">{{ card.eyebrow }}</span>
+                            <span class="cp-card__title">{{ card.title }}</span>
+                            <span class="cp-card__text">{{ card.text }}</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <h2 class="h2-heading">Need help choosing?</h2>
+            <p class="p2-text">Tell us about your site, soils and volumes and our technical team will recommend products, dilutions and a cleaning sequence. <a routerLink="/contactus">Request a quote</a> or call <a href="tel:+917483837722">+91 74838 37722</a>.</p>
+        </div>
+    </div>
+</div>
+</ng-container>
+
+<app-footer/>

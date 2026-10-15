@@ -59,9 +59,9 @@ jobs:
         working-directory: evochem-source
         run: |
           npm ci
-          npx ng build --configuration production
-          # copy build output over the deploy folder, keep _redirects
-          rsync -a --delete --exclude _redirects dist/evochem/browser/ ../evochem/
+          npm run build -- --configuration production   # runs prebuild, which regenerates routes.txt for prerendering
+          # copy build output over the deploy folder, keep the Pages worker + 404.html
+          rsync -a --delete --exclude _worker.js --exclude 404.html dist/evochem/browser/ ../evochem/
 
       - name: Deploy ${{ matrix.site }}
         uses: cloudflare/wrangler-action@v3

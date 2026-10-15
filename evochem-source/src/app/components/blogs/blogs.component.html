@@ -51,7 +51,7 @@
             <p class="p2-text" class="p2-text">Kitchen cleanliness is key to keeping pests at bay. Regularly inspect your kitchen for any signs of pest activity, seal cracks or gaps in walls, and store food in tightly sealed containers. For natural pest deterrents, use peppermint oil or bay leaves in areas like cabinets.</p>
         
             <h2 class="h2-heading">Conclusion</h2>
-            <p class="p2-text" class="p2-text">Keeping a kitchen both clean and safe requires consistent effort and the right habits. With these steps, your kitchen can become a safe haven for cooking, eating, and gathering. Not only will this lead to better hygiene, but it will also create an inviting, functional space that you and your family can enjoy.</p>
+            <p class="p2-text" class="p2-text">Keeping a kitchen both clean and safe requires consistent effort and the right habits. With these steps, your kitchen can become a safe haven for cooking, eating, and gathering. Not only will this lead to better hygiene, but it will also create an inviting, functional space that you and your family can enjoy. Running a restaurant or hotel kitchen? See our <a routerLink="/products/commercial-kitchen-cleaning-chemicals/">commercial kitchen cleaning chemicals</a>.</p>
 
         </div>
     </div>
@@ -457,7 +457,7 @@
             <h2 class="post-related-title">Continue reading</h2>
             <ul class="post-related-list">
                 <li *ngFor="let post of relatedPosts" class="post-related-item">
-                    <a [routerLink]="['/blogs', post.tag]" class="post-related-card">
+                    <a [routerLink]="post.path" class="post-related-card">
                         <span class="post-related-eyebrow">Related article</span>
                         <span class="post-related-headline">{{ post.title }}</span>
                         <span class="post-related-arrow" aria-hidden="true">→</span>
@@ -466,7 +466,7 @@
             </ul>
         </nav>
 
-        <a [routerLink]="['/']" fragment="cleaningTips" class="post-back-link">
+        <a routerLink="/resources/" class="post-back-link">
             <span aria-hidden="true">←</span>
             <span>Back to all articles</span>
         </a>

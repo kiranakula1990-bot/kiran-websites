@@ -44,8 +44,14 @@
       var hp = form.querySelector('input[name="website"]');
       if (hp && hp.value) return; // honeypot
       var f = function (n) { var el = form.querySelector('[name="' + n + '"]'); return el ? el.value.trim() : ''; };
+      var inline = form.getAttribute('data-success') === 'inline';
+      if (inline) { // email dialog: name, email and message are required; mobile is optional
+        if (!f('name') || !f('message')) { status.className = 'status err'; status.textContent = 'Please add your name and a message.'; return; }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f('email'))) { status.className = 'status err'; status.textContent = 'Please enter a valid email address so we can reply.'; return; }
+      }
+      var mobileEl = form.querySelector('[name="mobile"]');
       var mobile = f('mobile').replace(/\D/g, '');
-      if (mobile.length < 10) { status.className = 'status err'; status.textContent = 'Please enter a 10-digit mobile number.'; return; }
+      if (mobileEl && (mobileEl.required || mobile) && mobile.length < 10) { status.className = 'status err'; status.textContent = 'Please enter a 10-digit mobile number.'; return; }
       var lines = [];
       if (f('customerType')) lines.push('I am: ' + f('customerType'));
       if (f('service')) lines.push('Need help with: ' + f('service'));
@@ -61,11 +67,16 @@
       };
       var btn = form.querySelector('button[type="submit"]');
       btn.disabled = true; status.className = 'status'; status.textContent = 'Sending…';
-      fetch('https://test.glintcloudshops.com/api/sendEmail', {
+      fetch('/api/contact', {
         method: 'POST', headers: { 'Content-Type': 'application/json', 'x-tenant': 'default-t' }, body: JSON.stringify(payload)
       }).then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         track('form_submit_' + (form.getAttribute('data-form') || 'enquiry'));
+        if (inline) {
+          form.reset(); btn.disabled = false; status.className = 'status ok';
+          status.textContent = 'Thank you — your email has been sent. We will reply the same working day.';
+          return;
+        }
         location.href = '/contact/thank-you/';
       }).catch(function () {
         btn.disabled = false; status.className = 'status err';
@@ -73,4 +84,19 @@
       });
     });
   });
+
+  // "Email us" side button → on-page email form (falls back to mailto where <dialog> is unsupported)
+  var dlg = document.getElementById('mail-dialog');
+  if (dlg && typeof dlg.showModal === 'function') {
+    document.addEventListener('click', function (e) {
+      var opener = e.target.closest('[data-open-mail]');
+      if (!opener) return;
+      e.preventDefault();
+      var st = dlg.querySelector('.status'); if (st) { st.className = 'status full'; st.textContent = ''; }
+      dlg.showModal();
+      var first = dlg.querySelector('#md-name'); if (first) first.focus();
+    });
+    dlg.querySelector('.md-close').addEventListener('click', function () { dlg.close(); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); }); // click on backdrop
+  }
 })();

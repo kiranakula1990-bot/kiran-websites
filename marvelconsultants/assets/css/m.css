@@ -151,6 +151,11 @@ strong{color:var(--ink)}
 .guides li span{font-family:var(--mono);font-size:.7rem;color:var(--muted);white-space:nowrap}
 .trust{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
 .trust div{border-left:2px solid var(--brass);padding-left:.8rem}
+.clients{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--rule);border-left:1px solid var(--rule)}
+.clients li{display:flex;align-items:center;justify-content:center;text-align:center;min-height:76px;padding:.7rem;border-right:1px solid var(--rule);border-bottom:1px solid var(--rule);font-family:var(--serif);font-size:1rem;color:var(--ink);background:var(--paper)}
+.clients img{display:block;width:auto;height:auto;max-width:76%;max-height:40px;object-fit:contain;filter:grayscale(1);opacity:.8}
+.clients li{margin:0}
+.clients li:not(:has(img)){color:var(--muted)}
 .trust strong{display:block;font-family:var(--serif);font-size:1.3rem;color:var(--ink);font-weight:400}
 .trust span{font-size:.85rem;color:var(--muted)}
 figure.inline-img{margin:1rem calc(-1 * var(--pad))}
@@ -199,3 +204,29 @@ figure.inline-img figcaption{font-size:.8rem;color:var(--muted);padding:.4rem va
 .mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:.35rem;background:var(--ink);padding:.45rem .5rem calc(.45rem + env(safe-area-inset-bottom));box-shadow:0 -4px 16px rgba(0,0,0,.2)}
 .mobile-bar a{display:flex;align-items:center;justify-content:center;gap:.3rem;color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;min-height:46px;border-radius:5px}
 .mobile-bar .call{background:var(--ink-2)}.mobile-bar .wa{background:var(--wa)}.mobile-bar .form-link{background:var(--plum)}
+.side-cta{position:fixed;right:12px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:55;display:flex;flex-direction:column;gap:.6rem}
+.side-cta a{display:flex;align-items:center;justify-content:center;width:50px;height:50px;border-radius:50%;color:#fff;text-decoration:none;box-shadow:0 4px 14px rgba(15,30,60,.3)}
+.side-cta .sc-mail{background:var(--plum)}
+.side-cta .sc-wa{background:var(--wa)}
+.side-cta span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.mail-dialog{border:0;padding:0;width:calc(100vw - 24px);max-width:560px;max-height:calc(100vh - 24px);overflow:auto;background:var(--paper);color:var(--slate);border-top:4px solid var(--plum);box-shadow:0 24px 64px rgba(15,30,60,.35);font-family:var(--sans)}
+.mail-dialog::backdrop{background:rgba(15,30,60,.55)}
+.mail-dialog .md-inner{padding:1.1rem 1.1rem 1.2rem}
+.mail-dialog .md-head{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem}
+.mail-dialog .md-title{font-family:var(--serif);font-weight:400;font-size:1.3rem;color:var(--ink);margin:0;line-height:1.2}
+.mail-dialog .md-close{background:none;border:0;font-size:1.9rem;line-height:1;color:var(--muted);padding:0 .2rem;min-width:44px;min-height:44px;margin:-.6rem -.6rem 0 0}
+.mail-dialog .md-sub{font-size:.9rem;margin:.4rem 0 .9rem;color:var(--slate)}
+.mail-dialog .md-form{display:grid;grid-template-columns:1fr;gap:.75rem}
+.mail-dialog label{display:block;font-size:.88rem;font-weight:600;color:var(--ink);margin:0 0 .3rem;font-family:var(--sans)}
+.mail-dialog .opt{font-weight:400;color:var(--muted)}
+.mail-dialog input,.mail-dialog textarea{width:100%;box-sizing:border-box;font-family:var(--sans);font-size:16px;padding:.7rem .8rem;border:1px solid var(--rule-dk);border-radius:4px;background:var(--paper);color:var(--ink);margin:0}
+.mail-dialog input:focus,.mail-dialog textarea:focus{border-color:var(--plum);outline:3px solid var(--plum-tint)}
+.mail-dialog textarea{min-height:110px;resize:vertical}
+.mail-dialog .hp{position:absolute;left:-9999px}
+.mail-dialog .status{font-size:.9rem;min-height:1.2em}
+.mail-dialog .status.err{color:#9B1C1C}
+.mail-dialog .status.ok{color:var(--ok);font-weight:600}
+.mail-dialog .md-actions{display:flex;flex-direction:column;align-items:stretch;gap:.6rem}
+.mail-dialog .md-send{background:var(--plum);color:#fff;border:0;border-radius:6px;min-height:48px;font-family:var(--sans);font-weight:600;font-size:1rem}
+.mail-dialog .md-send:disabled{opacity:.6}
+.mail-dialog .md-alt{font-size:.88rem;color:var(--muted);text-align:center}

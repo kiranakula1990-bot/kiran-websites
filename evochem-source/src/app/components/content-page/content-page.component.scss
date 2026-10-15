@@ -1,0 +1,199 @@
+// Shared by content pages, listing pages and product pages ("Where it is used").
+.cp-breadcrumb {
+  margin: 1.25rem 0 0;
+
+  .breadcrumb-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: var(--evo-fs-sm, .9375rem);
+  }
+
+  li + li::before {
+    content: '/';
+    margin-right: .35rem;
+    color: var(--evo-ink-soft, #4a5552);
+  }
+
+  a {
+    color: var(--evo-brand-deep, #3d5a48);
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.cp-note {
+  background: var(--evo-brand-soft, rgba(80, 115, 95, .08));
+  border-left: 3px solid var(--evo-brand, #50735f);
+  border-radius: var(--evo-r-sm, 8px);
+  padding: .75rem 1rem;
+  font-size: var(--evo-fs-sm, .9375rem);
+  color: var(--evo-ink, #1a1f1c);
+}
+
+.cp-list,
+.cp-steps {
+  padding-left: 1.4rem;
+}
+
+.cp-steps li::marker {
+  font-weight: 700;
+  color: var(--evo-brand, #50735f);
+}
+
+.cp-products {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.cp-product {
+  display: flex;
+  gap: .9rem;
+  align-items: flex-start;
+  height: 100%;
+  padding: .9rem;
+  background: #fff;
+  border: 1px solid var(--evo-line, rgba(26, 31, 28, .08));
+  border-radius: var(--evo-r-md, 12px);
+  box-shadow: var(--evo-shadow-1, none);
+  color: var(--evo-ink, #1a1f1c);
+  text-decoration: none;
+
+  &:hover {
+    border-color: var(--evo-brand-mid, rgba(80, 115, 95, .2));
+    box-shadow: var(--evo-shadow-2, none);
+  }
+
+  img {
+    flex: 0 0 auto;
+    width: 84px;
+    height: 84px;
+    object-fit: contain;
+  }
+}
+
+.cp-product__body {
+  display: flex;
+  flex-direction: column;
+  gap: .15rem;
+  min-width: 0;
+}
+
+.cp-product__code {
+  font-size: var(--evo-fs-xs, .8125rem);
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--evo-brand, #50735f);
+}
+
+.cp-product__title {
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cp-product__desc {
+  font-size: var(--evo-fs-sm, .9375rem);
+  color: var(--evo-ink-soft, #4a5552);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Listing pages
+.cp-cards {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.cp-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #fff;
+  border: 1px solid var(--evo-line, rgba(26, 31, 28, .08));
+  border-radius: var(--evo-r-md, 12px);
+  overflow: hidden;
+  color: var(--evo-ink, #1a1f1c);
+  text-decoration: none;
+  box-shadow: var(--evo-shadow-1, none);
+
+  &:hover { box-shadow: var(--evo-shadow-3, none); }
+
+  img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: #f3f4f2;
+  }
+}
+
+.cp-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+  padding: 1rem 1.1rem 1.2rem;
+}
+
+.cp-card__eyebrow {
+  font-size: var(--evo-fs-xs, .8125rem);
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--evo-brand, #50735f);
+}
+
+.cp-card__title {
+  font-weight: 700;
+  font-size: var(--evo-fs-lg, 1.25rem);
+  line-height: 1.3;
+}
+
+.cp-card__text {
+  color: var(--evo-ink-soft, #4a5552);
+  font-size: var(--evo-fs-sm, .9375rem);
+}
+
+.cp-group-heading {
+  margin-top: 2rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.cp-uses {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+
+  a {
+    display: inline-block;
+    padding: .4rem .85rem;
+    border: 1px solid var(--evo-brand-mid, rgba(80, 115, 95, .2));
+    border-radius: 999px;
+    color: var(--evo-brand-deep, #3d5a48);
+    text-decoration: none;
+    font-size: var(--evo-fs-sm, .9375rem);
+
+    &:hover { background: var(--evo-brand-soft, rgba(80, 115, 95, .08)); }
+  }
+}

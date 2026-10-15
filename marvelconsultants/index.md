@@ -77,6 +77,15 @@ Remote property documentation, POA, due diligence, registration and post-registr
 - **Plain-language updates** — Scope, dependencies, fees and realistic timelines explained before work starts. No jargon, no guarantees we cannot keep.
 - **A named team** — A 14-member team led by managing partners Sanjay Chintala and Kiran Akula, working across all BBMP zones and panchayat offices.
 
+## Trusted by developers and companies across Bengaluru
+
+- Sobha
+- Pashmina Developers
+- IQVIA
+- Penwriters
+- General Electric
+- Ajax Engineering
+
 ## Project-scale execution, on the record.
 
 Client names anonymised; details published with the developer's knowledge. Turnaround figures are completed-project results for Marvel-coordinated work; authority processing remains with the authority.

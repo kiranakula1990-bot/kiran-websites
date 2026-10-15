@@ -88,8 +88,14 @@
                             </div>
                         </div>
 
+                        <!-- Honeypot: hidden from people, bots fill it in and the worker drops the request -->
+                        <div style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden" aria-hidden="true">
+                            <label for="contactWebsite">Website</label>
+                            <input id="contactWebsite" formControlName="website" type="text" tabindex="-1" autocomplete="off">
+                        </div>
+
                         <div class="col-md-12 submit-btn">
-                            <button class="btn-gradient submit-btn-primary" type="submit">Send your message</button>
+                            <button class="btn-gradient submit-btn-primary" type="submit" [disabled]="sending">{{ sending ? 'Sending…' : 'Send your message' }}</button>
                             <p class="form-privacy-note">By submitting, you agree to be contacted by Evochem about your enquiry.</p>
                         </div>
 

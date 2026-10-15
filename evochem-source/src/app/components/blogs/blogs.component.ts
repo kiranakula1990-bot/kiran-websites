@@ -1,6 +1,7 @@
-import { Component, Inject, OnDestroy, OnInit } from '@angular/core';
+import { Component, Inject, OnDestroy, OnInit, PLATFORM_ID } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DOCUMENT } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { LEGACY_ARTICLES } from '../../content/site-content';
 
 interface Faq { q: string; a: string; }
 interface BlogMeta {
@@ -8,6 +9,12 @@ interface BlogMeta {
   date: string;            // ISO date for <time datetime="...">
   dateFormatted: string;   // Human-readable
   readTime: number;        // minutes
+}
+
+/** /resources/<slug>/ for a post key such as "cleanKitchen". */
+function blogPath(type: string): string {
+  const article = LEGACY_ARTICLES.find(a => a.type === type);
+  return article ? `/resources/${article.slug}/` : '/resources/';
 }
 
 @Component({
@@ -73,7 +80,8 @@ export class BlogsComponent implements OnInit, OnDestroy {
     ]
   };
 
-  constructor(private route: ActivatedRoute, @Inject(DOCUMENT) private document: Document) {}
+  constructor(private route: ActivatedRoute, @Inject(DOCUMENT) private document: Document,
+              @Inject(PLATFORM_ID) private platformId: Object) {}
 
   get currentFaqs(): Faq[] {
     return this.faqData[this.blogType] || [];
@@ -84,7 +92,7 @@ export class BlogsComponent implements OnInit, OnDestroy {
   }
 
   /** Two related posts: prev + next in the editorial order. */
-  get relatedPosts(): { tag: string; title: string }[] {
+  get relatedPosts(): { path: string; title: string }[] {
     const order = ['liquidDetergent', 'healthCare', 'deepcleaning', 'cleanBrand', 'cleanKitchen'];
     const idx = order.indexOf(this.blogType);
     if (idx === -1) return [];
@@ -97,11 +105,11 @@ export class BlogsComponent implements OnInit, OnDestroy {
         if (t !== this.blogType && !picks.includes(t) && picks.length < 2) picks.push(t);
       }
     }
-    return picks.map(t => ({ tag: t, title: this.blogMeta[t]?.title || t }));
+    return picks.map(t => ({ path: blogPath(t), title: this.blogMeta[t]?.title || t }));
   }
 
   get canonicalURL(): string {
-    return encodeURIComponent(`https://evochem.co.in/blogs/${this.blogType}`);
+    return encodeURIComponent(`https://evochem.co.in${blogPath(this.blogType)}`);
   }
 
   get encodedTitle(): string {
@@ -109,9 +117,12 @@ export class BlogsComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    window.scrollTo(0, 0);
-    this.route.params.subscribe(params => {
-      this.blogType = params['type'] || this.blogType;
+    if (isPlatformBrowser(this.platformId)) {
+      window.scrollTo(0, 0);
+    }
+    // Each post has its own route under /resources/<slug>/; route data carries the post key.
+    this.route.data.subscribe(data => {
+      this.blogType = data['blog'] || this.blogType;
       this.injectFaqSchema();
     });
   }

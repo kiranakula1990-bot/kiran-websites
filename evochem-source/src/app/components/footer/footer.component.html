@@ -26,9 +26,11 @@
             <nav class="footer-col" aria-label="Explore">
                 <h2 class="footer-heading">Explore</h2>
                 <ul class="footer-links">
+                    <li><a routerLink="/products/" class="footer-link">All products</a></li>
+                    <li *ngFor="let link of products"><a [routerLink]="link.path" class="footer-link">{{ link.label }}</a></li>
+                    <li><a routerLink="/case-studies/" class="footer-link">Case studies</a></li>
+                    <li><a routerLink="/resources/" class="footer-link">Articles</a></li>
                     <li><a routerLink="/" fragment="aboutus" class="footer-link">About us</a></li>
-                    <li><a routerLink="/" fragment="cleaningTips" class="footer-link">Cleaning tips & insights</a></li>
-                    <li><a routerLink="/blogs/liquidDetergent" class="footer-link">Liquid detergent guide</a></li>
                     <li><a routerLink="/contactus" class="footer-link">Contact us</a></li>
                 </ul>
             </nav>
@@ -37,10 +39,7 @@
             <nav class="footer-col" aria-label="Industries">
                 <h2 class="footer-heading">Industries</h2>
                 <ul class="footer-links">
-                    <li><a routerLink="/categories/1" class="footer-link">Hospitality</a></li>
-                    <li><a routerLink="/categories/2" class="footer-link">Healthcare</a></li>
-                    <li><a routerLink="/categories/3" class="footer-link">Manufacturing</a></li>
-                    <li><a routerLink="/categories/4" class="footer-link">Commercial laundry</a></li>
+                    <li *ngFor="let link of industries"><a [routerLink]="link.path" class="footer-link">{{ link.label }}</a></li>
                 </ul>
             </nav>
 
@@ -48,10 +47,7 @@
             <div class="footer-col">
                 <h2 class="footer-heading">Solutions</h2>
                 <ul class="footer-links">
-                    <li><a routerLink="/solutions/Bathroom Cleaning" class="footer-link">Bathroom cleaning</a></li>
-                    <li><a routerLink="/solutions/Commercial Kitchen Cleaning" class="footer-link">Kitchen cleaning</a></li>
-                    <li><a routerLink="/solutions/Laundry Cleaning" class="footer-link">Laundry cleaning</a></li>
-                    <li><a routerLink="/solutions/Surface & Air Clean" class="footer-link">Surface & air clean</a></li>
+                    <li *ngFor="let link of solutions"><a [routerLink]="link.path" class="footer-link">{{ link.label }}</a></li>
                 </ul>
 
                 <div class="footer-certificates" aria-label="Certifications">

@@ -708,3 +708,68 @@ ul li .submenu a{
 		grid-template-columns: repeat(1, minmax(0, 1fr));
 	}
 }
+/* Main-menu dropdowns (Products, Industries, Solutions). Links are always in the HTML; the panel opens on hover,
+   on keyboard focus, or on click (.open, for touch screens). */
+.main-header .sectionfixed .diVlink .nav-dd {
+  position: relative;
+}
+
+.main-header .sectionfixed .diVlink .nav-dd__panel {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -1rem;
+  z-index: 200;
+  min-width: 270px;
+  padding: .75rem .5rem .6rem;
+  background: #fff;
+  border: 1px solid var(--evo-line, rgba(26, 31, 28, .08));
+  border-radius: var(--evo-r-md, 12px);
+  box-shadow: var(--evo-shadow-3, 0 12px 28px rgba(26, 31, 28, .1));
+}
+
+.main-header .sectionfixed .diVlink .nav-dd:hover .nav-dd__panel,
+.main-header .sectionfixed .diVlink .nav-dd:focus-within .nav-dd__panel,
+.main-header .sectionfixed .diVlink .nav-dd.open .nav-dd__panel {
+  display: block;
+}
+
+.main-header .sectionfixed .diVlink ul.nav-dd__list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-header .sectionfixed .diVlink ul.nav-dd__list li a.nav-dd__link,
+.main-header .sectionfixed .diVlink a.nav-dd__all {
+  display: block;
+  padding: .45rem .75rem;
+  border-radius: var(--evo-r-sm, 8px);
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--evo-ink, #1a1f1c);
+  white-space: nowrap;
+}
+
+.main-header .sectionfixed .diVlink ul.nav-dd__list li a.nav-dd__link:hover,
+.main-header .sectionfixed .diVlink a.nav-dd__all:hover {
+  background: var(--evo-brand-soft, rgba(80, 115, 95, .08));
+  color: var(--evo-brand-deep, #3d5a48);
+}
+
+.main-header .sectionfixed .diVlink a.nav-dd__all {
+  margin-top: .35rem;
+  border-top: 1px solid var(--evo-line, rgba(26, 31, 28, .08));
+  border-radius: 0 0 var(--evo-r-sm, 8px) var(--evo-r-sm, 8px);
+  font-weight: 700;
+  color: var(--evo-brand-deep, #3d5a48);
+}
+
+.phoneview_menu .mobile-section-link {
+  text-decoration: none;
+}
+
+.phoneview_menu .div-ulsec a.mobile-nav-btn {
+  text-decoration: none;
+}

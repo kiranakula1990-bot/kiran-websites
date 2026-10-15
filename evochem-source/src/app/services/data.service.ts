@@ -1,28 +1,28 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+
+// The catalogue JSON is bundled into the app (instead of fetched over HTTP) so that
+// every page can be prerendered to static HTML with its full content for search engines.
+// The same files are still published under assets/data/.
+import solutionsData from '../../../public/assets/data/evochem-data.json';
+import industriesData from '../../../public/assets/data/industries.json';
+import solutionTypesData from '../../../public/assets/data/solutionTypes.json';
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  private apiSolutionsUrl = 'assets/data/evochem-data.json';  // URL to JSON file
-  private apiIndustriesUrl = 'assets/data/industries.json';  // URL to JSON file
-  private apiSolutionTypesUrl = 'assets/data/solutionTypes.json';  // URL to JSON file
-
   getSolutions(): Observable<any[]> {
-    return this.http.get<any[]>(this.apiSolutionsUrl);
+    return of(solutionsData as any[]);
   }
 
   getIndustries(): Observable<any[]> {
-    return this.http.get<any[]>(this.apiIndustriesUrl);
+    return of(industriesData as any[]);
   }
 
   getSolutionTypes(): Observable<any[]> {
-    return this.http.get<any[]>(this.apiSolutionTypesUrl);
+    return of(solutionTypesData as any[]);
   }
 
-
- constructor(private http: HttpClient) { }
 }
