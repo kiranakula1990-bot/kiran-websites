@@ -46,8 +46,23 @@ Rollback: Cloudflare dashboard → Workers & Pages → project → Deployments �
   `routes.txt`, the sitemap, `public/redirects.json` (old URL → new, used by `evochem/_worker.js` for one-hop
   301s) and `docs/url-register.csv`. Never change a published slug without adding a redirect.
 
+## Marvel Consultants: adding a new blog post
+Start from the current template, never from an older copy of a page (old copies bring back the old
+header/menu, broken characters and the old CSS that pushes images off the screen).
+1. Copy `marvelconsultants/blog/bbmp-commencement-certificate-occupancy-certificate-bangalore-guide/`
+   to `marvelconsultants/blog/<new-slug>/` (folder + `index.html`).
+2. Change only what sits between `<!-- legacy-head-start -->` / `<!-- legacy-head-end -->` (title, description,
+   canonical, og tags, schema) and between `<!-- legacy-content-start -->` / `<!-- legacy-content-end -->` (the post).
+   Leave the header, footer and the lines that say `v1-theme-off` as they are.
+3. Images: `<figure class="blog-hero"><img src="/assets/image/<file>.webp" alt="..." width="<real width>"
+   height="<real height>"></figure>`. Use the image's real pixel size; the CSS fits it to the column.
+4. Add the post to `blog.html` (card), `sitemap.xml` and `llms.txt`, and update the markdown copy
+   `blog/<new-slug>/index.md` (plus the `text/markdown` link in the head).
+5. Open the page at phone width before pushing: nothing should scroll sideways.
+
 ## Contact forms (leads)
 All forms post to the `glint-email-relay` Lambda (Glint AWS account), not the old backend.
+Evochem's form posts to its own `/api/contact` (in `evochem/_worker.js`), which relays to the Lambda server-side.
 Hygex/Mavrick use `assets/js/lead-form.js` (source: `_shared/lead-form.js`) → info@ennwin.in.
 A new recipient address must be added to the Lambda's allowlist first.
 
