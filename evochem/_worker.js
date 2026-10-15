@@ -12,7 +12,8 @@
 //
 // POST /api/contact: the contact form posts here (same origin), never to AWS directly. The worker checks the
 // origin, a honeypot field and the field formats, then calls the email relay Lambda server-side with a fixed
-// recipient and template, plus the x-relay-key header (Pages secret RELAY_KEY).
+// recipient and template, plus the x-relay-key header (Pages secret RELAY_KEY). The Lambda has the same value in
+// its env RELAY_KEY and refuses Evochem-template requests without it, so the form only works through this worker.
 let redirectsPromise = null;
 
 const RELAY_URL = 'https://psdiw5luaqoyb3pcxljybzw6j40sqgve.lambda-url.ap-south-1.on.aws/'; // glint-email-relay
