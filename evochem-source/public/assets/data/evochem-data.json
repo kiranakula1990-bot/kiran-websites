@@ -1,13 +1,15 @@
 [
   {
     "id": 1,
+    "slug": "industrial-cleaning-degreasing-chemicals",
     "name": "Novel Industrial Hygiene Products",
     "description": "We are specialists in tackling tough cleaning challenges, offering effective solutions for highly accumulated oil and greasy surfaces, so you can trust us to keep your facility clean, safe, and running smoothly.",
-    "picture":"assets/image/cateback1.webp",
+    "picture": "assets/image/cateback1.webp",
     "products": [
       {
         "id": 1,
         "code": "Novel HD",
+        "slug": "heavy-duty-floor-cleaner-novel-hd",
         "picture": "assets/products/high-res/NovelHD.webp",
         "thumbnail": "assets/products/low-res/NovelHD.webp",
         "title": "Heavy Duty Floor Cleaner",
@@ -19,6 +21,7 @@
       {
         "id": 2,
         "code": "Novel OGR",
+        "slug": "oil-grease-remover-novel-ogr",
         "picture": "assets/products/high-res/NovelOGR.webp",
         "thumbnail": "assets/products/low-res/NovelOGR.webp",
         "title": "Oil Grease Remover",
@@ -30,6 +33,7 @@
       {
         "id": 3,
         "code": "Lush Power",
+        "slug": "heavy-duty-hand-wash-lush-power",
         "picture": "assets/products/high-res/LushPower.webp",
         "thumbnail": "assets/products/low-res/LushPower.webp",
         "title": "Heavy Duty Handwash",
@@ -42,13 +46,15 @@
   },
   {
     "id": 2,
+    "slug": "commercial-laundry-chemicals",
     "name": "Flox Laundry Care Products",
     "description": "Brighten Your Whites with Evochem. Our powerful yet gentle products boost the brightness and whiteness of your laundry, delivering a spotless, sparkling clean with every wash.",
-    "picture":"assets/image/cateback2.webp",
+    "picture": "assets/image/cateback2.webp",
     "products": [
       {
         "id": 1,
         "code": "Flox",
+        "slug": "pre-wash-laundry-detergent-flox",
         "picture": "assets/products/high-res/FloxEmulsifier.webp",
         "thumbnail": "assets/products/low-res/FloxEmulsifier.webp",
         "title": "Pre-Wash Detergent",
@@ -60,6 +66,7 @@
       {
         "id": 2,
         "code": "Flox Star",
+        "slug": "main-wash-laundry-detergent-flox-star",
         "picture": "assets/products/high-res/FloxStar.webp",
         "thumbnail": "assets/products/low-res/FloxStar.webp",
         "title": "Main Wash Detergent",
@@ -71,6 +78,7 @@
       {
         "id": 3,
         "code": "Flox Build",
+        "slug": "heavy-duty-liquid-laundry-detergent-flox-build",
         "picture": "assets/products/high-res/FloxBuild.webp",
         "thumbnail": "assets/products/low-res/FloxBuild.webp",
         "title": "Liquid Heavy Duty Detergent",
@@ -82,6 +90,7 @@
       {
         "id": 4,
         "code": "Flox",
+        "slug": "laundry-chlorine-destainer-flox",
         "picture": "assets/products/high-res/FloxBleach.webp",
         "thumbnail": "assets/products/low-res/FloxBleach.webp",
         "title": "Laundry Chlorine Destainer",
@@ -93,6 +102,7 @@
       {
         "id": 5,
         "code": "Star Powder",
+        "slug": "laundry-detergent-powder-star-powder",
         "picture": "assets/products/high-res/FloxStarPowder.webp",
         "thumbnail": "assets/products/low-res/FloxStarPowder.webp",
         "title": "Laundry Detergent Powder",
@@ -104,6 +114,7 @@
       {
         "id": 6,
         "code": "Flox Sour",
+        "slug": "laundry-sour-neutralizer-flox-sour",
         "picture": "assets/products/high-res/FloxSour.webp",
         "thumbnail": "assets/products/low-res/FloxSour.webp",
         "title": "Laundry Neutralizing Agent",
@@ -115,6 +126,7 @@
       {
         "id": 7,
         "code": "Flox Soft Care",
+        "slug": "fabric-softener-flox-soft-care",
         "picture": "assets/products/high-res/FloxSoftCare.webp",
         "thumbnail": "assets/products/low-res/FloxSoftCare.webp",
         "title": "Concentrated Fabric Softener",
@@ -126,6 +138,7 @@
       {
         "id": 8,
         "code": "Flox Rinse",
+        "slug": "laundry-neutralizing-powder-flox-rinse",
         "picture": "assets/products/high-res/FloxRinse.webp",
         "thumbnail": "assets/products/low-res/FloxRinse.webp",
         "title": "Laundry Neutralizing Agent",
@@ -138,13 +151,15 @@
   },
   {
     "id": 3,
+    "slug": "food-processing-hygiene-chemicals",
     "name": "Food and Beverages Processing Products",
     "description": "Discover the power of Evochem's cutting-edge cleaning and hygiene solutions expertly crafted to transform your plant into a beacon of productivity, safety, and sparkling cleanliness",
-    "picture":"assets/image/cateback3.webp",
+    "picture": "assets/image/cateback3.webp",
     "products": [
       {
         "id": 9,
         "code": "Neutrox Foam",
+        "slug": "multipurpose-foam-detergent-neutrox-foam",
         "picture": "assets/products/high-res/NeutroxFoam.webp",
         "thumbnail": "assets/products/low-res/NeutroxFoam.webp",
         "title": "Multipurpose Detergent",
@@ -156,6 +171,7 @@
       {
         "id": 10,
         "code": "Alkalox Foam",
+        "slug": "alkaline-foam-cleaner-alkalox-foam",
         "picture": "assets/products/high-res/AlkaloxFoam.webp",
         "thumbnail": "assets/products/low-res/AlkaloxFoam.webp",
         "title": "High Foaming Alkaline Detergent",
@@ -167,6 +183,7 @@
       {
         "id": 11,
         "code": "Acidox Foam",
+        "slug": "acidic-foam-cleaner-acidox-foam",
         "picture": "assets/products/high-res/AcidoxFoam.webp",
         "thumbnail": "assets/products/low-res/AcidoxFoam.webp",
         "title": "High Foaming Acidic Detergent",
@@ -178,6 +195,7 @@
       {
         "id": 12,
         "code": "Chlorox Foam",
+        "slug": "chlorinated-alkaline-foam-cleaner-chlorox-foam",
         "picture": "assets/products/high-res/ChloroxFoam.webp",
         "thumbnail": "assets/products/low-res/ChloroxFoam.webp",
         "title": "Chlorinated Alkaline Cleaner",
@@ -189,6 +207,7 @@
       {
         "id": 13,
         "code": "Clastox Foam",
+        "slug": "high-foaming-alkaline-detergent-clastox-foam",
         "picture": "assets/products/high-res/ClastoxFoam.webp",
         "thumbnail": "assets/products/low-res/ClastoxFoam.webp",
         "title": "High Foaming Alkaline Detergent",
@@ -200,6 +219,7 @@
       {
         "id": 14,
         "code": "Sanix Duo",
+        "slug": "cleaner-sanitizer-sanix-duo",
         "picture": "assets/products/high-res/SanixDuo.webp",
         "thumbnail": "assets/products/low-res/SanixDuo.webp",
         "title": "High Performance Cleaner cum Sanitizer",
@@ -211,9 +231,10 @@
       {
         "id": 15,
         "code": "Sanix Peraxy",
+        "slug": "peracetic-acid-sanitizer-sanix-peraxy",
         "picture": "assets/products/high-res/SanixPeraxy.webp",
         "thumbnail": "assets/products/low-res/SanixPeraxy.webp",
-        "title": "Paracetic Acid Based Sanitizer",
+        "title": "Peracetic Acid Based Sanitizer",
         "details": {
           "description": "Clear liquid oxidizing sanitizer for the food industry, formulated with peracetic acid, hydrogen peroxide, and acetic acid. Eliminates a broad spectrum of microorganisms, including bacteria, spores, and viruses, ensuring high-level sanitation for pre-cleaned surfaces.",
           "dilution": "0.1% to 3% v/v depending on the volume."
@@ -222,6 +243,7 @@
       {
         "id": 16,
         "code": "Clastox Plus",
+        "slug": "low-foam-alkaline-detergent-clastox-plus",
         "picture": "assets/products/high-res/ClastoxPlus.webp",
         "thumbnail": "assets/products/low-res/ClastoxPlus.webp",
         "title": "Low Foaming Heavy Duty Alkaline Detergent",
@@ -233,6 +255,7 @@
       {
         "id": 17,
         "code": "Clastox 50",
+        "slug": "alkaline-cip-detergent-clastox-50",
         "picture": "assets/products/high-res/Clastox50.webp",
         "thumbnail": "assets/products/low-res/Clastox50.webp",
         "title": "High Performance Alkaline Detergent",
@@ -244,6 +267,7 @@
       {
         "id": 18,
         "code": "Sanix Quat",
+        "slug": "quat-sanitizer-sanix-quat",
         "picture": "assets/products/high-res/SanixQuat.webp",
         "thumbnail": "assets/products/low-res/SanixQuat.webp",
         "title": "Broad Spectrum Sanitizer",
@@ -255,6 +279,7 @@
       {
         "id": 19,
         "code": "Sanixol",
+        "slug": "alcohol-surface-sanitizer-sanixol",
         "picture": "assets/products/high-res/Sanixol.webp",
         "thumbnail": "assets/products/low-res/Sanixol.webp",
         "title": "Alcohol-Based Sanitizer",
@@ -267,13 +292,15 @@
   },
   {
     "id": 4,
+    "slug": "professional-hand-hygiene-products",
     "name": "Lush Personal Care Products",
     "description": "Gentle, effective, and nourishing. Cleans and moisturizes your hands. Trust Evochem for personal care.",
-    "picture":"assets/image/cateback4.webp",
+    "picture": "assets/image/cateback4.webp",
     "products": [
       {
         "id": 1,
         "code": "Lush Foamy",
+        "slug": "foaming-hand-wash-lush-foamy",
         "picture": "assets/products/high-res/LushFoamy.webp",
         "thumbnail": "assets/products/low-res/LushFoamy.webp",
         "title": "Foaming Hand Wash",
@@ -285,6 +312,7 @@
       {
         "id": 2,
         "code": "Lush Fresh",
+        "slug": "general-hand-wash-lush-fresh",
         "picture": "assets/products/high-res/LushFresh.webp",
         "thumbnail": "assets/products/low-res/LushFresh.webp",
         "title": "General Hand Wash",
@@ -296,6 +324,7 @@
       {
         "id": 3,
         "code": "Lush Power",
+        "slug": "heavy-duty-hand-wash-lush-power",
         "picture": "assets/products/high-res/LushPower.webp",
         "thumbnail": "assets/products/low-res/LushPower.webp",
         "title": "Heavy Duty Hand Wash",
@@ -307,6 +336,7 @@
       {
         "id": 4,
         "code": "Lush Care",
+        "slug": "perfume-free-hand-wash-lush-care",
         "picture": "assets/products/high-res/LushCare.webp",
         "thumbnail": "assets/products/low-res/LushCare.webp",
         "title": "General Hand Wash",
@@ -318,6 +348,7 @@
       {
         "id": 5,
         "code": "Lush Pearl",
+        "slug": "luxury-hand-wash-lush-pearl",
         "picture": "assets/products/high-res/LushPearl.webp",
         "thumbnail": "assets/products/low-res/LushPearl.webp",
         "title": "Pearl Luxury Hand Wash",
@@ -328,6 +359,7 @@
       {
         "id": 6,
         "code": "Lush Care Plus",
+        "slug": "antibacterial-hand-wash-lush-care-plus",
         "picture": "assets/products/high-res/LushCarePlus.webp",
         "thumbnail": "assets/products/low-res/LushCarePlus.webp",
         "title": "Antibacterial Hand Wash",
@@ -339,6 +371,7 @@
       {
         "id": 7,
         "code": "Lush Care Gel",
+        "slug": "gel-hand-sanitizer-lush-care-gel",
         "picture": "assets/products/high-res/LushCareGel.webp",
         "thumbnail": "assets/products/low-res/LushCareGel.webp",
         "title": "Gel-Based Hand Sanitizer",
@@ -350,6 +383,7 @@
       {
         "id": 8,
         "code": "Lush Care Rub",
+        "slug": "liquid-hand-sanitizer-lush-care-rub",
         "picture": "assets/products/high-res/LushCareRub.webp",
         "thumbnail": "assets/products/low-res/LushCareRub.webp",
         "title": "Liquid Hand Sanitizer",
@@ -362,13 +396,15 @@
   },
   {
     "id": 5,
+    "slug": "institutional-housekeeping-chemicals",
     "name": "Evo Housekeeping Solutions",
     "description": "Whatever your cleaning needs and challenges, Evochem can help. We offer a complete housekeeping end-to-end solutions",
-    "picture":"assets/image/cateback5.webp",
+    "picture": "assets/image/cateback5.webp",
     "products": [
       {
         "id": 1,
         "code": "EVO 4",
+        "slug": "furniture-maintainer-evo-4",
         "picture": "assets/products/high-res/EVO4.webp",
         "thumbnail": "assets/products/low-res/EVO4.webp",
         "title": "Furniture Maintainer",
@@ -380,135 +416,148 @@
       {
         "id": 2,
         "code": "EVO 1",
+        "slug": "bathroom-cleaner-evo-1",
         "picture": "assets/products/high-res/EVO1.webp",
         "thumbnail": "assets/products/low-res/EVO1.webp",
         "title": "Bathroom Cleaner",
         "details": {
-              "description": "Powerful bathroom cleaner uses organic acid to cut through tough stains like dirt, soap scum, and lime deposits on porcelain, plastic, and stainless steel surfaces. It also removes hard water scale and lime buildup, making it ideal for frequently used restrooms.",
-              "dilution": "2% to 5% (20ml to 50ml in 1ltr of water) depending on soil."
-            }
+          "description": "Powerful bathroom cleaner uses organic acid to cut through tough stains like dirt, soap scum, and lime deposits on porcelain, plastic, and stainless steel surfaces. It also removes hard water scale and lime buildup, making it ideal for frequently used restrooms.",
+          "dilution": "2% to 5% (20ml to 50ml in 1ltr of water) depending on soil."
+        }
       },
       {
         "id": 3,
         "code": "EVO 2",
+        "slug": "hard-surface-cleaner-evo-2",
         "picture": "assets/products/high-res/EVO2.webp",
         "thumbnail": "assets/products/low-res/EVO2.webp",
         "title": "Hard Surface Cleaner",
-        "details" : {
-              "description": "Powerful and routine cleaning solution with our non-abrasive hard surface cleaner, carefully formulated to be slightly alkaline and safe for use on all types of hard surfaces, from floors and walls to countertops and fixtures, making it the perfect choice for maintaining a clean and pristine environment.",
-              "dilution": "2% to 5% (20ml to 50ml in 1ltr of water) depending on soil."
-            }
+        "details": {
+          "description": "Powerful and routine cleaning solution with our non-abrasive hard surface cleaner, carefully formulated to be slightly alkaline and safe for use on all types of hard surfaces, from floors and walls to countertops and fixtures, making it the perfect choice for maintaining a clean and pristine environment.",
+          "dilution": "2% to 5% (20ml to 50ml in 1ltr of water) depending on soil."
+        }
       },
       {
         "id": 4,
         "code": "EVO 3",
+        "slug": "glass-cleaner-concentrate-evo-3",
         "picture": "assets/products/high-res/EVO3.webp",
         "thumbnail": "assets/products/low-res/EVO3.webp",
         "title": "Glass Cleaner Concentrate",
-       "details": {
-              "description": "Get a crystal-clear shine on windows, mirrors, and glass surfaces with our potent and gentle cleaner, which effectively removes dirt, dust, fingerprints, and haze without leaving residue, making it perfect for delicate surfaces and everyday cleaning needs.",
-              "dilution": "2% to 10% (20ml to 100ml in 1ltr of water) Depending on soil."
-            }
+        "details": {
+          "description": "Get a crystal-clear shine on windows, mirrors, and glass surfaces with our potent and gentle cleaner, which effectively removes dirt, dust, fingerprints, and haze without leaving residue, making it perfect for delicate surfaces and everyday cleaning needs.",
+          "dilution": "2% to 10% (20ml to 100ml in 1ltr of water) Depending on soil."
+        }
       },
       {
         "id": 5,
         "code": "EVO 5",
+        "slug": "air-freshener-evo-5",
         "picture": "assets/products/high-res/EVO5.webp",
         "thumbnail": "assets/products/low-res/EVO5.webp",
         "title": "Air Freshener",
         "details": {
-              "description": "Convenient air freshener designed to neutralize unpleasant odors in any room. The product's unique formula contains odor counteractants that eliminate unwanted smells while releasing a fresh, inviting fragrance into the air, providing a clean and pleasant atmosphere.",
-              "usage": "Ready To Use"
-            }
+          "description": "Convenient air freshener designed to neutralize unpleasant odors in any room. The product's unique formula contains odor counteractants that eliminate unwanted smells while releasing a fresh, inviting fragrance into the air, providing a clean and pleasant atmosphere.",
+          "usage": "Ready To Use"
+        }
       },
       {
         "id": 6,
         "code": "EVO 6",
+        "slug": "toilet-bowl-cleaner-evo-6",
         "picture": "assets/products/high-res/EVO6.webp",
         "thumbnail": "assets/products/low-res/EVO6.webp",
         "title": "Toilet Bowl Cleaner",
-       "details": {
-              "description": "Convenient thick toilet bowl cleaner designed to cling to the bowl's surface for maximum cleaning power. Its potent formula quickly dissolves tough stains and deposits, leaving your entire toilet bowl shining and deodorized in no time. The product's unique consistency allows for even application, ensuring efficient removal of stubborn stains and buildup.",
-              "usage": "Ready To Use"
-            }
+        "details": {
+          "description": "Convenient thick toilet bowl cleaner designed to cling to the bowl's surface for maximum cleaning power. Its potent formula quickly dissolves tough stains and deposits, leaving your entire toilet bowl shining and deodorized in no time. The product's unique consistency allows for even application, ensuring efficient removal of stubborn stains and buildup.",
+          "usage": "Ready To Use"
+        }
       },
       {
         "id": 7,
         "code": "EVO 9",
+        "slug": "heavy-duty-descaler-evo-9",
         "picture": "assets/products/high-res/EVO9.webp",
         "thumbnail": "assets/products/low-res/EVO9.webp",
         "title": "Heavy Duty Descaler",
         "details": {
           "description": "Potent descaling solution that is highly effective in dissolving and eliminating tough scale and scum buildup on tiles and ceramics. Evo 9 can be used as a deep cleaner once in a while and can be used daily with higher concentration.",
           "dilution": "2% to 10% (20ml to 100ml in 1ltr of water) Depending on soil."
-       }
+        }
       },
       {
         "id": 8,
         "code": "EVO 7",
+        "slug": "neutral-floor-cleaner-evo-7",
         "picture": "assets/products/high-res/EVO7.webp",
         "thumbnail": "assets/products/low-res/EVO7.webp",
         "title": "Neutral Floor Cleaner",
-       "details": {
-                "description": "Versatile and effective cleaner suitable for both manual and machine-based cleaning methods. Our neutral pH formula effectively removes dirt and grime without leaving unwanted residues or marks. Suitable for daily maintenance.",
-                "dilution": "2% to 5% (20ml to 50ml in 1ltr of water) Depending on soil."
-            }
+        "details": {
+          "description": "Versatile and effective cleaner suitable for both manual and machine-based cleaning methods. Our neutral pH formula effectively removes dirt and grime without leaving unwanted residues or marks. Suitable for daily maintenance.",
+          "dilution": "2% to 5% (20ml to 50ml in 1ltr of water) Depending on soil."
+        }
       },
       {
         "id": 9,
         "code": "EVO 101",
+        "slug": "carpet-shampoo-evo-101",
         "picture": "assets/products/high-res/EVO101.webp",
         "thumbnail": "assets/products/low-res/EVO101.webp",
         "title": "Carpet Shampoo",
         "details": {
           "description": "Effective and gentle carpet shampoo, offering a high foaming action for deep cleaning carpets and rugs. Can be used with dry shampoo machines and applicators and also be applied by brush or sponge to a variety of surfaces. To optimize results, vacuuming the carpet after drying is recommended.",
           "dilution": "2% to 10% (20ml to 100ml in 1ltr of water) Depending on soil."
-      }
+        }
       },
       {
         "id": 10,
         "code": "EVO SP",
+        "slug": "stainless-steel-polish-evo-sp",
         "picture": "assets/products/high-res/EVOSP.webp",
         "thumbnail": "assets/products/low-res/EVOSP.webp",
         "title": "Steel Polish",
         "details": {
           "description": "Bring back the brilliance of stainless steel with our polish, carefully crafted to resist fingerprints and corrosion. For non-food contact surfaces only, reveals a glossy finish, perfect for revitalizing stainless steel in your home or office.",
           "usage": "Ready To Use"
-      }
+        }
       },
       {
         "id": 11,
         "code": "EVO 103",
+        "slug": "carpet-prespotter-evo-103",
         "picture": "assets/products/high-res/EVO103.webp",
         "thumbnail": "assets/products/low-res/EVO103.webp",
         "title": "Prespotter",
         "details": {
           "description": "Powerful prespotter concentrated blend of surfactant, cleaners, and wetting agents, designed to quickly and effectively tackle stubborn stains on carpets and fabrics. This versatile product serves as an effective pre-treatment and spot remover for heavily soiled areas, preparing them for thorough extraction by machine cleaning.",
           "usage": "Ready to Use"
-      }
+        }
       },
       {
         "id": 12,
         "code": "EVO ZAP",
+        "slug": "cream-cleaner-evo-zap",
         "picture": "assets/products/high-res/EVOZAP.webp",
         "thumbnail": "assets/products/low-res/EVOZAP.webp",
         "title": "Multi Purpose Cream Cleaner",
-       "details": {
-                "description": "Powerful all-purpose cream cleaner, boasting a unique formula that effortlessly tackles even the toughest stains. Whether it's removing hard water scales, rust stains, soap scum, or heavy soil buildup, this versatile product can handle a variety of cleaning challenges on bathroom fittings, stainless steel, ceramic surfaces, and fiberglass, leaving behind a sparkling clean finish.",
-                "usage": "Ready to Use"
-            }
+        "details": {
+          "description": "Powerful all-purpose cream cleaner, boasting a unique formula that effortlessly tackles even the toughest stains. Whether it's removing hard water scales, rust stains, soap scum, or heavy soil buildup, this versatile product can handle a variety of cleaning challenges on bathroom fittings, stainless steel, ceramic surfaces, and fiberglass, leaving behind a sparkling clean finish.",
+          "usage": "Ready to Use"
+        }
       }
     ]
   },
   {
     "id": 6,
+    "slug": "commercial-kitchen-cleaning-chemicals",
     "name": "Kitchen Care Products",
     "description": "Evochem offers a comprehensive range of cleaning solutions to maintain your kitchen cleanliness and hygiene",
-    "picture":"assets/image/cateback6.webp",
+    "picture": "assets/image/cateback6.webp",
     "products": [
       {
         "id": 1,
         "code": "Blaze Multi",
+        "slug": "neutral-multipurpose-detergent-blaze-multi",
         "picture": "assets/products/high-res/BlazeMulti.webp",
         "thumbnail": "assets/products/low-res/BlazeMulti.webp",
         "title": "Multipurpose Detergent",
@@ -520,6 +569,7 @@
       {
         "id": 2,
         "code": "Blaze Kitchen Care",
+        "slug": "kitchen-care-concentrate-blaze-kitchen-care",
         "picture": "assets/products/high-res/BlazeMultiPlus.webp",
         "thumbnail": "assets/products/low-res/BlazeMultiPlus.webp",
         "title": "Concentrated Kitchen Care",
@@ -531,6 +581,7 @@
       {
         "id": 3,
         "code": "Blaze Auto",
+        "slug": "dishwasher-detergent-blaze-auto",
         "picture": "assets/products/high-res/BlazeAuto.webp",
         "thumbnail": "assets/products/low-res/BlazeAuto.webp",
         "title": "Automatic Dish Wash",
@@ -542,6 +593,7 @@
       {
         "id": 4,
         "code": "Blaze Rinse",
+        "slug": "dishwasher-rinse-aid-blaze-rinse",
         "picture": "assets/products/high-res/BlazeRinse.webp",
         "thumbnail": "assets/products/low-res/BlazeRinse.webp",
         "title": "Rinse",
@@ -553,6 +605,7 @@
       {
         "id": 5,
         "code": "Blaze Dish",
+        "slug": "dishwashing-liquid-blaze-dish",
         "picture": "assets/products/high-res/BlazeDish.webp",
         "thumbnail": "assets/products/low-res/BlazeDish.webp",
         "title": "Manual Dish Wash",
@@ -564,6 +617,7 @@
       {
         "id": 6,
         "code": "Blaze Drain",
+        "slug": "drain-cleaner-blaze-drain",
         "picture": "assets/products/high-res/BlazeDrain.webp",
         "thumbnail": "assets/products/low-res/BlazeDrain.webp",
         "title": "Liquid Drain Cleaner",
@@ -575,6 +629,7 @@
       {
         "id": 7,
         "code": "Blaze Tab",
+        "slug": "chlorine-tablets-blaze-tab",
         "picture": "assets/products/high-res/BlazeTab.webp",
         "thumbnail": "assets/products/low-res/BlazeTab.webp",
         "title": "Chlorine Tablets",
@@ -586,6 +641,7 @@
       {
         "id": 8,
         "code": "Blaze Grill",
+        "slug": "oven-grill-cleaner-blaze-grill",
         "picture": "assets/products/high-res/BlazeGrill.webp",
         "thumbnail": "assets/products/low-res/BlazeGrill.webp",
         "title": "Oven & Grill Cleaner",
@@ -597,6 +653,7 @@
       {
         "id": 9,
         "code": "Blaze Dip",
+        "slug": "crockery-destainer-blaze-dip",
         "picture": "assets/products/high-res/BlazeDip.webp",
         "thumbnail": "assets/products/low-res/BlazeDip.webp",
         "title": "Liquid Destainer",
@@ -608,6 +665,7 @@
       {
         "id": 10,
         "code": "Blaze Multi Plus",
+        "slug": "kitchen-degreaser-concentrate-blaze-multi-plus",
         "picture": "assets/products/high-res/BlazeMultiPlus.webp",
         "thumbnail": "assets/products/low-res/BlazeMultiPlus.webp",
         "title": "Concentrated Kitchen Care",

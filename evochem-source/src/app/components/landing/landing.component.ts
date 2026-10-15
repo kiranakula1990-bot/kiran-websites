@@ -2,10 +2,11 @@ import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { LANDING_PAGES, LandingPage } from '../../seo/landing-pages';
-import { findProduct, formatCode } from '../../seo/seo-resolver';
+import { allProducts, Product, productPath } from '../../content/catalogue';
 
 /**
- * Keyword landing pages (food processing, commercial kitchen, CIP, Bengaluru).
+ * Keyword landing page for Bengaluru (/cleaning-chemicals-manufacturer-bangalore/). The food processing,
+ * commercial kitchen and CIP landing pages moved to /industries/, /products/ and /solutions/ (content-page).
  * Reuses the existing blog article layout and styles so the pages match the current site design.
  */
 @Component({
@@ -31,12 +32,13 @@ export class LandingComponent implements OnInit {
     });
   }
 
-  product(code: string): any {
-    return findProduct(formatCode(code))?.product;
+  /** Landing pages list products by code (unique except "Flox"; the pre-wash detergent comes first). */
+  product(code: string): Product | undefined {
+    return allProducts().find(p => p.code.toLowerCase() === code.trim().toLowerCase());
   }
 
-  productLink(code: string): string[] {
-    return ['/product', formatCode(code)];
+  productLink(code: string): string {
+    return productPath(this.product(code)?.slug || '');
   }
 
   get whatsappURL(): string {

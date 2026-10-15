@@ -6,6 +6,17 @@ import { register } from 'swiper/element/bundle';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { DataService } from '../../services/data.service';
+import { LEGACY_ARTICLES } from '../../content/site-content';
+
+/** The home industry carousel still reads industries.json; these are the industry pages its slides open. */
+const INDUSTRY_PAGE: Record<string, string> = {
+  'commercial-building': '/industries/facility-management/',
+  'food-and-beverages-processing': '/industries/food-processing/',
+  'manufacturing-and-warehousing': '/industries/manufacturing-warehousing/',
+  'hospitality-and-food-service': '/industries/hospitality/',
+  'health-care-facility': '/industries/healthcare/',
+  'commercial-laundries': '/industries/commercial-laundry/',
+};
 
 @Component({
   selector: 'app-home',
@@ -53,6 +64,15 @@ export class HomeComponent implements AfterViewInit, OnInit {
     ]
     
 
+
+  industryLink(legacySlug: string): string {
+    return INDUSTRY_PAGE[legacySlug] || '/industries/';
+  }
+
+  blogLink(type: string): string {
+    const article = LEGACY_ARTICLES.find(a => a.type === type);
+    return article ? `/resources/${article.slug}/` : '/resources/';
+  }
 
   ngOnInit(): void {
     this.dataService.getSolutions().subscribe(data => {

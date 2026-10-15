@@ -1,4 +1,4 @@
-<div class="main-sectionapp mt-4">
+<div *ngIf="selectedProduct" class="main-sectionapp mt-4">
     <div class="container">
         <div class="sngleproductsection">
             <div class="row">
@@ -13,9 +13,9 @@
                     <div class="singleprocontent">
                         <nav class="bradcmS" aria-label="Breadcrumb">
                             <ol class="breadcrumb-list">
-                                <li><a [routerLink]="['/']" class="breadcrumb-link se1">Home</a></li>
-                                <li *ngIf="selectedIndustry"><a [routerLink]="['/categories', selectedIndustry.slug]" class="breadcrumb-link se1">{{selectedIndustry?.title}}</a></li>
-                                <li *ngIf="selectedSolutionType"><a [routerLink]="['/solutions', selectedSolutionType.code]" class="breadcrumb-link se1">{{selectedSolutionType?.title}}</a></li>
+                                <li><a routerLink="/" class="breadcrumb-link">Home</a></li>
+                                <li><a routerLink="/products/" class="breadcrumb-link">Products</a></li>
+                                <li><a [routerLink]="groupLink" class="breadcrumb-link">{{groupLabel}}</a></li>
                                 <li><span class="breadcrumb-link breadcrumb-link-last" aria-current="page">{{selectedProduct?.title}}</span></li>
                             </ol>
                         </nav>
@@ -72,17 +72,25 @@
                             Need the MSDS / Safety Data Sheet?
                             <a [href]="msdsURL" class="product-msds-link">Request the document →</a>
                         </p>
+
+                        <div *ngIf="usedIn.length" class="product-uses">
+                            <h2 class="h5 mt-4">Where it is used</h2>
+                            <ul class="cp-uses">
+                                <li *ngFor="let u of industries"><a [routerLink]="u.path">{{u.name}}</a></li>
+                                <li *ngFor="let u of solutions"><a [routerLink]="u.path">{{u.name}}</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="related-products">
-            <h2 class="slider-Tittle">Related products</h2>
+            <h2 class="slider-Tittle">More {{groupLabel | lowercase}} products</h2>
             <div class="relatedmain-slider">
                 <div class="swiper relatedswiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide" *ngFor="let product of relatedproducts">
-                            <a [routerLink]="['/product' , formatCode(product.code)]" class="related-product-link">
+                            <a [routerLink]="productPath(product.slug)" class="related-product-link">
                                 <div class="same-proDuct">
                                     <div class="image">
                                         <img [src]="product.thumbnail ? product.thumbnail : 'assets/image/productcate1.png'" [alt]="product?.title + ' product thumbnail'" loading="lazy">
@@ -98,3 +106,5 @@
 
     </div>
 </div>
+
+<app-footer/>

@@ -39,6 +39,12 @@ Rollback: Cloudflare dashboard → Workers & Pages → project → Deployments �
 - `<site>/404.html` — only switches Pages out of SPA mode; the worker hides it.
 - `evochem/` is **build output**: CI rebuilds it from `evochem-source/` on every Evochem deploy
   (keeping `_worker.js` and `404.html`). Edit `evochem-source/`, never `evochem/`.
+- Evochem URLs (since 2026-10-15) follow the handover pattern, all with a trailing slash:
+  `/products/<category>/`, `/products/<product>/`, `/industries/<x>/`, `/solutions/<x>/`,
+  `/case-studies/<x>/`, `/resources/<x>/` (articles). Product/category slugs live in
+  `public/assets/data/evochem-data.json`; page copy in `src/app/content/`. `npm run build` regenerates
+  `routes.txt`, the sitemap, `public/redirects.json` (old URL → new, used by `evochem/_worker.js` for one-hop
+  301s) and `docs/url-register.csv`. Never change a published slug without adding a redirect.
 
 ## Contact forms (leads)
 All forms post to the `glint-email-relay` Lambda (Glint AWS account), not the old backend.

@@ -143,7 +143,7 @@
         </div>
         <div class="row" style="margin-top: 30px;">
             <div class="col-lg-4 col-md-6 col-sm-6 col-12" *ngFor="let slide of industries">
-                <a [routerLink]="['/categories', slide.slug]" class="banner-btn-size-small industry-card-link" [attr.aria-label]="'Explore ' + slide.title + ' cleaning solutions'">
+                <a [routerLink]="industryLink(slide.slug)" class="banner-btn-size-small industry-card-link" [attr.aria-label]="'Explore ' + slide.title + ' cleaning solutions'">
                     <div class="main-wrapp-img">
                         <div class="banner-image wd-bg-position-center">
                             <img class="promo-banner-image" [src]="slide.image" [alt]="slide.alt || slide.title + ' industry cleaning'" [title]="slide.titleText" width="200" height="200" loading="lazy" />
@@ -281,7 +281,7 @@
                                         <div class="div-set">
                                             <div class="heda">{{ blog.title }}</div>
                                             <p>{{ blog.content }}</p>
-                                            <a [routerLink]="['/blogs', blog.tag]" >
+                                            <a [routerLink]="blogLink(blog.tag)" >
                                                 <div class="buttonslid">Read more</div>
                                             </a>
                                         </div>
