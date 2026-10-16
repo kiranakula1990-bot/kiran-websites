@@ -78,6 +78,26 @@ export const LANDING_PAGES: LandingPage[] = [
         ],
       },
       {
+        heading: 'Supply across South India: Chennai, Hyderabad and beyond',
+        paragraphs: [
+          'From our Bengaluru plant we deliver across India. Hotels, restaurants and central kitchens looking for a commercial kitchen chemicals supplier in Chennai, and factories looking for an industrial cleaning chemicals supplier in Hyderabad, can order the same range in bulk packs, with dilution guidance and MSDS for every product.',
+        ],
+      },
+      {
+        heading: 'Become an Evochem distributor',
+        paragraphs: [
+          'We are growing our cleaning chemicals distributor network in India. If you supply hotels, restaurants, facilities, hospitals or factories in your region and want to stock Evochem products, send a distributor enquiry to info@ennwin.in or call +91 74838 37722.',
+        ],
+      },
+      {
+        heading: 'Eco-friendly range, certifications and quality documents',
+        paragraphs: [
+          'Evochem is an eco-friendly cleaning chemicals manufacturer: our concentrates make many litres of in-use solution per can, cutting packaging and freight, and products such as Flox Build are formulated with biodegradable surfactants. Ask us which products suit a green or sustainable cleaning programme.',
+          'Selected Evochem product lines are NSF certified for use in food plants. NSF certification covers only the products listed on the certificate, so ask us for the certificate and the products in scope before you specify them.',
+          'GreenPro certified cleaning products: our GreenPro certification is under application. Until it is granted, no Evochem product is described as GreenPro certified.',
+        ],
+      },
+      {
         heading: 'Visit or contact us',
         paragraphs: [
           'Evochem (Ennwin Industries Private Limited), M/s. Sannuthi Shubharam Estate, #170/1, Marsur Gate, Anekal, Bengaluru – 562106, Karnataka, India. Phone +91 74838 37722 or +91 96635 38037, email info@ennwin.in.',
@@ -88,6 +108,10 @@ export const LANDING_PAGES: LandingPage[] = [
       { q: 'Where is Evochem\'s manufacturing facility?', a: 'Our facility is at Sannuthi Shubharam Estate, #170/1, Marsur Gate, Anekal, Bengaluru – 562106, Karnataka.' },
       { q: 'Do you supply cleaning chemicals to businesses in Bangalore?', a: 'Yes. We supply offices, hotels, restaurants, hospitals, factories, warehouses and food processors in Bangalore, and deliver across India.' },
       { q: 'What types of cleaning chemicals do you manufacture?', a: 'We manufacture housekeeping chemicals, industrial floor cleaners and degreasers, kitchen care and dishwashing products, laundry chemicals, hand hygiene products, and food-industry foam cleaners, CIP detergents and sanitisers.' },
+      { q: 'Do you supply NSF certified cleaning chemicals in India?', a: 'Yes. Selected Evochem product lines are NSF certified for food-plant use. The certification applies only to the listed products, so ask us for the certificate and the products it covers.' },
+      { q: 'Are you an ISO 9001 cleaning chemical manufacturer?', a: 'If you need an ISO certified cleaning chemical manufacturer, ask our team for our current quality documentation, including certificate details. Every product is made at our own plant in Anekal, Bengaluru, and ships with an MSDS and dilution guidance.' },
+      { q: 'Do you deliver to Chennai and Hyderabad?', a: 'Yes. We deliver across India from Bengaluru, including Chennai and Hyderabad. Contact us for bulk pricing and delivery times.' },
+      { q: 'Can I become an Evochem distributor?', a: 'Yes. Send a distributor enquiry to info@ennwin.in or call +91 74838 37722 with your region and the customers you serve.' },
       { q: 'Can I buy in bulk directly from the manufacturer?', a: 'Yes. Contact us on WhatsApp, email or phone for pricing, MOQ and packaging options. Bulk packs go up to 200 L drums.' },
     ],
     related: [

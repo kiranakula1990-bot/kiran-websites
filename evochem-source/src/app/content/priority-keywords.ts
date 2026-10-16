@@ -2,8 +2,9 @@ import { ContentSection } from './content-model';
 
 // Extra sections for the October 2026 keyword brief (EVOCHEM PRIORITY.docx), appended to the end of the
 // existing pages by site-content.ts. Each section works one keyword cluster into the page it was assigned to.
-// Same content rules as the pages: facts only from evochem-data.json, no certification claims (NSF, GreenPro,
-// ISO 9001 scope), no kill claims, no customer names, no city claims beyond Bengaluru / Karnataka.
+// Same content rules as the pages: facts only from evochem-data.json or the client's documents, no kill claims,
+// no customer names. Certification wording follows the handover: NSF only for listed products, GreenPro
+// "under application", ISO 9001 only as documentation on request (see seo/landing-pages.ts).
 // Keyed by "<kind>:<slug>".
 export const PRIORITY_SECTIONS: Record<string, ContentSection[]> = {
   'industry:food-processing': [
@@ -48,6 +49,12 @@ export const PRIORITY_SECTIONS: Record<string, ContentSection[]> = {
         'Meat processing cleaning chemicals have to remove animal fat, blood and protein before any sanitiser can work. Alkalox Foam and Chlorox Foam are the poultry equipment cleaning chemicals most plants start with, for evisceration lines, chillers, conveyors and crates. Poultry plant sanitation chemicals then finish the job: Sanix Quat or Sanix Peraxy as the processing equipment sanitiser on cleaned food-contact surfaces.',
       ],
     },
+    {
+      heading: 'Poultry farm disinfectant or processing plant sanitation?',
+      paragraphs: [
+        'Searches for a poultry farm disinfectant often come from processors. Evochem’s poultry range is for processing plants: cleaning and sanitising slaughter, evisceration, chilling and packing areas, equipment and crates. We do not list a farm biosecurity disinfectant for sheds; talk to our team about crate, equipment and processing-room hygiene.',
+      ],
+    },
   ],
 
   'category:commercial-kitchen-cleaning-chemicals': [
@@ -88,7 +95,7 @@ export const PRIORITY_SECTIONS: Record<string, ContentSection[]> = {
       heading: 'Healthcare cleaning chemicals for non-clinical areas',
       paragraphs: [
         'Our healthcare cleaning chemicals cover the housekeeping side of a hospital: EVO 7 as a neutral hospital floor cleaner for daily mopping and scrubber dryers, EVO 1 and EVO 6 for washrooms, and laundry and kitchen chemicals for the support departments.',
-        'For a surface disinfectant for healthcare facilities in clinical areas, follow the product your infection-control team has approved; Evochem does not list a hospital-grade disinfectant.',
+        'Looking for a hospital disinfectant supplier in India? Evochem supplies the hospital housekeeping chemicals above. For a surface disinfectant for healthcare facilities in clinical areas, use the hospital disinfectant your infection-control team has approved; Evochem does not list a hospital-grade disinfectant.',
       ],
     },
   ],

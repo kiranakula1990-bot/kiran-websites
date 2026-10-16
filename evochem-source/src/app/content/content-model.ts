@@ -2,7 +2,8 @@
 // Pages are plain data so they can be prerendered to static HTML. Products are referenced by their permanent
 // slug from public/assets/data/evochem-data.json (the URL register), never by code: two products share the code "Flox".
 //
-// Content rules (handover section 9): no certification claims (NSF, GreenPro, ISO scope), no customer names,
+// Content rules (handover section 9): certification wording only as in seo/landing-pages.ts (NSF for listed
+// products, GreenPro under application, ISO on request), no customer names,
 // no kill claims, prices or invented results. Product facts and dilutions come from evochem-data.json.
 
 export type PageKind = 'industry' | 'solution' | 'category' | 'case-study' | 'article' | 'landing';
