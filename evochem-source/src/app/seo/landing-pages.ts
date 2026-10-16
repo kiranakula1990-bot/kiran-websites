@@ -35,7 +35,7 @@ export const LANDING_PAGES: LandingPage[] = [
     slug: 'cleaning-chemicals-manufacturer-bangalore',
     primaryKeyword: 'cleaning chemicals manufacturer in Bangalore',
     title: 'Cleaning Chemicals Manufacturer in Bangalore | Evochem',
-    description: 'Evochem manufactures industrial, housekeeping and food-industry cleaning chemicals at Anekal, Bengaluru. Bulk supply for Bangalore businesses. Get a quote.',
+    description: 'Cleaning chemicals manufacturer in Bengaluru and industrial cleaning chemicals supplier in Bangalore: made at Anekal, with bulk supply for local businesses.',
     h1: 'Cleaning Chemicals Manufacturer in Bangalore',
     tagline: 'Industrial, housekeeping and food-industry cleaning chemicals, made in Bengaluru',
     banner: 'assets/image/Manufacturing&Warehouse.jpg',

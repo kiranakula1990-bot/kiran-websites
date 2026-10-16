@@ -5,6 +5,7 @@ import { ActivatedRoute } from '@angular/router';
 import Swiper from 'swiper';
 
 import { findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, Product, ProductGroup, productPath } from '../../content/catalogue';
+import { productHeading } from '../../content/product-keywords';
 import { pagePath, pagesUsingProduct } from '../../content/site-content';
 
 
@@ -50,6 +51,7 @@ export class ProductComponent implements OnInit, AfterViewInit {
     }, 100);
   }
 
+  get heading(): string { return this.selectedProduct ? productHeading(this.selectedProduct) : ''; }
   get industries() { return this.usedIn.filter(u => u.kind === 'industry'); }
   get solutions() { return this.usedIn.filter(u => u.kind === 'solution'); }
 

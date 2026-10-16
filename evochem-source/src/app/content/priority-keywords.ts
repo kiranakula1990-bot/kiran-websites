@@ -67,6 +67,7 @@ export const PRIORITY_SECTIONS: Record<string, ContentSection[]> = {
       heading: 'Hotel housekeeping chemicals and hospitality cleaning products',
       paragraphs: [
         'Hotel housekeeping chemicals cover guest rooms, bathrooms, public areas and back-of-house. Our hospitality cleaning products include the EVO range for rooms and washrooms, carpet shampoo and pre-spotter, glass cleaner and steel polish. These housekeeping products for hotels are supplied as concentrates, so one can makes many litres of in-use solution.',
+        'As a hotel cleaning chemical supplier in India, Evochem supplies hotels from its plant in Bengaluru in bulk packs, with dosing guidance for each product.',
       ],
     },
   ],
@@ -77,6 +78,7 @@ export const PRIORITY_SECTIONS: Record<string, ContentSection[]> = {
       paragraphs: [
         'Facility managers buy housekeeping chemicals for facility management across many sites, so a short, consistent product list matters more than a long catalogue. Our cleaning chemicals for corporate offices cover washrooms, floors, glass, desks and pantries with a handful of EVO products.',
         'Concentrated cleaning chemicals for facility management also lower freight, storage and packaging, which is why they are a practical starting point for sustainable cleaning chemicals for facilities. If you are comparing green cleaning products for offices or biodegradable commercial cleaning chemicals, ask us for product data sheets: some products, such as Flox Build, are formulated with biodegradable surfactants, and we will tell you plainly which ones are. Comparing cleaning chemicals with low cost per litre of in-use solution, rather than price per can, usually shows the real saving.',
+        'For buyers comparing sustainable cleaning chemicals in India, concentrates are the practical place to start: one can makes many litres of in-use solution, so there is less packaging and freight per litre used.',
       ],
     },
   ],
@@ -96,6 +98,7 @@ export const PRIORITY_SECTIONS: Record<string, ContentSection[]> = {
       heading: 'Floor cleaning chemical for scrubber machine and stone floors',
       paragraphs: [
         'A floor cleaning chemical for scrubber machine use must be low-foaming, or the recovery tank fills with foam. Novel OGR is a low-foam degreasing floor cleaner for oily floors, and EVO 7, a neutral cleaner made for manual and machine cleaning, suits daily maintenance. For marble and other acid-sensitive stone, a neutral cleaner such as EVO 7 is the marble-safe floor cleaner choice; avoid acidic descalers on stone and test on a small area first.',
+        'For bulk buyers, Evochem supplies each floor cleaner chemical in India in 5 L, 20 L, 50 L and 200 L packs, with pan-India delivery from our plant in Bengaluru.',
       ],
     },
   ],

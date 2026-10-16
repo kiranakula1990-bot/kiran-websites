@@ -27,11 +27,11 @@ export class BlogsComponent implements OnInit, OnDestroy {
   blogType: string = "healthCare";
 
   blogMeta: { [key: string]: BlogMeta } = {
-    liquidDetergent: { title: 'Liquid Detergent Manufacturers in India: A Complete Guide for Businesses', date: '2026-05-03', dateFormatted: 'May 3, 2026',  readTime: 9 },
-    healthCare:      { title: 'Excellence in Healthcare: The Indispensable Role of Cleaning Protocols',     date: '2024-11-14', dateFormatted: 'Nov 14, 2024', readTime: 6 },
-    deepcleaning:    { title: 'Deep Cleaning Reset Protocols for Commercial Establishments',                date: '2024-10-22', dateFormatted: 'Oct 22, 2024', readTime: 7 },
-    cleanBrand:      { title: 'How Cleanliness Influences Brand Image and Customer Trust',                  date: '2024-09-18', dateFormatted: 'Sep 18, 2024', readTime: 5 },
-    cleanKitchen:    { title: 'Clean Kitchen, Safe Kitchen: Essential Tips for a Healthy Cooking Spaces',   date: '2024-08-05', dateFormatted: 'Aug 5, 2024',  readTime: 6 },
+    liquidDetergent: { title: 'Liquid Detergent Manufacturers in India: Buyer Guide', date: '2026-05-03', dateFormatted: 'May 3, 2026',  readTime: 9 },
+    healthCare:      { title: 'Healthcare Cleaning Chemicals and Protocols',     date: '2024-11-14', dateFormatted: 'Nov 14, 2024', readTime: 6 },
+    deepcleaning:    { title: 'Deep Cleaning Protocols for Commercial Premises',                date: '2024-10-22', dateFormatted: 'Oct 22, 2024', readTime: 7 },
+    cleanBrand:      { title: 'How Cleanliness Builds Brand Image and Trust',                  date: '2024-09-18', dateFormatted: 'Sep 18, 2024', readTime: 5 },
+    cleanKitchen:    { title: 'Clean Kitchen, Safe Kitchen: Hygiene Tips',   date: '2024-08-05', dateFormatted: 'Aug 5, 2024',  readTime: 6 },
   };
 
   faqData: { [key: string]: Faq[] } = {

@@ -1,48 +1,17 @@
 import { ContentPage } from '../content/content-model';
 import { categoryProductPath, findGroupBySlug, findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, productPath } from '../content/catalogue';
 import { findPage, INDEX_PAGES, IndexKind, LEGACY_ARTICLES, pagePath } from '../content/site-content';
+import { productHeading } from '../content/product-keywords';
 import { LANDING_PAGES } from './landing-pages';
 import { PageSeo, SITE_URL } from './seo.service';
 
 const ORG_ID = `${SITE_URL}/#organization`;
 
 const HOME: PageSeo = {
-  title: 'Industrial Cleaning Chemical Manufacturer India | Evochem',
-  description: 'Evochem — trusted manufacturer of industrial & hygiene cleaning chemicals in India. ISO-compliant, bulk supply, pan-India delivery. Get a free quote today.',
+  title: 'Industrial Cleaning Chemicals Manufacturer in India | Evochem',
+  description: 'Industrial cleaning chemicals manufacturer in India and hygiene chemical manufacturer in Bengaluru: Evochem supplies food plants, kitchens and hotels in bulk.',
   path: '/',
 };
-
-/** Keyword-led title prefixes for priority products (October 2026 keyword list), keyed by product code as "blaze-auto". */
-const PRODUCT_TITLE: Record<string, string> = {
-  'blaze-auto': 'Commercial Dishwasher Detergent',
-  'blaze-rinse': 'Commercial Rinse Aid for Dishwashers',
-  'blaze-dish': 'Commercial Dishwashing Liquid',
-  'blaze-kitchen-care': 'Concentrated Kitchen Degreaser',
-  'blaze-grill': 'Oven & Grill Cleaner (Carbon Remover)',
-  'blaze-drain': 'Non-Acidic Liquid Drain Cleaner',
-  'novel-hd': 'Heavy-Duty Industrial Floor Cleaner',
-  'novel-ogr': 'Oil & Grease Remover Floor Cleaner',
-  'evo-7': 'Neutral Floor Cleaner Concentrate',
-  'evo-6': 'Toilet Bowl Cleaner for Commercial Use',
-  'evo-1': 'Commercial Bathroom Cleaner',
-  'evo-3': 'Commercial Glass Cleaner Concentrate',
-  'evo-sp': 'Stainless Steel Polish',
-  'evo-101': 'Carpet Shampoo Chemical',
-  'evo-103': 'Carpet Pre-Spotter',
-  'evo-9': 'Heavy-Duty Descaler',
-  'clastox-50': 'Alkaline CIP Detergent',
-  'clastox-plus': 'Low-Foam Heavy-Duty Alkaline Detergent',
-  'sanix-peraxy': 'Peracetic Acid Sanitiser for Food Industry',
-  'sanix-quat': 'Quat Sanitiser for Food Industry',
-  'lush-care-plus': 'Antibacterial Handwash',
-  'flox-star': 'Commercial Laundry Main Wash Detergent',
-  'flox-sour': 'Laundry Sour Neutraliser',
-  'flox-soft-care': 'Fabric Softener for Commercial Laundry',
-};
-
-function formatCode(code: string): string {
-  return code.replace(/\s+/g, '-').toLowerCase();
-}
 
 function clip(text: string, max = 158): string {
   const t = (text || '').replace(/\s+/g, ' ').trim();
@@ -126,8 +95,8 @@ export function resolveSeo(url: string): PageSeo {
 
   if (first === 'contactus' && !second) {
     return {
-      title: 'Contact Evochem | Cleaning Chemical Manufacturer India',
-      description: 'Contact Evochem for bulk industrial and hygiene cleaning chemical supply across India. Get a free quote — fast response from our team.',
+      title: 'Contact Evochem | Bulk Cleaning Chemicals Supplier India',
+      description: 'Contact Evochem, a bulk cleaning chemicals supplier in India, for industrial and hygiene chemical quotes, samples and technical support.',
       path: '/contactus/',
       jsonLd: [breadcrumb([{ name: 'Contact us', path: '/contactus/' }])],
     };
@@ -156,12 +125,13 @@ export function resolveSeo(url: string): PageSeo {
       const { product, group: g } = found;
       const p = third ? categoryProductPath(g, product.slug) : productPath(product.slug);
       const name = `${product.title} – ${product.code}`;
-      const prefix = PRODUCT_TITLE[formatCode(product.code)];
-      const title = prefix ? `${prefix} – ${product.code} | Evochem` : `${name} | Evochem`;
+      const heading = productHeading(product);
+      const full = `${heading} – ${product.code} | Evochem`;
+      const title = full.length <= 62 ? full : `${heading} | Evochem`;
       const image = `${SITE_URL}/${product.picture}`;
       return {
         title,
-        description: clip(`${product.code} ${product.title.toLowerCase()} by Evochem: ${product.details.description}`),
+        description: clip(`${product.code} ${heading} from Evochem, manufacturer in Bengaluru: ${product.details.description}`),
         path: p, type: 'product', image, imageAlt: `${product.title} (${product.code})`,
         jsonLd: [
           breadcrumb([
