@@ -63,10 +63,7 @@ export default {
       return new Response(home.body, { status: 404, headers: h });
     };
 
-    // Redirect replaced khata-transfer article to its new canonical URL
-    if (path === '/blog/khata-transfer-after-registration-bangalore.html') {
-      return Response.redirect(url.origin + '/blog/khata-transfer-after-sale-deed-bangalore.html' + url.search, 301);
-    }
+
     // 404.html exists only to switch Pages out of SPA mode; it was never a page on this site
     if (path === '/404.html') return notFound();
 
@@ -92,5 +89,6 @@ export default {
     return r.status === 200 || r.status === 304 || r.status >= 500 ? r : notFound(); // 304 = cache/browser revalidation
   },
 };
+
 
 
