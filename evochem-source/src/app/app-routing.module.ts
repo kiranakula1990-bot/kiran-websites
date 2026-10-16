@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'products', component: IndexPageComponent, data: { index: 'products' } },
   // Category slugs are listed before the product route because both live under /products/.
   ...GROUPS.map(g => ({ path: `products/${g.slug}`, component: ContentPageComponent, data: { kind: 'category', slug: g.slug } })),
+  { path: 'products/:categorySlug/:productSlug', component: ProductComponent },
   { path: 'products/:productSlug', component: ProductComponent },
 
   { path: 'industries', component: IndexPageComponent, data: { index: 'industries' } },

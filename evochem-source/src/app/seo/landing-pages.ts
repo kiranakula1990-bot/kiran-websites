@@ -43,6 +43,7 @@ export const LANDING_PAGES: LandingPage[] = [
     intro: [
       'Evochem is a cleaning chemicals manufacturer based in Bengaluru. Our products are made at our facility at Sannuthi Shubharam Estate, Marsur Gate, Anekal, and supplied to businesses in Bangalore and, with pan-India delivery, across India. Evochem is a brand of Ennwin Industries Private Limited.',
       'Buying from a local manufacturer means you deal directly with the people who make the product, and can get technical support and training for your housekeeping and sanitation teams.',
+      'As an industrial cleaning chemicals manufacturer in Bangalore, Evochem is also a direct cleaning products supplier in Bangalore: an industrial cleaning chemicals supplier in Bangalore for factories, a housekeeping chemicals supplier in Bangalore for offices and hospitals, a hotel cleaning chemicals supplier in Bangalore for hotels and restaurants, and a food industry cleaning chemical supplier in Karnataka for dairies, poultry and food plants. Being a cleaning chemical manufacturer in South India, close to customers in Bengaluru, keeps delivery times short.',
     ],
     sections: [
       {

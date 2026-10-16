@@ -6,6 +6,7 @@ import { SOLUTIONS } from './solutions';
 import { CATEGORIES } from './categories';
 import { ARTICLES } from './articles';
 import { CASE_STUDIES } from './case-studies';
+import { PRIORITY_SECTIONS } from './priority-keywords';
 
 export { INDUSTRIES, SOLUTIONS, CATEGORIES, ARTICLES, CASE_STUDIES };
 
@@ -29,6 +30,14 @@ const BY_KIND: Record<Exclude<PageKind, 'landing'>, ContentPage[]> = {
   'case-study': CASE_STUDIES,
   article: ARTICLES,
 };
+
+// Keyword-brief sections (priority-keywords.ts) go after each page's own sections.
+for (const [key, sections] of Object.entries(PRIORITY_SECTIONS)) {
+  const [kind, slug] = key.split(':') as [Exclude<PageKind, 'landing'>, string];
+  const page = BY_KIND[kind].find(p => p.slug === slug);
+  if (!page) throw new Error(`priority-keywords: no page ${key}`);
+  page.sections.push(...sections);
+}
 
 export function findPage(kind: PageKind, slug: string): ContentPage | undefined {
   return kind === 'landing' ? undefined : BY_KIND[kind].find(p => p.slug === slug);

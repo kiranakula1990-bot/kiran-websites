@@ -1,6 +1,7 @@
 // Product catalogue helpers. evochem-data.json is the URL register for products and product categories:
 // every product and group carries a permanent `slug`. Product URLs are /products/<product-slug>/ and
-// category URLs are /products/<category-slug>/.
+// category URLs are /products/<category-slug>/. Every product is also reachable inside each category it belongs to,
+// at /products/<category-slug>/<product-slug>/ (own canonical, in the sitemap); menus keep the short URL.
 import catalogueData from '../../../public/assets/data/evochem-data.json';
 
 export interface Product {
@@ -55,7 +56,15 @@ export function findGroupBySlug(slug: string): ProductGroup | undefined {
   return GROUPS.find(g => g.slug === slug);
 }
 
+/** A product looked up inside one category, for /products/<category-slug>/<product-slug>/. */
+export function findProductInGroup(groupSlug: string, productSlug: string): { product: Product; group: ProductGroup } | undefined {
+  const group = findGroupBySlug(groupSlug);
+  const product = group?.products.find(p => p.slug === productSlug);
+  return group && product ? { product, group } : undefined;
+}
+
 export const productPath = (slug: string) => `/products/${slug}/`;
+export const categoryProductPath = (group: ProductGroup, slug: string) => `/products/${group.slug}/${slug}/`;
 export const groupPath = (group: ProductGroup) => `/products/${group.slug}/`;
 
 /** All products once each, in catalogue order. */

@@ -41,7 +41,8 @@ Rollback: Cloudflare dashboard → Workers & Pages → project → Deployments �
   (keeping `_worker.js` and `404.html`). Edit `evochem-source/`, never `evochem/`.
 - Evochem URLs (since 2026-10-15) follow the handover pattern, all with a trailing slash:
   `/products/<category>/`, `/products/<product>/`, `/industries/<x>/`, `/solutions/<x>/`,
-  `/case-studies/<x>/`, `/resources/<x>/` (articles). Product/category slugs live in
+  `/case-studies/<x>/`, `/resources/<x>/` (articles). Every product is also served inside each of its categories at
+  `/products/<category>/<product>/` (own canonical, in the sitemap and `llms.txt`); menus use the short URL. Product/category slugs live in
   `public/assets/data/evochem-data.json`; page copy in `src/app/content/`. `npm run build` regenerates
   `routes.txt`, the sitemap, `public/redirects.json` (old URL → new, used by `evochem/_worker.js` for one-hop
   301s) and `docs/url-register.csv`. Never change a published slug without adding a redirect.

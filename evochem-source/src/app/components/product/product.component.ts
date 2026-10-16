@@ -4,7 +4,7 @@ import { register } from 'swiper/element/bundle';
 import { ActivatedRoute } from '@angular/router';
 import Swiper from 'swiper';
 
-import { findProductBySlug, GROUP_LABEL, groupPath, Product, ProductGroup, productPath } from '../../content/catalogue';
+import { findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, Product, ProductGroup, productPath } from '../../content/catalogue';
 import { pagePath, pagesUsingProduct } from '../../content/site-content';
 
 
@@ -29,7 +29,9 @@ export class ProductComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      const found = findProductBySlug(params.get('productSlug') || '');
+      const category = params.get('categorySlug');
+      const productSlug = params.get('productSlug') || '';
+      const found = category ? findProductInGroup(category, productSlug) : findProductBySlug(productSlug);
       if (!found) return;
       this.selectedProduct = found.product;
       this.group = found.group;

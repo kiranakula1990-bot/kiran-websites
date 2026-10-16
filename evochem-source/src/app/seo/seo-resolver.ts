@@ -1,5 +1,5 @@
 import { ContentPage } from '../content/content-model';
-import { findGroupBySlug, findProductBySlug, GROUP_LABEL, groupPath, productPath } from '../content/catalogue';
+import { categoryProductPath, findGroupBySlug, findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, productPath } from '../content/catalogue';
 import { findPage, INDEX_PAGES, IndexKind, LEGACY_ARTICLES, pagePath } from '../content/site-content';
 import { LANDING_PAGES } from './landing-pages';
 import { PageSeo, SITE_URL } from './seo.service';
@@ -120,7 +120,7 @@ function contentSeo(page: ContentPage): PageSeo {
 
 export function resolveSeo(url: string): PageSeo {
   const path = normalizePath(url);
-  const [, first = '', second = ''] = path.split('/');
+  const [, first = '', second = '', third = ''] = path.split('/');
 
   if (path === '/') return HOME;
 
@@ -146,14 +146,15 @@ export function resolveSeo(url: string): PageSeo {
   }
 
   if (first === 'products' && second) {
-    const group = findGroupBySlug(second);
+    const group = !third && findGroupBySlug(second);
     const category = group && findPage('category', group.slug);
     if (category) return contentSeo(category);
 
-    const found = findProductBySlug(second);
+    // /products/<product>/ or /products/<category>/<product>/ (self-canonical, so both URLs can be indexed)
+    const found = third ? findProductInGroup(second, third) : findProductBySlug(second);
     if (found) {
       const { product, group: g } = found;
-      const p = productPath(product.slug);
+      const p = third ? categoryProductPath(g, product.slug) : productPath(product.slug);
       const name = `${product.title} – ${product.code}`;
       const prefix = PRODUCT_TITLE[formatCode(product.code)];
       const title = prefix ? `${prefix} – ${product.code} | Evochem` : `${name} | Evochem`;
