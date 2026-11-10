@@ -357,3 +357,25 @@ strong{color:var(--ink)}
 
 /* Desktop mega-menu: anchor to header, not the Services button, so all 4 columns (incl. NRI) stay on-screen */
 @media (min-width:981px){.site-header .wrap{position:relative}.nav>li.has-menu{position:static}.menu.menu4{left:auto;right:20px;min-width:0;width:min(900px,calc(100vw - 40px));max-height:calc(100vh - 130px);overflow-y:auto}}
+
+/* 2026-10-24 client fixes: refund policy highlight + consultation form in legacy CTA sections */
+.refund-note{display:flex;flex-wrap:wrap;gap:.25rem .6rem;align-items:baseline;margin:1.25rem 0;padding:.85rem 1rem;background:#FFF8E6;border:1px solid #C69C3B;border-left:5px solid #C69C3B;border-radius:6px;color:#0F1E3C;text-align:left;max-width:720px}
+.refund-note strong{font-weight:700;color:#621755;font-size:1.02rem;white-space:nowrap}
+.refund-note strong::before{content:"✓ ";color:#1F7A4D}
+.refund-note span{font-size:.93rem;line-height:1.45;color:#3D4859}
+.refund-note.on-dark{margin-top:1.5rem}
+.tb-refund{display:inline-block;margin-left:.6rem;padding:.05rem .5rem;background:#C69C3B;color:#0F1E3C;border-radius:3px;font-weight:700;font-size:.78rem;letter-spacing:.02em;text-transform:uppercase}
+.cta-form-wrap{max-width:720px;margin:1.5rem auto 0;text-align:left}
+.cta-form{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;background:#fff;color:#0F1E3C;padding:1.25rem;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.18)}
+.cta-form .full{grid-column:1/-1}
+.cta-form label{display:block;font-size:.88rem;font-weight:600;color:#0F1E3C;margin:0 0 .3rem}
+.cta-form input,.cta-form textarea{width:100%;box-sizing:border-box;font:inherit;font-size:1rem;padding:.65rem .75rem;border:1px solid #B9C1CE;border-radius:4px;background:#fff;color:#0F1E3C}
+.cta-form input:focus,.cta-form textarea:focus{border-color:#621755;outline:3px solid #F4E9F1}
+.cta-form textarea{min-height:110px;resize:vertical}
+.cta-form .hp{position:absolute;left:-9999px}
+.cta-form .status{grid-column:1/-1;font-size:.93rem;min-height:1.3em;color:#0F1E3C}
+.cta-form .status.err{color:#9B1C1C}
+.cta-form .status.ok{color:#1F7A4D}
+.cta-form .cf-note{display:inline-block;margin-left:.6rem;font-size:.85rem;color:#6B7686}
+.cta-form .cta-submit{border:0;cursor:pointer}
+@media (max-width:600px){.cta-form{grid-template-columns:1fr;padding:1rem}.cta-form .cf-note{display:block;margin:.5rem 0 0}.refund-note{margin:1rem 0}}

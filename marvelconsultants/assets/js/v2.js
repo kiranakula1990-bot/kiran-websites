@@ -50,6 +50,8 @@
         if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f('email'))) { status.className = 'status err'; status.textContent = 'Please enter a valid email address so we can reply.'; return; }
       }
       var mobileEl = form.querySelector('[name="mobile"]');
+      var nameEl = form.querySelector('[name="name"]');
+      if (nameEl && nameEl.required && !f('name')) { status.className = 'status err'; status.textContent = 'Please add your name.'; return; }
       var mobile = f('mobile').replace(/\D/g, '');
       if (mobileEl && (mobileEl.required || mobile) && mobile.length < 10) { status.className = 'status err'; status.textContent = 'Please enter a 10-digit mobile number.'; return; }
       var lines = [];
