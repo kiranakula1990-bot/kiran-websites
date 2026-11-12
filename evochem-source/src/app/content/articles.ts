@@ -645,6 +645,7 @@ export const ARTICLES: ContentPage[] = [
   {
     kind: 'article',
     slug: 'foaming-vs-non-foaming-alkaline-detergents',
+    date: '2026-11-12',
     name: 'Foaming vs low-foaming detergents',
     title: 'Foaming vs Non-Foaming Alkaline Detergents for Food Plants | Evochem',
     description: 'When to use foaming or low-foaming alkaline detergent in food processing: equipment, contact time, rinsing and cost drivers. Evochem. Request a sample.',
