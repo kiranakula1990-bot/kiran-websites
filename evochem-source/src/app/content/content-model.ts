@@ -8,7 +8,13 @@
 
 export type PageKind = 'industry' | 'solution' | 'category' | 'case-study' | 'article' | 'landing';
 
+export interface ContentTable {
+  headers: string[];
+  rows: string[][];
+}
+
 export interface ContentSection {
+  table?: ContentTable;
   heading: string;
   paragraphs?: string[];
   bullets?: string[];
@@ -32,9 +38,9 @@ export interface ContentPage {
   slug: string;
   /** Short name used in menus, cards and breadcrumbs. */
   name: string;
-  /** <title>, ideally 50–60 characters, ending in "| Evochem". */
+  /** <title>, ideally 50â€“60 characters, ending in "| Evochem". */
   title: string;
-  /** Meta description, 140–158 characters. */
+  /** Meta description, 140â€“158 characters. */
   description: string;
   h1: string;
   tagline: string;
