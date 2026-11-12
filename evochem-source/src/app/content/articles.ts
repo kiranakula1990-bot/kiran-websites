@@ -1,10 +1,10 @@
 import { ContentPage } from './content-model';
 
 // Resource articles. Product facts and dilutions come from public/assets/data/evochem-data.json.
-// Rules: no certification claims, no kill claims or contact times, no invented figures, cleaning ≠ sanitising.
+// Rules: no certification claims, no kill claims or contact times, no invented figures, cleaning â‰  sanitising.
 
 export const ARTICLES: ContentPage[] = [
-  // 1 ─────────────────────────────────────────────────────────────────────────
+  // 1 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     kind: 'article',
     slug: 'cip-vs-opc-cleaning',
@@ -66,7 +66,7 @@ export const ARTICLES: ContentPage[] = [
         heading: 'Chemistry choices for each method',
         bullets: [
           'CIP: low-foam alkaline detergents for organic soil; an acid step for mineral scale. Evochem does not list a dedicated acid CIP detergent, so ask our technical team for the right option for your circuit.',
-          'OPC: high-foaming alkaline detergents for fat and protein, high-foaming acidic detergents for scale and inorganic soil, and chlorinated alkaline foam where the plant’s hygiene plan calls for it.',
+          'OPC: high-foaming alkaline detergents for fat and protein, high-foaming acidic detergents for scale and inorganic soil, and chlorinated alkaline foam where the plantâ€™s hygiene plan calls for it.',
           'Neutral foam detergent for general areas and for surfaces where a strong alkali is not wanted.',
           'Sanitisers such as peracetic acid or quat, applied only to surfaces that have already been cleaned and rinsed.',
           'Always check that a product is compatible with the materials in your equipment, including soft metals, gaskets and coatings, and read the label before first use.',
@@ -101,10 +101,11 @@ export const ARTICLES: ContentPage[] = [
       { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
       { path: '/solutions/open-plant-cleaning-chemicals/', label: 'Open plant cleaning chemicals', eyebrow: 'Solution' },
       { path: '/industries/dairy-processing/', label: 'Dairy processing hygiene', eyebrow: 'Industry' },
+      { path: '/resources/foaming-vs-non-foaming-alkaline-detergents/', label: 'Foaming vs low-foaming alkaline detergents', eyebrow: 'Related guide' },
     ],
   },
 
-  // 2 ─────────────────────────────────────────────────────────────────────────
+  // 2 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     kind: 'article',
     slug: 'alkaline-vs-acidic-cleaners-food-industry',
@@ -120,7 +121,7 @@ export const ARTICLES: ContentPage[] = [
     date: '2026-10-15',
     readTime: 6,
     intro: [
-      'Most cleaning problems in food plants come from a mismatch between the soil and the chemistry. A detergent that removes fat easily may do almost nothing to mineral scale, and an acid that dissolves scale will leave a greasy film behind. The first question is never “which product is strongest” but “what is the soil made of”.',
+      'Most cleaning problems in food plants come from a mismatch between the soil and the chemistry. A detergent that removes fat easily may do almost nothing to mineral scale, and an acid that dissolves scale will leave a greasy film behind. The first question is never â€œwhich product is strongestâ€ but â€œwhat is the soil made ofâ€.',
       'Food soils fall into two broad families. Organic soils such as fats, oils, proteins and sugars respond to alkaline chemistry. Inorganic soils such as hard-water scale, milkstone and mineral deposits respond to acid chemistry. Chlorinated, neutral, foaming and low-foam products are variations that suit particular surfaces, methods and plant schedules.',
       'This guide maps common soils to chemistry, explains where foaming and low-foam products fit, and sets out how to rotate acid and alkaline cleaning safely. It is written for plant managers, QA teams and hygiene supervisors who choose products or set cleaning schedules.',
     ],
@@ -192,10 +193,11 @@ export const ARTICLES: ContentPage[] = [
       { path: '/solutions/open-plant-cleaning-chemicals/', label: 'Open plant cleaning chemicals', eyebrow: 'Solution' },
       { path: '/industries/food-processing/', label: 'Food processing hygiene', eyebrow: 'Industry' },
       { path: '/products/food-processing-hygiene-chemicals/', label: 'Food processing hygiene chemicals', eyebrow: 'Products' },
+      { path: '/resources/foaming-vs-non-foaming-alkaline-detergents/', label: 'Foaming vs low-foaming alkaline detergents', eyebrow: 'Related guide' },
     ],
   },
 
-  // 3 ─────────────────────────────────────────────────────────────────────────
+  // 3 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     kind: 'article',
     slug: 'commercial-dishwasher-detergent-rinse-aid-guide',
@@ -226,7 +228,7 @@ export const ARTICLES: ContentPage[] = [
       {
         heading: 'What the rinse aid does',
         paragraphs: [
-          'After the wash, the final rinse removes detergent and loosened soil. Without a rinse aid, water forms droplets that dry into spots, particularly in hard water. A rinse aid lowers surface tension so the water sheets off and the ware dries faster. Blaze Rinse is designed to be used with Blaze Auto; it also helps neutralise mineral deposits and remove residue. Its label dilution is 0.2 to 0.5 ml in 1 litre of water at a temperature of 80 to 90 °C.',
+          'After the wash, the final rinse removes detergent and loosened soil. Without a rinse aid, water forms droplets that dry into spots, particularly in hard water. A rinse aid lowers surface tension so the water sheets off and the ware dries faster. Blaze Rinse is designed to be used with Blaze Auto; it also helps neutralise mineral deposits and remove residue. Its label dilution is 0.2 to 0.5 ml in 1 litre of water at a temperature of 80 to 90 Â°C.',
         ],
         products: ['dishwasher-rinse-aid-blaze-rinse'],
       },
@@ -235,7 +237,7 @@ export const ARTICLES: ContentPage[] = [
         bullets: [
           'Hard water uses up detergent and leaves scale on ware and inside the machine. Check your water hardness and adjust dosing within the label range.',
           'Scale on heating elements and spray arms reduces wash performance; descale the machine on a schedule your technical adviser recommends.',
-          'Keep wash and rinse temperatures at the machine manufacturer’s settings. A rinse that is too cool leaves ware wet and spotted.',
+          'Keep wash and rinse temperatures at the machine manufacturerâ€™s settings. A rinse that is too cool leaves ware wet and spotted.',
           'Pre-scrape plates so the wash tank is not overloaded with food soil, and change the tank water as the machine manual specifies.',
         ],
       },
@@ -285,7 +287,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 4 ─────────────────────────────────────────────────────────────────────────
+  // 4 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     kind: 'article',
     slug: 'low-foam-floor-cleaner-scrubber-dryer',
@@ -362,7 +364,7 @@ export const ARTICLES: ContentPage[] = [
       { q: 'Can I use my mopping detergent in a scrubber-dryer?', a: 'Only if it is low-foaming and suitable for machine use. High-foam detergents fill the recovery tank with foam and can damage the vacuum motor.' },
       { q: 'Which Evochem floor cleaner is low-foam?', a: 'Novel OGR is a low-foam oil and grease remover. EVO 7 is a neutral floor cleaner suitable for manual and machine cleaning.' },
       { q: 'Why is my floor sticky after machine cleaning?', a: 'Usually the solution is too strong and leaves residue. Measure the chemical for each fill within the label dilution.' },
-      { q: 'Should I use hot water in the solution tank?', a: 'Follow the machine manufacturer’s guidance. Many machines are designed for cold or warm water only.' },
+      { q: 'Should I use hot water in the solution tank?', a: 'Follow the machine manufacturerâ€™s guidance. Many machines are designed for cold or warm water only.' },
       { q: 'What should I do if the recovery tank is full of foam?', a: 'Stop the machine, empty and rinse the recovery tank, and check the float and filter for moisture. Then check the product and the dilution before restarting.' },
       { q: 'Can one product work across all floors?', a: 'A neutral cleaner suits most daily maintenance, but greasy production and kitchen floors need a degreasing product. Our technical team can help match products to areas.' },
     ],
@@ -373,7 +375,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 5 ─────────────────────────────────────────────────────────────────────────
+  // 5 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     kind: 'article',
     slug: 'reduce-housekeeping-chemical-consumption',
@@ -404,7 +406,7 @@ export const ARTICLES: ContentPage[] = [
       {
         heading: 'Measure every dilution',
         paragraphs: [
-          'Free pouring, “a splash in the bucket”, is the main cause of waste. It also tends to over-strength solutions, which leave residue on floors and glass and then need extra rinsing. Cleaning chemical dilution control simply means the same measured quantity goes into the same volume of water every time.',
+          'Free pouring, â€œa splash in the bucketâ€, is the main cause of waste. It also tends to over-strength solutions, which leave residue on floors and glass and then need extra rinsing. Cleaning chemical dilution control simply means the same measured quantity goes into the same volume of water every time.',
         ],
         steps: [
           'Fix the bucket, trigger bottle and machine tank sizes used in each area.',
@@ -467,7 +469,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 6 ─────────────────────────────────────────────────────────────────────────
+  // 6 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     kind: 'article',
     slug: 'commercial-laundry-wash-process',
@@ -492,7 +494,7 @@ export const ARTICLES: ContentPage[] = [
         heading: 'The wash sequence',
         steps: [
           'Sort linen by colour, fabric and soil level; keep whites separate from coloureds.',
-          'Weigh the load and load to the machine’s rated dry capacity.',
+          'Weigh the load and load to the machineâ€™s rated dry capacity.',
           'Pre-wash to loosen and emulsify oils and heavy soil, then drain.',
           'Main wash with detergent, and builder for heavy or greasy soil.',
           'Chlorine destaining for white cotton linen only, where stains remain.',
@@ -554,7 +556,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 7 ─────────────────────────────────────────────────────────────────────────
+  // 7 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     kind: 'article',
     slug: 'food-contact-surface-sanitizers-guide',
@@ -631,12 +633,160 @@ export const ARTICLES: ContentPage[] = [
       { q: 'Do I need to rinse after sanitising?', a: 'It depends on the product. Check the label: some sanitisers need a potable water rinse on food-contact surfaces and some, such as Sanixol, are described as not requiring one.' },
       { q: 'Which sanitiser is best for CIP?', a: 'Non-foaming sanitisers such as peracetic acid are commonly used in CIP. Ask our technical team to confirm the right product and dilution for your system.' },
       { q: 'How often should chlorine solution be replaced?', a: 'Make it fresh for each shift or task and replace it whenever it looks dirty, because chlorine loses activity in the presence of soil.' },
-      { q: 'Is it safe to store all sanitisers together?', a: 'No. Keep chlorine and peracetic acid products apart, keep alcohol away from heat and oxidisers, and follow each product’s MSDS.' },
+      { q: 'Is it safe to store all sanitisers together?', a: 'No. Keep chlorine and peracetic acid products apart, keep alcohol away from heat and oxidisers, and follow each productâ€™s MSDS.' },
     ],
     related: [
       { path: '/solutions/sanitization-chemicals/', label: 'Sanitisation chemicals', eyebrow: 'Solution' },
       { path: '/industries/food-processing/', label: 'Food processing hygiene', eyebrow: 'Industry' },
       { path: '/products/food-processing-hygiene-chemicals/', label: 'Food processing hygiene chemicals', eyebrow: 'Products' },
+      { path: '/resources/foaming-vs-non-foaming-alkaline-detergents/', label: 'Foaming vs low-foaming alkaline detergents', eyebrow: 'Related guide' },
     ],
+  },
+  {
+    kind: 'article',
+    slug: 'foaming-vs-non-foaming-alkaline-detergents',
+    name: 'Foaming vs low-foaming detergents',
+    title: 'Foaming vs Non-Foaming Alkaline Detergents for Food Plants | Evochem',
+    description: 'When to use foaming or low-foaming alkaline detergent in food processing: equipment, contact time, rinsing and cost drivers. Evochem. Request a sample.',
+    h1: 'Foaming vs Non-Foaming Alkaline Detergents: Which One Does Your Food Plant Need?',
+    tagline: 'Choose foam for open surfaces and low foam for closed cleaning systems.',
+    banner: 'assets/image/dairy.jpg',
+    bannerAlt: 'Stainless steel equipment in a food processing plant',
+    primaryKeyword: 'foaming vs non-foaming alkaline detergent',
+    summary: 'A practical guide to choosing foaming or low-foaming alkaline detergent by equipment, cleaning method, rinse needs and soil.',
+    readTime: 7,
+    intro: [
+      'Use a foaming alkaline detergent on open surfaces, where the foam clings to vertical and hard-to-reach areas and shows where the product has been applied. Use a low-foaming alkaline detergent, often called non-foaming, in closed CIP circuits, soak tanks and other pumped systems, where foam causes problems. The right choice depends on your equipment and cleaning method, not only the soil.',
+      'This guide compares foam behaviour. To choose between alkaline and acidic chemistry, read our guide to alkaline vs acidic cleaners.'
+    ],
+    sections: [
+      {
+        heading: '1. Choose by equipment: a quick decision guide',
+        paragraphs: [
+          'Start with the way the equipment is cleaned. Open surfaces are usually cleaned with a foam application and manual or low-pressure rinsing. Closed systems circulate detergent through pipes, tanks and equipment, so excess foam can interfere with pumping and return flow.'
+        ],
+        table: {
+          headers: ['Equipment or cleaning task', 'Preferred detergent behaviour', 'Why'],
+          rows: [
+            ['Conveyors, tables and hoppers', 'Foaming alkaline', 'Clings to accessible open surfaces and makes coverage visible.'],
+            ['Walls, floors and machine exteriors', 'Foaming alkaline', 'Useful on vertical and broad open surfaces.'],
+            ['CIP pipework and closed tanks', 'Low-foaming alkaline', 'Supports pumping, circulation and return flow.'],
+            ['COP tanks and soak baths', 'Low-foaming alkaline', 'Suitable for immersion and recirculating applications.'],
+            ['Tray washers and pumped systems', 'Low-foaming alkaline', 'Excess foam can disrupt mechanical operation.']
+          ]
+        },
+        bullets: [
+          'Unsure or working with rinse-sensitive equipment? Send our technical team your equipment list and cleaning method before selecting a product.'
+        ]
+      },
+      {
+        heading: '2. What makes a detergent foaming or low-foaming?',
+        paragraphs: [
+          'Foam is produced when surfactants help stabilise air bubbles in a cleaning solution. A high-foaming formulation is designed to create a visible layer that clings to open surfaces. This can help an operator see where the solution has been applied and keep it in contact with vertical surfaces.',
+          'A low-foaming formulation is designed to control foam during circulation, pumping or immersion. The term non-foaming is commonly used in searches, but practical industrial products are more accurately described as low-foaming: the goal is controlled foam, not an unsupported promise of zero foam.',
+          'Visible foam is an application aid. It does not prove that a surface is clean, that the correct contact time has elapsed or that sanitising has taken place.'
+        ]
+      },
+      {
+        heading: '3. When to use a foaming alkaline detergent',
+        paragraphs: [
+          'Foaming alkaline detergents are generally suited to open plant cleaning (OPC). The foam can cling to accessible vertical surfaces and help operators see the areas covered during cleaning. Typical applications include conveyors, processing tables, hoppers, floors, walls and the outside of machinery.',
+          'Alkaline chemistry is commonly selected for food soils such as fats, oils and proteins. The exact product, dilution, application method and rinse procedure must be selected for the soil and surface and followed according to the product label.'
+        ],
+        products: [
+          'alkaline-foam-cleaner-alkalox-foam',
+          'high-foaming-alkaline-detergent-clastox-foam',
+          'chlorinated-alkaline-foam-cleaner-chlorox-foam'
+        ]
+      },
+      {
+        heading: '4. When to use a low-foaming alkaline detergent',
+        paragraphs: [
+          'Low-foaming alkaline detergents are generally suited to closed or pumped cleaning systems. In CIP circuits, solution is circulated through pipework, tanks and internal equipment surfaces. Excess foam can interfere with pumps, reduce effective circulation and cause problems in return lines or tanks.',
+          'Low-foaming products can also be considered for COP tanks, soak baths and tray washers where the equipment relies on immersion, pumping or recirculation. Confirm the product is suitable for the system materials and operating conditions.'
+        ],
+        products: [
+          'low-foam-alkaline-detergent-clastox-plus',
+          'alkaline-cip-detergent-clastox-50'
+        ]
+      },
+      {
+        heading: '5. Foaming vs low-foaming alkaline detergent: comparison',
+        table: {
+          headers: ['Factor', 'Foaming alkaline detergent', 'Low-foaming alkaline detergent'],
+          rows: [
+            ['Typical cleaning method', 'Open plant cleaning (OPC)', 'CIP, COP, soak and pumped systems'],
+            ['Application', 'Foam lance or suitable open-surface application', 'Measured solution circulated, pumped or used in a tank'],
+            ['Coverage visibility', 'Visible foam helps show application coverage', 'Foam is controlled; coverage is not judged by a foam layer'],
+            ['Vertical surfaces', 'Foam can cling to accessible vertical surfaces', 'Not generally selected for visible foam cling'],
+            ['Pumps and return lines', 'Usually unsuitable where foam disrupts circulation', 'Designed for controlled foam in circulation'],
+            ['Rinsing', 'May require more water and time to clear visible foam', 'Rinse according to the product label and validated cycle']
+          ]
+        },
+        paragraphs: [
+          'These are general selection principles, not a substitute for equipment-specific validation. Always check the product label and confirm compatibility with the cleaning system.'
+        ]
+      },
+      {
+        heading: '6. Contact time and rinsing: what should operators check?',
+        paragraphs: [
+          'Contact time depends on the soil, temperature, concentration, surface and product instructions, not on foam alone. On open surfaces, foam can help keep the solution on the soil. In CIP, contact is achieved through the validated combination of flow, temperature and time.',
+          'Both foaming and low-foaming detergents need to be rinsed as directed before the next hygiene step. Visible foam may take additional water and time to clear from surfaces and drains. In closed systems, verify the rinse according to the plant procedure and product instructions. Do not assume that clear-looking water alone proves that every residue has been removed.'
+        ]
+      },
+      {
+        heading: '7. What affects the cost of cleaning?',
+        paragraphs: [
+          'Compare cost per use rather than price per litre. The main cost drivers include the dilution required, the amount and type of soil, water consumption, rinse time, labour, equipment efficiency and production downtime.',
+          'A product that performs at a suitable use concentration and fits the cleaning system may reduce avoidable rework or rinse time. The right comparison should be based on a plant trial and the actual cleaning procedure. Evochem provides product recommendations and quotations based on the application; prices are not listed in this guide.'
+        ]
+      },
+      {
+        heading: '8. Can a food plant use both types?',
+        paragraphs: [
+          'Yes. Many food plants use foaming alkaline detergent for open surfaces and low-foaming alkaline detergent for closed systems. This is not a choice that has to be made once for the entire facility: match the product to each piece of equipment and its cleaning method.',
+          'Do not mix different detergents in one solution. Do not use a foaming product in a CIP circuit unless the equipment and product instructions specifically allow it. Rinse between products and never mix chlorinated products with acids. Follow the safety data sheet, wear the specified protective equipment and use the validated plant procedure.'
+        ]
+      },
+      {
+        heading: '9. Evochem alkaline detergent range',
+        paragraphs: [
+          'The following products illustrate the available foaming and low-foaming options. Confirm the suitability, use concentration and application method against the current product label and your plant conditions.'
+        ],
+        table: {
+          headers: ['Product', 'Type and typical application', 'Label dilution'],
+          rows: [
+            ['Alkalox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%–5%'],
+            ['Clastox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%–5%'],
+            ['Chlorox Foam', 'Chlorinated alkaline foam cleaner for open plant cleaning', '1%–5%'],
+            ['Clastox Plus', 'Low-foaming heavy-duty alkaline detergent for CIP and soak tanks', '0.5%–5%'],
+            ['Clastox 50', 'High-performance alkaline detergent for CIP and soak tanks', '0.5%–5%']
+          ]
+        },
+        products: [
+          'alkaline-foam-cleaner-alkalox-foam',
+          'high-foaming-alkaline-detergent-clastox-foam',
+          'chlorinated-alkaline-foam-cleaner-chlorox-foam',
+          'low-foam-alkaline-detergent-clastox-plus',
+          'alkaline-cip-detergent-clastox-50'
+        ]
+      }
+    ],
+    faqs: [
+      { q: 'Do foaming and low-foaming detergents need different contact times?', a: 'Contact time depends on the soil, the temperature, the concentration and the product, not on foam alone. The difference is how the contact is achieved. Foam clings to open surfaces and stays wet, so it can hold the product on the soil. In a CIP circuit, contact comes from flow, temperature and time. Follow the label and your plant’s validated cleaning cycle.' },
+      { q: 'Do they need different rinsing?', a: 'Both need a thorough rinse before sanitising, and you should always follow the label. Foam generally takes more rinse water and time to clear from drains and surfaces. Low-foaming products suit circuits and lines where rinse time and water are limited. Check the rinse until no detergent remains.' },
+      { q: 'Which is cheaper?', a: 'Compare cost per use, not price per litre. The main drivers are the dilution used, the soil load, the rinse water and time, labour and the downtime of the line. A product that needs a lower dilution or a shorter rinse can cost less to use. We do not quote prices here. Ask our technical team for a quote based on your plant.' },
+      { q: 'Which should I use on which equipment?', a: 'Foaming alkaline detergent suits open plant cleaning: conveyors, tables, hoppers, floors, walls and the outside of machines. Low-foaming alkaline detergent suits CIP pipework and tanks, clean-out-of-place (COP) tanks, soak baths and tray washers. Send us your equipment list and we will match products to each item.' },
+      { q: 'Can I use both in the same plant, or combine them?', a: 'Yes, most plants use both: foam for open surfaces and low-foam for closed systems. Do not mix different detergents in one solution, and do not use a foaming product inside a CIP circuit. Rinse between products and never mix chlorinated products with acids.' }
+    ],
+    related: [
+      { path: '/resources/alkaline-vs-acidic-cleaners-food-industry/', label: 'Alkaline vs acidic cleaners', eyebrow: 'Related guide' },
+      { path: '/resources/cip-vs-opc-cleaning/', label: 'CIP vs OPC cleaning', eyebrow: 'Related guide' },
+      { path: '/resources/food-contact-surface-sanitizers-guide/', label: 'Food-contact surface sanitisers', eyebrow: 'Related guide' },
+      { path: '/solutions/open-plant-cleaning-chemicals/', label: 'Open plant cleaning chemicals', eyebrow: 'Solution' },
+      { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
+      { path: '/products/food-processing-hygiene-chemicals/', label: 'Food processing hygiene chemicals', eyebrow: 'Products' }
+    ],
+    note: 'Product selection and dilution must follow the current product label, equipment requirements and your plant’s validated cleaning procedure. Review this guide every six months.'
   },
 ];

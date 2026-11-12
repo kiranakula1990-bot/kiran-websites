@@ -140,6 +140,7 @@
 /resources/reduce-housekeeping-chemical-consumption
 /resources/commercial-laundry-wash-process
 /resources/food-contact-surface-sanitizers-guide
+/resources/foaming-vs-non-foaming-alkaline-detergents
 /resources/liquid-detergent-manufacturers-india
 /resources/healthcare-cleaning-protocols
 /resources/deep-cleaning-reset-protocols

@@ -20,7 +20,7 @@
             </nav>
             <p *ngIf="isArticle && page.date" class="post-meta">
                 <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
-                <ng-container *ngIf="page.readTime"> · {{ page.readTime }} min read</ng-container>
+                <ng-container *ngIf="page.readTime"> Â· {{ page.readTime }} min read</ng-container>
             </p>
             <p *ngIf="page.note" class="cp-note" role="note">{{ page.note }}</p>
 
@@ -45,6 +45,18 @@
             <ng-container *ngFor="let section of page.sections">
                 <h2 class="h2-heading">{{ section.heading }}</h2>
                 <p class="p2-text" *ngFor="let para of section.paragraphs">{{ para }}</p>
+                <div *ngIf="section.table as table" class="table-responsive cp-table-wrap">
+                    <table class="table table-bordered cp-table">
+                        <thead>
+                            <tr><th *ngFor="let heading of table.headers" scope="col">{{ heading }}</th></tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let row of table.rows">
+                                <td *ngFor="let cell of row">{{ cell }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
                 <ul *ngIf="section.bullets?.length" class="cp-list">
                     <li *ngFor="let item of section.bullets"><p class="p2-text">{{ item }}</p></li>
                 </ul>
@@ -106,7 +118,7 @@
                     <a [routerLink]="link.path" class="post-related-card">
                         <span class="post-related-eyebrow">{{ link.eyebrow }}</span>
                         <span class="post-related-headline">{{ link.label }}</span>
-                        <span class="post-related-arrow" aria-hidden="true">→</span>
+                        <span class="post-related-arrow" aria-hidden="true">â†’</span>
                     </a>
                 </li>
             </ul>
