@@ -59,6 +59,10 @@ export class ContentPageComponent implements OnInit {
     return productPath(slug);
   }
 
+  get isN001(): boolean {
+    return this.page?.slug === 'cleanroom-disinfectant-validation-guide';
+  }
+
   get isArticle(): boolean {
     return this.page?.kind === 'article' || this.page?.kind === 'case-study';
   }

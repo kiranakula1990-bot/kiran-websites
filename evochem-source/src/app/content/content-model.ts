@@ -25,6 +25,21 @@ export interface ContentSection {
 }
 
 export interface ContentFaq { q: string; a: string; }
+export interface ContentFact {
+  label: string;
+  value: string;
+}
+
+export interface ContentCta {
+  label: string;
+  url: string;
+  style: 'primary' | 'secondary';
+}
+
+export interface ContentCtaGroup {
+  heading?: string;
+  buttons: ContentCta[];
+}
 
 export interface ContentLink {
   /** Final URL with trailing slash, e.g. "/solutions/cip-cleaning-chemicals/". */
@@ -59,4 +74,11 @@ export interface ContentPage {
   readTime?: number;
   /** Visible note shown above the content (e.g. that a case study is an illustrative programme). */
   note?: string;
+  /** Optional editorial layout fields used by specially designed articles. */
+  opening?: string;
+  heroImage?: string;
+  quickFacts?: ContentFact[];
+  ctaGroups?: ContentCtaGroup[];
+  disclaimer?: string;
+  inlineLinks?: ContentLink[];
 }
