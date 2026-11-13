@@ -1,10 +1,10 @@
-import { ContentPage } from './content-model';
+﻿import { ContentPage } from './content-model';
 
 // Resource articles. Product facts and dilutions come from public/assets/data/evochem-data.json.
-// Rules: no certification claims, no kill claims or contact times, no invented figures, cleaning â‰  sanitising.
+// Rules: no certification claims, no kill claims or contact times, no invented figures, cleaning Ã¢â€°Â  sanitising.
 
 export const ARTICLES: ContentPage[] = [
-  // 1 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // 1 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   {
     kind: 'article',
     slug: 'cip-vs-opc-cleaning',
@@ -66,7 +66,7 @@ export const ARTICLES: ContentPage[] = [
         heading: 'Chemistry choices for each method',
         bullets: [
           'CIP: low-foam alkaline detergents for organic soil; an acid step for mineral scale. Evochem does not list a dedicated acid CIP detergent, so ask our technical team for the right option for your circuit.',
-          'OPC: high-foaming alkaline detergents for fat and protein, high-foaming acidic detergents for scale and inorganic soil, and chlorinated alkaline foam where the plantâ€™s hygiene plan calls for it.',
+          'OPC: high-foaming alkaline detergents for fat and protein, high-foaming acidic detergents for scale and inorganic soil, and chlorinated alkaline foam where the plantÃ¢â‚¬â„¢s hygiene plan calls for it.',
           'Neutral foam detergent for general areas and for surfaces where a strong alkali is not wanted.',
           'Sanitisers such as peracetic acid or quat, applied only to surfaces that have already been cleaned and rinsed.',
           'Always check that a product is compatible with the materials in your equipment, including soft metals, gaskets and coatings, and read the label before first use.',
@@ -105,7 +105,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 2 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // 2 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   {
     kind: 'article',
     slug: 'alkaline-vs-acidic-cleaners-food-industry',
@@ -121,7 +121,7 @@ export const ARTICLES: ContentPage[] = [
     date: '2026-10-15',
     readTime: 6,
     intro: [
-      'Most cleaning problems in food plants come from a mismatch between the soil and the chemistry. A detergent that removes fat easily may do almost nothing to mineral scale, and an acid that dissolves scale will leave a greasy film behind. The first question is never â€œwhich product is strongestâ€ but â€œwhat is the soil made ofâ€.',
+      'Most cleaning problems in food plants come from a mismatch between the soil and the chemistry. A detergent that removes fat easily may do almost nothing to mineral scale, and an acid that dissolves scale will leave a greasy film behind. The first question is never Ã¢â‚¬Å“which product is strongestÃ¢â‚¬Â but Ã¢â‚¬Å“what is the soil made ofÃ¢â‚¬Â.',
       'Food soils fall into two broad families. Organic soils such as fats, oils, proteins and sugars respond to alkaline chemistry. Inorganic soils such as hard-water scale, milkstone and mineral deposits respond to acid chemistry. Chlorinated, neutral, foaming and low-foam products are variations that suit particular surfaces, methods and plant schedules.',
       'This guide maps common soils to chemistry, explains where foaming and low-foam products fit, and sets out how to rotate acid and alkaline cleaning safely. It is written for plant managers, QA teams and hygiene supervisors who choose products or set cleaning schedules.',
     ],
@@ -197,7 +197,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 3 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // 3 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   {
     kind: 'article',
     slug: 'commercial-dishwasher-detergent-rinse-aid-guide',
@@ -228,7 +228,7 @@ export const ARTICLES: ContentPage[] = [
       {
         heading: 'What the rinse aid does',
         paragraphs: [
-          'After the wash, the final rinse removes detergent and loosened soil. Without a rinse aid, water forms droplets that dry into spots, particularly in hard water. A rinse aid lowers surface tension so the water sheets off and the ware dries faster. Blaze Rinse is designed to be used with Blaze Auto; it also helps neutralise mineral deposits and remove residue. Its label dilution is 0.2 to 0.5 ml in 1 litre of water at a temperature of 80 to 90 Â°C.',
+          'After the wash, the final rinse removes detergent and loosened soil. Without a rinse aid, water forms droplets that dry into spots, particularly in hard water. A rinse aid lowers surface tension so the water sheets off and the ware dries faster. Blaze Rinse is designed to be used with Blaze Auto; it also helps neutralise mineral deposits and remove residue. Its label dilution is 0.2 to 0.5 ml in 1 litre of water at a temperature of 80 to 90 Ã‚Â°C.',
         ],
         products: ['dishwasher-rinse-aid-blaze-rinse'],
       },
@@ -237,7 +237,7 @@ export const ARTICLES: ContentPage[] = [
         bullets: [
           'Hard water uses up detergent and leaves scale on ware and inside the machine. Check your water hardness and adjust dosing within the label range.',
           'Scale on heating elements and spray arms reduces wash performance; descale the machine on a schedule your technical adviser recommends.',
-          'Keep wash and rinse temperatures at the machine manufacturerâ€™s settings. A rinse that is too cool leaves ware wet and spotted.',
+          'Keep wash and rinse temperatures at the machine manufacturerÃ¢â‚¬â„¢s settings. A rinse that is too cool leaves ware wet and spotted.',
           'Pre-scrape plates so the wash tank is not overloaded with food soil, and change the tank water as the machine manual specifies.',
         ],
       },
@@ -287,7 +287,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 4 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // 4 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   {
     kind: 'article',
     slug: 'low-foam-floor-cleaner-scrubber-dryer',
@@ -364,7 +364,7 @@ export const ARTICLES: ContentPage[] = [
       { q: 'Can I use my mopping detergent in a scrubber-dryer?', a: 'Only if it is low-foaming and suitable for machine use. High-foam detergents fill the recovery tank with foam and can damage the vacuum motor.' },
       { q: 'Which Evochem floor cleaner is low-foam?', a: 'Novel OGR is a low-foam oil and grease remover. EVO 7 is a neutral floor cleaner suitable for manual and machine cleaning.' },
       { q: 'Why is my floor sticky after machine cleaning?', a: 'Usually the solution is too strong and leaves residue. Measure the chemical for each fill within the label dilution.' },
-      { q: 'Should I use hot water in the solution tank?', a: 'Follow the machine manufacturerâ€™s guidance. Many machines are designed for cold or warm water only.' },
+      { q: 'Should I use hot water in the solution tank?', a: 'Follow the machine manufacturerÃ¢â‚¬â„¢s guidance. Many machines are designed for cold or warm water only.' },
       { q: 'What should I do if the recovery tank is full of foam?', a: 'Stop the machine, empty and rinse the recovery tank, and check the float and filter for moisture. Then check the product and the dilution before restarting.' },
       { q: 'Can one product work across all floors?', a: 'A neutral cleaner suits most daily maintenance, but greasy production and kitchen floors need a degreasing product. Our technical team can help match products to areas.' },
     ],
@@ -375,7 +375,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 5 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // 5 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   {
     kind: 'article',
     slug: 'reduce-housekeeping-chemical-consumption',
@@ -406,7 +406,7 @@ export const ARTICLES: ContentPage[] = [
       {
         heading: 'Measure every dilution',
         paragraphs: [
-          'Free pouring, â€œa splash in the bucketâ€, is the main cause of waste. It also tends to over-strength solutions, which leave residue on floors and glass and then need extra rinsing. Cleaning chemical dilution control simply means the same measured quantity goes into the same volume of water every time.',
+          'Free pouring, Ã¢â‚¬Å“a splash in the bucketÃ¢â‚¬Â, is the main cause of waste. It also tends to over-strength solutions, which leave residue on floors and glass and then need extra rinsing. Cleaning chemical dilution control simply means the same measured quantity goes into the same volume of water every time.',
         ],
         steps: [
           'Fix the bucket, trigger bottle and machine tank sizes used in each area.',
@@ -469,7 +469,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 6 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // 6 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   {
     kind: 'article',
     slug: 'commercial-laundry-wash-process',
@@ -494,7 +494,7 @@ export const ARTICLES: ContentPage[] = [
         heading: 'The wash sequence',
         steps: [
           'Sort linen by colour, fabric and soil level; keep whites separate from coloureds.',
-          'Weigh the load and load to the machineâ€™s rated dry capacity.',
+          'Weigh the load and load to the machineÃ¢â‚¬â„¢s rated dry capacity.',
           'Pre-wash to loosen and emulsify oils and heavy soil, then drain.',
           'Main wash with detergent, and builder for heavy or greasy soil.',
           'Chlorine destaining for white cotton linen only, where stains remain.',
@@ -556,7 +556,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 7 â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // 7 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   {
     kind: 'article',
     slug: 'food-contact-surface-sanitizers-guide',
@@ -633,7 +633,7 @@ export const ARTICLES: ContentPage[] = [
       { q: 'Do I need to rinse after sanitising?', a: 'It depends on the product. Check the label: some sanitisers need a potable water rinse on food-contact surfaces and some, such as Sanixol, are described as not requiring one.' },
       { q: 'Which sanitiser is best for CIP?', a: 'Non-foaming sanitisers such as peracetic acid are commonly used in CIP. Ask our technical team to confirm the right product and dilution for your system.' },
       { q: 'How often should chlorine solution be replaced?', a: 'Make it fresh for each shift or task and replace it whenever it looks dirty, because chlorine loses activity in the presence of soil.' },
-      { q: 'Is it safe to store all sanitisers together?', a: 'No. Keep chlorine and peracetic acid products apart, keep alcohol away from heat and oxidisers, and follow each productâ€™s MSDS.' },
+      { q: 'Is it safe to store all sanitisers together?', a: 'No. Keep chlorine and peracetic acid products apart, keep alcohol away from heat and oxidisers, and follow each productÃ¢â‚¬â„¢s MSDS.' },
     ],
     related: [
       { path: '/solutions/sanitization-chemicals/', label: 'Sanitisation chemicals', eyebrow: 'Solution' },
@@ -757,11 +757,11 @@ export const ARTICLES: ContentPage[] = [
         table: {
           headers: ['Product', 'Type and typical application', 'Label dilution'],
           rows: [
-            ['Alkalox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%–5%'],
-            ['Clastox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%–5%'],
-            ['Chlorox Foam', 'Chlorinated alkaline foam cleaner for open plant cleaning', '1%–5%'],
-            ['Clastox Plus', 'Low-foaming heavy-duty alkaline detergent for CIP and soak tanks', '0.5%–5%'],
-            ['Clastox 50', 'High-performance alkaline detergent for CIP and soak tanks', '0.5%–5%']
+            ['Alkalox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%â€“5%'],
+            ['Clastox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%â€“5%'],
+            ['Chlorox Foam', 'Chlorinated alkaline foam cleaner for open plant cleaning', '1%â€“5%'],
+            ['Clastox Plus', 'Low-foaming heavy-duty alkaline detergent for CIP and soak tanks', '0.5%â€“5%'],
+            ['Clastox 50', 'High-performance alkaline detergent for CIP and soak tanks', '0.5%â€“5%']
           ]
         },
         products: [
@@ -774,7 +774,7 @@ export const ARTICLES: ContentPage[] = [
       }
     ],
     faqs: [
-      { q: 'Do foaming and low-foaming detergents need different contact times?', a: 'Contact time depends on the soil, the temperature, the concentration and the product, not on foam alone. The difference is how the contact is achieved. Foam clings to open surfaces and stays wet, so it can hold the product on the soil. In a CIP circuit, contact comes from flow, temperature and time. Follow the label and your plant’s validated cleaning cycle.' },
+      { q: 'Do foaming and low-foaming detergents need different contact times?', a: 'Contact time depends on the soil, the temperature, the concentration and the product, not on foam alone. The difference is how the contact is achieved. Foam clings to open surfaces and stays wet, so it can hold the product on the soil. In a CIP circuit, contact comes from flow, temperature and time. Follow the label and your plantâ€™s validated cleaning cycle.' },
       { q: 'Do they need different rinsing?', a: 'Both need a thorough rinse before sanitising, and you should always follow the label. Foam generally takes more rinse water and time to clear from drains and surfaces. Low-foaming products suit circuits and lines where rinse time and water are limited. Check the rinse until no detergent remains.' },
       { q: 'Which is cheaper?', a: 'Compare cost per use, not price per litre. The main drivers are the dilution used, the soil load, the rinse water and time, labour and the downtime of the line. A product that needs a lower dilution or a shorter rinse can cost less to use. We do not quote prices here. Ask our technical team for a quote based on your plant.' },
       { q: 'Which should I use on which equipment?', a: 'Foaming alkaline detergent suits open plant cleaning: conveyors, tables, hoppers, floors, walls and the outside of machines. Low-foaming alkaline detergent suits CIP pipework and tanks, clean-out-of-place (COP) tanks, soak baths and tray washers. Send us your equipment list and we will match products to each item.' },
@@ -788,6 +788,232 @@ export const ARTICLES: ContentPage[] = [
       { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
       { path: '/products/food-processing-hygiene-chemicals/', label: 'Food processing hygiene chemicals', eyebrow: 'Products' }
     ],
-    note: 'Product selection and dilution must follow the current product label, equipment requirements and your plant’s validated cleaning procedure. Review this guide every six months.'
+    note: 'Product selection and dilution must follow the current product label, equipment requirements and your plantâ€™s validated cleaning procedure. Review this guide every six months.'
+  },
+  {
+    kind: 'article',
+    slug: 'cleanroom-disinfectant-validation-guide',
+    name: 'Cleanroom disinfectant validation',
+    title: 'Cleanroom Disinfectant Validation Guide | Pharma & Healthcare | Evochem',
+    description: 'What makes a disinfectant cleanroom-validated: standards, contact time, surfaces and the documents QA needs. A guide for pharma and healthcare. Evochem.',
+    h1: 'Cleanroom Disinfectant Validation: What Pharma and Healthcare Facilities Need',
+    tagline: 'A practical guide to validation evidence, standards, contact time, surface compatibility and audit documentation.',
+    banner: 'assets/image/cleanroom-disinfectant-validation-pharma-healthcare.jpg',
+    bannerAlt: 'Pharmaceutical cleanroom worker in protective gown beside stainless steel equipment',
+    heroImage: 'assets/image/cleanroom-disinfectant-validation-pharma-healthcare.jpg',
+    primaryKeyword: 'cleanroom disinfectant validation',
+    summary: 'Understand what disinfectant validation should demonstrate, which standards are commonly referenced, and what your QA team should keep ready for an audit.',
+    date: '2026-11-13',
+    readTime: 8,
+    opening: 'A cleanroom-validated disinfectant has documented, tested performance against the organisms, contact time and surfaces of your own cleanroom, not just a general antimicrobial claim. That includes sporicidal data where it is needed. ISO 14644 classifies the air cleanliness of a cleanroom but does not validate disinfectants, so your QA team needs its own validation file.',
+    intro: [
+      "Pharma and healthcare facilities often ask suppliers for a 'validated' disinfectant, but the word means different things to different people. This guide explains what validation should show, which standards are usually referred to, how contact time and rotation work, and what documents your QA team should be able to produce when an auditor asks."
+    ],
+    quickFacts: [
+      {
+        label: 'What it is',
+        value: 'Documented proof that a disinfectant works against the organisms, surfaces and contact time relevant to your own cleanroom.'
+      },
+      {
+        label: 'Standards usually referred to',
+        value: 'EN 13697 and EN 16615 are surface-test methods; USP <1072> is guidance; EU GMP Annex 1 (2022) requires the disinfection process to be validated. ISO 14644 classifies cleanroom air cleanliness; it is not a disinfectant test.'
+      },
+      {
+        label: 'Contact time',
+        value: 'Use the contact time in the validation data for the product and surface. The surface must remain wet throughout. Sporicidal claims generally need longer contact times.'
+      },
+      {
+        label: 'Surface compatibility',
+        value: 'Test the actual surfaces in the facility or justify the representative materials used.'
+      },
+      {
+        label: 'Rotation',
+        value: 'Use more than one type of disinfectant, including a sporicidal agent periodically, as decided by the QA team.'
+      },
+      {
+        label: 'Who decides',
+        value: 'The QA and microbiology team, based on room grade, environmental monitoring data and the facility risk assessment.'
+      }
+    ],
+    ctaGroups: [
+      {
+        heading: 'Need cleaning products or supporting documents for your facility?',
+        buttons: [
+          { label: 'Request a Free Sample & SDS', url: 'https://evochem.co.in/contactus/', style: 'primary' },
+          { label: 'WhatsApp Evochem', url: 'https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20a%20free%20sample%20and%20the%20SDS%20for%20your%20cleaning%20products%20for%20a%20pharma%20or%20healthcare%20facility.', style: 'secondary' },
+          { label: 'Call +91 74838 37722', url: 'tel:+917483837722', style: 'secondary' }
+        ]
+      },
+      {
+        heading: 'Discuss the cleaning needs of your facility',
+        buttons: [
+          { label: 'Talk to Our Technical Team', url: 'https://evochem.co.in/contactus/', style: 'primary' },
+          { label: 'WhatsApp Your Area List', url: 'https://wa.me/917483837722?text=Hello%20Evochem%2C%20please%20advise%20which%20of%20your%20cleaning%20products%20suit%20the%20non-classified%20areas%20of%20our%20facility.', style: 'secondary' },
+          { label: 'Email Your Questions', url: 'mailto:info@ennwin.in?subject=Sample%20and%20SDS%20request', style: 'secondary' }
+        ]
+      },
+      {
+        heading: 'Speak with Evochem',
+        buttons: [
+          { label: 'Request a Free Sample & SDS', url: 'https://evochem.co.in/contactus/', style: 'primary' },
+          { label: 'WhatsApp Evochem', url: 'https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20a%20free%20sample%20and%20the%20SDS%20for%20your%20cleaning%20products%20for%20a%20pharma%20or%20healthcare%20facility.', style: 'secondary' },
+          { label: 'Call +91 74838 37722', url: 'tel:+917483837722', style: 'secondary' },
+          { label: 'Email info@ennwin.in', url: 'mailto:info@ennwin.in?subject=Sample%20and%20SDS%20request', style: 'secondary' }
+        ]
+      }
+    ],
+    sections: [
+      {
+        heading: '1. What does â€œcleanroom-validated disinfectantâ€ mean?',
+        paragraphs: [
+          'A disinfectant is cleanroom-validated when there is documented evidence that it works in the way you use it. A supplierâ€™s label claim, such as â€œkills 99.9% of germsâ€, is a starting point. Validation goes further and answers five questions:'
+        ],
+        bullets: [
+          'Which organisms were tested, including spores where relevant?',
+          'What contact time was used?',
+          'Which surfaces were tested?',
+          'How much soil or interfering substance was present?',
+          'What result counted as a pass?'
+        ],
+        table: undefined
+      },
+      {
+        heading: '2. ISO 14644 and disinfectants: what is the link?',
+        paragraphs: [
+          'ISO 14644 is a family of standards for cleanrooms. ISO 14644-1 classifies the cleanliness of air by the number of particles present. It tells you how clean the room air must be; it does not set out how to test a disinfectant.',
+          'The link is indirect. The room class and grade set how strict contamination control has to be, and that determines how much evidence is needed for disinfectants.'
+        ]
+      },
+      {
+        heading: '3. Standards that are usually referred to',
+        paragraphs: [
+          'These are references facilities and suppliers most often mention. Your QA team decides which apply to your site.'
+        ],
+        table: {
+          headers: ['Reference', 'What it covers', 'Points to note'],
+          rows: [
+            ['EU GMP Annex 1 (2022)', 'Manufacture of sterile medicinal products, including cleaning and disinfection', 'Requires the disinfection process to be validated and a contamination control strategy. Names no single test standard.'],
+            ['EN 13697', 'Surface test without mechanical action', 'Commonly used as a lab test. It has no standard spore test, so spore claims often use a modified method.'],
+            ['EN 16615', 'Surface test with mechanical action (wiping)', 'Closer to real wiping or mopping practice.'],
+            ['USP <1072>', 'Guidance on disinfectants and antiseptics', 'Often used to design spore and surface studies.'],
+            ['ISO 14644-1', 'Classification of cleanroom air cleanliness by particles', 'Not a disinfectant test.'],
+            ['Revised Schedule M (India)', 'Good manufacturing practice for Indian pharmaceutical manufacturers', 'Check the current text and your regulatorâ€™s expectations for your product type.']
+          ]
+        }
+      },
+      {
+        heading: '4. Sporicidal claims: what to check',
+        paragraphs: [
+          'Spores are much harder to kill than ordinary bacteria. Alcohols do not kill bacterial spores. A product should only be called sporicidal if it has been tested against spores, in the way and for the time you will use it.'
+        ],
+        bullets: [
+          'Ask which spore-forming organism was used.',
+          'Ask for the contact time that applies to the sporicidal claim.',
+          'Ask whether the test used the same surfaces and soil as your room.',
+          'Remember that sporicides can be harsher on some surfaces, so check compatibility first.'
+        ],
+      },
+      {
+        heading: '5. Contact time and surface compatibility',
+        paragraphs: [
+          'Contact time is how long the surface must stay wet with disinfectant for it to work. It is set by validation data for that product, not by a general rule. If the surface dries before the time is up, the result is not covered by the data. Wiping dry too early is a common cause of failure.',
+          'Surface compatibility has two sides: whether the disinfectant still works on the surface, and whether it damages the surface or leaves residue. Validation on stainless steel alone is not enough for glass, flooring or plastics.'
+        ],
+        table: {
+          headers: ['Surface type', 'What to check', 'What validation should show'],
+          rows: [
+            ['Stainless steel', 'Corrosion from repeated chloride or oxidiser use', 'Efficacy and no damage over repeated use'],
+            ['Glass and windows', 'Residue and streaking', 'Efficacy, and that residue can be removed'],
+            ['Epoxy or vinyl flooring', 'Softening, dulling and slip risk', 'Efficacy on that exact flooring'],
+            ['Painted walls and ceilings', 'Paint damage and residue', 'Efficacy on that coating'],
+            ['Plastics and gaskets', 'Cracking, swelling or clouding', 'Efficacy and material compatibility']
+          ]
+        }
+      },
+      {
+        heading: '6. Rotation: why it matters',
+        paragraphs: [
+          'Rotation means using more than one type of disinfectant, with different modes of action, on a planned schedule. Annex 1 expects more than one type, including periodic use of a sporicidal agent. A common structure is:'
+        ],
+        bullets: [
+          'A broad-spectrum disinfectant for routine use.',
+          'A sporicidal agent at a planned interval.',
+          'A sporicidal agent after a monitoring excursion or a maintenance shutdown, if the corrective-action plan says so.'
+        ]
+      },
+      {
+        heading: '7. The audit documentation checklist',
+        paragraphs: [
+          'Auditors want evidence, not just a claim. Your QA team should be able to produce the following on demand:'
+        ],
+        bullets: [
+          'Validation report for each disinfectant: standard or method, organisms, contact time, soil load, surfaces and pass criteria.',
+          'Certificate of analysis for the batch in use.',
+          'SDS for every product.',
+          'Proof of sterility where the disinfectant is required to be sterile, such as in higher-grade areas.',
+          'In-use expiry data for prepared solutions and dilution records.',
+          'Rotation SOP and the schedule actually followed.',
+          'Cleaning records: what was used, where, when and by whom.',
+          'Environmental monitoring data, including results before and after disinfection.',
+          'Staff training records.',
+          'Records of any product change, the reason for it and whether re-validation was done.'
+        ]
+      },
+      {
+        heading: '8. The cleaning step, and where Evochem fits',
+        paragraphs: [
+          'Cleaning comes before disinfection. Detergent removes soil and residue that would shield microorganisms. For classified areas, the detergent also needs to suit the validation and, in higher-grade areas, may need to be sterile. That decision belongs to the QA team.',
+          'Evochem manufactures cleaning products for the housekeeping side of pharma and healthcare facilities, such as non-classified and support areas: corridors, offices, washrooms, floors and hand hygiene. Evochem does not list a cleanroom or hospital-grade disinfectant. For classified areas, use a disinfectant your QA team has validated and approved.',
+          'EVO 7 neutral floor cleaner is intended for daily floor cleaning; EVO 2 hard surface cleaner is for walls, counters and fixtures; and professional hand hygiene products are available for staff. See the healthcare facilities page for the full range, along with guides on healthcare cleaning protocols and choosing a low-foam floor cleaner.',
+          'Share your area list and SOPs with the technical team. They can advise which products may suit which areas and which areas need a validated disinfectant from another source. SDS documents are available for every Evochem product on request.'
+        ],
+        products: [
+          'neutral-floor-cleaner-evo-7',
+          'hard-surface-cleaner-evo-2'
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: 'What documentation shows that a disinfectant is validated for a cleanroom?',
+        a: 'Generally, the validation report should name the test standard or method, test organisms including spores where relevant, contact time, soil load, surfaces tested and pass criteria. It should be supported by the CoA, SDS and, where required, proof of sterility. QA decides what is required for each room grade.'
+      },
+      {
+        q: 'What contact time should be used?',
+        a: 'Use the contact time in the validation data, not a general figure. It depends on the product, the claim (sporicidal contact times are generally longer than bactericidal ones), the organism and the surface. The surface must stay visibly wet for the whole time.'
+      },
+      {
+        q: 'Which surfaces must be tested?',
+        a: 'Test the actual surfaces in the facility, such as stainless steel, glass, epoxy or vinyl flooring, painted walls and plastics, or use justified representative materials. A pass on stainless steel alone does not prove suitability for every surface.'
+      },
+      {
+        q: 'Why rotate disinfectants, and does it prevent resistance?',
+        a: 'Guidance such as EU GMP Annex 1 expects more than one type of disinfectant, with a sporicidal agent used periodically. The aim is to cover bacteria, fungi and spores and reduce the chance of resistant flora building up. Resistance in practice is debated, so base rotation on your own monitoring data and risk assessment.'
+      },
+      {
+        q: 'Can I get an SDS before I decide?',
+        a: 'Yes. Evochem provides an SDS for each product on request. Evochem supplies cleaning products for floors, surfaces, washrooms and hand hygiene, and does not list a cleanroom or hospital-grade disinfectant. Use a validated disinfectant approved by your QA team for classified areas.'
+      },
+      {
+        q: 'How do we stay audit-ready?',
+        a: 'Keep a controlled file for each product: validation report, CoA, SDS, in-use expiry data and rotation SOP. Maintain dated records of what was used, where and by whom, along with dilution, environmental monitoring and staff training records.'
+      }
+    ],
+    related: [
+      { path: '/resources/healthcare-cleaning-protocols/', label: 'Healthcare cleaning chemicals and protocols', eyebrow: 'Related guide' },
+      { path: '/resources/food-contact-surface-sanitizers-guide/', label: 'Food-contact surface sanitiser types compared', eyebrow: 'Related guide' },
+      { path: '/resources/low-foam-floor-cleaner-scrubber-dryer/', label: 'Low-foam floor cleaner for scrubber-dryer machines', eyebrow: 'Related guide' },
+      { path: '/resources/reduce-housekeeping-chemical-consumption/', label: 'How to reduce housekeeping chemical consumption and cost per use', eyebrow: 'Related guide' },
+      { path: '/resources/', label: 'All articles', eyebrow: 'Resources' }
+    ],
+    inlineLinks: [
+      { path: '/products/neutral-floor-cleaner-evo-7/', label: 'EVO 7 neutral floor cleaner', eyebrow: 'Product' },
+      { path: '/products/hard-surface-cleaner-evo-2/', label: 'EVO 2 hard surface cleaner', eyebrow: 'Product' },
+      { path: '/products/professional-hand-hygiene-products/', label: 'Professional hand hygiene products', eyebrow: 'Product' },
+      { path: '/industries/healthcare/', label: 'Healthcare facilities', eyebrow: 'Industry' },
+      { path: '/resources/healthcare-cleaning-protocols/', label: 'Healthcare cleaning protocols', eyebrow: 'Related guide' },
+      { path: '/resources/low-foam-floor-cleaner-scrubber-dryer/', label: 'Choosing a low-foam floor cleaner', eyebrow: 'Related guide' }
+    ],
+    disclaimer: 'Disclaimer: This article is general information, not regulatory or legal advice. Standards, guidance and regulations change, and what applies to your facility depends on your products, room grades and regulator. Follow your QA team, your site SOPs and the current official texts. Evochem is a brand of Ennwin Industries Private Limited. Evochem products are cleaning products. Any sanitising or disinfecting use is only as stated in the product data.'
   },
 ];

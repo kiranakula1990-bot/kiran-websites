@@ -1,130 +1,308 @@
-<ng-container *ngIf="page">
-<div class="page-title-default" [ngStyle]="{'background-image': 'url(\'' + page.banner + '\')'}">
-    <div class="overlay"></div>
-    <div class="container text-banner">
-        <h1 class="entry-title title">{{ page.h1 }}</h1>
-        <p class="p2-text" style="color:white">{{ page.tagline }}</p>
-    </div>
-</div>
+﻿<ng-container *ngIf="page">
 
-<div class="container pb-4">
+  <!-- Dedicated editorial layout: EVO-N001 -->
+  <ng-container *ngIf="isN001; else standardPage">
+    <main class="n001-article">
+      <header class="n001-header container">
+        <nav class="cp-breadcrumb" aria-label="Breadcrumb">
+          <ol class="breadcrumb-list">
+            <li><a routerLink="/">Home</a></li>
+            <li *ngIf="parent"><a [routerLink]="parent.path">{{ parent.name }}</a></li>
+            <li><span class="breadcrumb-link-last" aria-current="page">{{ page.name }}</span></li>
+          </ol>
+        </nav>
 
-    <div class="blog-section">
-        <div class="wpb_wrapper-des">
-            <nav class="cp-breadcrumb" aria-label="Breadcrumb">
-                <ol class="breadcrumb-list">
-                    <li><a routerLink="/">Home</a></li>
-                    <li *ngIf="parent"><a [routerLink]="parent.path">{{ parent.name }}</a></li>
-                    <li><span class="breadcrumb-link-last" aria-current="page">{{ page.name }}</span></li>
-                </ol>
-            </nav>
-            <p *ngIf="isArticle && page.date" class="post-meta">
-                <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
-                <ng-container *ngIf="page.readTime"> Â· {{ page.readTime }} min read</ng-container>
-            </p>
-            <p *ngIf="page.note" class="cp-note" role="note">{{ page.note }}</p>
+        <h1 class="n001-title">{{ page.h1 }}</h1>
+        <p class="n001-tagline">{{ page.tagline }}</p>
 
-            <p class="p2-text" *ngFor="let para of page.intro">{{ para }}</p>
+        <p *ngIf="page.date" class="post-meta n001-meta">
+          <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
+          <ng-container *ngIf="page.readTime"> · {{ page.readTime }} min read</ng-container>
+        </p>
 
-            <ng-container *ngIf="categoryProducts.length">
-                <h2 class="h2-heading">Products in this range</h2>
-                <ul class="cp-products">
-                    <li *ngFor="let p of categoryProducts">
-                        <a [routerLink]="productLink(p.slug)" class="cp-product">
-                            <img [src]="p.thumbnail || 'assets/image/productcate1.png'" [alt]="p.title + ' (' + p.code + ')'" width="120" height="120" loading="lazy">
-                            <span class="cp-product__body">
-                                <span class="cp-product__code">{{ p.code }}</span>
-                                <span class="cp-product__title">{{ p.title }}</span>
-                                <span class="cp-product__desc">{{ p.details.description }}</span>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-            </ng-container>
+        <figure *ngIf="page.heroImage" class="n001-hero">
+          <img [src]="page.heroImage" [alt]="page.bannerAlt" width="1200" height="675" fetchpriority="high">
+        </figure>
+      </header>
 
-            <ng-container *ngFor="let section of page.sections">
-                <h2 class="h2-heading">{{ section.heading }}</h2>
-                <p class="p2-text" *ngFor="let para of section.paragraphs">{{ para }}</p>
-                <div *ngIf="section.table as table" class="table-responsive cp-table-wrap">
-                    <table class="table table-bordered cp-table">
-                        <thead>
-                            <tr><th *ngFor="let heading of table.headers" scope="col">{{ heading }}</th></tr>
-                        </thead>
-                        <tbody>
-                            <tr *ngFor="let row of table.rows">
-                                <td *ngFor="let cell of row">{{ cell }}</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <ul *ngIf="section.bullets?.length" class="cp-list">
-                    <li *ngFor="let item of section.bullets"><p class="p2-text">{{ item }}</p></li>
-                </ul>
-                <ol *ngIf="section.steps?.length" class="cp-steps">
-                    <li *ngFor="let step of section.steps"><p class="p2-text">{{ step }}</p></li>
-                </ol>
-                <ul *ngIf="section.products?.length" class="cp-products">
-                    <ng-container *ngFor="let slug of section.products">
-                        <li *ngIf="product(slug) as p">
-                            <a [routerLink]="productLink(p.slug)" class="cp-product">
-                                <img [src]="p.thumbnail || 'assets/image/productcate1.png'" [alt]="p.title + ' (' + p.code + ')'" width="120" height="120" loading="lazy">
-                                <span class="cp-product__body">
-                                    <span class="cp-product__code">{{ p.code }}</span>
-                                    <span class="cp-product__title">{{ p.title }}</span>
-                                    <span class="cp-product__desc">{{ p.details.description }}</span>
-                                </span>
-                            </a>
-                        </li>
-                    </ng-container>
-                </ul>
-            </ng-container>
+      <article class="container n001-content">
+        <p *ngIf="page.opening" class="n001-opening"><strong>{{ page.opening }}</strong></p>
 
-            <h2 class="h2-heading">Talk to our technical team</h2>
-            <p class="p2-text">Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply.</p>
-            <div class="product-cta-row" role="group" aria-label="Contact options">
-                <a [href]="whatsappURL" target="_blank" rel="noopener" class="product-cta product-cta--primary">
-                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-                    <span>WhatsApp enquiry</span>
-                </a>
-                <a [href]="emailURL" class="product-cta product-cta--secondary">
-                    <i class="fa-regular fa-envelope" aria-hidden="true"></i>
-                    <span>Email a quote</span>
-                </a>
-                <a routerLink="/contactus" class="product-cta product-cta--secondary">
-                    <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>
-                    <span>Request a quote</span>
-                </a>
+        <section *ngIf="page.quickFacts?.length" class="n001-facts" aria-labelledby="n001-facts-title">
+          <h2 id="n001-facts-title">Cleanroom disinfectant validation: quick facts</h2>
+          <dl>
+            <div *ngFor="let fact of page.quickFacts">
+              <dt>{{ fact.label }}</dt>
+              <dd>{{ fact.value }}</dd>
             </div>
-        </div>
-    </div>
-</div>
+          </dl>
+        </section>
 
-<div *ngIf="page.faqs.length > 0" class="container pb-5">
-    <div class="faq-section">
-        <h2 class="faq-section-title">Frequently asked questions</h2>
-        <details *ngFor="let faq of page.faqs" class="faq-item">
+        <ng-container *ngIf="page.ctaGroups?.[0] as cta">
+          <section class="n001-cta" aria-label="Request product information">
+            <h2 *ngIf="cta.heading">{{ cta.heading }}</h2>
+            <div class="n001-cta__buttons">
+              <a *ngFor="let button of cta.buttons"
+                 [href]="button.url"
+                 [class.n001-cta__button--primary]="button.style === 'primary'"
+                 class="n001-cta__button"
+                 [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+                 [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener noreferrer' : null">
+                {{ button.label }}
+              </a>
+            </div>
+          </section>
+        </ng-container>
+
+        <div class="n001-intro">
+          <p *ngFor="let para of page.intro">{{ para }}</p>
+        </div>
+
+        <ng-container *ngFor="let section of page.sections; let i = index">
+          <section class="n001-section">
+            <h2>{{ section.heading }}</h2>
+
+            <p *ngFor="let para of section.paragraphs">{{ para }}</p>
+
+            <div *ngIf="section.table as table" class="table-responsive n001-table-wrap">
+              <table class="table table-bordered n001-table">
+                <thead>
+                  <tr>
+                    <th *ngFor="let heading of table.headers" scope="col">{{ heading }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let row of table.rows">
+                    <td *ngFor="let cell of row">{{ cell }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <ul *ngIf="section.bullets?.length" class="n001-list">
+              <li *ngFor="let item of section.bullets">{{ item }}</li>
+            </ul>
+
+            <ol *ngIf="section.steps?.length" class="n001-list n001-list--ordered">
+              <li *ngFor="let step of section.steps">{{ step }}</li>
+            </ol>
+
+            <ul *ngIf="section.products?.length" class="cp-products">
+              <ng-container *ngFor="let slug of section.products">
+                <li *ngIf="product(slug) as p">
+                  <a [routerLink]="productLink(p.slug)" class="cp-product">
+                    <img [src]="p.thumbnail || 'assets/image/productcate1.png'"
+                         [alt]="p.title + ' (' + p.code + ')'"
+                         width="120" height="120" loading="lazy">
+                    <span class="cp-product__body">
+                      <span class="cp-product__code">{{ p.code }}</span>
+                      <span class="cp-product__title">{{ p.title }}</span>
+                      <span class="cp-product__desc">{{ p.details.description }}</span>
+                    </span>
+                  </a>
+                </li>
+              </ng-container>
+            </ul>
+
+            <div *ngIf="i === 7 && page.inlineLinks?.length" class="n001-inline-links">
+              <span>Explore related Evochem products and guidance:</span>
+              <a *ngFor="let link of page.inlineLinks" [routerLink]="link.path">{{ link.label }}</a>
+            </div>
+          </section>
+
+          <ng-container *ngIf="i === 6 && page.ctaGroups?.[1] as cta">
+            <section class="n001-cta" aria-label="Discuss facility cleaning requirements">
+              <h2 *ngIf="cta.heading">{{ cta.heading }}</h2>
+              <div class="n001-cta__buttons">
+                <a *ngFor="let button of cta.buttons"
+                   [href]="button.url"
+                   [class.n001-cta__button--primary]="button.style === 'primary'"
+                   class="n001-cta__button"
+                   [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+                   [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener noreferrer' : null">
+                  {{ button.label }}
+                </a>
+              </div>
+            </section>
+          </ng-container>
+        </ng-container>
+
+        <section *ngIf="page.faqs.length" class="n001-faq">
+          <h2>Frequently asked questions</h2>
+          <details *ngFor="let faq of page.faqs" class="faq-item">
             <summary>{{ faq.q }}</summary>
             <div class="faq-answer"><p>{{ faq.a }}</p></div>
-        </details>
-    </div>
-</div>
+          </details>
+        </section>
 
-<div *ngIf="page.related.length" class="container pb-5">
-    <div class="post-footer">
-        <nav class="post-related" aria-label="Related pages">
-            <h2 class="post-related-title">Related</h2>
-            <ul class="post-related-list">
-                <li *ngFor="let link of page.related" class="post-related-item">
-                    <a [routerLink]="link.path" class="post-related-card">
-                        <span class="post-related-eyebrow">{{ link.eyebrow }}</span>
-                        <span class="post-related-headline">{{ link.label }}</span>
-                        <span class="post-related-arrow" aria-hidden="true">&#8594;</span>
-                    </a>
-                </li>
-            </ul>
+        <ng-container *ngIf="page.ctaGroups?.[2] as cta">
+          <section class="n001-cta" aria-label="Contact Evochem">
+            <h2 *ngIf="cta.heading">{{ cta.heading }}</h2>
+            <div class="n001-cta__buttons">
+              <a *ngFor="let button of cta.buttons"
+                 [href]="button.url"
+                 [class.n001-cta__button--primary]="button.style === 'primary'"
+                 class="n001-cta__button"
+                 [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+                 [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener noreferrer' : null">
+                {{ button.label }}
+              </a>
+            </div>
+          </section>
+        </ng-container>
+
+        <p *ngIf="page.disclaimer" class="n001-disclaimer">{{ page.disclaimer }}</p>
+
+        <nav *ngIf="page.related.length" class="post-related n001-related" aria-label="Related pages">
+          <h2 class="post-related-title">Related reading</h2>
+          <ul class="post-related-list">
+            <li *ngFor="let link of page.related" class="post-related-item">
+              <a [routerLink]="link.path" class="post-related-card">
+                <span class="post-related-eyebrow">{{ link.eyebrow }}</span>
+                <span class="post-related-headline">{{ link.label }}</span>
+                <span class="post-related-arrow" aria-hidden="true">&#8594;</span>
+              </a>
+            </li>
+          </ul>
         </nav>
+      </article>
+    </main>
+  </ng-container>
+
+  <!-- Existing layout for every other content page -->
+  <ng-template #standardPage>
+    <div class="page-title-default" [ngStyle]="{'background-image': 'url(\'' + page.banner + '\')'}">
+      <div class="overlay"></div>
+      <div class="container text-banner">
+        <h1 class="entry-title title">{{ page.h1 }}</h1>
+        <p class="p2-text" style="color:white">{{ page.tagline }}</p>
+      </div>
     </div>
-</div>
+
+    <div class="container pb-4">
+      <div class="blog-section">
+        <div class="wpb_wrapper-des">
+          <nav class="cp-breadcrumb" aria-label="Breadcrumb">
+            <ol class="breadcrumb-list">
+              <li><a routerLink="/">Home</a></li>
+              <li *ngIf="parent"><a [routerLink]="parent.path">{{ parent.name }}</a></li>
+              <li><span class="breadcrumb-link-last" aria-current="page">{{ page.name }}</span></li>
+            </ol>
+          </nav>
+
+          <p *ngIf="isArticle && page.date" class="post-meta">
+            <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
+            <ng-container *ngIf="page.readTime"> · {{ page.readTime }} min read</ng-container>
+          </p>
+          <p *ngIf="page.note" class="cp-note" role="note">{{ page.note }}</p>
+
+          <p class="p2-text" *ngFor="let para of page.intro">{{ para }}</p>
+
+          <ng-container *ngIf="categoryProducts.length">
+            <h2 class="h2-heading">Products in this range</h2>
+            <ul class="cp-products">
+              <li *ngFor="let p of categoryProducts">
+                <a [routerLink]="productLink(p.slug)" class="cp-product">
+                  <img [src]="p.thumbnail || 'assets/image/productcate1.png'"
+                       [alt]="p.title + ' (' + p.code + ')'"
+                       width="120" height="120" loading="lazy">
+                  <span class="cp-product__body">
+                    <span class="cp-product__code">{{ p.code }}</span>
+                    <span class="cp-product__title">{{ p.title }}</span>
+                    <span class="cp-product__desc">{{ p.details.description }}</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </ng-container>
+
+          <ng-container *ngFor="let section of page.sections">
+            <h2 class="h2-heading">{{ section.heading }}</h2>
+            <p class="p2-text" *ngFor="let para of section.paragraphs">{{ para }}</p>
+            <div *ngIf="section.table as table" class="table-responsive cp-table-wrap">
+              <table class="table table-bordered cp-table">
+                <thead>
+                  <tr><th *ngFor="let heading of table.headers" scope="col">{{ heading }}</th></tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let row of table.rows">
+                    <td *ngFor="let cell of row">{{ cell }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <ul *ngIf="section.bullets?.length" class="cp-list">
+              <li *ngFor="let item of section.bullets"><p class="p2-text">{{ item }}</p></li>
+            </ul>
+            <ol *ngIf="section.steps?.length" class="cp-steps">
+              <li *ngFor="let step of section.steps"><p class="p2-text">{{ step }}</p></li>
+            </ol>
+            <ul *ngIf="section.products?.length" class="cp-products">
+              <ng-container *ngFor="let slug of section.products">
+                <li *ngIf="product(slug) as p">
+                  <a [routerLink]="productLink(p.slug)" class="cp-product">
+                    <img [src]="p.thumbnail || 'assets/image/productcate1.png'"
+                         [alt]="p.title + ' (' + p.code + ')'"
+                         width="120" height="120" loading="lazy">
+                    <span class="cp-product__body">
+                      <span class="cp-product__code">{{ p.code }}</span>
+                      <span class="cp-product__title">{{ p.title }}</span>
+                      <span class="cp-product__desc">{{ p.details.description }}</span>
+                    </span>
+                  </a>
+                </li>
+              </ng-container>
+            </ul>
+          </ng-container>
+
+          <h2 class="h2-heading">Talk to our technical team</h2>
+          <p class="p2-text">Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply.</p>
+          <div class="product-cta-row" role="group" aria-label="Contact options">
+            <a [href]="whatsappURL" target="_blank" rel="noopener" class="product-cta product-cta--primary">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              <span>WhatsApp enquiry</span>
+            </a>
+            <a [href]="emailURL" class="product-cta product-cta--secondary">
+              <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+              <span>Email a quote</span>
+            </a>
+            <a routerLink="/contactus" class="product-cta product-cta--secondary">
+              <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>
+              <span>Request a quote</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="page.faqs.length > 0" class="container pb-5">
+      <div class="faq-section">
+        <h2 class="faq-section-title">Frequently asked questions</h2>
+        <details *ngFor="let faq of page.faqs" class="faq-item">
+          <summary>{{ faq.q }}</summary>
+          <div class="faq-answer"><p>{{ faq.a }}</p></div>
+        </details>
+      </div>
+    </div>
+
+    <div *ngIf="page.related.length" class="container pb-5">
+      <div class="post-footer">
+        <nav class="post-related" aria-label="Related pages">
+          <h2 class="post-related-title">Related</h2>
+          <ul class="post-related-list">
+            <li *ngFor="let link of page.related" class="post-related-item">
+              <a [routerLink]="link.path" class="post-related-card">
+                <span class="post-related-eyebrow">{{ link.eyebrow }}</span>
+                <span class="post-related-headline">{{ link.label }}</span>
+                <span class="post-related-arrow" aria-hidden="true">&#8594;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </ng-template>
+
 </ng-container>
 
 <app-footer/>

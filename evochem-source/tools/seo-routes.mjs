@@ -17,8 +17,9 @@ const slugsIn = file => [...read(file).matchAll(/^ {4}slug: '([^']+)'/gm)].map(m
 // slug + name + description of each page in a content file (string values in '...' or "...")
 const str = String.raw`('(?:[^'\\]|\\.)*'|"(?:[^"\\]|\\.)*")`;
 const unq = v => v.slice(1, -1).replace(/\\(.)/g, '$1');
-const entriesIn = file => [...read(file).matchAll(new RegExp(`^ {4}slug: '([^']+)',\n {4}name: ${str},[\\s\\S]*?^ {4}description:\\s+${str}`, 'gm'))]
-  .map(m => ({ slug: m[1], name: unq(m[2]), description: unq(m[3]) }));
+const entriesIn = file => [...read(file).matchAll(
+  new RegExp(`^ {4}slug: '([^']+)',[\\s\\S]*?^ {4}name: ${str},[\\s\\S]*?^ {4}description:\\s+${str}`, 'gm')
+)].map(m => ({ slug: m[1], name: unq(m[2]), description: unq(m[3]) }));
 const formatCode = code => code.replace(/\s+/g, '-').toLowerCase();
 const today = new Date().toISOString().slice(0, 10);
 
