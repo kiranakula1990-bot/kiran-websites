@@ -97,7 +97,7 @@ export const legacyArticlePath = (a: LegacyArticle) => `/resources/${a.slug}/`;
 
 /** Cards for the articles listing: new articles first (newest first), then the original posts. */
 export function articleCards(): { path: string; title: string; summary: string; image: string; date: string }[] {
-  const fresh = ARTICLES.map(a => ({ path: pagePath(a), title: a.h1, summary: a.summary, image: a.banner, date: a.date || '' }));
+  const fresh = ARTICLES.filter(a => a.slug !== 'cleanroom-disinfectant-validation-guide').map(a => ({ path: pagePath(a), title: a.h1, summary: a.summary, image: a.banner, date: a.date || '' }));
   const old = LEGACY_ARTICLES.map(a => ({ path: legacyArticlePath(a), title: a.title, summary: a.summary, image: a.image, date: a.date }));
   return [...fresh, ...old].sort((x, y) => y.date.localeCompare(x.date));
 }
