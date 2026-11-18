@@ -82,6 +82,7 @@ export const SOLUTIONS: ContentPage[] = [
       { q: 'Do you supply CIP chemicals across India?', a: 'Yes. We manufacture in Bengaluru and supply bulk packs, including 200 L drums, with pan-India delivery.' },
     ],
     related: [
+      { path: '/resources/dairy-cip-optimization-guide/', label: 'Dairy CIP optimization: reduce chemical and water use', eyebrow: 'Related guide' },
       { path: '/solutions/open-plant-cleaning-chemicals/', label: 'Open plant cleaning chemicals and foam cleaning', eyebrow: 'Solution' },
       { path: '/industries/dairy-processing/', label: 'Cleaning and hygiene for dairy processing', eyebrow: 'Industry' },
       { path: '/resources/cip-vs-opc-cleaning/', label: 'CIP vs OPC cleaning explained', eyebrow: 'Guide' },

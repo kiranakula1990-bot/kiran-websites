@@ -133,6 +133,7 @@
 /case-studies/hotel-housekeeping-kitchen-programme
 /case-studies/facility-washroom-floor-care-programme
 /resources
+/resources/dairy-cip-optimization-guide
 /resources/cip-vs-opc-cleaning
 /resources/alkaline-vs-acidic-cleaners-food-industry
 /resources/commercial-dishwasher-detergent-rinse-aid-guide

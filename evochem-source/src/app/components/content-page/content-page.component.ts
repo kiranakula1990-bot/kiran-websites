@@ -63,6 +63,25 @@ export class ContentPageComponent implements OnInit {
     return this.page?.slug === 'cleanroom-disinfectant-validation-guide';
   }
 
+  get isN003(): boolean {
+    return this.page?.slug === 'dairy-cip-optimization-guide';
+  }
+
+  get n003CtaGroup1() { return this.page?.ctaGroups?.[0]; }
+  get n003CtaGroup2() { return this.page?.ctaGroups?.[1]; }
+  get n003CtaGroup3() { return this.page?.ctaGroups?.[2]; }
+
+  trackCta(url: string, block: number): void {
+    if (!isPlatformBrowser(this.platformId)) return;
+    const eventName = url.startsWith('https://wa.me/') ? 'click_whatsapp'
+      : url.startsWith('tel:') ? 'click_call'
+      : url.startsWith('mailto:') ? 'click_email' : 'click_form';
+    const w = window as Window & { gtag?: (...args: any[]) => void };
+    w.gtag?.('event', eventName, {
+      cta_block: block,
+      page_path: this.path
+    });
+  }
   get isArticle(): boolean {
     return this.page?.kind === 'article' || this.page?.kind === 'case-study';
   }

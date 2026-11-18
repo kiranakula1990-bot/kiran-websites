@@ -270,3 +270,72 @@
   .n001-cta__button { width: 100%; }
   .n001-table { min-width: 560px; }
 }
+
+/* N003 dairy CIP article CTAs */
+.n003-cta {
+  margin: 1.75rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--evo-line, rgba(26,31,28,.15));
+  border-radius: 12px;
+  background: #f7f9f7;
+  h2 { margin: 0 0 1rem; font-size: 1.25rem; }
+}
+.n003-cta__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+.n003-cta__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: .7rem 1rem;
+  border: 1px solid #1f3a5f;
+  border-radius: 7px;
+  color: #1f3a5f;
+  font-weight: 650;
+  text-decoration: none;
+  text-align: center;
+}
+.n003-cta__button--primary {
+  color: #fff;
+  background: #1f3a5f;
+}
+.n003-cta__button[href^="https://wa.me/"] {
+  color: #fff;
+  background: #25d366;
+  border-color: #25d366;
+}
+.n003-sticky-cta { display: none; }
+
+@media (max-width: 767px) {
+  .n003-cta__buttons { flex-direction: column; }
+  .n003-cta__button { width: 100%; }
+  body:has(.n003-sticky-cta) { padding-bottom: 68px; }
+  .n003-sticky-cta {
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: .5rem;
+    padding: .55rem;
+    background: #fff;
+    box-shadow: 0 -2px 12px rgba(0,0,0,.14);
+  }
+  .n003-sticky-cta a {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    border-radius: 7px;
+    color: #fff;
+    background: #25d366;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .n003-sticky-cta a:last-child { background: #1f3a5f; }
+}
