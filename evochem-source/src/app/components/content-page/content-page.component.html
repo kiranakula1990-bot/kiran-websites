@@ -1,4 +1,4 @@
-﻿<ng-container *ngIf="page">
+<ng-container *ngIf="page">
 
   <!-- Existing layout for every other content page -->
 
@@ -23,7 +23,7 @@
 
           <p *ngIf="isArticle && page.date" class="post-meta">
             <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
-            <ng-container *ngIf="page.readTime"> Â· {{ page.readTime }} min read</ng-container>
+            <ng-container *ngIf="page.readTime"> Ã‚Â· {{ page.readTime }} min read</ng-container>
           </p>
           <p *ngIf="page.note" class="cp-note" role="note">{{ page.note }}</p>
           <p *ngIf="page.opening" class="p2-text"><strong>{{ page.opening }}</strong></p>
@@ -104,20 +104,20 @@
             </ul>
           </div>
           <p *ngIf="page.disclaimer" class="p2-text"><small>{{ page.disclaimer }}</small></p>
-<h2 class="h2-heading">{{ page.slug === "dairy-processing" ? "Request a Dairy Hygiene Consultation" : "Talk to our technical team" }}</h2>
-          <p class="p2-text">{{ page.slug === "dairy-processing" ? "Discuss your dairy plant soils, CIP circuits, cleaning conditions and documentation needs with our technical team." : "Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply." }}</p>
+<h2 class="h2-heading">{{ page.slug === "healthcare" ? "Request a Healthcare Sample & SDS" : page.slug === "dairy-processing" ? "Request a Dairy Hygiene Consultation" : "Talk to our technical team" }}</h2>
+          <p class="p2-text">{{ page.slug === "healthcare" ? "Share your facility areas and housekeeping requirements. Request product MSDS, dilution guidance and a sample for evaluation against your facility SOPs." : page.slug === "dairy-processing" ? "Discuss your dairy plant soils, CIP circuits, cleaning conditions and documentation needs with our technical team." : "Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply." }}</p>
           <div class="product-cta-row" role="group" aria-label="Contact options">
             <a [href]="whatsappURL" target="_blank" rel="noopener" class="product-cta product-cta--primary">
               <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-              <span>WhatsApp enquiry</span>
+              <span>{{ page.slug === "healthcare" ? "Request sample & MSDS" : "WhatsApp enquiry" }}</span>
             </a>
             <a [href]="emailURL" class="product-cta product-cta--secondary">
               <i class="fa-regular fa-envelope" aria-hidden="true"></i>
-              <span>Email a quote</span>
+              <span>{{ page.slug === "healthcare" ? "Email sample & MSDS request" : "Email a quote" }}</span>
             </a>
             <a routerLink="/contactus" class="product-cta product-cta--secondary">
               <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>
-              <span>Request a quote</span>
+              <span>{{ page.slug === "healthcare" ? "Request a sample" : "Request a quote" }}</span>
             </a>
           </div>
         </div>

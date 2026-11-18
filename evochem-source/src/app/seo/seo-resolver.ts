@@ -1,4 +1,4 @@
-﻿import { ContentPage } from '../content/content-model';
+import { ContentPage } from '../content/content-model';
 import { categoryProductPath, findGroupBySlug, findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, productPath } from '../content/catalogue';
 import { findPage, INDEX_PAGES, IndexKind, LEGACY_ARTICLES, pagePath } from '../content/site-content';
 import { productHeading } from '../content/product-keywords';
@@ -72,7 +72,7 @@ function contentSeo(page: ContentPage): PageSeo {
     publisher: { '@id': ORG_ID },
     mainEntityOfPage: SITE_URL + p,
   } : {
-    '@type': page.kind === 'category' ? 'CollectionPage' : page.kind === 'industry' && page.slug === 'dairy-processing' ? 'Service' : 'WebPage',
+    '@type': page.kind === 'category' ? 'CollectionPage' : page.kind === 'industry' && ['dairy-processing', 'healthcare'].includes(page.slug) ? 'Service' : 'WebPage',
     '@id': `${SITE_URL}${p}#webpage`,
     name: page.title,
     description: page.description,

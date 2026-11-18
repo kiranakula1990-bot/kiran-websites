@@ -93,10 +93,10 @@ Each product has a short URL and a URL inside its category; both show the same p
 ## Industries
 
 - [Food and beverage processing](https://evochem.co.in/industries/food-processing/): Food processing cleaning chemicals made in India: foam cleaners, CIP detergents and food-industry sanitisers for dairy, meat, poultry and beverage plants.
-- [Dairy processing](https://evochem.co.in/industries/dairy-processing/): CIP and hygiene chemicals for dairy processing plants — milk residue removal, compliance documentation. Evochem. Request a sample.
+- [Dairy processing](https://evochem.co.in/industries/dairy-processing/): CIP and hygiene chemicals for dairy processing plants â€” milk residue removal, compliance documentation. Evochem. Request a sample.
 - [Poultry and meat processing](https://evochem.co.in/industries/poultry-meat-processing/): Poultry processing cleaning chemicals for meat plants: foam cleaners for fat and blood, chlorinated alkaline daily cleaning, sanitisers, drains and handwash.
 - [Hospitality and commercial kitchens](https://evochem.co.in/industries/hospitality/): Hotel cleaning chemicals supplier for housekeeping, kitchens and laundry: room and washroom cleaners, dishwash, degreasers, linen care and guest handwash.
-- [Healthcare facilities](https://evochem.co.in/industries/healthcare/): Hospital housekeeping chemicals for floors, washrooms, surfaces, kitchens and linen, plus staff hand hygiene. For use within your infection-control protocol.
+- [Healthcare facilities](https://evochem.co.in/industries/healthcare/): Cleaning and hygiene chemicals for hospitals and healthcare facilities, with MSDS documentation and dilution guidance available. Evochem. Request a sample.
 - [Commercial laundry](https://evochem.co.in/industries/commercial-laundry/): Hotel laundry chemicals and institutional laundry detergent: destainer, sour and softener for OPLs, hotel laundries, hospital linen and institutions.
 - [Manufacturing and warehousing](https://evochem.co.in/industries/manufacturing-warehousing/): Factory cleaning chemicals for oily shop floors, machine-shop grease, warehouses and cold stores, plus washroom, canteen and heavy-duty hand wash products.
 - [Facility management and commercial buildings](https://evochem.co.in/industries/facility-management/): Facility management cleaning chemicals for offices, IT parks, malls and schools: concentrated housekeeping kits, floor, washroom, glass and carpet care.
