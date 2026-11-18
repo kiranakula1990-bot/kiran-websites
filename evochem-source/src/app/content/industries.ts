@@ -1,4 +1,4 @@
-﻿import { ContentPage } from './content-model';
+import { ContentPage } from './content-model';
 
 // Industry pages (/industries/<slug>/). Products are referenced by permanent slug from evochem-data.json.
 // Content rules: no certification or kill claims, no customer names, no invented results; dilutions only from data.
@@ -126,10 +126,10 @@ export const INDUSTRIES: ContentPage[] = [
     slug: 'dairy-processing',
     name: 'Dairy processing',
     title: 'Dairy Processing Cleaning Chemicals & CIP Solutions | Evochem',
-    description: 'CIP and hygiene chemicals for dairy processing plants — milk residue removal, compliance documentation. Evochem. Request a sample.',
+    description: 'CIP and hygiene chemicals for dairy processing plants â€” milk residue removal, compliance documentation. Evochem. Request a sample.',
     h1: 'Dairy Processing Cleaning Chemicals and CIP Solutions',
     tagline: 'CIP chemistry for milk residue removal, plant hygiene and audit documentation',
-    opening: "Dairy processing plants need CIP chemistry that fully removes milk residue and biofilm without extending cycle time or damaging equipment seals — while producing the documentation regulators expect at audit. Evochem's dairy-sector chemicals are formulated for exactly that balance.",
+    opening: "Dairy processing plants need CIP chemistry that fully removes milk residue and biofilm without extending cycle time or damaging equipment seals â€” while producing the documentation regulators expect at audit. Evochem's dairy-sector chemicals are formulated for exactly that balance.",
     quickFacts: [
       { label: 'Main CIP soils', value: 'Milk fat, protein and milkstone deposits' },
       { label: 'CIP detergents', value: 'Low-foaming alkaline detergents: Clastox 50 and Clastox Plus' },
@@ -211,7 +211,7 @@ export const INDUSTRIES: ContentPage[] = [
       { q: 'Which chemicals are used in dairy CIP cleaning?', a: 'A typical programme uses a low-foaming alkaline detergent for milk fat and protein, an acid step where milkstone or mineral scale forms, and a sanitiser after cleaning and rinsing. Evochem supplies alkaline detergents and sanitisers; ask our technical team about the acid step.' },
       { q: 'How do dairy plants remove milkstone from pasteurisers?', a: 'Milkstone contains milk proteins and mineral deposits that build up on heated surfaces. A suitable alkaline wash followed by an equipment-compatible acid step is generally used. Evochem does not currently list an acid CIP detergent.' },
       { q: 'Can Acidox Foam be used in a recirculating CIP circuit?', a: 'No. Acidox Foam is a high-foaming acidic cleaner for open surfaces, not recirculating CIP. Ask our technical team about an appropriate acid product for your circuit.' },
-      { q: 'How can a dairy plant check whether its CIP cycle is effective?', a: 'Review time, temperature, chemical concentration and flow or return conditions against the validated SOP. Verify cleaning using the plant’s approved inspection or testing method, and document results and corrective actions.' },
+      { q: 'How can a dairy plant check whether its CIP cycle is effective?', a: 'Review time, temperature, chemical concentration and flow or return conditions against the validated SOP. Verify cleaning using the plantâ€™s approved inspection or testing method, and document results and corrective actions.' },
     ],
     related: [
       { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
@@ -407,17 +407,24 @@ export const INDUSTRIES: ContentPage[] = [
     kind: 'industry',
     slug: 'healthcare',
     name: 'Healthcare facilities',
-    title: 'Hospital Housekeeping Chemicals for Healthcare | Evochem',
-    description: 'Hospital housekeeping chemicals for floors, washrooms, surfaces, kitchens and linen, plus staff hand hygiene. For use within your infection-control protocol.',
-    h1: 'Hospital Housekeeping Chemicals for Healthcare Facilities',
-    tagline: 'Cleaning products for floors, washrooms, surfaces, kitchens, laundry and hand hygiene in hospitals and clinics',
+    title: 'Healthcare & Hospital Cleaning Chemicals | Evochem',
+    description: 'Cleaning and hygiene chemicals for hospitals and healthcare facilities, with MSDS documentation and dilution guidance available. Evochem. Request a sample.',
+    h1: 'Healthcare Cleaning Chemicals for Hospitals and Healthcare Facilities',
+    tagline: 'Cleaning, washroom, kitchen, laundry and hand hygiene products for hospitals and clinics',
+    opening: 'Healthcare facilities need cleaning and hygiene products matched to the surfaces, soil levels and workflows in each area, with product safety data and clear dilution guidance for housekeeping teams. Evochemâ€™s healthcare range supports these routine requirements.',
+    quickFacts: [
+      { label: 'Facility areas', value: 'Wards, corridors, washrooms, kitchens and linen rooms' },
+      { label: 'Cleaning products', value: 'Floor, hard-surface, glass and washroom cleaners' },
+      { label: 'Hand hygiene', value: 'Handwashes and waterless hand sanitisers' },
+      { label: 'Product documentation', value: 'MSDS available for every product; follow facility SOPs and product dilution guidance' },
+    ],
     banner: 'assets/image/HealthCareFacility.jpg',
-    bannerAlt: 'Hospital corridor and patient care area',
+    bannerAlt: 'healthcare-hospital-disinfection-chemicals-evochem',
     primaryKeyword: 'hospital housekeeping chemicals',
     summary: 'Floor, washroom, surface, kitchen, laundry and hand hygiene products for hospitals and clinics, used within your infection-control protocol.',
     intro: [
       'Hospitals, nursing homes, diagnostic centres and clinics clean around the clock, across wards, OPD areas, corridors, washrooms, staff canteens, patient kitchens and linen rooms. The housekeeping team needs products that are simple to dilute correctly, safe on the surfaces in use and consistent from shift to shift.',
-      'Evochem manufactures hospital housekeeping chemicals for the cleaning side of that work. Product choice, frequencies and any disinfection step in clinical areas should follow your facility’s infection-control protocol. Our products are for cleaning, and where stated in the product data, for sanitising surfaces that have already been cleaned.',
+      'Evochem manufactures hospital housekeeping chemicals for the cleaning side of that work. Product choice, frequencies and any disinfection step in clinical areas should follow your facilityâ€™s infection-control protocol. Our products are for cleaning, and where stated in the product data, for sanitising surfaces that have already been cleaned.',
     ],
     sections: [
       {
@@ -449,7 +456,7 @@ export const INDUSTRIES: ContentPage[] = [
       {
         heading: 'Hospital linen',
         paragraphs: [
-          'Linen from wards and theatres is often heavily stained and is handled under the facility’s own segregation and wash protocol. Within that process, Flox Star is a concentrated main wash detergent, the Flox chlorine destainer removes stains from white linen, and Flox Sour neutralises alkalinity and bleach residue in the final rinse so fabric does not yellow. Flox Star is dosed at 5 to 15 ml per kg of dry linen.',
+          'Linen from wards and theatres is often heavily stained and is handled under the facilityâ€™s own segregation and wash protocol. Within that process, Flox Star is a concentrated main wash detergent, the Flox chlorine destainer removes stains from white linen, and Flox Sour neutralises alkalinity and bleach residue in the final rinse so fabric does not yellow. Flox Star is dosed at 5 to 15 ml per kg of dry linen.',
         ],
         products: ['main-wash-laundry-detergent-flox-star', 'laundry-chlorine-destainer-flox', 'laundry-sour-neutralizer-flox-sour'],
       },
@@ -476,12 +483,15 @@ export const INDUSTRIES: ContentPage[] = [
       },
     ],
     faqs: [
-      { q: 'Are these products disinfectants for clinical areas?', a: 'No claim is made here that they disinfect clinical areas. They are cleaning products, and some sanitise pre-cleaned surfaces as stated in their product data; your infection-control team should specify any disinfectant and where it is used.' },
-      { q: 'Why does cleaning come before sanitising or disinfection?', a: 'Soil and organic matter reduce how well sanitisers and disinfectants work. Removing soil first lets the next step act on a clean surface.' },
-      { q: 'Which floor cleaner suits hospital corridors with scrubber-dryers?', a: 'EVO 7 is a neutral floor cleaner suitable for manual and machine cleaning and is designed not to leave residues or marks.' },
-      { q: 'Can you train our housekeeping staff?', a: 'Yes. We provide dilution guidance and training on product use, and MSDS for every product, to support your own protocols.' },
+      { q: 'Are Evochem products approved disinfectants for clinical areas?', a: 'This page does not make a clinical disinfectant approval or pathogen-kill claim. Select and use any clinical-area disinfectant according to your infection-control teamâ€™s requirements and the product documentation.' },
+      { q: 'What product documentation can Evochem provide?', a: 'MSDS is available for every product. Ask the Evochem team for the relevant product safety data and dilution guidance when evaluating products for your facility.' },
+      { q: 'Why must surfaces be cleaned before sanitising?', a: 'Dirt and organic matter can interfere with sanitising. Remove visible soil first, then follow the product label and your facility SOP for any sanitising step.' },
+      { q: 'Which cleaner is suitable for hospital floors and scrubber-dryers?', a: 'EVO 7 is a neutral floor cleaner for daily mopping and scrubber-dryer use. Follow the product dilution guidance and check suitability for your floor finish.' },
+      { q: 'Can Evochem support housekeeping staff training?', a: 'The technical team can provide guidance on product selection and dilution to help supervisors and housekeeping staff follow your facility procedures.' },
+      { q: 'How should healthcare facilities manage chemical use during audits?', a: 'Maintain current product MSDS, approved housekeeping SOPs, dilution instructions, staff training records and the cleaning records required by your facility.' },
     ],
     related: [
+      { path: '/blogs/cleanroom-disinfectant-validation-guide/', label: 'Cleanroom disinfectant validation guide', eyebrow: 'Guide' },
       { path: '/resources/healthcare-cleaning-protocols/', label: 'Healthcare cleaning protocols', eyebrow: 'Guide' },
       { path: '/solutions/washroom-cleaning-chemicals/', label: 'Washroom cleaning chemicals', eyebrow: 'Solution' },
       { path: '/solutions/hand-hygiene/', label: 'Hand hygiene products', eyebrow: 'Solution' },
