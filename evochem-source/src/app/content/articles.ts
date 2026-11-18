@@ -4,7 +4,175 @@
 // Rules: no certification claims, no kill claims or contact times, no invented figures, cleaning Ã¢â€°Â  sanitising.
 
 export const ARTICLES: ContentPage[] = [
-  // 1 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
+  {
+    kind: 'article',
+    slug: 'dairy-cip-optimization-guide',
+    name: 'Dairy CIP Optimization',
+    date: '2026-11-18',
+    title: 'Dairy CIP Optimization: Reduce Chemical & Water Use | Evochem',
+    description: 'How dairy plants can use less chemical and water in CIP without lowering hygiene standards. Evochem technical guide. Talk to our team.',
+    h1: 'Dairy CIP Optimization: How to Reduce Chemical and Water Use in Clean-in-Place Systems',
+    tagline: 'Improve concentration accuracy, cycle times and pre-rinse performance without compromising validated hygiene results.',
+    banner: 'assets/image/dairy-cip-optimization-chemical-water-reduction.webp',
+    bannerAlt: 'Dairy CIP system diagram: chemical and water reduction',
+    primaryKeyword: 'dairy CIP optimization',
+    summary: 'A practical dairy CIP guide to measuring chemical and water use, tuning concentration and cycle settings, and improving pre-rinse performance safely.',
+    opening: 'Three levers usually do the most to cut chemical and water use in a dairy CIP system: keeping the detergent concentration accurate, tuning the cycle times to the soil, and getting the pre-rinse right. They can often be improved without changing equipment, but every change must first be checked against your validated cleaning cycle and your hygiene results.',
+    intro: [
+      'This article goes deeper than our guide to CIP vs OPC cleaning. That guide helps you choose a method. This one helps you get more from a CIP system once you have it.'
+    ],
+    quickFacts: [
+      { label: 'Concentration accuracy', value: 'Use the detergent strength the soil needs, no more and no less.' },
+      { label: 'Cycle-time tuning', value: 'Run each step as long as the soil needs, and check it with data.' },
+      { label: 'Pre-rinse optimization', value: 'Remove as much milk and soil as you can before the detergent step.' }
+    ],
+    ctaGroups: [
+      { heading: 'Talk to our technical team about your dairy CIP system', buttons: [
+        { label: 'Request a Dairy CIP Consultation', url: 'https://evochem.co.in/contactus/', style: 'primary' },
+        { label: 'WhatsApp Evochem', url: 'https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20to%20talk%20to%20your%20technical%20team%20about%20our%20dairy%20CIP%20system.', style: 'secondary' },
+        { label: 'Call Evochem: +91 74838 37722', url: 'tel:+917483837722', style: 'secondary' }
+      ]},
+      { heading: 'Review your CIP settings and cleaning chemicals', buttons: [
+        { label: 'See Our Dairy Cleaning Chemicals', url: 'https://evochem.co.in/industries/dairy-processing/', style: 'primary' },
+        { label: 'WhatsApp Your CIP Settings', url: 'https://wa.me/917483837722?text=Hello%20Evochem%2C%20please%20review%20our%20CIP%20concentration%20and%20cycle%20settings.', style: 'secondary' },
+        { label: 'Email Your Questions', url: 'mailto:info@ennwin.in?subject=Dairy%20CIP%20consultation%20request', style: 'secondary' }
+      ]},
+      { heading: 'Discuss your dairy CIP requirements with Evochem', buttons: [
+        { label: 'Request a Dairy CIP Consultation', url: 'https://evochem.co.in/contactus/', style: 'primary' },
+        { label: 'WhatsApp Evochem', url: 'https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20to%20talk%20to%20your%20technical%20team%20about%20our%20dairy%20CIP%20system.', style: 'secondary' },
+        { label: 'Call +91 74838 37722', url: 'tel:+917483837722', style: 'secondary' },
+        { label: 'Email info@ennwin.in', url: 'mailto:info@ennwin.in?subject=Dairy%20CIP%20consultation%20request', style: 'secondary' }
+      ]}
+    ],
+    sections: [
+      {
+        heading: '1. Why dairy CIP uses so much chemical and water',
+        paragraphs: [
+          'Milk leaves two kinds of soil behind. Fat and protein form a film on every surface the milk touches. On heated surfaces, such as pasteuriser plates, calcium and protein can bake on as milkstone. A CIP programme has to remove both, every cycle, before a sanitiser can work.',
+          'A typical dairy CIP cycle has these steps: pre-rinse, alkaline wash, intermediate rinse, an acid step where milkstone or scale builds up, a final rinse, and sanitising. You can read the full sequence on our dairy processing page.',
+          'Waste usually comes from four places: detergent dosed stronger than the soil needs, which also needs more rinse water to clear; steps that run longer than the soil needs because settings have not been reviewed; a weak pre-rinse that leaves most milk soil for the detergent; and rinse steps that run on a fixed timer instead of an end-point.',
+          'Cutting any of these without data can make cleaning worse. That is why the first step is measurement.'
+        ]
+      },
+      {
+        heading: '2. Set a baseline first',
+        paragraphs: ['You cannot improve what you do not measure. Before you change anything, record one normal week of CIP data for each circuit.'],
+        table: {
+          headers: ['What to record', 'How', 'Why it matters'],
+          rows: [
+            ['Detergent concentration', 'Conductivity reading, checked by titration at set intervals', 'Shows over-dosing and under-dosing'],
+            ['Detergent and water used per cycle', 'Flow meter or tank levels', 'Gives your chemical and water baseline'],
+            ['Temperature of each step', 'Probe at the return line', 'Cold or hot solutions change the time you need'],
+            ['Time of each step', 'Controller log or stopwatch', 'Shows where time can be reviewed'],
+            ['Rinse end-point', 'Conductivity or turbidity of the return water', 'Shows when a rinse is really finished'],
+            ['Hygiene result', 'Visual check and your normal swab or ATP result', 'Proves that cleaning has not got worse'],
+            ['Volume processed between cycles', 'Production records', 'Lets you compare use per cycle or per litre of milk']
+          ]
+        }
+      },
+      {
+        heading: '3. Lever 1: concentration accuracy',
+        paragraphs: [
+          'Detergent strength is the easiest place to lose control. Too strong, and you pay for chemical you do not need and use more rinse water to remove it. Too weak, and soil is left behind, so the circuit has to be cleaned again.',
+          'Check the strength of the wash solution by conductivity and confirm it by titration at set intervals. Calibrate dosing pumps and meters on a schedule. A drifting pump is a common cause of over-dosing. Watch for dilution of the wash tank by water left in the line, which lowers strength. Match the dilution to the soil: heavily soiled circuits and lightly soiled ones need not run the same setting. Keep the dilution within the label range for the product and your validated cycle.',
+          'For example, our Clastox 50 and Clastox Plus have a published dilution range of 0.5% to 5% depending on the soil. Our technical team can help you pick a starting point for each circuit.'
+        ],
+        products: ['alkaline-cip-detergent-clastox-50', 'low-foam-alkaline-detergent-clastox-plus']
+      },
+      {
+        heading: '4. Lever 2: cycle-time tuning',
+        paragraphs: [
+          'Cleaning depends on four things working together: chemical, temperature, time and flow. If you raise one, you can sometimes lower another. Time is the one most often left unreviewed.',
+          'Review how long each step runs against the baseline data. Look at steps that run on a fixed timer. Use end-points where you can. For example, end a rinse when the return water conductivity or turbidity reaches the level you set, instead of after a fixed time.',
+          'Check flow. Low flow in a line or a blocked spray ball reduces cleaning, and no extra time will fully fix that. Check that temperature reaches the set value at the return line, not only at the heater. Shorten a step only in small trials, and only if your hygiene results hold.'
+        ]
+      },
+      {
+        heading: '5. Lever 3: pre-rinse optimization',
+        paragraphs: [
+          'The pre-rinse pushes out residual milk before the detergent step. A better pre-rinse means the detergent has less to do, and the wash solution stays cleaner for longer.',
+          'Run the pre-rinse until the return water is nearly clear. Use turbidity or visual checks. Do not run it far past that point, because extra water removes little more. Use enough flow to push milk out of the line. Low flow leaves film behind.',
+          'Where your plant design and your QA team allow it, final-rinse water can sometimes be reused as the next pre-rinse. Check this with QA first. Recover milk from the line before the pre-rinse, so less product goes to drain.'
+        ]
+      },
+      {
+        heading: '6. Other things that affect chemical and water use',
+        paragraphs: [
+          'Water hardness. In hard-water areas, scale builds up and the circuit needs more cleaning. Clastox 50 and Clastox Plus are formulated with scale prevention and hard-water resistance.',
+          'Equipment condition. Worn spray balls, dead legs and gaskets leave soil, which makes the whole cycle work harder.',
+          'The acid step. Run it where milkstone or scale builds up, not on every cycle by habit. Evochem does not make an acid CIP detergent. Ask our technical team for the right product for your circuit and water.',
+          'Sanitising. Sanitising is a separate step on a cleaned and rinsed surface. Peracetic acid sanitisers such as Sanix Peraxy are commonly used after CIP.'
+        ],
+        products: ['alkaline-cip-detergent-clastox-50', 'low-foam-alkaline-detergent-clastox-plus', 'peracetic-acid-sanitizer-sanix-peraxy']
+      },
+      {
+        heading: '7. Chemical use and water use: the trade-off',
+        table: {
+          headers: ['If you change this', 'It may do this', 'Check this'],
+          rows: [
+            ['Raise detergent strength', 'Cleans harder, but needs more rinse water to clear', 'Rinse end-point and residue'],
+            ['Lower detergent strength', 'Saves chemical, but may leave soil', 'Hygiene result and repeat cleans'],
+            ['Lengthen the wash', 'More contact, but more energy and downtime', 'Whether a stronger solution is cheaper'],
+            ['Improve the pre-rinse', 'Less soil reaches the wash, so the wash stays cleaner', 'Pre-rinse water use'],
+            ['End rinses on an end-point', 'Avoids both short and over-long rinses', 'Sensor accuracy and calibration']
+          ]
+        },
+        paragraphs: ['Look at the whole cycle. A change that saves chemical but needs two extra rinses may cost you more.']
+      },
+      {
+        heading: '8. How to trial a change safely',
+        steps: [
+          'Pick one circuit and set the baseline for it.',
+          'Agree the change with your QA team and follow your change-control procedure.',
+          'Change one setting only, such as one step time or one dilution.',
+          'Run the changed cycle and record the same data as the baseline.',
+          'Check hygiene results after every changed cycle.',
+          'If results hold, repeat over a longer period before you make the change permanent.',
+          'If results get worse, go back to the validated setting and find the cause.',
+          'Record the change, the data and the sign-off.'
+        ]
+      },
+      {
+        heading: '9. Where Evochem fits',
+        paragraphs: [
+          'Evochem manufactures dairy cleaning chemicals in Bengaluru for milk chilling centres, processing plants and milk-product units. Our alkaline CIP detergents for recirculating circuits are below. Dilutions are as published on the product pages. See our dairy cleaning chemicals page for the full range, or the dairy CIP cleaning programme case study.',
+          'These products do not reduce chemical or water use on their own. Accurate dosing, tuned cycle times and a good pre-rinse do that. What our team can do is help you choose a product and dilution for each circuit.',
+          'To get advice, send us the list of CIP circuits and soils on each; your water hardness; how you dose and heat the CIP solutions today; and any soft metals or gaskets in the circuit that need care.',
+          'For the method choice, read CIP vs OPC cleaning. For the range, see CIP cleaning chemicals.'
+        ],
+        table: {
+          headers: ['Product', 'Type', 'Where it is used', 'Published dilution'],
+          rows: [
+            ['Clastox 50', 'High-performance alkaline detergent', 'CIP circuits and soak tanks, including milk residues', '0.5% to 5%'],
+            ['Clastox Plus', 'Low-foaming heavy-duty alkaline detergent', 'CIP circuits and soak tanks, including milk residues', '0.5% to 5%'],
+            ['Sanix Peraxy', 'Peracetic acid based sanitiser', 'Sanitising a cleaned and rinsed circuit', 'As on the label']
+          ]
+        },
+        products: ['alkaline-cip-detergent-clastox-50', 'low-foam-alkaline-detergent-clastox-plus', 'peracetic-acid-sanitizer-sanix-peraxy']
+      }
+    ],
+    faqs: [
+      { q: 'What savings can I expect from dairy CIP optimization?', a: 'It varies by plant, so we do not publish a figure. Savings come from using less chemical through accurate dosing, shortening steps that run longer than the soil needs, and using less rinse water. Set a baseline first. Then you can measure your own result, instead of relying on a number from another plant.' },
+      { q: 'How do I measure CIP chemical and water use?', a: 'Record, for each CIP circuit and cycle: the litres of detergent and water used, the detergent concentration, the temperature, the time of each step and the result of your hygiene check. Divide by something meaningful for your plant, such as each cycle or each litre of milk processed. Compare before and after each change.' },
+      { q: 'Will this work with my existing CIP skids?', a: 'Often yes, because the main levers are settings and control, not new equipment. Whether a given product and dilution suit your skid depends on the dosing method, the materials in the circuit, your water and your soil. Share these details with our technical team and we will advise.' },
+      { q: 'Is there a trade-off between chemical use and water use?', a: 'Yes. A stronger solution or a longer wash may need more rinse water to clear. A better pre-rinse removes more soil before the wash, so the detergent has less to do. Look at the whole cycle together, not one step. Never cut a step below what your validated cycle and the product label require.' },
+      { q: 'What monitoring tools help control CIP?', a: 'Common tools are a conductivity sensor for solution strength and rinse end-points, a flow meter, a temperature probe, a turbidity sensor for the pre-rinse, and a titration kit to check the concentration by hand. A simple log of each cycle is useful even without automation.' },
+      { q: 'Does optimizing CIP affect compliance?', a: 'It can. A validated cleaning cycle should only be changed through your plant\'s own change-control and validation process, with your QA team involved. Check what your food safety regulator and your customers\' audits require. Optimization must never come at the cost of hygiene results.' }
+    ],
+    related: [
+      { path: '/industries/dairy-processing/', label: 'Dairy cleaning chemicals', eyebrow: 'Industry' },
+      { path: '/resources/cip-vs-opc-cleaning/', label: 'CIP vs OPC cleaning', eyebrow: 'Related guide' },
+      { path: '/resources/foaming-vs-non-foaming-alkaline-detergents/', label: 'Foaming vs non-foaming alkaline detergents for food plants', eyebrow: 'Related guide' },
+      { path: '/resources/alkaline-vs-acidic-cleaners-food-industry/', label: 'Alkaline vs acidic cleaner: choosing food-plant chemistry', eyebrow: 'Related guide' },
+      { path: '/resources/food-contact-surface-sanitizers-guide/', label: 'Food-contact surface sanitiser types compared', eyebrow: 'Related guide' },
+      { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
+      { path: '/case-studies/dairy-cip-cleaning-programme/', label: 'Dairy CIP cleaning programme', eyebrow: 'Case study' },
+      { path: '/resources/', label: 'All articles', eyebrow: 'Articles' }
+    ],
+    disclaimer: 'Disclaimer: This article is general information. Always follow the product label, the MSDS and your plant\'s own validated cleaning and food safety procedures. Changes to a validated cleaning cycle should go through your plant\'s change control. What suits your plant depends on your equipment, soils, water and regulator. Evochem is a brand of Ennwin Industries Private Limited.',
+    note: 'By the Evochem technical team. Reviewed 18 November 2026. Review this article every six months. Product selection and dilution must follow the current product label, equipment requirements and your plant\'s validated cleaning procedure.'
+  },
+  // 1 ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬
   {
     kind: 'article',
     slug: 'cip-vs-opc-cleaning',
@@ -66,7 +234,7 @@ export const ARTICLES: ContentPage[] = [
         heading: 'Chemistry choices for each method',
         bullets: [
           'CIP: low-foam alkaline detergents for organic soil; an acid step for mineral scale. Evochem does not list a dedicated acid CIP detergent, so ask our technical team for the right option for your circuit.',
-          'OPC: high-foaming alkaline detergents for fat and protein, high-foaming acidic detergents for scale and inorganic soil, and chlorinated alkaline foam where the plantÃ¢â‚¬â„¢s hygiene plan calls for it.',
+          'OPC: high-foaming alkaline detergents for fat and protein, high-foaming acidic detergents for scale and inorganic soil, and chlorinated alkaline foam where the plantÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s hygiene plan calls for it.',
           'Neutral foam detergent for general areas and for surfaces where a strong alkali is not wanted.',
           'Sanitisers such as peracetic acid or quat, applied only to surfaces that have already been cleaned and rinsed.',
           'Always check that a product is compatible with the materials in your equipment, including soft metals, gaskets and coatings, and read the label before first use.',
@@ -98,6 +266,7 @@ export const ARTICLES: ContentPage[] = [
       { q: 'Which Evochem products are low-foam for CIP?', a: 'Clastox 50 and Clastox Plus are alkaline detergents suited to recirculation. Confirm the dilution and materials compatibility with our team before use.' },
     ],
     related: [
+      { path: '/resources/dairy-cip-optimization-guide/', label: 'Dairy CIP optimization: reduce chemical and water use', eyebrow: 'Related guide' },
       { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
       { path: '/solutions/open-plant-cleaning-chemicals/', label: 'Open plant cleaning chemicals', eyebrow: 'Solution' },
       { path: '/industries/dairy-processing/', label: 'Dairy processing hygiene', eyebrow: 'Industry' },
@@ -105,7 +274,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 2 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
+  // 2 ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬
   {
     kind: 'article',
     slug: 'alkaline-vs-acidic-cleaners-food-industry',
@@ -121,7 +290,7 @@ export const ARTICLES: ContentPage[] = [
     date: '2026-10-15',
     readTime: 6,
     intro: [
-      'Most cleaning problems in food plants come from a mismatch between the soil and the chemistry. A detergent that removes fat easily may do almost nothing to mineral scale, and an acid that dissolves scale will leave a greasy film behind. The first question is never Ã¢â‚¬Å“which product is strongestÃ¢â‚¬Â but Ã¢â‚¬Å“what is the soil made ofÃ¢â‚¬Â.',
+      'Most cleaning problems in food plants come from a mismatch between the soil and the chemistry. A detergent that removes fat easily may do almost nothing to mineral scale, and an acid that dissolves scale will leave a greasy film behind. The first question is never ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œwhich product is strongestÃƒÂ¢Ã¢â€šÂ¬Ã‚Â but ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œwhat is the soil made ofÃƒÂ¢Ã¢â€šÂ¬Ã‚Â.',
       'Food soils fall into two broad families. Organic soils such as fats, oils, proteins and sugars respond to alkaline chemistry. Inorganic soils such as hard-water scale, milkstone and mineral deposits respond to acid chemistry. Chlorinated, neutral, foaming and low-foam products are variations that suit particular surfaces, methods and plant schedules.',
       'This guide maps common soils to chemistry, explains where foaming and low-foam products fit, and sets out how to rotate acid and alkaline cleaning safely. It is written for plant managers, QA teams and hygiene supervisors who choose products or set cleaning schedules.',
     ],
@@ -197,7 +366,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 3 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
+  // 3 ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬
   {
     kind: 'article',
     slug: 'commercial-dishwasher-detergent-rinse-aid-guide',
@@ -228,7 +397,7 @@ export const ARTICLES: ContentPage[] = [
       {
         heading: 'What the rinse aid does',
         paragraphs: [
-          'After the wash, the final rinse removes detergent and loosened soil. Without a rinse aid, water forms droplets that dry into spots, particularly in hard water. A rinse aid lowers surface tension so the water sheets off and the ware dries faster. Blaze Rinse is designed to be used with Blaze Auto; it also helps neutralise mineral deposits and remove residue. Its label dilution is 0.2 to 0.5 ml in 1 litre of water at a temperature of 80 to 90 Ã‚Â°C.',
+          'After the wash, the final rinse removes detergent and loosened soil. Without a rinse aid, water forms droplets that dry into spots, particularly in hard water. A rinse aid lowers surface tension so the water sheets off and the ware dries faster. Blaze Rinse is designed to be used with Blaze Auto; it also helps neutralise mineral deposits and remove residue. Its label dilution is 0.2 to 0.5 ml in 1 litre of water at a temperature of 80 to 90 Ãƒâ€šÃ‚Â°C.',
         ],
         products: ['dishwasher-rinse-aid-blaze-rinse'],
       },
@@ -237,7 +406,7 @@ export const ARTICLES: ContentPage[] = [
         bullets: [
           'Hard water uses up detergent and leaves scale on ware and inside the machine. Check your water hardness and adjust dosing within the label range.',
           'Scale on heating elements and spray arms reduces wash performance; descale the machine on a schedule your technical adviser recommends.',
-          'Keep wash and rinse temperatures at the machine manufacturerÃ¢â‚¬â„¢s settings. A rinse that is too cool leaves ware wet and spotted.',
+          'Keep wash and rinse temperatures at the machine manufacturerÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s settings. A rinse that is too cool leaves ware wet and spotted.',
           'Pre-scrape plates so the wash tank is not overloaded with food soil, and change the tank water as the machine manual specifies.',
         ],
       },
@@ -287,7 +456,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 4 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
+  // 4 ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬
   {
     kind: 'article',
     slug: 'low-foam-floor-cleaner-scrubber-dryer',
@@ -364,7 +533,7 @@ export const ARTICLES: ContentPage[] = [
       { q: 'Can I use my mopping detergent in a scrubber-dryer?', a: 'Only if it is low-foaming and suitable for machine use. High-foam detergents fill the recovery tank with foam and can damage the vacuum motor.' },
       { q: 'Which Evochem floor cleaner is low-foam?', a: 'Novel OGR is a low-foam oil and grease remover. EVO 7 is a neutral floor cleaner suitable for manual and machine cleaning.' },
       { q: 'Why is my floor sticky after machine cleaning?', a: 'Usually the solution is too strong and leaves residue. Measure the chemical for each fill within the label dilution.' },
-      { q: 'Should I use hot water in the solution tank?', a: 'Follow the machine manufacturerÃ¢â‚¬â„¢s guidance. Many machines are designed for cold or warm water only.' },
+      { q: 'Should I use hot water in the solution tank?', a: 'Follow the machine manufacturerÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s guidance. Many machines are designed for cold or warm water only.' },
       { q: 'What should I do if the recovery tank is full of foam?', a: 'Stop the machine, empty and rinse the recovery tank, and check the float and filter for moisture. Then check the product and the dilution before restarting.' },
       { q: 'Can one product work across all floors?', a: 'A neutral cleaner suits most daily maintenance, but greasy production and kitchen floors need a degreasing product. Our technical team can help match products to areas.' },
     ],
@@ -375,7 +544,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 5 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
+  // 5 ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬
   {
     kind: 'article',
     slug: 'reduce-housekeeping-chemical-consumption',
@@ -406,7 +575,7 @@ export const ARTICLES: ContentPage[] = [
       {
         heading: 'Measure every dilution',
         paragraphs: [
-          'Free pouring, Ã¢â‚¬Å“a splash in the bucketÃ¢â‚¬Â, is the main cause of waste. It also tends to over-strength solutions, which leave residue on floors and glass and then need extra rinsing. Cleaning chemical dilution control simply means the same measured quantity goes into the same volume of water every time.',
+          'Free pouring, ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œa splash in the bucketÃƒÂ¢Ã¢â€šÂ¬Ã‚Â, is the main cause of waste. It also tends to over-strength solutions, which leave residue on floors and glass and then need extra rinsing. Cleaning chemical dilution control simply means the same measured quantity goes into the same volume of water every time.',
         ],
         steps: [
           'Fix the bucket, trigger bottle and machine tank sizes used in each area.',
@@ -469,7 +638,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 6 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
+  // 6 ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬
   {
     kind: 'article',
     slug: 'commercial-laundry-wash-process',
@@ -494,7 +663,7 @@ export const ARTICLES: ContentPage[] = [
         heading: 'The wash sequence',
         steps: [
           'Sort linen by colour, fabric and soil level; keep whites separate from coloureds.',
-          'Weigh the load and load to the machineÃ¢â‚¬â„¢s rated dry capacity.',
+          'Weigh the load and load to the machineÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s rated dry capacity.',
           'Pre-wash to loosen and emulsify oils and heavy soil, then drain.',
           'Main wash with detergent, and builder for heavy or greasy soil.',
           'Chlorine destaining for white cotton linen only, where stains remain.',
@@ -556,7 +725,7 @@ export const ARTICLES: ContentPage[] = [
     ],
   },
 
-  // 7 Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
+  // 7 ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬
   {
     kind: 'article',
     slug: 'food-contact-surface-sanitizers-guide',
@@ -633,7 +802,7 @@ export const ARTICLES: ContentPage[] = [
       { q: 'Do I need to rinse after sanitising?', a: 'It depends on the product. Check the label: some sanitisers need a potable water rinse on food-contact surfaces and some, such as Sanixol, are described as not requiring one.' },
       { q: 'Which sanitiser is best for CIP?', a: 'Non-foaming sanitisers such as peracetic acid are commonly used in CIP. Ask our technical team to confirm the right product and dilution for your system.' },
       { q: 'How often should chlorine solution be replaced?', a: 'Make it fresh for each shift or task and replace it whenever it looks dirty, because chlorine loses activity in the presence of soil.' },
-      { q: 'Is it safe to store all sanitisers together?', a: 'No. Keep chlorine and peracetic acid products apart, keep alcohol away from heat and oxidisers, and follow each productÃ¢â‚¬â„¢s MSDS.' },
+      { q: 'Is it safe to store all sanitisers together?', a: 'No. Keep chlorine and peracetic acid products apart, keep alcohol away from heat and oxidisers, and follow each productÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s MSDS.' },
     ],
     related: [
       { path: '/solutions/sanitization-chemicals/', label: 'Sanitisation chemicals', eyebrow: 'Solution' },
@@ -757,11 +926,11 @@ export const ARTICLES: ContentPage[] = [
         table: {
           headers: ['Product', 'Type and typical application', 'Label dilution'],
           rows: [
-            ['Alkalox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%â€“5%'],
-            ['Clastox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%â€“5%'],
-            ['Chlorox Foam', 'Chlorinated alkaline foam cleaner for open plant cleaning', '1%â€“5%'],
-            ['Clastox Plus', 'Low-foaming heavy-duty alkaline detergent for CIP and soak tanks', '0.5%â€“5%'],
-            ['Clastox 50', 'High-performance alkaline detergent for CIP and soak tanks', '0.5%â€“5%']
+            ['Alkalox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%Ã¢â‚¬â€œ5%'],
+            ['Clastox Foam', 'High-foaming alkaline detergent for open plant cleaning', '2%Ã¢â‚¬â€œ5%'],
+            ['Chlorox Foam', 'Chlorinated alkaline foam cleaner for open plant cleaning', '1%Ã¢â‚¬â€œ5%'],
+            ['Clastox Plus', 'Low-foaming heavy-duty alkaline detergent for CIP and soak tanks', '0.5%Ã¢â‚¬â€œ5%'],
+            ['Clastox 50', 'High-performance alkaline detergent for CIP and soak tanks', '0.5%Ã¢â‚¬â€œ5%']
           ]
         },
         products: [
@@ -774,7 +943,7 @@ export const ARTICLES: ContentPage[] = [
       }
     ],
     faqs: [
-      { q: 'Do foaming and low-foaming detergents need different contact times?', a: 'Contact time depends on the soil, the temperature, the concentration and the product, not on foam alone. The difference is how the contact is achieved. Foam clings to open surfaces and stays wet, so it can hold the product on the soil. In a CIP circuit, contact comes from flow, temperature and time. Follow the label and your plantâ€™s validated cleaning cycle.' },
+      { q: 'Do foaming and low-foaming detergents need different contact times?', a: 'Contact time depends on the soil, the temperature, the concentration and the product, not on foam alone. The difference is how the contact is achieved. Foam clings to open surfaces and stays wet, so it can hold the product on the soil. In a CIP circuit, contact comes from flow, temperature and time. Follow the label and your plantÃ¢â‚¬â„¢s validated cleaning cycle.' },
       { q: 'Do they need different rinsing?', a: 'Both need a thorough rinse before sanitising, and you should always follow the label. Foam generally takes more rinse water and time to clear from drains and surfaces. Low-foaming products suit circuits and lines where rinse time and water are limited. Check the rinse until no detergent remains.' },
       { q: 'Which is cheaper?', a: 'Compare cost per use, not price per litre. The main drivers are the dilution used, the soil load, the rinse water and time, labour and the downtime of the line. A product that needs a lower dilution or a shorter rinse can cost less to use. We do not quote prices here. Ask our technical team for a quote based on your plant.' },
       { q: 'Which should I use on which equipment?', a: 'Foaming alkaline detergent suits open plant cleaning: conveyors, tables, hoppers, floors, walls and the outside of machines. Low-foaming alkaline detergent suits CIP pipework and tanks, clean-out-of-place (COP) tanks, soak baths and tray washers. Send us your equipment list and we will match products to each item.' },
@@ -788,7 +957,7 @@ export const ARTICLES: ContentPage[] = [
       { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
       { path: '/products/food-processing-hygiene-chemicals/', label: 'Food processing hygiene chemicals', eyebrow: 'Products' }
     ],
-    note: 'Product selection and dilution must follow the current product label, equipment requirements and your plantâ€™s validated cleaning procedure. Review this guide every six months.'
+    note: 'Product selection and dilution must follow the current product label, equipment requirements and your plantÃ¢â‚¬â„¢s validated cleaning procedure. Review this guide every six months.'
   },
   {
     kind: 'article',
@@ -864,9 +1033,9 @@ export const ARTICLES: ContentPage[] = [
     ],
     sections: [
       {
-        heading: '1. What does â€œcleanroom-validated disinfectantâ€ mean?',
+        heading: '1. What does Ã¢â‚¬Å“cleanroom-validated disinfectantÃ¢â‚¬Â mean?',
         paragraphs: [
-          'A disinfectant is cleanroom-validated when there is documented evidence that it works in the way you use it. A supplierâ€™s label claim, such as â€œkills 99.9% of germsâ€, is a starting point. Validation goes further and answers five questions:'
+          'A disinfectant is cleanroom-validated when there is documented evidence that it works in the way you use it. A supplierÃ¢â‚¬â„¢s label claim, such as Ã¢â‚¬Å“kills 99.9% of germsÃ¢â‚¬Â, is a starting point. Validation goes further and answers five questions:'
         ],
         bullets: [
           'Which organisms were tested, including spores where relevant?',
@@ -897,7 +1066,7 @@ export const ARTICLES: ContentPage[] = [
             ['EN 16615', 'Surface test with mechanical action (wiping)', 'Closer to real wiping or mopping practice.'],
             ['USP <1072>', 'Guidance on disinfectants and antiseptics', 'Often used to design spore and surface studies.'],
             ['ISO 14644-1', 'Classification of cleanroom air cleanliness by particles', 'Not a disinfectant test.'],
-            ['Revised Schedule M (India)', 'Good manufacturing practice for Indian pharmaceutical manufacturers', 'Check the current text and your regulatorâ€™s expectations for your product type.']
+            ['Revised Schedule M (India)', 'Good manufacturing practice for Indian pharmaceutical manufacturers', 'Check the current text and your regulatorÃ¢â‚¬â„¢s expectations for your product type.']
           ]
         }
       },

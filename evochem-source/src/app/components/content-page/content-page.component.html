@@ -23,7 +23,7 @@
 
           <p *ngIf="isArticle && page.date" class="post-meta">
             <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
-            <ng-container *ngIf="page.readTime"> Ã‚Â· {{ page.readTime }} min read</ng-container>
+            <ng-container *ngIf="page.readTime"> ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· {{ page.readTime }} min read</ng-container>
           </p>
           <p *ngIf="page.note" class="cp-note" role="note">{{ page.note }}</p>
           <p *ngIf="page.opening" class="p2-text"><strong>{{ page.opening }}</strong></p>
@@ -36,6 +36,20 @@
                 <p class="p2-text"><strong>{{ fact.label }}:</strong> {{ fact.value }}</p>
               </li>
             </ul>
+          </section>
+
+          <section *ngIf="isN003 && n003CtaGroup1 as group" class="n003-cta">
+            <h2>{{ group.heading }}</h2>
+            <div class="n003-cta__buttons">
+              <a *ngFor="let button of group.buttons"
+                 [href]="button.url"
+                 [ngClass]="'n003-cta__button n003-cta__button--' + button.style"
+                 [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+                 [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener' : null"
+                 [attr.data-cta]="button.url.startsWith('https://wa.me/') ? 'whatsapp' : button.url.startsWith('tel:') ? 'call' : button.url.startsWith('mailto:') ? 'email' : 'form'"
+                 data-cta-block="1"
+                 (click)="trackCta(button.url, 1)">{{ button.label }}</a>
+            </div>
           </section>
 
           <ng-container *ngIf="categoryProducts.length">
@@ -71,6 +85,19 @@
                 </tbody>
               </table>
             </div>
+            <section *ngIf="isN003 && section.heading.startsWith('2.') && n003CtaGroup2 as group" class="n003-cta">
+              <h2>{{ group.heading }}</h2>
+              <div class="n003-cta__buttons">
+                <a *ngFor="let button of group.buttons"
+                   [href]="button.url"
+                   [ngClass]="'n003-cta__button n003-cta__button--' + button.style"
+                   [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+                   [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener' : null"
+                   [attr.data-cta]="button.url.startsWith('https://wa.me/') ? 'whatsapp' : button.url.startsWith('tel:') ? 'call' : button.url.startsWith('mailto:') ? 'email' : 'form'"
+                   data-cta-block="2"
+                   (click)="trackCta(button.url, 2)">{{ button.label }}</a>
+              </div>
+            </section>
             <ul *ngIf="section.bullets?.length" class="cp-list">
               <li *ngFor="let item of section.bullets"><p class="p2-text">{{ item }}</p></li>
             </ul>
@@ -104,7 +131,8 @@
             </ul>
           </div>
           <p *ngIf="page.disclaimer" class="p2-text"><small>{{ page.disclaimer }}</small></p>
-<h2 class="h2-heading">{{ page.slug === "healthcare" ? "Request a Healthcare Sample & SDS" : page.slug === "dairy-processing" ? "Request a Dairy Hygiene Consultation" : "Talk to our technical team" }}</h2>
+<ng-container *ngIf="!isN003">
+          <h2 class="h2-heading">{{ page.slug === "healthcare" ? "Request a Healthcare Sample & SDS" : page.slug === "dairy-processing" ? "Request a Dairy Hygiene Consultation" : "Talk to our technical team" }}</h2>
           <p class="p2-text">{{ page.slug === "healthcare" ? "Share your facility areas and housekeeping requirements. Request product MSDS, dilution guidance and a sample for evaluation against your facility SOPs." : page.slug === "dairy-processing" ? "Discuss your dairy plant soils, CIP circuits, cleaning conditions and documentation needs with our technical team." : "Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply." }}</p>
           <div class="product-cta-row" role="group" aria-label="Contact options">
             <a [href]="whatsappURL" target="_blank" rel="noopener" class="product-cta product-cta--primary">
@@ -120,6 +148,7 @@
               <span>{{ page.slug === "healthcare" ? "Request a sample" : "Request a quote" }}</span>
             </a>
           </div>
+          </ng-container>
         </div>
       </div>
     </div>
@@ -132,6 +161,28 @@
           <div class="faq-answer"><p>{{ faq.a }}</p></div>
         </details>
       </div>
+    </div>
+
+    <section *ngIf="isN003 && n003CtaGroup3 as group" class="container n003-cta n003-cta--final">
+      <h2>{{ group.heading }}</h2>
+      <div class="n003-cta__buttons">
+        <a *ngFor="let button of group.buttons"
+           [href]="button.url"
+           [ngClass]="'n003-cta__button n003-cta__button--' + button.style"
+           [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+           [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener' : null"
+           [attr.data-cta]="button.url.startsWith('https://wa.me/') ? 'whatsapp' : button.url.startsWith('tel:') ? 'call' : button.url.startsWith('mailto:') ? 'email' : 'form'"
+           data-cta-block="3"
+           (click)="trackCta(button.url, 3)">{{ button.label }}</a>
+      </div>
+    </section>
+
+    <div *ngIf="isN003" class="n003-sticky-cta" aria-label="Quick contact options">
+      <a href="https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20to%20talk%20to%20your%20technical%20team%20about%20our%20dairy%20CIP%20system."
+         data-cta="whatsapp" data-cta-block="sticky"
+         (click)="trackCta('https://wa.me/917483837722', 4)">WhatsApp</a>
+      <a href="tel:+917483837722" data-cta="call" data-cta-block="sticky"
+         (click)="trackCta('tel:+917483837722', 4)">Call Evochem</a>
     </div>
 
     <div *ngIf="page.related.length" class="container pb-5">

@@ -121,6 +121,7 @@ Each product has a short URL and a URL inside its category; both show the same p
 
 ## Articles
 
+- [Dairy CIP Optimization](https://evochem.co.in/resources/dairy-cip-optimization-guide/): How dairy plants can use less chemical and water in CIP without lowering hygiene standards. Evochem technical guide. Talk to our team.
 - [CIP vs OPC cleaning](https://evochem.co.in/resources/cip-vs-opc-cleaning/): CIP vs OPC cleaning explained: clean-in-place, open plant cleaning and COP, typical sequences, chemistry choices, safety and how to choose for your plant.
 - [Alkaline vs acidic cleaners](https://evochem.co.in/resources/alkaline-vs-acidic-cleaners-food-industry/): Alkaline vs acidic cleaner for food plants: match fat, protein, milkstone, scale and sugar soils to the right chemistry, foam level and rotation schedule.
 - [Dishwasher detergent and rinse aid](https://evochem.co.in/resources/commercial-dishwasher-detergent-rinse-aid-guide/): How commercial dishwasher detergent and rinse aid work together: water hardness, temperature, dosing pumps, spotting fixes and destaining crockery.

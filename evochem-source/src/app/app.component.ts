@@ -11,6 +11,7 @@ import { resolveSeo } from './seo/seo-resolver';
 })
 export class AppComponent implements OnInit {
   title = 'evochem';
+  isN003 = false;
 
   constructor(
     private router: Router,
@@ -22,6 +23,9 @@ export class AppComponent implements OnInit {
     // Runs in the browser and during prerendering, so each static page carries its own tags.
     this.router.events
       .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
-      .subscribe(e => this.seo.apply(resolveSeo(e.urlAfterRedirects)));
+      .subscribe(e => {
+        this.isN003 = e.urlAfterRedirects.includes('/resources/dairy-cip-optimization-guide');
+        this.seo.apply(resolveSeo(e.urlAfterRedirects));
+      });
   }
 }

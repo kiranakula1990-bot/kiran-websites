@@ -214,6 +214,7 @@ export const INDUSTRIES: ContentPage[] = [
       { q: 'How can a dairy plant check whether its CIP cycle is effective?', a: 'Review time, temperature, chemical concentration and flow or return conditions against the validated SOP. Verify cleaning using the plantâ€™s approved inspection or testing method, and document results and corrective actions.' },
     ],
     related: [
+      { path: '/resources/dairy-cip-optimization-guide/', label: 'Dairy CIP optimization: reduce chemical and water use', eyebrow: 'Guide' },
       { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
       { path: '/case-studies/dairy-cip-cleaning-programme/', label: 'Dairy CIP cleaning programme', eyebrow: 'Case study' },
       { path: '/resources/cip-vs-opc-cleaning/', label: 'CIP vs open-plant cleaning', eyebrow: 'Guide' },
