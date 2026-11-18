@@ -1,4 +1,4 @@
-import { ContentPage } from './content-model';
+﻿import { ContentPage } from './content-model';
 
 // Industry pages (/industries/<slug>/). Products are referenced by permanent slug from evochem-data.json.
 // Content rules: no certification or kill claims, no customer names, no invented results; dilutions only from data.
@@ -125,12 +125,19 @@ export const INDUSTRIES: ContentPage[] = [
     kind: 'industry',
     slug: 'dairy-processing',
     name: 'Dairy processing',
-    title: 'Dairy Cleaning Chemicals for CIP and Plant Hygiene | Evochem',
-    description: 'Dairy cleaning chemicals for milk plants: alkaline CIP detergents for tanks and pasteurisers, foam cleaners, sanitisers and handwash. Made in Bengaluru.',
-    h1: 'Dairy Cleaning Chemicals and Dairy Plant CIP Chemicals',
-    tagline: 'Alkaline CIP detergents, foam cleaners and sanitisers for milk and milk-product plants',
-    banner: 'assets/image/Methods-of-improving-hygiene-in-Dairy-supply-chain.jpg',
-    bannerAlt: 'Stainless steel dairy processing tanks',
+    title: 'Dairy Processing Cleaning Chemicals & CIP Solutions | Evochem',
+    description: 'CIP and hygiene chemicals for dairy processing plants — milk residue removal, compliance documentation. Evochem. Request a sample.',
+    h1: 'Dairy Processing Cleaning Chemicals and CIP Solutions',
+    tagline: 'CIP chemistry for milk residue removal, plant hygiene and audit documentation',
+    opening: "Dairy processing plants need CIP chemistry that fully removes milk residue and biofilm without extending cycle time or damaging equipment seals — while producing the documentation regulators expect at audit. Evochem's dairy-sector chemicals are formulated for exactly that balance.",
+    quickFacts: [
+      { label: 'Main CIP soils', value: 'Milk fat, protein and milkstone deposits' },
+      { label: 'CIP detergents', value: 'Low-foaming alkaline detergents: Clastox 50 and Clastox Plus' },
+      { label: 'CIP sequence', value: 'Pre-rinse, alkaline wash, rinse, acid step where required, final rinse and sanitise' },
+      { label: 'Product documentation', value: 'MSDS available for each product; maintain plant-specific cleaning and dosing records' },
+    ],
+    banner: 'assets/image/dairy.jpg',
+    bannerAlt: 'dairy-processing-cip-cleaning-chemicals-evochem',
     primaryKeyword: 'dairy cleaning chemicals',
     summary: 'Alkaline CIP detergents, open-plant foam cleaners, sanitisers and staff hand hygiene for milk, curd, ghee and milk-product plants.',
     intro: [
@@ -200,10 +207,11 @@ export const INDUSTRIES: ContentPage[] = [
       },
     ],
     faqs: [
-      { q: 'What chemicals are used for dairy plant CIP?', a: 'A typical dairy CIP uses a low-foaming alkaline detergent to remove fat and protein, an acid step where milkstone forms, and a sanitiser after the final rinse. Evochem supplies the alkaline detergents and sanitisers; ask our technical team for the acid step.' },
-      { q: 'Can Acidox Foam be used in a CIP circuit?', a: 'Acidox Foam is a high-foaming acidic detergent for open surfaces, so it is not suited to recirculating CIP where foam must stay low. Ask our technical team for an acid product for your circuits.' },
-      { q: 'What is milkstone and how is it removed?', a: 'Milkstone is a deposit of milk protein and minerals that builds up on heated surfaces such as pasteuriser plates. It is removed by a regular alkaline wash followed by an acid step suited to your equipment.' },
-      { q: 'Do you supply dairy cleaning chemicals in drums?', a: 'Yes. Products are supplied in 5 L, 20 L, 50 L and 200 L packs with pan-India delivery and an MSDS for each product.' },
+      { q: 'What cleaning records should a dairy plant maintain for an audit?', a: 'Maintain documented cleaning SOPs, CIP time and temperature records, chemical concentrations, rinse and cleaning verification results, corrective actions and current product safety data sheets. Follow the requirements applicable to your plant and products.' },
+      { q: 'Which chemicals are used in dairy CIP cleaning?', a: 'A typical programme uses a low-foaming alkaline detergent for milk fat and protein, an acid step where milkstone or mineral scale forms, and a sanitiser after cleaning and rinsing. Evochem supplies alkaline detergents and sanitisers; ask our technical team about the acid step.' },
+      { q: 'How do dairy plants remove milkstone from pasteurisers?', a: 'Milkstone contains milk proteins and mineral deposits that build up on heated surfaces. A suitable alkaline wash followed by an equipment-compatible acid step is generally used. Evochem does not currently list an acid CIP detergent.' },
+      { q: 'Can Acidox Foam be used in a recirculating CIP circuit?', a: 'No. Acidox Foam is a high-foaming acidic cleaner for open surfaces, not recirculating CIP. Ask our technical team about an appropriate acid product for your circuit.' },
+      { q: 'How can a dairy plant check whether its CIP cycle is effective?', a: 'Review time, temperature, chemical concentration and flow or return conditions against the validated SOP. Verify cleaning using the plant’s approved inspection or testing method, and document results and corrective actions.' },
     ],
     related: [
       { path: '/solutions/cip-cleaning-chemicals/', label: 'CIP cleaning chemicals', eyebrow: 'Solution' },
