@@ -1,4 +1,4 @@
-import { ContentPage } from '../content/content-model';
+﻿import { ContentPage } from '../content/content-model';
 import { categoryProductPath, findGroupBySlug, findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, productPath } from '../content/catalogue';
 import { findPage, INDEX_PAGES, IndexKind, LEGACY_ARTICLES, pagePath } from '../content/site-content';
 import { productHeading } from '../content/product-keywords';
@@ -17,7 +17,7 @@ function clip(text: string, max = 158): string {
   const t = (text || '').replace(/\s+/g, ' ').trim();
   if (t.length <= max) return t;
   const cut = t.slice(0, max - 1);
-  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,.;:]$/, '') + '…';
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,.;:]$/, '') + 'â€¦';
 }
 
 function breadcrumb(items: { name: string; path: string }[]): object {
@@ -45,7 +45,7 @@ export function normalizePath(url: string): string {
   return path || '/';
 }
 
-/** First URL segment → listing page, and → kind of the pages below it. */
+/** First URL segment â†’ listing page, and â†’ kind of the pages below it. */
 const INDEX_BY_BASE: Record<string, IndexKind> = {
   products: 'products', industries: 'industries', solutions: 'solutions', 'case-studies': 'case-studies', resources: 'resources',
 };
@@ -72,7 +72,7 @@ function contentSeo(page: ContentPage): PageSeo {
     publisher: { '@id': ORG_ID },
     mainEntityOfPage: SITE_URL + p,
   } : {
-    '@type': page.kind === 'category' ? 'CollectionPage' : 'WebPage',
+    '@type': page.kind === 'category' ? 'CollectionPage' : page.kind === 'industry' && page.slug === 'dairy-processing' ? 'Service' : 'WebPage',
     '@id': `${SITE_URL}${p}#webpage`,
     name: page.title,
     description: page.description,
@@ -124,9 +124,9 @@ export function resolveSeo(url: string): PageSeo {
     if (found) {
       const { product, group: g } = found;
       const p = third ? categoryProductPath(g, product.slug) : productPath(product.slug);
-      const name = `${product.title} – ${product.code}`;
+      const name = `${product.title} â€“ ${product.code}`;
       const heading = productHeading(product);
-      const full = `${heading} – ${product.code} | Evochem`;
+      const full = `${heading} â€“ ${product.code} | Evochem`;
       const title = full.length <= 62 ? full : `${heading} | Evochem`;
       const image = `${SITE_URL}/${product.picture}`;
       return {

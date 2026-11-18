@@ -1,4 +1,4 @@
-<ng-container *ngIf="page">
+﻿<ng-container *ngIf="page">
 
   <!-- Existing layout for every other content page -->
 
@@ -23,14 +23,14 @@
 
           <p *ngIf="isArticle && page.date" class="post-meta">
             <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
-            <ng-container *ngIf="page.readTime"> · {{ page.readTime }} min read</ng-container>
+            <ng-container *ngIf="page.readTime"> Â· {{ page.readTime }} min read</ng-container>
           </p>
           <p *ngIf="page.note" class="cp-note" role="note">{{ page.note }}</p>
           <p *ngIf="page.opening" class="p2-text"><strong>{{ page.opening }}</strong></p>
 
           <p class="p2-text" *ngFor="let para of page.intro">{{ para }}</p>
           <section *ngIf="page.quickFacts?.length">
-            <h2 class="h2-heading">Cleanroom disinfectant validation: quick facts</h2>
+            <h2 class="h2-heading">Quick facts</h2>
             <ul class="cp-list">
               <li *ngFor="let fact of page.quickFacts">
                 <p class="p2-text"><strong>{{ fact.label }}:</strong> {{ fact.value }}</p>
@@ -104,8 +104,8 @@
             </ul>
           </div>
           <p *ngIf="page.disclaimer" class="p2-text"><small>{{ page.disclaimer }}</small></p>
-<h2 class="h2-heading">Talk to our technical team</h2>
-          <p class="p2-text">Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply.</p>
+<h2 class="h2-heading">{{ page.slug === "dairy-processing" ? "Request a Dairy Hygiene Consultation" : "Talk to our technical team" }}</h2>
+          <p class="p2-text">{{ page.slug === "dairy-processing" ? "Discuss your dairy plant soils, CIP circuits, cleaning conditions and documentation needs with our technical team." : "Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply." }}</p>
           <div class="product-cta-row" role="group" aria-label="Contact options">
             <a [href]="whatsappURL" target="_blank" rel="noopener" class="product-cta product-cta--primary">
               <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
