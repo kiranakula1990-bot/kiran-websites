@@ -163,7 +163,8 @@
       </div>
     </div>
 
-    <section *ngIf="isN003 && n003CtaGroup3 as group" class="container n003-cta n003-cta--final">
+    <div class="blog-section" *ngIf="isN003 && n003CtaGroup3 as group">
+  <section class="n003-cta n003-cta--final">
       <h2>{{ group.heading }}</h2>
       <div class="n003-cta__buttons">
         <a *ngFor="let button of group.buttons"
@@ -175,7 +176,8 @@
            data-cta-block="3"
            (click)="trackCta(button.url, 3)">{{ button.label }}</a>
       </div>
-    </section>
+      </section>
+</div>
 
     <div *ngIf="isN003" class="n003-sticky-cta" aria-label="Quick contact options">
       <a href="https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20to%20talk%20to%20your%20technical%20team%20about%20our%20dairy%20CIP%20system."
