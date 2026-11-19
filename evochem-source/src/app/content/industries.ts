@@ -669,6 +669,9 @@ export const INDUSTRIES: ContentPage[] = [
       { path: '/solutions/floor-care-chemicals/', label: 'Floor care chemicals', eyebrow: 'Solution' },
       { path: '/resources/low-foam-floor-cleaner-scrubber-dryer/', label: 'Low-foam floor cleaners for scrubber-dryers', eyebrow: 'Guide' },
     ],
+    inlineLinks: [
+      { path: '/resources/industrial-floor-cleaner-chemicals-guide/', label: 'Choosing an industrial floor cleaner for your plant', eyebrow: 'Related guide' },
+    ],
   },
 
   // 8. Facility management and commercial buildings

@@ -13,12 +13,12 @@ const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const SITE = 'https://evochem.co.in';
 const read = p => readFileSync(join(root, p), 'utf8');
 const json = p => JSON.parse(read(p));
-const slugsIn = file => [...read(file).matchAll(/^ {4}slug: '([^']+)'/gm)].map(m => m[1]);
+const slugsIn = file => [...read(file).matchAll(/^ {0,8}"?slug"?: ['"]([^'"]+)['"]/gm)].map(m => m[1]);
 // slug + name + description of each page in a content file (string values in '...' or "...")
 const str = String.raw`('(?:[^'\\]|\\.)*'|"(?:[^"\\]|\\.)*")`;
 const unq = v => v.slice(1, -1).replace(/\\(.)/g, '$1');
 const entriesIn = file => [...read(file).matchAll(
-  new RegExp(`^ {4}slug: '([^']+)',[\\s\\S]*?^ {4}name: ${str},[\\s\\S]*?^ {4}description:\\s+${str}`, 'gm')
+  /^ {0,8}"?slug"?: ['"]([^'"]+)['"],[\s\S]*?^ {0,8}"?name"?: ('(?:[^'\\]|\\.)*'|"(?:[^"\\]|\\.)*"),[\s\S]*?^ {0,8}"?description"?:\s+('(?:[^'\\]|\\.)*'|"(?:[^"\\]|\\.)*")/gm
 )].map(m => ({ slug: m[1], name: unq(m[2]), description: unq(m[3]) }));
 const formatCode = code => code.replace(/\s+/g, '-').toLowerCase();
 const today = new Date().toISOString().slice(0, 10);
@@ -115,11 +115,15 @@ const routes = paths.map(p => (p === '/' ? p : p.slice(0, -1)));
 writeFileSync(join(root, 'routes.txt'), routes.join('\n') + '\n');
 
 const esc = s => s.replace(/&/g, '&amp;');
+const previousLastmods = new Map(
+  [...read('public/sitemap.xml').matchAll(/<url>\s*<loc>(.*?)<\/loc>\s*<lastmod>(.*?)<\/lastmod>/gs)]
+    .map(([, loc, date]) => [loc, date])
+);
 writeFileSync(join(root, 'public/sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map(([p, pr, cf]) => `  <url>
     <loc>${esc(SITE + p)}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${previousLastmods.get(SITE + p) || today}</lastmod>
     <changefreq>${cf}</changefreq>
     <priority>${pr}</priority>
   </url>`).join('\n')}

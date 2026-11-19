@@ -80,10 +80,18 @@ function contentSeo(page: ContentPage): PageSeo {
     about: page.primaryKeyword,
     publisher: { '@id': ORG_ID },
   };
+  const service = page.slug === 'industrial-floor-cleaner-chemicals-guide' ? {
+    '@type': 'Service',
+    name: 'Floor care chemical selection and dilution advice',
+    description: 'Technical guidance to help manufacturing plants assess floor type, soil load, cleaning equipment and product dilution.',
+    provider: { '@id': ORG_ID },
+    areaServed: { '@type': 'Country', name: 'India' },
+    serviceType: 'Industrial floor care chemical selection',
+  } : null;
   return {
     title: page.title, description: page.description, path: p,
     type: article ? 'article' : 'website', image, imageAlt: page.bannerAlt,
-    jsonLd: [breadcrumb([{ name: index.name, path: index.path }, { name: page.name, path: p }]), main, ...faqPage(page.faqs)],
+    jsonLd: [breadcrumb([{ name: index.name, path: index.path }, { name: page.name, path: p }]), main, ...(service ? [service] : []), ...faqPage(page.faqs)],
   };
 }
 

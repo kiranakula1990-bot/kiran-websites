@@ -451,6 +451,9 @@ export const SOLUTIONS: ContentPage[] = [
       { path: '/products/industrial-cleaning-degreasing-chemicals/', label: 'Industrial cleaning and degreasing chemicals', eyebrow: 'Product range' },
       { path: '/industries/manufacturing-warehousing/', label: 'Cleaning for manufacturing and warehousing', eyebrow: 'Industry' },
     ],
+    inlineLinks: [
+      { path: '/resources/industrial-floor-cleaner-chemicals-guide/', label: 'How to choose an industrial floor cleaner by floor and soil', eyebrow: 'Related guide' },
+    ],
   },
 
   // 6. Laundry hygiene — migrated from legacy solution type LaundryCleaning (solutionTypes.json).

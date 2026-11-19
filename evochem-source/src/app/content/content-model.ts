@@ -66,6 +66,8 @@ export interface ContentPage {
   /** One-line summary for listing cards. */
   summary: string;
   intro: string[];
+  /** Ordered decision framework shown before the article body. */
+  decisionSteps?: string[];
   sections: ContentSection[];
   faqs: ContentFaq[];
   related: ContentLink[];
