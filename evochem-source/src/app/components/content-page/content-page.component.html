@@ -23,7 +23,7 @@
 
           <p *ngIf="isArticle && page.date" class="post-meta">
             <time [attr.datetime]="page.date">{{ dateFormatted }}</time>
-            <ng-container *ngIf="page.readTime"> ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â· {{ page.readTime }} min read</ng-container>
+            <ng-container *ngIf="page.readTime">&#183; {{ page.readTime }} min read</ng-container>
           </p>
           <p *ngIf="page.note" class="cp-note" role="note">{{ page.note }}</p>
           <p *ngIf="page.opening" class="p2-text"><strong>{{ page.opening }}</strong></p>
