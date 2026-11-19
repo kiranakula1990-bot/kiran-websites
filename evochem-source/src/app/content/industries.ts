@@ -409,10 +409,10 @@ export const INDUSTRIES: ContentPage[] = [
     slug: 'healthcare',
     name: 'Healthcare facilities',
     title: 'Healthcare & Hospital Cleaning Chemicals | Evochem',
-    description: 'Cleaning and hygiene chemicals for hospitals and healthcare facilities, with MSDS documentation and dilution guidance available. Evochem. Request a sample.',
+    description: 'Cleaning and hygiene chemicals for hospitals and healthcare facilities, with MSDS documentation and dilution guidance available. Contact Evochem to request a sample.',
     h1: 'Healthcare Cleaning Chemicals for Hospitals and Healthcare Facilities',
     tagline: 'Cleaning, washroom, kitchen, laundry and hand hygiene products for hospitals and clinics',
-    opening: 'Healthcare facilities need cleaning and hygiene products matched to the surfaces, soil levels and workflows in each area, with product safety data and clear dilution guidance for housekeeping teams. Evochemâ€™s healthcare range supports these routine requirements.',
+    opening: 'Healthcare facilities need cleaning and hygiene products matched to the surfaces, soil levels and workflows in each area, with product safety data and clear dilution guidance for housekeeping teams. Evochem\'s healthcare range supports these routine requirements.',
     quickFacts: [
       { label: 'Facility areas', value: 'Wards, corridors, washrooms, kitchens and linen rooms' },
       { label: 'Cleaning products', value: 'Floor, hard-surface, glass and washroom cleaners' },
@@ -425,7 +425,7 @@ export const INDUSTRIES: ContentPage[] = [
     summary: 'Floor, washroom, surface, kitchen, laundry and hand hygiene products for hospitals and clinics, used within your infection-control protocol.',
     intro: [
       'Hospitals, nursing homes, diagnostic centres and clinics clean around the clock, across wards, OPD areas, corridors, washrooms, staff canteens, patient kitchens and linen rooms. The housekeeping team needs products that are simple to dilute correctly, safe on the surfaces in use and consistent from shift to shift.',
-      'Evochem manufactures hospital housekeeping chemicals for the cleaning side of that work. Product choice, frequencies and any disinfection step in clinical areas should follow your facilityâ€™s infection-control protocol. Our products are for cleaning, and where stated in the product data, for sanitising surfaces that have already been cleaned.',
+      'Evochem manufactures hospital housekeeping chemicals for the cleaning side of that work. Product choice, frequencies and any disinfection step in clinical areas should follow your facility\'s infection-control protocol. Our products are for cleaning, and where stated in the product data, for sanitising surfaces that have already been cleaned.',
     ],
     sections: [
       {
@@ -438,14 +438,14 @@ export const INDUSTRIES: ContentPage[] = [
       {
         heading: 'Washrooms and patient toilets',
         paragraphs: [
-          'Washrooms see soap scum, hard-water scale and urine deposits. EVO 1 is an organic-acid bathroom cleaner for sinks, showers and fittings, EVO 6 a thick toilet bowl cleaner that clings to the bowl, and EVO 9 a heavy-duty descaler for periodic deep cleaning of tiles and ceramics. EVO 5 helps control odours in corridors and toilets.',
+          'Washrooms see soap scum, hard-water scale and urine deposits. EVO 1 is an organic-acid bathroom cleaner for sinks, showers and fittings, EVO 6 is a thick toilet bowl cleaner that clings to the bowl, and EVO 9 is a heavy-duty descaler for periodic deep cleaning of tiles and ceramics. EVO 5 helps control odours in corridors and toilets.',
         ],
         products: ['bathroom-cleaner-evo-1', 'toilet-bowl-cleaner-evo-6', 'heavy-duty-descaler-evo-9', 'air-freshener-evo-5'],
       },
       {
         heading: 'Patient and staff kitchens',
         paragraphs: [
-          'Hospital kitchens follow the same clean-then-sanitise sequence as any food service kitchen. Blaze Kitchen Care removes grease from surfaces and utensils, Blaze Auto and Blaze Rinse run the dishwasher, and Blaze Tab chlorine tablets are used to sanitise cleaned food-contact surfaces and vegetables.',
+          'Hospital kitchens follow the same clean-then-sanitise sequence as any food service kitchen. Blaze Kitchen Care removes grease from surfaces and utensils, Blaze Auto detergent and Blaze Rinse aid are used in the dishwasher, and Blaze Tab chlorine tablets are used to sanitise cleaned food-contact surfaces and vegetables.',
         ],
         products: [
           'kitchen-care-concentrate-blaze-kitchen-care',
@@ -457,14 +457,14 @@ export const INDUSTRIES: ContentPage[] = [
       {
         heading: 'Hospital linen',
         paragraphs: [
-          'Linen from wards and theatres is often heavily stained and is handled under the facilityâ€™s own segregation and wash protocol. Within that process, Flox Star is a concentrated main wash detergent, the Flox chlorine destainer removes stains from white linen, and Flox Sour neutralises alkalinity and bleach residue in the final rinse so fabric does not yellow. Flox Star is dosed at 5 to 15 ml per kg of dry linen.',
+          'Linen from wards and theatres is often heavily stained and is handled under the facility\'s own segregation and wash protocol. Within that process, Flox Star is a concentrated main wash detergent, the Flox chlorine destainer removes stains from white linen, and Flox Sour neutralises alkalinity and bleach residue in the final rinse so fabric does not yellow. Flox Star is dosed at 5 to 15 ml per kg of dry linen.',
         ],
         products: ['main-wash-laundry-detergent-flox-star', 'laundry-chlorine-destainer-flox', 'laundry-sour-neutralizer-flox-sour'],
       },
       {
         heading: 'Hand hygiene for staff and visitors',
         paragraphs: [
-          'Lush Care and Lush Care Plus are colourless, perfume-free handwashes suited to frequent use by staff. Lush Care Rub and Lush Care Gel are waterless hand sanitisers for use at points where a sink is not at hand. Place and use them as your hand hygiene policy requires.',
+          'Lush Care and Lush Care Plus are colourless, perfume-free handwashes suited to frequent use by staff. Lush Care Rub and Lush Care Gel are waterless hand sanitisers for use at points where a sink is not at hand. Place and use them at the points specified by your hand hygiene policy.',
         ],
         products: [
           'perfume-free-hand-wash-lush-care',
@@ -476,15 +476,15 @@ export const INDUSTRIES: ContentPage[] = [
       {
         heading: 'Working with your infection-control team',
         bullets: [
-          'Share your housekeeping SOPs and area classification, so we match products to each area rather than the other way round.',
-          'Use the dilution given in the product data for each product, and mix fresh solutions as your SOP specifies.',
+          'Share your housekeeping SOPs and area classification so we can match products to each area.',
+          'Use the dilution specified in each product\'s data, and mix fresh solutions as your SOP requires.',
           'Keep the MSDS for every product in the housekeeping store and at mixing points.',
           'Ask our technical team to train supervisors and new housekeeping staff on product selection and dilution.',
         ],
       },
     ],
     faqs: [
-      { q: 'Are Evochem products approved disinfectants for clinical areas?', a: 'This page does not make a clinical disinfectant approval or pathogen-kill claim. Select and use any clinical-area disinfectant according to your infection-control teamâ€™s requirements and the product documentation.' },
+      { q: 'Are Evochem products approved disinfectants for clinical areas?', a: 'This page does not make a clinical disinfectant approval or pathogen-kill claim. Select and use any clinical-area disinfectant according to your infection-control team\'s requirements and the product documentation.' },
       { q: 'What product documentation can Evochem provide?', a: 'MSDS is available for every product. Ask the Evochem team for the relevant product safety data and dilution guidance when evaluating products for your facility.' },
       { q: 'Why must surfaces be cleaned before sanitising?', a: 'Dirt and organic matter can interfere with sanitising. Remove visible soil first, then follow the product label and your facility SOP for any sanitising step.' },
       { q: 'Which cleaner is suitable for hospital floors and scrubber-dryers?', a: 'EVO 7 is a neutral floor cleaner for daily mopping and scrubber-dryer use. Follow the product dilution guidance and check suitability for your floor finish.' },
