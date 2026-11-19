@@ -1446,7 +1446,7 @@ export const ARTICLES: ContentPage[] = [
         ]
       },
       {
-        "heading": "10. Evochem’s floor cleaners",
+        "heading": "10. Evochem's floor cleaners",
         "paragraphs": [
           "The products below are referenced in this guide. Use the published dilution on the product label and check suitability for the floor surface before use.",
           "Share your floor types, soils, cleaning machines and area list with the Evochem technical team. They can help you review the product options and dilution guidance for your plant."
