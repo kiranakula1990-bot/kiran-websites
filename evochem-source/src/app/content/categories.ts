@@ -74,6 +74,9 @@ export const CATEGORIES: ContentPage[] = [
       { path: '/industries/manufacturing-warehousing/', label: 'Cleaning for manufacturing and warehousing', eyebrow: 'Industry' },
       { path: '/resources/low-foam-floor-cleaner-scrubber-dryer/', label: 'Low-foam floor cleaners for scrubber-dryers', eyebrow: 'Guide' },
     ],
+    inlineLinks: [
+      { path: '/resources/industrial-floor-cleaner-chemicals-guide/', label: 'Industrial floor cleaner selection guide', eyebrow: 'Related guide' },
+    ],
   },
 
   // Group 2.

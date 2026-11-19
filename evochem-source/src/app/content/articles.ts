@@ -1,4 +1,4 @@
-﻿import { ContentPage } from './content-model';
+import { ContentPage } from './content-model';
 
 // Resource articles. Product facts and dilutions come from public/assets/data/evochem-data.json.
 // Rules: no certification claims, no kill claims or contact times, no invented figures, cleaning Ã¢â€°Â  sanitising.
@@ -541,6 +541,9 @@ export const ARTICLES: ContentPage[] = [
       { path: '/solutions/floor-care-chemicals/', label: 'Floor care chemicals', eyebrow: 'Solution' },
       { path: '/industries/manufacturing-warehousing/', label: 'Manufacturing and warehousing', eyebrow: 'Industry' },
       { path: '/products/industrial-cleaning-degreasing-chemicals/', label: 'Industrial cleaning and degreasing chemicals', eyebrow: 'Products' },
+    ],
+    inlineLinks: [
+      { path: '/resources/industrial-floor-cleaner-chemicals-guide/', label: 'Industrial floor cleaner chemicals: selection guide', eyebrow: 'Related guide' },
     ],
   },
 
@@ -1184,5 +1187,421 @@ export const ARTICLES: ContentPage[] = [
       { path: '/resources/low-foam-floor-cleaner-scrubber-dryer/', label: 'Choosing a low-foam floor cleaner', eyebrow: 'Related guide' }
     ],
     disclaimer: 'Disclaimer: This article is general information, not regulatory or legal advice. Standards, guidance and regulations change, and what applies to your facility depends on your products, room grades and regulator. Follow your QA team, your site SOPs and the current official texts. Evochem is a brand of Ennwin Industries Private Limited. Evochem products are cleaning products. Any sanitising or disinfecting use is only as stated in the product data.'
+  },
+  {
+    "kind": "article",
+    "slug": "industrial-floor-cleaner-chemicals-guide",
+    "name": "Industrial Floor Cleaner Chemicals Guide",
+    "date": "2026-11-19",
+    "readTime": 8,
+    "title": "Industrial Floor Cleaner Chemicals for Manufacturing Plants | Evochem",
+    "description": "How to choose an industrial floor cleaning chemical by floor type and soil load. Evochem guide for plant and facility managers. Talk to our team.",
+    "h1": "Industrial Floor Cleaner Chemicals: How to Choose the Right One for Your Manufacturing Plant",
+    "tagline": "Choose floor cleaning chemistry by surface, soil load and cleaning equipment.",
+    "banner": "assets/image/industrial-floor-cleaner-chemicals-manufacturing.jpg",
+    "bannerAlt": "Industrial floor cleaning in a manufacturing bay",
+    "primaryKeyword": "industrial floor cleaner chemicals",
+    "summary": "A practical guide to choosing industrial floor cleaning chemicals by floor type, soil load, dilution and cleaning equipment.",
+    "opening": "The right industrial floor cleaner depends on two things: the floor surface and what is on it. An oil-heavy machine bay needs different chemistry from a general-dust warehouse floor, and a coated floor needs different care from bare concrete. Matching the cleaner to both protects the floor finish and avoids wasted product.",
+    "intro": [
+      "This guide helps you choose by floor and soil. For the full range, see our floor care chemicals. For machine cleaning, see our guide to the low-foam cleaner for scrubber-dryers."
+    ],
+    "decisionSteps": [
+      "Identify the floor: coated or epoxy, sealed or polished concrete, bare concrete, or tile.",
+      "Identify the soil: general dust and footfall, oil and grease, heavy tar and carbon, or mineral scale.",
+      "Pick chemistry from the decision matrix, then follow the dilution on the product label.",
+      "Test on a small hidden area and check the floor coating maker’s cleaning guidance."
+    ],
+    "ctaGroups": [
+      {
+        "heading": "Need help choosing a floor cleaning chemical?",
+        "buttons": [
+          {
+            "label": "Request a Floor Care Chemical Consultation",
+            "url": "https://evochem.co.in/contactus/",
+            "style": "primary"
+          },
+          {
+            "label": "WhatsApp Evochem",
+            "url": "https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20help%20choosing%20a%20floor%20cleaning%20chemical%20for%20our%20plant.",
+            "style": "secondary"
+          },
+          {
+            "label": "Call Evochem: +91 74838 37722",
+            "url": "tel:+917483837722",
+            "style": "secondary"
+          }
+        ]
+      },
+      {
+        "heading": "Want help matching a product to your floor?",
+        "buttons": [
+          {
+            "label": "See Our Floor Care Chemicals",
+            "url": "https://evochem.co.in/solutions/floor-care-chemicals/",
+            "style": "primary"
+          },
+          {
+            "label": "WhatsApp Your Floor Details",
+            "url": "https://wa.me/917483837722?text=Hello%20Evochem%2C%20please%20advise%20a%20floor%20cleaner%20for%20our%20floor%20type%20and%20soil.",
+            "style": "secondary"
+          },
+          {
+            "label": "Email Your Questions",
+            "url": "mailto:info@ennwin.in?subject=Floor%20care%20chemical%20consultation%20request",
+            "style": "secondary"
+          }
+        ]
+      },
+      {
+        "heading": "Plan the right floor care programme for your plant",
+        "buttons": [
+          {
+            "label": "Request a Floor Care Chemical Consultation",
+            "url": "https://evochem.co.in/contactus/",
+            "style": "primary"
+          },
+          {
+            "label": "WhatsApp Evochem",
+            "url": "https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20help%20choosing%20a%20floor%20cleaning%20chemical%20for%20our%20plant.",
+            "style": "secondary"
+          },
+          {
+            "label": "Call +91 74838 37722",
+            "url": "tel:+917483837722",
+            "style": "secondary"
+          },
+          {
+            "label": "Email info@ennwin.in",
+            "url": "mailto:info@ennwin.in?subject=Floor%20care%20chemical%20consultation%20request",
+            "style": "secondary"
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "heading": "1. Why the floor and the soil both matter",
+        "paragraphs": [
+          "Factory floors carry different types and levels of soil. A machine shop may leave oil, coolant and carbon. A warehouse may collect dust, packaging debris and tyre marks. A packing area needs a clean floor without leftover residue.",
+          "Soil type alone does not tell you which cleaner is suitable. The floor surface matters too. The right match helps the cleaner do its job while reducing the risk of damaging the finish or using a heavy-duty product where a neutral cleaner is enough."
+        ]
+      },
+      {
+        "heading": "2. Step 1: identify the floor",
+        "paragraphs": [
+          "Treat these as starting points, not blanket compatibility claims. Floors and coatings vary. If you are unsure what finish is on the floor, ask the installer, coating supplier or Evochem technical team before selecting a stronger chemical."
+        ],
+        "table": {
+          "headers": [
+            "Floor type",
+            "What to watch",
+            "Where to start"
+          ],
+          "rows": [
+            [
+              "Painted, epoxy or other coated floor",
+              "Strong chemicals and wrong dilution can dull or damage a coating. Follow the coating maker’s cleaning guidance.",
+              "A neutral cleaner for daily work, such as EVO 7, and a test patch before anything stronger"
+            ],
+            [
+              "Sealed or polished concrete",
+              "Residue can build up on the surface and make it dull or slippery.",
+              "A neutral cleaner for daily work, and a rinse after degreasing"
+            ],
+            [
+              "Bare or unsealed concrete",
+              "Porous surface; oil can soak in. Clean spills quickly.",
+              "A degreasing cleaner such as Novel OGR, then rinse"
+            ],
+            [
+              "Tiled floor and wet areas",
+              "Scale and soap scum can build up; grout can hold soil.",
+              "A hard-surface cleaner such as EVO 2; EVO 9 for scale, with a test first"
+            ],
+            [
+              "Natural stone, such as marble",
+              "Acidic products can etch stone.",
+              "A neutral cleaner. Avoid acidic descalers and ask the technical team"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "3. Step 2: identify the soil",
+        "table": {
+          "headers": [
+            "Soil load",
+            "Typical places",
+            "What the cleaner needs to do"
+          ],
+          "rows": [
+            [
+              "General dust and footfall",
+              "Warehouse aisles, packing areas, corridors",
+              "Remove dirt without leaving residue"
+            ],
+            [
+              "Oil, grease and water-soluble dirt",
+              "Machine shops, workshops, loading bays",
+              "Emulsify oil and grease so they can be rinsed away"
+            ],
+            [
+              "Heavy soil: tar, carbon, thick grease",
+              "Heavily soiled production floors and spill areas",
+              "Break down stubborn built-up soil, usually during periodic deep cleaning"
+            ],
+            [
+              "Mineral scale and soap scum",
+              "Washrooms, wet areas, wash bays",
+              "Dissolve scale, with care on sensitive surfaces"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "4. Decision matrix: floor type and soil load",
+        "paragraphs": [
+          "Use this matrix to identify a product to start with. Always follow the product label for dilution. The published dilution range for the floor cleaners listed here is generally 2% to 5%, while EVO 9 has a separate published range.",
+          "“Ask our team” means the live product information does not establish that product as suitable for that floor-and-soil combination. Get technical advice before buying or using it."
+        ],
+        "table": {
+          "headers": [
+            "Floor type",
+            "General dust",
+            "Oil and grease",
+            "Heavy soil",
+            "Scale"
+          ],
+          "rows": [
+            [
+              "Coated or epoxy floor",
+              "EVO 7",
+              "Test first, then Novel OGR",
+              "Ask our team before use",
+              "Not applicable"
+            ],
+            [
+              "Sealed or polished concrete",
+              "EVO 7",
+              "Novel OGR",
+              "Ask our team",
+              "Not applicable"
+            ],
+            [
+              "Bare concrete",
+              "EVO 2",
+              "Novel OGR",
+              "Novel HD",
+              "Not applicable"
+            ],
+            [
+              "Tile and wet areas",
+              "EVO 2",
+              "Novel OGR",
+              "Ask our team",
+              "EVO 9"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "5. Degreasing cleaners and daily cleaning products",
+        "paragraphs": [
+          "Most plants need both a degreasing cleaner and a daily floor cleaner, used in the right areas. Degreasers are intended for oily or greasy floors such as workshops, loading bays and production areas. They help emulsify oil so it can be rinsed away.",
+          "Neutral daily cleaners help maintain floors between deeper cleans. They are a sensible starting point for polished, coated or more sensitive floors when used according to the label.",
+          "Heavy-duty cleaners are for periodic deep cleaning where the soil calls for them, not automatically for every daily cleaning round. Using a heavy-duty product on a lightly soiled floor can waste product and may affect the floor finish."
+        ]
+      },
+      {
+        "heading": "6. Manual mopping or scrubber-dryer",
+        "paragraphs": [
+          "Mopping is practical for small areas, edges and spot cleaning. For larger floor areas, an automatic scrubber-dryer can help with routine cleaning, but the chemical used in the machine must be low-foaming and suitable for that equipment.",
+          "Excess foam can fill the recovery tank and may reach the vacuum motor. Do not put a high-foaming product into a floor machine. Novel OGR and EVO 7 are suited to machine use. For Novel HD, check foam level and machine suitability with the technical team first.",
+          "Read our guide to the low-foam floor cleaner for scrubber-dryer machines before selecting a product for automatic equipment."
+        ]
+      },
+      {
+        "heading": "7. Dilution and cost per use",
+        "paragraphs": [
+          "More chemical does not automatically mean a cleaner floor. An overly strong solution can leave residue, feel sticky or dull, contribute to slippery film and increase foam. A solution that is too weak may leave soil behind.",
+          "Start at the lower end of the label range and increase only if the soil requires it. Measure every fill with a jug, pump or dispenser rather than estimating by eye. Add water first and then chemical to help reduce foam. Set dilution for the area being cleaned, not for the dirtiest area in the plant.",
+          "Compare cost per use rather than price per litre. Dilution, cleaning frequency, soil load, labour and rinse time all affect the total. A product that works at a lower dilution or needs fewer passes may cost less to use. This guide does not quote prices."
+        ]
+      },
+      {
+        "heading": "8. Slip safety and residue",
+        "paragraphs": [
+          "Sweep or dust-mop before wet cleaning to remove grit that could scratch the floor. Put out wet-floor signs while cleaning is in progress. On oily floors, rinse with clean water where required so a film is not left behind, and allow the floor to dry before reopening the area.",
+          "Empty and rinse machine tanks after use. If a floor feels slippery, check for excess chemical, leftover foam or residue from a previous product. If the floor has an anti-slip finish, ask the finish supplier before changing the cleaning chemical."
+        ]
+      },
+      {
+        "heading": "9. One chart for the whole plant",
+        "paragraphs": [
+          "For a large site, a simple cleaning chart can help teams use fewer products consistently. Map the areas that need different treatment: production floors, machine shops, stores, loading bays, washrooms and canteens.",
+          "Give each area an approved product and dilution, and post the chart where cleaning solutions are mixed. Set the cleaning frequency for each area—every shift, daily, weekly or periodic deep cleaning—and train the cleaning crew to follow it.",
+          "Review product consumption against floor area and cleaning frequency each month. Evochem supplies floor-care products in 5 L, 20 L, 50 L and 200 L packs, with delivery across India from Bengaluru. The team can also discuss cleaning requirements for washrooms, canteens and hand hygiene.",
+          "See our guidance for manufacturing and warehousing facilities and facility management teams."
+        ]
+      },
+      {
+        "heading": "10. Evochem’s floor cleaners",
+        "paragraphs": [
+          "The products below are referenced in this guide. Use the published dilution on the product label and check suitability for the floor surface before use.",
+          "Share your floor types, soils, cleaning machines and area list with the Evochem technical team. They can help you review the product options and dilution guidance for your plant."
+        ],
+        "table": {
+          "headers": [
+            "Product",
+            "Type",
+            "Where used",
+            "Published dilution"
+          ],
+          "rows": [
+            [
+              "EVO 7",
+              "Neutral floor cleaner",
+              "Daily maintenance, manual and machine cleaning",
+              "2% to 5%"
+            ],
+            [
+              "EVO 2",
+              "Slightly alkaline hard-surface cleaner",
+              "General hard floors and walls",
+              "2% to 5%"
+            ],
+            [
+              "Novel OGR",
+              "Low-foam oil and grease remover",
+              "Workshops, factories and machine cleaning",
+              "2% to 5%"
+            ],
+            [
+              "Novel HD",
+              "Heavy-duty floor cleaner",
+              "Tar, grease, carbon and industrial spills",
+              "2% to 5%"
+            ],
+            [
+              "EVO 9",
+              "Heavy-duty descaler",
+              "Scale and scum on tiles and ceramics",
+              "2% to 10%"
+            ]
+          ]
+        },
+        "products": [
+          "neutral-floor-cleaner-evo-7",
+          "hard-surface-cleaner-evo-2",
+          "oil-grease-remover-novel-ogr",
+          "heavy-duty-floor-cleaner-novel-hd",
+          "heavy-duty-descaler-evo-9"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What dilution should I use for an industrial floor cleaner?",
+        "a": "Use the label dilution for the soil. Our floor cleaners Novel OGR, Novel HD, EVO 7 and EVO 2 are published at 2% to 5%, which is 20 ml to 50 ml in 1 litre of water. Start at the lower end and move up only if the soil needs it. More chemical does not clean better and can leave residue."
+      },
+      {
+        "q": "What is the difference between a degreasing cleaner and a daily cleaning product?",
+        "a": "A degreasing cleaner is built to emulsify oil and grease on workshop, loading-bay and production floors. A daily cleaning product, usually neutral, keeps floors clean between deeper cleans and is gentler on coated or sensitive floors. Most plants use both, in different areas."
+      },
+      {
+        "q": "Does the floor cleaner affect slip resistance?",
+        "a": "It can. Too much chemical, a missed rinse or leftover foam can leave a film that makes a floor slippery. On oily floors, rinse with clean water so no film is left, let the floor dry before reopening, and use wet-floor signs. Ask your floor coating supplier about any slip-resistance finish."
+      },
+      {
+        "q": "Can I use the same cleaner in an automatic scrubber?",
+        "a": "Only if it is low-foaming or labelled for machine use. Foam can fill the recovery tank and reach the vacuum motor. Novel OGR and EVO 7 are suited to machines. Check with the technical team about foam level before putting Novel HD in a scrubber-dryer."
+      },
+      {
+        "q": "How do I compare floor cleaner cost?",
+        "a": "Compare cost per use, not price per litre. Drivers are dilution, cleaning frequency, soil load, labour and rinse time. We do not quote prices here. Send your areas and cleaning frequency and we can quote for your plant."
+      }
+    ],
+    "related": [
+      {
+        "path": "/solutions/floor-care-chemicals/",
+        "label": "Floor care chemicals",
+        "eyebrow": "Solution"
+      },
+      {
+        "path": "/resources/low-foam-floor-cleaner-scrubber-dryer/",
+        "label": "Low-foam floor cleaner for scrubber-dryer machines",
+        "eyebrow": "Related guide"
+      },
+      {
+        "path": "/industries/manufacturing-warehousing/",
+        "label": "Manufacturing and warehousing",
+        "eyebrow": "Industry"
+      },
+      {
+        "path": "/industries/facility-management/",
+        "label": "Facility management",
+        "eyebrow": "Industry"
+      },
+      {
+        "path": "/products/industrial-cleaning-degreasing-chemicals/",
+        "label": "Industrial cleaning and degreasing chemicals",
+        "eyebrow": "Product range"
+      },
+      {
+        "path": "/resources/",
+        "label": "All articles",
+        "eyebrow": "Resources"
+      }
+    ],
+    "inlineLinks": [
+      {
+        "path": "/solutions/floor-care-chemicals/",
+        "label": "Explore Evochem floor care chemicals",
+        "eyebrow": "Solution"
+      },
+      {
+        "path": "/resources/low-foam-floor-cleaner-scrubber-dryer/",
+        "label": "Industrial floor cleaner chemicals guide",
+        "eyebrow": "Related guide"
+      },
+      {
+        "path": "/products/neutral-floor-cleaner-evo-7/",
+        "label": "EVO 7 neutral floor cleaner",
+        "eyebrow": "Product"
+      },
+      {
+        "path": "/products/hard-surface-cleaner-evo-2/",
+        "label": "EVO 2 hard-surface cleaner",
+        "eyebrow": "Product"
+      },
+      {
+        "path": "/products/oil-grease-remover-novel-ogr/",
+        "label": "Novel OGR oil and grease remover",
+        "eyebrow": "Product"
+      },
+      {
+        "path": "/products/heavy-duty-floor-cleaner-novel-hd/",
+        "label": "Novel HD heavy-duty floor cleaner",
+        "eyebrow": "Product"
+      },
+      {
+        "path": "/products/heavy-duty-descaler-evo-9/",
+        "label": "EVO 9 heavy-duty descaler",
+        "eyebrow": "Product"
+      },
+      {
+        "path": "/industries/manufacturing-warehousing/",
+        "label": "Manufacturing and warehousing",
+        "eyebrow": "Industry"
+      },
+      {
+        "path": "/industries/facility-management/",
+        "label": "Facility management",
+        "eyebrow": "Industry"
+      }
+    ],
+    "disclaimer": "Disclaimer: This article is general information. Always follow the product label, the MSDS and your plant’s own safety procedures. Test on a small hidden area first, and follow the floor coating maker’s guidance. What suits your plant depends on your floor, soils, equipment and regulator. Evochem is a brand of Ennwin Industries Private Limited.",
+    "note": "By the Evochem technical team | 19 Nov 2026 | 8 min read"
   },
 ];

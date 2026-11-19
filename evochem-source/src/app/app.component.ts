@@ -12,6 +12,7 @@ import { resolveSeo } from './seo/seo-resolver';
 export class AppComponent implements OnInit {
   title = 'evochem';
   isN003 = false;
+  isN004 = false;
 
   constructor(
     private router: Router,
@@ -25,6 +26,7 @@ export class AppComponent implements OnInit {
       .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
       .subscribe(e => {
         this.isN003 = e.urlAfterRedirects.includes('/resources/dairy-cip-optimization-guide');
+        this.isN004 = e.urlAfterRedirects.includes('/resources/industrial-floor-cleaner-chemicals-guide');
         this.seo.apply(resolveSeo(e.urlAfterRedirects));
       });
   }

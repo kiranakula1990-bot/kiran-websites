@@ -67,6 +67,13 @@ export class ContentPageComponent implements OnInit {
     return this.page?.slug === 'dairy-cip-optimization-guide';
   }
 
+  get isN004(): boolean {
+    return this.page?.slug === 'industrial-floor-cleaner-chemicals-guide';
+  }
+  get n004CtaGroup1() { return this.page?.ctaGroups?.[0]; }
+  get n004CtaGroup2() { return this.page?.ctaGroups?.[1]; }
+  get n004CtaGroup3() { return this.page?.ctaGroups?.[2]; }
+
   get n003CtaGroup1() { return this.page?.ctaGroups?.[0]; }
   get n003CtaGroup2() { return this.page?.ctaGroups?.[1]; }
   get n003CtaGroup3() { return this.page?.ctaGroups?.[2]; }
