@@ -6,7 +6,7 @@
 <title>Evochem — Video</title>
 <meta name="description" content="A short video from Evochem — cleaning &amp; hygiene chemical solutions.">
 <meta name="robots" content="noindex, follow">
-<meta name="theme-color" content="#133c6b">
+<meta name="theme-color" content="#06121f">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="https://evochem.co.in/video/">
 
@@ -14,7 +14,7 @@
 <meta property="og:type" content="video.other">
 <meta property="og:site_name" content="Evochem">
 <meta property="og:title" content="Evochem — Watch our video">
-<meta property="og:description" content="Cleaning &amp; hygiene chemical solutions. Tap to play.">
+<meta property="og:description" content="Cleaning &amp; hygiene chemical solutions.">
 <meta property="og:url" content="https://evochem.co.in/video/">
 <meta property="og:image" content="https://evochem.co.in/assets/videos/evochem-poster.jpg">
 <meta property="og:image:width" content="1280">
@@ -27,96 +27,138 @@
 
 <style>
   :root{
-    --navy:#133c6b; --navy-2:#0d2a4c; --blue:#1767a6; --lime:#e6ef62; --ink:#eaf1fb;
+    --bleed-1:#0a1f38; --bleed-2:#06121f; --lime:#e6ef62; --ink:#eaf1fb;
   }
   *{box-sizing:border-box}
-  html,body{margin:0}
+  html,body{height:100%; margin:0}
   body{
     min-height:100svh;
     font-family:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     color:var(--ink);
     background:
-      radial-gradient(1100px 600px at 50% -10%, rgba(23,103,166,.45), transparent 60%),
-      linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%);
-    background-attachment:fixed;
-    display:flex; flex-direction:column; align-items:center;
-    padding:clamp(18px,4vw,40px) 16px calc(28px + env(safe-area-inset-bottom));
+      radial-gradient(130% 90% at 50% 42%, var(--bleed-1) 0%, var(--bleed-2) 70%);
+    overflow:hidden;
   }
-  .brand{display:flex; align-items:center; gap:12px; margin:4px 0 clamp(14px,3vw,24px)}
-  .brand img{height:30px; width:auto; display:block;
-    background:#fff; padding:9px 14px; border-radius:12px;
-    box-shadow:0 6px 18px -6px rgba(0,0,0,.45)}
-  .brand .fallback{font-weight:800; letter-spacing:.5px; font-size:22px; color:#fff;
-    background:#fff; color:var(--navy); padding:8px 14px; border-radius:12px}
-  .wrap{width:100%; max-width:860px}
-  h1{
-    font-size:clamp(20px,5.2vw,30px); font-weight:800; line-height:1.15;
-    margin:0 0 6px; text-align:center; color:#fff;
-  }
-  .sub{margin:0 auto clamp(16px,3.5vw,26px); max-width:34ch; text-align:center;
-    color:#b9c9de; font-size:clamp(13px,3.4vw,15px); line-height:1.5}
+
+  /* full-viewport stage, video is the hero */
   .stage{
-    position:relative; border-radius:18px; overflow:hidden;
-    background:#000; aspect-ratio:16/9;
-    box-shadow:0 18px 50px -12px rgba(0,0,0,.6), 0 0 0 1px rgba(230,239,98,.22);
+    position:fixed; inset:0;
+    display:flex; align-items:center; justify-content:center;
+    padding:max(14px, env(safe-area-inset-top)) 14px max(14px, env(safe-area-inset-bottom));
   }
-  video{width:100%; height:100%; display:block; background:#000}
-  .meta{display:flex; align-items:center; justify-content:center; gap:14px;
-    margin-top:16px; flex-wrap:wrap}
+  .frame{
+    position:relative; line-height:0;
+    max-width:min(100%, calc((100svh - 28px) * 16 / 9));
+    width:100%;
+    border-radius:14px; overflow:hidden;
+    box-shadow:0 30px 80px -24px rgba(0,0,0,.75), 0 0 0 1px rgba(230,239,98,.14);
+  }
+  video{
+    display:block; width:100%; height:auto;
+    max-height:calc(100svh - 28px);
+    background:#000; aspect-ratio:16/9; object-fit:contain;
+  }
+
+  /* floating chrome */
+  .logo{
+    position:fixed; top:max(16px, env(safe-area-inset-top)); left:16px; z-index:3;
+    background:#fff; border-radius:11px; padding:8px 12px;
+    box-shadow:0 8px 22px -8px rgba(0,0,0,.55);
+  }
+  .logo img{height:22px; width:auto; display:block}
+
   .dl{
-    display:inline-flex; align-items:center; gap:8px; text-decoration:none;
-    color:var(--navy); background:var(--lime); font-weight:700; font-size:14px;
-    padding:10px 16px; border-radius:999px; transition:transform .12s ease, filter .12s ease;
+    position:fixed; top:max(16px, env(safe-area-inset-top)); right:16px; z-index:3;
+    width:44px; height:44px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    color:var(--ink); background:rgba(255,255,255,.08);
+    border:1px solid rgba(255,255,255,.16);
+    transition:color .15s ease, background .15s ease, transform .12s ease;
   }
-  .dl:active{transform:translateY(1px)} .dl:hover{filter:brightness(1.05)}
-  .foot{margin-top:22px; text-align:center; color:#88a0bd; font-size:12px}
-  .foot a{color:#b9c9de; text-decoration:none}
-  .foot a:hover{text-decoration:underline}
+  .dl:hover{color:#06121f; background:var(--lime); border-color:var(--lime)}
+  .dl:active{transform:scale(.94)}
+  .dl svg{width:20px; height:20px}
+
+  /* play affordance */
+  .play{
+    position:absolute; inset:0; z-index:2;
+    display:flex; align-items:center; justify-content:center;
+    border:0; margin:0; padding:0; cursor:pointer;
+    background:radial-gradient(60% 60% at 50% 50%, rgba(6,18,31,.18), rgba(6,18,31,.42));
+    -webkit-tap-highlight-color:transparent;
+  }
+  .play .ring{
+    width:clamp(76px,16vw,104px); aspect-ratio:1; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background:rgba(10,31,56,.55);
+    box-shadow:0 0 0 3px var(--lime), 0 12px 34px -8px rgba(0,0,0,.6);
+    transition:transform .14s ease, box-shadow .2s ease;
+  }
+  .play:hover .ring{transform:scale(1.05); box-shadow:0 0 0 4px var(--lime), 0 16px 40px -8px rgba(0,0,0,.65)}
+  .play:active .ring{transform:scale(.97)}
+  .play .ring::before{
+    content:""; display:block;
+    width:0; height:0; margin-left:6px;
+    border-left:clamp(22px,5vw,30px) solid var(--lime);
+    border-top:clamp(14px,3.2vw,19px) solid transparent;
+    border-bottom:clamp(14px,3.2vw,19px) solid transparent;
+  }
+  .play:hover .ring{background:rgba(10,31,56,.72)}
+  .play.hidden{display:none}
+
+  @media (prefers-reduced-motion:reduce){
+    .play .ring, .dl{transition:none}
+  }
+
+  :focus-visible{outline:3px solid var(--lime); outline-offset:3px}
 </style>
 </head>
 <body>
-  <div class="brand">
-    <img src="/assets/image/logo.png" alt="Evochem"
-         onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
-    <span class="fallback" style="display:none">EVOCHEM</span>
-  </div>
+  <a class="logo" href="https://evochem.co.in/" aria-label="Evochem home">
+    <img src="/assets/image/logo.png" alt="Evochem">
+  </a>
 
-  <div class="wrap">
-    <h1>Watch the Evochem video</h1>
-    <p class="sub">Tap play to watch. Best experienced with sound on.</p>
+  <a class="dl" id="dl" href="/assets/videos/evochem-720p.mp4" download
+     aria-label="Download video" title="Download video">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/>
+    </svg>
+  </a>
 
-    <div class="stage">
-      <video id="player" controls playsinline preload="metadata"
+  <div class="stage">
+    <div class="frame">
+      <video id="player" playsinline preload="metadata"
              poster="/assets/videos/evochem-poster.jpg"></video>
+      <button class="play" id="play" type="button" aria-label="Play video">
+        <span class="ring" aria-hidden="true"></span>
+      </button>
     </div>
-
-    <div class="meta">
-      <a class="dl" id="dl" href="/assets/videos/evochem-720p.mp4" download>
-        ⬇ Download video
-      </a>
-    </div>
-
-    <p class="foot">© Evochem · <a href="https://evochem.co.in/">evochem.co.in</a></p>
   </div>
 
 <script>
   (function(){
     var v = document.getElementById('player');
     var dl = document.getElementById('dl');
-    var SRC = {
-      hd: '/assets/videos/evochem-1080p.mp4',
-      sd: '/assets/videos/evochem-720p.mp4'
-    };
-    // Pick the mobile (smaller) file on small screens or constrained networks.
+    var play = document.getElementById('play');
+    var SRC = { hd:'/assets/videos/evochem-1080p.mp4', sd:'/assets/videos/evochem-720p.mp4' };
+
+    // Smaller file on phones / constrained networks.
     var small = Math.min(window.innerWidth, window.screen ? window.screen.width : 9999) <= 820;
     try {
       var c = navigator.connection;
       if (c && (c.saveData || /(^|-)2g$/.test(c.effectiveType) || c.effectiveType === '3g')) small = true;
     } catch(e){}
     var chosen = small ? SRC.sd : SRC.hd;
-    v.src = chosen;
-    dl.href = chosen;
-    v.load();
+    v.src = chosen; dl.href = chosen; v.load();
+
+    function start(){
+      play.classList.add('hidden');
+      v.setAttribute('controls','');          // hand over to native controls once playing
+      v.play().catch(function(){ v.muted = true; v.play(); }); // fall back to muted if sound is blocked
+    }
+    play.addEventListener('click', start);
+    v.addEventListener('play', function(){ play.classList.add('hidden'); v.setAttribute('controls',''); });
   })();
 </script>
 </body>
