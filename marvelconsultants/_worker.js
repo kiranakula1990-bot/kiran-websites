@@ -50,6 +50,20 @@ async function contact(request, env, url) {
   return json(r.ok ? 200 : 502, r.ok ? { ok: true } : { error: 'send failed' });
 }
 
+// 301 redirects: retired / duplicate URLs -> their single canonical URL (SEO consolidation).
+// Keyed on the exact stored path. Folder pages use the trailing-slash form; .html pages
+// (served 200 S3-style on this site) keep the .html form so the target resolves in one hop.
+const REDIRECTS = {
+  '/index.html': '/',
+  '/about.html': '/about/',
+  '/contact.html': '/contact/',
+  '/khata-transfer-guide.html': '/blog/khata-transfer-guide.html',
+  '/panchayat-khata-guide.html': '/blog/panchayat-khata-guide.html',
+  '/bda-khata-transfer-guide.html': '/blog/bda-khata-transfer-guide.html',
+  '/gst-late-filing-fee.html': '/blog/gst-late-filing-fee.html',
+  '/e-khata-online-bangalore-karnataka-complete-guide.html': '/blog/e-khata-online-bangalore-karnataka-complete-guide.html',
+};
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -68,6 +82,9 @@ export default {
     if (path === '/404.html') return notFound();
 
     if (path === '/api/contact' || path === '/api/contact/') return contact(request, env, url);
+
+    const redirectTo = REDIRECTS[path];             // retired/duplicate URL -> canonical (301)
+    if (redirectTo) return Response.redirect(url.origin + redirectTo + url.search, 301);
 
     if (path.endsWith('/')) {                       // directory index
       const r = await asset(path);
