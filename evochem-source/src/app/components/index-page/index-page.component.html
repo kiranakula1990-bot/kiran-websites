@@ -18,6 +18,22 @@
                 </ol>
             </nav>
             <p class="p2-text" *ngFor="let para of index.intro">{{ para }}</p>
+            <figure *ngIf="index.kind === 'products'" class="products-range-visual">
+    <img
+        src="assets/image/evochem-industrial-cleaning-chemicals-product-range.jpg"
+        alt="Industrial cleaning and hygiene chemical product range from Evochem"
+        style="display:block;width:100%;height:auto;"
+        loading="eager">
+</figure>
+            <section *ngIf="index.kind === 'products'" class="products-hub-nav" aria-label="Product categories">
+                <h2 class="h2-heading">Browse Product Categories</h2>
+                <ul>
+                    <li *ngFor="let group of groups">
+                        <a [routerLink]="groupPath(group)">{{ groupLabel[group.id] }}</a>
+                    </li>
+                </ul>
+                <p><a routerLink="/contactus" class="btn btn-primary">Request a Free Sample</a></p>
+            </section>
 
             <!-- /products/: every category with all of its products -->
             <ng-container *ngFor="let group of groups">
