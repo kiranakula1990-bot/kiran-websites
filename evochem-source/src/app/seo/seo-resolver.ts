@@ -1,5 +1,5 @@
 import { ContentPage } from '../content/content-model';
-import { categoryProductPath, findGroupBySlug, findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, productPath } from '../content/catalogue';
+import { categoryProductPath, findGroupBySlug, findProductBySlug, findProductInGroup, GROUP_LABEL, groupPath, orderedGroups, productPath } from '../content/catalogue';
 import { findPage, INDEX_PAGES, IndexKind, LEGACY_ARTICLES, pagePath } from '../content/site-content';
 import { productHeading } from '../content/product-keywords';
 import { LANDING_PAGES } from './landing-pages';
@@ -125,7 +125,17 @@ export function resolveSeo(url: string): PageSeo {
       jsonLd: [breadcrumb([{ name: index.name, path: index.path }]), {
         '@type': 'CollectionPage', '@id': `${SITE_URL}${index.path}#webpage`, name: index.title,
         description: index.description, url: SITE_URL + index.path, publisher: { '@id': ORG_ID },
-      }],
+      },
+      ...(index.kind === 'products' ? [{
+        '@type': 'ItemList',
+        name: index.title,
+        itemListElement: orderedGroups().map((group, position) => ({
+          '@type': 'ListItem',
+          position: position + 1,
+          item: { '@type': 'Thing', name: GROUP_LABEL[group.id], url: SITE_URL + groupPath(group) },
+        })),
+      }] : []),
+      ],
     };
   }
 

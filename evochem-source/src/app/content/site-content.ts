@@ -125,15 +125,14 @@ export interface IndexPage {
 export const INDEX_PAGES: Record<IndexKind, IndexPage> = {
   products: {
     kind: 'products', path: '/products/', name: 'Products',
-    title: 'Professional Cleaning Products Manufacturer India | Evochem',
-    description: 'Industrial cleaning chemicals in India by category, with bulk supply from Bengaluru: food processing, kitchen, housekeeping, laundry and hand hygiene.',
+    title: 'Industrial Cleaning Chemicals and Hygiene Products | Evochem India',
+    description: 'Explore industrial cleaning, disinfection and hygiene chemicals from Evochem. Browse six product ranges for food processing, kitchens, laundry and industry. Request a sample.',
     h1: 'Professional Cleaning Products and Hygiene Chemicals',
     tagline: 'Six product ranges, manufactured in Bengaluru and supplied in bulk across India',
     banner: 'assets/image/big-banner.jpg',
     intro: [
-      'Evochem manufactures cleaning and hygiene chemicals for food plants, commercial kitchens, hotels, hospitals, laundries, factories and facility managers. Every product below has its own page with its description, dilution guidance and enquiry options.',
-      'An MSDS is available on request for every product, so B2B procurement teams can approve MSDS-compliant cleaning chemicals before the first order.',
-      'Not sure which product fits your site? Start from your industry or cleaning task, or ask our technical team for a recommendation.',
+      'Evochem manufactures industrial cleaning, disinfection and hygiene chemicals in Bengaluru, with bulk supply across India for food processing, commercial kitchens, housekeeping, laundry, personal care and industrial hygiene.',
+      'Browse six product categories to explore product descriptions and usage guidance for cleaning and hygiene requirements.',
     ],
   },
   industries: {
