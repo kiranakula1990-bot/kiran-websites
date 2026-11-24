@@ -80,7 +80,14 @@ function contentSeo(page: ContentPage): PageSeo {
     about: page.primaryKeyword,
     publisher: { '@id': ORG_ID },
   };
-  const service = page.slug === 'industrial-floor-cleaner-chemicals-guide' ? {
+  const service = page.slug === 'open-plant-cleaning-chemicals' ? {
+    '@type': 'Service',
+    name: 'Open Plant Cleaning (OPC) chemical solutions',
+    description: 'Chemical solutions for manual and semi-automated cleaning of accessible industrial and food-facility surfaces.',
+    provider: { '@id': ORG_ID },
+    areaServed: { '@type': 'Country', name: 'India' },
+    serviceType: 'Open plant surface cleaning chemicals',
+  } : page.slug === 'industrial-floor-cleaner-chemicals-guide' ? {
     '@type': 'Service',
     name: 'Floor care chemical selection and dilution advice',
     description: 'Technical guidance to help manufacturing plants assess floor type, soil load, cleaning equipment and product dilution.',
