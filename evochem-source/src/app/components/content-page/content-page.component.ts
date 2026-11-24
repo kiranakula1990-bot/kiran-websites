@@ -70,6 +70,12 @@ export class ContentPageComponent implements OnInit {
   get isN004(): boolean {
     return this.page?.slug === 'industrial-floor-cleaner-chemicals-guide';
   }
+
+  get isN011(): boolean {
+    return this.page?.slug === 'open-plant-cleaning-chemicals';
+  }
+
+  get n011CtaGroup1() { return this.page?.ctaGroups?.[0]; }
   get n004CtaGroup1() { return this.page?.ctaGroups?.[0]; }
   get n004CtaGroup2() { return this.page?.ctaGroups?.[1]; }
   get n004CtaGroup3() { return this.page?.ctaGroups?.[2]; }
