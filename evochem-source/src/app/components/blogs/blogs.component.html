@@ -608,7 +608,7 @@
      (click)="trackCta('tel:+917483837722', 5)">Call</a>
 </div>
 <!-- Shared post-footer: share, related posts, back link -->
-<div *ngIf="currentBlogMeta" class="container pb-5">
+<div *ngIf="currentBlogMeta && blogType!='industrialSanitizers'" class="container pb-5">
     <div class="post-footer">
 
         <div class="post-share">
