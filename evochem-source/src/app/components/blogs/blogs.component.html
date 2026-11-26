@@ -633,18 +633,18 @@
             </div>
         </div>
 
-        <nav class="post-related" *ngIf="relatedPosts.length > 0" aria-label="Related articles">
-            <h2 class="post-related-title">Continue reading</h2>
-            <ul class="post-related-list">
-                <li *ngFor="let post of relatedPosts" class="post-related-item">
-                    <a [routerLink]="post.path" class="post-related-card">
-                        <span class="post-related-eyebrow">Related article</span>
-                        <span class="post-related-headline">{{ post.title }}</span>
-                        <span class="post-related-arrow" aria-hidden="true">→</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="post-related" [class.post-related--n006]="blogType=='industrialSanitizers'" *ngIf="relatedPosts.length > 0" aria-label="Related articles">
+    <h2 class="post-related-title">{{ blogType == 'industrialSanitizers' ? 'Related products and resources' : 'Continue reading' }}</h2>
+    <ul class="post-related-list">
+        <li *ngFor="let post of relatedPosts" class="post-related-item">
+            <a [routerLink]="post.path" class="post-related-card">
+                <span class="post-related-eyebrow" *ngIf="blogType!='industrialSanitizers'">Related article</span>
+                <span class="post-related-headline">{{ post.title }}</span>
+                <span class="post-related-arrow" aria-hidden="true" *ngIf="blogType!='industrialSanitizers'">→</span>
+            </a>
+        </li>
+    </ul>
+</nav>
 
         <a routerLink="/resources/" class="post-back-link">
             <span aria-hidden="true">←</span>
