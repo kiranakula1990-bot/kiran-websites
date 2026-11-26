@@ -237,60 +237,47 @@
   }
   .n003-sticky-cta a:last-child { background: #1f3a5f; }
 }
-
-/* N006: match the reference article's simple related-links layout */
-.post-footer {
-  margin: 2rem 0;
+/* N006: centered CTA and reference-matched related resources */
+.n003-cta {
+  text-align: center;
 }
-.post-share {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: .75rem;
-  margin-bottom: 1.75rem;
+.n003-cta__buttons {
+  justify-content: center;
 }
-.post-related {
+.post-related--n006 {
   margin: 1.5rem 0;
 }
-.post-related-title {
+.post-related--n006 .post-related-title {
   margin-bottom: .75rem;
 }
-.post-related-list {
+.post-related--n006 .post-related-list {
   display: block;
   padding-left: 1.25rem;
   margin: 0;
   list-style: disc;
 }
-.post-related-item {
+.post-related--n006 .post-related-item {
   display: list-item;
   margin: .5rem 0;
 }
-.post-related-card {
+.post-related--n006 .post-related-card {
   display: inline;
   padding: 0;
   border: 0;
   border-radius: 0;
   color: inherit;
   background: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
-.post-related-eyebrow {
+.post-related--n006 .post-related-headline {
   display: inline;
-  margin-right: .35rem;
+  font-weight: 400;
 }
-.post-related-headline {
-  display: inline;
-  font-weight: 600;
-}
-.post-related-arrow {
-  display: inline;
-  margin-left: .35rem;
-}
-.post-back-link {
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
-  margin-top: 1rem;
-  font-weight: 650;
-  text-decoration: none;
+@media (max-width: 767px) {
+  .n003-cta__buttons {
+    align-items: center;
+  }
+  .n003-cta__button {
+    width: 100%;
+  }
 }
