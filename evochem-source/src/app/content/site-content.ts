@@ -91,7 +91,15 @@ export const LEGACY_ARTICLES: LegacyArticle[] = [
     summary: 'Daily, weekly and monthly routines for a clean and safe kitchen.',
     date: '2024-08-05', image: 'assets/image/clean-kitchen.jpg',
   },
-];
+
+  {
+    slug: 'best-industrial-sanitizers-hospitals-food-plants', type: 'industrialSanitizers',
+    title: 'Best Industrial Sanitizers for Hospitals & Food Plants: What to Look For',
+    description: 'How to evaluate an industrial sanitizer for hospital or food-plant use: kill claims, surface compatibility and contact time. Evochem. Talk to our team.',
+    summary: 'A practical buyer guide to kill claims, surface compatibility and contact time when evaluating industrial sanitisers.',
+    date: '2026-11-26',
+    image: 'assets/image/best-industrial-sanitizers-hospitals-food-plants.jpg',
+  },];
 
 export const legacyArticlePath = (a: LegacyArticle) => `/resources/${a.slug}/`;
 
