@@ -28,6 +28,7 @@ export class BlogsComponent implements OnInit, OnDestroy {
 
   blogMeta: { [key: string]: BlogMeta } = {
     liquidDetergent: { title: 'Liquid Detergent Manufacturers in India: Buyer Guide', date: '2026-05-03', dateFormatted: 'May 3, 2026',  readTime: 9 },
+    industrialSanitizers: { title: 'Best Industrial Sanitizers for Hospitals & Food Plants: What to Look For', date: '2026-11-26', dateFormatted: 'Nov 26, 2026', readTime: 9 },
     healthCare:      { title: 'Healthcare Cleaning Chemicals and Protocols',     date: '2024-11-14', dateFormatted: 'Nov 14, 2024', readTime: 6 },
     deepcleaning:    { title: 'Deep Cleaning Protocols for Commercial Premises',                date: '2024-10-22', dateFormatted: 'Oct 22, 2024', readTime: 7 },
     cleanBrand:      { title: 'How Cleanliness Builds Brand Image and Trust',                  date: '2024-09-18', dateFormatted: 'Sep 18, 2024', readTime: 5 },
@@ -35,6 +36,13 @@ export class BlogsComponent implements OnInit, OnDestroy {
   };
 
   faqData: { [key: string]: Faq[] } = {
+    industrialSanitizers: [
+      { q: 'What is the difference between a quat and a chlorine-based sanitiser?', a: 'Quat (quaternary ammonium) sanitisers are stable, have little odour and are not corrosive to most surfaces at use dilution, but they can leave a residual film and are affected by hard water. Chlorine acts quickly and is inexpensive, but it loses strength in the presence of soil, corrodes metals over time and can bleach fabrics. Neither is better in every case. Match the choice to your organisms, surfaces and rinse needs, and never mix them with each other or with acids.' },
+      { q: 'Do sanitisers leave residue in food plants?', a: 'It depends on the chemistry and the label. Quat sanitisers can leave a residual film, so check whether a rinse is required. Peracetic acid breaks down to acetic acid, oxygen and water and leaves little residue. Alcohol-based products evaporate and need no rinse. In every case, follow the label for dilution, contact time and rinsing, and sanitise only a surface that has already been cleaned and rinsed.' },
+      { q: "What does 'hospital-grade' certification actually mean?", a: "'Hospital-grade' is a marketing phrase, not a single standard that applies everywhere. Ask for the claim in specific terms: which organisms were tested, which test standard was used, at what dilution and contact time, and who ran the test. Test reports often cite standards such as EN 1276 or EN 13697 for bacteria, EN 14476 for viruses and EN 1650 for yeasts and fungi. Your infection-control team decides which product is approved for clinical areas. Evochem's sanitisers are for food-contact surfaces and hand hygiene, and Evochem does not list a hospital-grade disinfectant." },
+      { q: 'How should I store sanitisers, and how long do they last?', a: 'Store concentrates in their original labelled containers, away from food, heat and direct sunlight, and keep oxidisers such as chlorine and peracetic acid apart from each other and from flammables. Check the date and storage advice on the label and the safety data sheet (SDS), because oxidising products can lose strength over time. Prepare chlorine solutions fresh and replace them when they become dirty. Never mix sanitisers with each other or with acids.' },
+      { q: 'How do I work out the cost per application?', a: 'Do not compare price per litre. Work out the cost of one sanitising of one area: the concentrate used at the label dilution, plus the water, the labour minutes and any rinse or re-clean time. For example, 100 litres of solution at a 0.2% dilution uses 200 ml of concentrate. Multiply by your quoted price for the concentrate and add the labour and water for that area. Evochem works on a quote basis, so ask for a written quote based on your areas and volumes.' }
+    ],
     liquidDetergent: [
       { q: 'What is the minimum order quantity (MOQ) for bulk liquid detergent purchases in India?', a: 'Most Indian manufacturers accept bulk orders starting from 200–500 litres per SKU for standard formulations. Custom formulations and private-label runs typically require higher MOQs of 1,000 litres or more. Always confirm MOQs upfront, especially when launching a new private-label brand.' },
       { q: 'What certifications should a liquid detergent manufacturer in India hold?', a: 'Look for ISO 9001 (quality management) and ISO 14001 (environmental management) at a minimum. GMP compliance, BIS marking where applicable, and complete MSDS/SDS documentation for every formulation are also essential indicators of a reliable supplier.' },
@@ -83,6 +91,14 @@ export class BlogsComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute, @Inject(DOCUMENT) private document: Document,
               @Inject(PLATFORM_ID) private platformId: Object) {}
 
+  trackCta(url: string, block: number): void {
+    if (!isPlatformBrowser(this.platformId)) return;
+    const eventName = url.startsWith('https://wa.me/') ? 'click_whatsapp'
+      : url.startsWith('tel:') ? 'click_call'
+      : url.startsWith('mailto:') ? 'click_email' : 'click_form';
+    const w = window as Window & { gtag?: (...args: any[]) => void };
+    w.gtag?.('event', eventName, { cta_block: block, page_path: window.location.pathname });
+  }
   get currentFaqs(): Faq[] {
     return this.faqData[this.blogType] || [];
   }
@@ -93,7 +109,7 @@ export class BlogsComponent implements OnInit, OnDestroy {
 
   /** Two related posts: prev + next in the editorial order. */
   get relatedPosts(): { path: string; title: string }[] {
-    const order = ['liquidDetergent', 'healthCare', 'deepcleaning', 'cleanBrand', 'cleanKitchen'];
+    const order = ['industrialSanitizers', 'liquidDetergent', 'healthCare', 'deepcleaning', 'cleanBrand', 'cleanKitchen'];
     const idx = order.indexOf(this.blogType);
     if (idx === -1) return [];
     const picks: string[] = [];

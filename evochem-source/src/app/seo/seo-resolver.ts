@@ -17,7 +17,7 @@ function clip(text: string, max = 158): string {
   const t = (text || '').replace(/\s+/g, ' ').trim();
   if (t.length <= max) return t;
   const cut = t.slice(0, max - 1);
-  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,.;:]$/, '') + 'â€¦';
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,.;:]$/, '') + '…';
 }
 
 function breadcrumb(items: { name: string; path: string }[]): object {
@@ -45,7 +45,7 @@ export function normalizePath(url: string): string {
   return path || '/';
 }
 
-/** First URL segment â†’ listing page, and â†’ kind of the pages below it. */
+/** First URL segment → listing page, and → kind of the pages below it. */
 const INDEX_BY_BASE: Record<string, IndexKind> = {
   products: 'products', industries: 'industries', solutions: 'solutions', 'case-studies': 'case-studies', resources: 'resources',
 };
@@ -149,9 +149,9 @@ export function resolveSeo(url: string): PageSeo {
     if (found) {
       const { product, group: g } = found;
       const p = third ? categoryProductPath(g, product.slug) : productPath(product.slug);
-      const name = `${product.title} â€“ ${product.code}`;
+      const name = `${product.title} – ${product.code}`;
       const heading = productHeading(product);
-      const full = `${heading} â€“ ${product.code} | Evochem`;
+      const full = `${heading} – ${product.code} | Evochem`;
       const title = full.length <= 62 ? full : `${heading} | Evochem`;
       const image = `${SITE_URL}/${product.picture}`;
       return {
@@ -187,9 +187,9 @@ export function resolveSeo(url: string): PageSeo {
       const p = `/resources/${blog.slug}/`;
       const image = `${SITE_URL}/${blog.image}`;
       return {
-        title: `${blog.title} | Evochem`,
+        title: blog.slug === 'best-industrial-sanitizers-hospitals-food-plants' ? 'Industrial Sanitizers for Hospitals & Food Plants | Evochem' : `${blog.title} | Evochem`,
         description: blog.description,
-        path: p, type: 'article', image, imageAlt: blog.title,
+        path: p, type: 'article', image, imageAlt: blog.slug === 'best-industrial-sanitizers-hospitals-food-plants' ? 'Industrial sanitizer being applied to a stainless steel food-processing surface' : blog.title,
         jsonLd: [
           breadcrumb([{ name: INDEX_PAGES.resources.name, path: INDEX_PAGES.resources.path }, { name: blog.title, path: p }]),
           {
