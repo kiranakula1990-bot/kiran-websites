@@ -1604,4 +1604,251 @@ export const ARTICLES: ContentPage[] = [
     "disclaimer": "Disclaimer: This article is general information. Always follow the product label, the MSDS and your plant’s own safety procedures. Test on a small hidden area first, and follow the floor coating maker’s guidance. What suits your plant depends on your floor, soils, equipment and regulator. Evochem is a brand of Ennwin Industries Private Limited.",
     "note": "By the Evochem technical team | 19 Nov 2026 | 8 min read"
   },
+  {
+    "kind": "article",
+    "slug": "open-plant-cleaning-opc-buyers-guide",
+    "name": "Open Plant Cleaning (OPC) Buyer's Guide",
+    "date": "2026-11-27",
+    "readTime": 9,
+    "title": "Open Plant Cleaning (OPC) Systems: A Buyer's Guide | Evochem",
+    "description": "What open plant cleaning (OPC) is, how to choose chemicals and application method, and how to audit your programme. Evochem. Talk to our team.",
+    "h1": "Open Plant Cleaning (OPC) Systems: A Buyer's Guide for Facility Managers",
+    "tagline": "A practical buyer's guide for facility managers in food and beverage plants",
+    "banner": "assets/image/open-plant-cleaning-opc-buyers-guide.webp",
+    "bannerAlt": "Foam cleaning of a conveyor in a food processing plant",
+    "heroImage": "assets/image/open-plant-cleaning-opc-buyers-guide.webp",
+    "primaryKeyword": "open plant cleaning system",
+    "summary": "How to choose open plant cleaning chemistry and application methods, compare cleaning costs and audit an existing OPC programme.",
+    "note": "By the Evochem technical team | 27 Nov 2026 | 9 min read",
+    "opening": "Open Plant Cleaning (OPC) covers manual and semi-automated cleaning of open surfaces and equipment exteriors, distinct from closed, automated Clean-in-Place (CIP) systems. Choosing the right chemical category and application method for OPC affects both labour cost and compliance outcomes.",
+    "intro": [
+      "This guide is for buying and running OPC. For the full comparison of the cleaning methods, read CIP vs OPC cleaning. For our foam cleaners and dilutions, see open plant cleaning chemicals."
+    ],
+    "quickFacts": [
+      { "label": "What it covers", "value": "Every surface your team can reach by hand or hose, such as floors, walls, drains, conveyors, machine frames and the outside of tanks and fillers." },
+      { "label": "Usual method", "value": "Foam cleaning, with a pre-rinse, a foam application, contact time, a top-down rinse and then sanitising." },
+      { "label": "Chemistry", "value": "Alkaline, acidic, chlorinated or neutral foam, chosen by soil. Never mix acidic and chlorinated products." },
+      { "label": "First step for a facility manager", "value": "Audit what you do today (Section 7)." }
+    ],
+    "ctaGroups": [
+      {
+        "heading": "Review your open plant cleaning programme",
+        "buttons": [
+          { "label": "Discuss Your OPC Programme", "url": "https://evochem.co.in/contactus/", "style": "primary" },
+          { "label": "WhatsApp Evochem", "url": "https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20an%20open%20plant%20cleaning%20(OPC)%20programme%20review%20for%20our%20plant.", "style": "secondary" },
+          { "label": "Call Evochem: +91 74838 37722", "url": "tel:+917483837722", "style": "secondary" }
+        ]
+      },
+      {
+        "heading": "Choose the right OPC foam cleaner",
+        "buttons": [
+          { "label": "See Our OPC Foam Cleaners", "url": "https://evochem.co.in/solutions/open-plant-cleaning-chemicals/", "style": "primary" },
+          { "label": "WhatsApp Your Plant Details", "url": "https://wa.me/917483837722?text=Hello%20Evochem%2C%20please%20advise%20OPC%20foam%20cleaners%20for%20our%20plant.%20Soils%3A%20___%20Surfaces%3A%20___", "style": "secondary" },
+          { "label": "Email Your Questions", "url": "mailto:info@ennwin.in?subject=Open%20plant%20cleaning%20programme%20review%20request", "style": "secondary" }
+        ]
+      },
+      {
+        "heading": "Review your current OPC programme",
+        "buttons": [
+          { "label": "Discuss Your OPC Programme", "url": "https://evochem.co.in/contactus/", "style": "primary" },
+          { "label": "WhatsApp Evochem", "url": "https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20an%20open%20plant%20cleaning%20(OPC)%20programme%20review%20for%20our%20plant.", "style": "secondary" },
+          { "label": "Call +91 74838 37722", "url": "tel:+917483837722", "style": "secondary" }
+        ]
+      },
+      {
+        "heading": "Discuss your OPC programme with Evochem",
+        "buttons": [
+          { "label": "Discuss Your OPC Programme", "url": "https://evochem.co.in/contactus/", "style": "primary" },
+          { "label": "WhatsApp Evochem", "url": "https://wa.me/917483837722?text=Hello%20Evochem%2C%20I%20would%20like%20an%20open%20plant%20cleaning%20(OPC)%20programme%20review%20for%20our%20plant.", "style": "secondary" },
+          { "label": "Call +91 74838 37722", "url": "tel:+917483837722", "style": "secondary" },
+          { "label": "Email info@ennwin.in", "url": "mailto:info@ennwin.in?subject=Open%20plant%20cleaning%20programme%20review%20request", "style": "secondary" }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "heading": "1. What an OPC system includes",
+        "paragraphs": [
+          "An OPC system is more than a detergent. It is the chemistry, the way it is applied, the people who apply it and the records that prove it was done. When you buy or review an OPC programme, check each part."
+        ],
+        "table": {
+          "headers": ["Part of the system", "What it does", "What to decide"],
+          "rows": [
+            ["Dry clean and pre-rinse", "Removes gross soil so the detergent works on the film that remains.", "Tools, water pressure and how the area is prepared."],
+            ["Detergent (foam)", "Loosens fat, protein, scale or mineral soil.", "The category and the dilution (Section 3)."],
+            ["Application equipment", "A foam unit or lance puts the foam on the surface, bottom up.", "Portable or fixed units, and who maintains them."],
+            ["Contact time and agitation", "Gives the chemistry time to work; brushes or pads help on heavy soil.", "The time in your written procedure."],
+            ["Rinse", "Carries the soil to the drain, top down.", "Water use, drains and the floor under equipment."],
+            ["Sanitiser", "Reduces microorganisms on food-contact surfaces that are already clean.", "The product and where it is used (Section 3)."],
+            ["People and records", "Trained staff, PPE, a safety data sheet (MSDS) at hand, and a signed record.", "Training, supervision and sign-off."]
+          ]
+        }
+      },
+      {
+        "heading": "2. When is OPC needed, and does regulation require it?",
+        "paragraphs": [
+          "Food safety rules do not name OPC as a required method. They require a clean, controlled plant. In India, Schedule 4 of the FSSAI licensing regulations asks food businesses to follow good manufacturing and hygiene practices, and the FSSAI inspection checklist asks whether equipment and premises are cleaned to a cleaning schedule and programme. See the FSSAI page on hygiene requirements.",
+          "In practice, any surface that is open to the room has to be cleaned and cleaned the same way every time, and that work is OPC. Your licence category and your customers' audit standards, such as HACCP-based or ISO-based schemes, decide how much detail you must document.","The comparison is explained in full in CIP vs OPC cleaning. If you run a CIP circuit as well, see our CIP cleaning chemicals."
+        ],
+        "table": {
+          "headers": ["Surface or part", "Usual method", "Why"],
+          "rows": [
+            ["Floors, walls, drains, conveyors, tables, outside of machines", "OPC", "You can reach it by hand or hose, and foam stays on vertical surfaces."],
+            ["Closed pipelines, tanks, heat exchangers", "CIP", "Solution is pumped through closed equipment, so low-foam chemistry is used."],
+            ["Small parts removed from a machine", "COP (clean out of place)", "Soaked in a tank, so a low-foam alkaline detergent is used."]
+          ]
+        },
+
+      },
+      {
+        "heading": "3. How to choose the chemical category",
+        "paragraphs": [
+          "Choose by the soil, not by habit. Most daily cleaning is alkaline. An acidic foam is added where scale and mineral film build up. The table shows the categories and the Evochem products published on our OPC page, with the dilution range printed there. Always follow the product label and MSDS.","Foam cleaning removes soil. It does not sanitise, unless a chlorinated cleaner is used as a combined step. To choose a sanitiser, read our guide to food-contact surface sanitisers. To understand the alkaline and acidic choice, read alkaline vs acidic cleaners in the food industry."
+        ],
+        "table": {
+          "headers": ["Soil or need", "Foam category", "Evochem product and published dilution", "Note"],
+          "rows": [
+            ["Fat, oil, protein and general food soil", "Alkaline foam", "Alkalox Foam or Clastox Foam: 2% to 5%", "Most daily cleaning."],
+            ["Scale, mineral deposits, inorganic soil", "Acidic foam", "Acidox Foam: 2% to 5%", "Use periodically, or in alternation with alkaline foam."],
+            ["Daily cleaning where a combined clean and sanitise step suits the area", "Chlorinated alkaline foam", "Chlorox Foam: 1% to 5%", "Never mix with acidic products."],
+            ["General cleaning where strong alkali is not needed", "Neutral foam", "Neutrox Foam: 2% to 5%", "Floors, walls, utensils, equipment."],
+            ["Parts removed from the line", "Low-foam alkaline soak (COP)", "Clastox Plus or Clastox 50: 0.5% to 5%", "Foam is not wanted in a soak tank."],
+            ["Surfaces that are already clean and rinsed", "Sanitiser", "Sanix Quat or Sanix Peraxy", "Applied after cleaning, not instead of it."]
+          ]
+        },
+
+      },
+      {
+        "heading": "4. Foam or spray: which application method?",
+        "paragraphs": [
+          "The method matters as much as the chemical. Foam is usually the better choice for OPC because it stays where you put it.","For the difference between foaming and low-foaming detergents, read foaming vs non-foaming alkaline detergents."
+        ],
+        "table": {
+          "headers": ["Factor", "Foam", "Plain spray of solution"],
+          "rows": [
+            ["Contact on walls and frames", "Clings to vertical and overhead surfaces.", "Runs off faster, so contact time is shorter."],
+            ["Seeing coverage", "The operator can see where product has been applied.", "Harder to see what has been covered."],
+            ["Best used on", "Walls, conveyors, equipment frames, floors.", "Pre-rinse, rinse, and some flat surfaces."],
+            ["Do not use in", "A CIP circuit. Foam causes problems in recirculating systems.", "—"]
+          ]
+        },
+
+      },
+      {
+        "heading": "5. Labour versus chemical cost: how to compare",
+        "paragraphs": [
+          "The lowest-cost litre is not always the lowest-cost clean. A stronger chemistry or a longer contact time can reduce scrubbing and rework. A weaker product can cost more in labour, water and rinse time. Compare the whole job, not the price list.","Record these for one trial area with your current product and with an alternative, and compare the total. Do not raise the dilution above the label to save labour. It wastes product and can leave residue."
+        ],
+        "table": {
+          "headers": ["Cost driver", "How to measure it"],
+          "rows": [
+            ["Labour", "Minutes of cleaning and scrubbing for one area, per shift."],
+            ["Chemical", "Quantity used for that area at the label dilution."],
+            ["Water", "Pre-rinse and rinse volume for that area."],
+            ["Downtime", "Time the line is stopped for cleaning and for re-cleaning."],
+            ["Rework", "How often an area fails inspection and has to be cleaned again."]
+          ]
+        },
+
+      },
+      {
+        "heading": "6. Safety and PPE in open plant cleaning",
+        "paragraphs": [
+          "In OPC the operator works close to the spray. Safety is part of the system, not an extra."
+        ],
+        "bullets": [
+          "Wear goggles, gloves, an apron and boots. Follow the product label and the MSDS.",
+          "Never apply foam over live electrical panels. Protect electrical equipment before cleaning.",
+          "Never mix acidic and chlorinated products. The reaction can release chlorine gas. Rinse thoroughly between an acid step and a chlorinated step.",
+          "Store acids and chlorinated alkalis separately, with clear labels.",
+          "Keep the MSDS for every product at the point of use.",
+          "Train staff on the label dilution, and follow your site's own safety rules."
+        ]
+      },
+      {
+        "heading": "7. How to audit an existing OPC programme",
+        "paragraphs": [
+          "For a facility manager, an audit is the most practical first step. Take the written procedure to the floor and watch a real cleaning against it. Use this checklist."
+        ],
+        "table": {
+          "headers": ["#", "Check", "What good looks like"],
+          "rows": [
+            ["1", "Is there a written procedure for each area?", "It names the product, dilution, method, contact time, rinse and sanitising step."],
+            ["2", "Does the product match the soil?", "Alkaline for fat and protein, acidic for scale, used as the procedure says."],
+            ["3", "Is the dilution right?", "It is made at the label dilution, with a measuring method, not by guess."],
+            ["4", "Is foam applied bottom up with contact time?", "The surface is covered, and the foam is not left to dry."],
+            ["5", "Is the rinse top down?", "Water reaches drains, and the floor under equipment is rinsed."],
+            ["6", "Is sanitiser used after cleaning?", "Food-contact surfaces are sanitised after the final rinse."],
+            ["7", "Are acids and chlorinated products kept apart?", "Separate storage, clear labels, and a rinse between steps."],
+            ["8", "Are PPE and MSDS in place?", "Staff wear the PPE, and the MSDS is at the point of use."],
+            ["9", "Are surfaces inspected after cleaning?", "Someone checks, and failed areas are cleaned again."],
+            ["10", "Are records filled in and signed?", "Date, area, product, dilution and sign-off are recorded."]
+          ]
+        }
+      },
+      {
+        "heading": "8. What to ask a chemical supplier",
+        "bullets": [
+          "Do you give the dilution range and the MSDS for every product?",
+          "Which soils is each foam made for, and which should I not use it on?",
+          "Is the product compatible with the materials in my equipment, such as soft metals, gaskets and coatings?",
+          "Who can help me set up and review my programme?",
+          "Can you give a written quote based on my areas, soils and volumes?"
+        ],
+        "paragraphs": [
+          "Be careful of anyone who quotes without asking about your soils, surfaces and volumes."
+        ]
+      },
+      {
+        "heading": "9. How Evochem can help",
+        "paragraphs": [
+          "Evochem manufactures foam cleaners and sanitisers for food plants in Bengaluru, with dilution guidance and an MSDS for every product. See our open plant cleaning chemicals, our food processing hygiene range and our guides for food and beverage processing, dairy processing and poultry and meat processing.",
+          "Send us your current OPC procedure, your areas, soils and volumes. We will review the product choice, dilutions and method with you and send a quote for bulk supply. We work on a quote-only basis, so no prices are shown here."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "When is open plant cleaning required by regulation?",
+        "a": "Food safety rules do not name OPC as a required method. In India, Schedule 4 of the FSSAI licensing regulations requires food businesses to follow good manufacturing and hygiene practices, and FSSAI inspection checklists ask whether equipment and premises are cleaned to a cleaning schedule and programme. Any open surface you can reach by hand or hose is cleaned in practice by OPC, so you need a written, followed programme. Check your licence category and your customers' audit standards."
+      },
+      {
+        "q": "What chemical categories are used for open plant cleaning?",
+        "a": "Four foam categories are common: alkaline foam for fat, oil and protein; acidic foam for scale and mineral deposits; chlorinated alkaline foam where a combined clean-and-sanitise step suits the area; and neutral foam for general cleaning. Surfaces are then sanitised with a product such as quat or peracetic acid, applied only after cleaning and rinsing. Parts removed from the line are soaked in a low-foam alkaline detergent."
+      },
+      {
+        "q": "What is the labour versus chemical cost trade-off in OPC?",
+        "a": "A stronger chemistry or a longer contact time can reduce scrubbing and rework, while a cheaper product can cost more in labour, water and rinse time. Compare the total cost of one cleaning of one area, including labour minutes, chemical used, water used and downtime, rather than price per litre. Never raise the dilution above the label to save labour."
+      },
+      {
+        "q": "Should I use foam or spray for open plant cleaning?",
+        "a": "Foam is usually better for walls, conveyors and equipment frames because it clings to vertical and overhead surfaces, shows where product has been applied and keeps the chemistry in contact with the soil. A plain spray of detergent solution runs off faster and gives less contact time. Foam suits OPC, but it must never go into a CIP circuit."
+      },
+      {
+        "q": "What safety and PPE are needed for open plant cleaning?",
+        "a": "The operator works close to the spray, so goggles, gloves, an apron and boots are essential. Do not apply foam over live electrical panels. Never mix acidic and chlorinated products, and rinse thoroughly between an acid step and a chlorinated step. Keep the safety data sheet (MSDS) for every product at the point of use, and train staff on the label dilution."
+      },
+      {
+        "q": "How do I audit an existing OPC programme?",
+        "a": "Check the written procedure, then watch a real cleaning. Confirm that the dilution, contact time, application method, top-down rinse and sanitising step match the procedure, that acids and chlorinated products are kept apart, that PPE and MSDS are in place, and that records are filled in. Then inspect the cleaned surfaces. The audit checklist in Section 7 lists the checks."
+      }
+    ],
+    "related": [
+      { "path": "/resources/cip-vs-opc-cleaning/", "label": "CIP vs OPC cleaning", "eyebrow": "Article" },
+      { "path": "/solutions/open-plant-cleaning-chemicals/", "label": "Open plant cleaning chemicals", "eyebrow": "Solution" },
+      { "path": "/solutions/cip-cleaning-chemicals/", "label": "CIP cleaning chemicals", "eyebrow": "Solution" },
+      { "path": "/resources/foaming-vs-non-foaming-alkaline-detergents/", "label": "Foaming vs non-foaming alkaline detergents", "eyebrow": "Article" },
+      { "path": "/resources/alkaline-vs-acidic-cleaners-food-industry/", "label": "Alkaline vs acidic cleaners in the food industry", "eyebrow": "Article" },
+      { "path": "/resources/food-contact-surface-sanitisers/", "label": "Food-contact surface sanitisers guide", "eyebrow": "Article" },
+      { "path": "/resources/dairy-cip-optimization-guide/", "label": "Dairy CIP optimisation guide", "eyebrow": "Article" }
+    ],
+    "inlineLinks": [
+      { "path": "/resources/cip-vs-opc-cleaning/", "label": "CIP vs OPC cleaning", "eyebrow": "Related guide" },
+      { "path": "/solutions/open-plant-cleaning-chemicals/", "label": "Open plant cleaning chemicals", "eyebrow": "Solution" },
+      { "path": "/solutions/cip-cleaning-chemicals/", "label": "CIP cleaning chemicals", "eyebrow": "Solution" },
+      { "path": "/resources/food-contact-surface-sanitisers/", "label": "Food-contact surface sanitisers", "eyebrow": "Guide" },
+      { "path": "/resources/foaming-vs-non-foaming-alkaline-detergents/", "label": "Foaming vs non-foaming alkaline detergents", "eyebrow": "Guide" }
+    ],
+    "disclaimer": "Disclaimer: This article is general information. Always follow the product label, the MSDS and your plant's own safety procedures. Dilutions, contact times and the right product depend on your soils, surfaces, water and equipment. Regulations and standards change, so check the current requirements for your licence. Evochem is not affiliated with FSSAI or any regulator."
+  }
 ];

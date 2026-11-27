@@ -44,14 +44,25 @@
                  data-cta-block="1" (click)="trackCta(button.url, 1)">{{ button.label }}</a>
             </div>
           </section>
-          <section *ngIf="page.quickFacts?.length">
-            <h2 class="h2-heading">Quick facts</h2>
+          <section [ngClass]="isN005 ? 'cp-note' : null" *ngIf="page.quickFacts?.length">
+            <h2 class="h2-heading">{{ isN005 ? 'OPC at a glance' : 'Quick facts' }}</h2>
             <ul class="cp-list">
               <li *ngFor="let fact of page.quickFacts">
                 <p class="p2-text"><strong>{{ fact.label }}:</strong> {{ fact.value }}</p>
               </li>
             </ul>
           </section>
+<section *ngIf="isN005 && n005CtaGroup1 as group" class="n003-cta">
+  <h2>{{ group.heading }}</h2>
+  <div class="n003-cta__buttons">
+    <a *ngFor="let button of group.buttons" [href]="button.url"
+       [ngClass]="'n003-cta__button n003-cta__button--' + button.style"
+       [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+       [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener' : null"
+       [attr.data-cta]="button.url.startsWith('https://wa.me/') ? 'whatsapp' : button.url.startsWith('tel:') ? 'call' : button.url.startsWith('mailto:') ? 'email' : 'form'"
+       data-cta-block="1" (click)="trackCta(button.url, 1)">{{ button.label }}</a>
+  </div>
+</section>
 
           <section *ngIf="isN003 && n003CtaGroup1 as group" class="n003-cta">
             <h2>{{ group.heading }}</h2>
@@ -101,7 +112,29 @@
               </table>
             </div>
 
-            <section *ngIf="isN004 && section.heading === '4. Decision matrix: floor type and soil load' && n004CtaGroup2 as group" class="n003-cta n004-cta">
+            <section *ngIf="isN005 && section.heading === '3. How to choose the chemical category' && n005CtaGroup2 as group" class="n003-cta">
+  <h2>{{ group.heading }}</h2>
+  <div class="n003-cta__buttons">
+    <a *ngFor="let button of group.buttons" [href]="button.url"
+       [ngClass]="'n003-cta__button n003-cta__button--' + button.style"
+       [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+       [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener' : null"
+       [attr.data-cta]="button.url.startsWith('https://wa.me/') ? 'whatsapp' : button.url.startsWith('tel:') ? 'call' : button.url.startsWith('mailto:') ? 'email' : 'form'"
+       data-cta-block="2" (click)="trackCta(button.url, 2)">{{ button.label }}</a>
+  </div>
+</section>
+<section *ngIf="isN005 && section.heading === '7. How to audit an existing OPC programme' && n005CtaGroup3 as group" class="n003-cta">
+  <h2>{{ group.heading }}</h2>
+  <div class="n003-cta__buttons">
+    <a *ngFor="let button of group.buttons" [href]="button.url"
+       [ngClass]="'n003-cta__button n003-cta__button--' + button.style"
+       [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+       [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener' : null"
+       [attr.data-cta]="button.url.startsWith('https://wa.me/') ? 'whatsapp' : button.url.startsWith('tel:') ? 'call' : button.url.startsWith('mailto:') ? 'email' : 'form'"
+       data-cta-block="3" (click)="trackCta(button.url, 3)">{{ button.label }}</a>
+  </div>
+</section>
+<section *ngIf="isN004 && section.heading === '4. Decision matrix: floor type and soil load' && n004CtaGroup2 as group" class="n003-cta n004-cta">
               <h2>{{ group.heading }}</h2>
               <div class="n003-cta__buttons">
                 <a *ngFor="let button of group.buttons" [href]="button.url"
@@ -158,7 +191,7 @@
             </ul>
           </div>
           <p *ngIf="page.disclaimer" class="p2-text"><small>{{ page.disclaimer }}</small></p>
-<ng-container *ngIf="!isN003 && !isN004">
+<ng-container *ngIf="!isN003 && !isN004 && !isN005">
           <h2 class="h2-heading">{{ page.slug === "healthcare" ? "Request a Healthcare Sample & SDS" : page.slug === "dairy-processing" ? "Request a Dairy Hygiene Consultation" : "Talk to our technical team" }}</h2>
           <p class="p2-text">{{ page.slug === "healthcare" ? "Share your facility areas and housekeeping requirements. Request product MSDS, dilution guidance and a sample for evaluation against your facility SOPs." : page.slug === "dairy-processing" ? "Discuss your dairy plant soils, CIP circuits, cleaning conditions and documentation needs with our technical team." : "Tell us about your site, soils, equipment and volumes. We will recommend products and dilutions, and send pricing for bulk supply." }}</p>
           <div class="product-cta-row" role="group" aria-label="Contact options">
@@ -190,7 +223,20 @@
       </div>
     </div>
 
-    <div *ngIf="isN011 && n011CtaGroup1 as group" class="blog-section">
+    <div *ngIf="isN005 && n005CtaGroup4 as group" class="blog-section">
+  <section class="n003-cta n003-cta--final">
+    <h2>{{ group.heading }}</h2>
+    <div class="n003-cta__buttons">
+      <a *ngFor="let button of group.buttons" [href]="button.url"
+         [ngClass]="'n003-cta__button n003-cta__button--' + button.style"
+         [attr.target]="button.url.startsWith('https://wa.me/') ? '_blank' : null"
+         [attr.rel]="button.url.startsWith('https://wa.me/') ? 'noopener' : null"
+         [attr.data-cta]="button.url.startsWith('https://wa.me/') ? 'whatsapp' : button.url.startsWith('tel:') ? 'call' : button.url.startsWith('mailto:') ? 'email' : 'form'"
+         data-cta-block="4" (click)="trackCta(button.url, 4)">{{ button.label }}</a>
+    </div>
+  </section>
+</div>
+<div *ngIf="isN011 && n011CtaGroup1 as group" class="blog-section">
       <section class="n003-cta n003-cta--final" aria-label="Request an OPC chemical sample">
         <h2>{{ group.heading }}</h2>
         <div class="n003-cta__buttons">
