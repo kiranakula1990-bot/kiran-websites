@@ -12,7 +12,7 @@ At **Marvel Consultants**, we assist property owners across Bangalore with [Khat
 
 #### Quick Summary (2026)
 
-Converting B Khata to A Khata in Bangalore now costs approximately **2% of the guidance value** (reduced from 5%), can be done **online via the BBMP e-Aasthi portal**, and typically takes **30–45 days**. Read on for the full eligibility, documents, fees and step-by-step process.
+B Khata to A Khata conversion in Bangalore is applied for on the Greater Bengaluru Authority (formerly BBMP) portal. For applications submitted from 24 August 2026 the conversion fee is 5% of the property's guidance value; the earlier 2% special-drive rate applies only to applications submitted on or before 23 August 2026. The process may take **30–45 days**, depending on eligibility, document verification and inspection. Confirm the current rate on the official portal before you pay.
 
 ## What is B Khata?
 
@@ -67,9 +67,9 @@ Selling, gifting, or transferring an A Khata property is much easier.
 
 ## Documents Required for B Khata to A Khata Conversion
 
-To apply for conversion, keep the following documents ready:
+Most conversion applications need the ten core documents below, plus the extra records in the second list if they apply to your property. Use both lists as a checklist and tick off each item before you apply.
 
-### Mandatory Documents
+### Documents checklist: commonly requested (tick each one)
 
 - Registered Sale Deed
 - Current B Khata Certificate
@@ -82,7 +82,7 @@ To apply for conversion, keep the following documents ready:
 - Property Sketch
 - Passport Size Photograph
 
-### Additional Documents (If Applicable)
+### Documents checklist: additional, if they apply to your property
 
 - DC Conversion Order
 - Approved Building Plan
@@ -129,19 +129,17 @@ Before applying, ensure that:
 
 ## B Khata to A Khata Conversion Fees in Bangalore (2026)
 
-Under the recent government initiative, conversion charges have been reduced for eligible properties.
+The conversion fee depends on the date your application is submitted and on the guidance value of your property. The rates below are taken from the Greater Bengaluru Authority's B to A Khata portal (checked 27 November 2026).
+
+- Application fee: confirm the current amount on the portal (commonly quoted as ₹500)
+- Conversion charge, applications submitted from 24 Aug 2026: 5% of guidance value
+- Conversion charge, applications submitted on or before 23 Aug 2026: 2% of guidance value, even if approved later
 
 ### Approximate Cost Structure
 
 #### Example Calculation
 
-Property Guidance Value: **&#8377;80 Lakhs**
-
-Earlier Conversion Fee (5%) = **&#8377;4,00,000**
-
-Current Conversion Fee (2%) = **&#8377;1,60,000**
-
-This results in significant savings for property owners.
+Example: on a property with a ₹50 lakh guidance value, 5% is about ₹2,50,000 (the 2% special-drive rate would have been about ₹1,00,000). The government has changed this fee before and may do so again, so confirm the current rate on the official portal before you pay.
 
 ## How Long Does the Conversion Process Take?
 
@@ -200,7 +198,7 @@ Our experienced team helps property owners complete the process efficiently whil
 
 1. How much does B Khata to A Khata conversion cost in Bangalore in 2026?
 
-Under the latest government initiative, conversion charges are approximately **2% of the property's guidance value** (reduced from 5% earlier), plus a nominal application fee of around &#8377;500, a Khata certificate fee of &#8377;25 and a Khata extract fee of &#8377;100. Betterment and DC conversion charges may apply depending on the property.
+For applications submitted from 24 August 2026, the Greater Bengaluru Authority's portal states a conversion fee of 5% of the property's guidance value. Applications submitted on or before 23 August 2026 were charged 2%, even if they are approved later. An application fee and other charges, for example for unconverted land, may also apply. Confirm the current rate on the official portal before you pay.
 
 2. How long does B Khata to A Khata conversion take?
 

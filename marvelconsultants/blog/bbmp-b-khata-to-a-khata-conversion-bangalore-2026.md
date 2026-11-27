@@ -4,15 +4,15 @@
 
 Source: https://www.marvelconsultants.co.in/blog/bbmp-b-khata-to-a-khata-conversion-bangalore-2026.html  ·  Organisation: Marvel Consultants, Bengaluru  ·  Phone: +91 91875 98642  ·  WhatsApp: https://wa.me/919187598642
 
-If you own an independent house or a vacant plot in Bangalore that is currently registered under B-Khata, 2026 is the most cost-effective year in over a decade to convert it to A-Khata. Under the Greater Bengaluru Authority's (GBA) 100-Day Special Drive, running from 16 May 2026 to 23 August 2026, the government has temporarily reduced the betterment/conversion charge to just 2% of the guidance value. Outside this window, the same conversion can cost significantly more.
+If you own an independent house or a vacant plot in Bangalore that is currently registered under B-Khata, you can apply to convert it to A-Khata through the Greater Bengaluru Authority (GBA) portal. The GBA ran a 100-day special drive that charged only 2% of the guidance value, but that window closed on 23 August 2026. Applications submitted from 24 August 2026 are charged 5% of the guidance value, while applications submitted on or before 23 August 2026 keep the 2% rate even if they are approved later (GBA B to A Khata portal, checked 27 November 2026).
 
-At [Marvel Consultants](https://www.marvelconsultants.co.in/index.html), we've spent over 10 years helping Bengaluru property owners and business owners navigate BBMP and GST paperwork without the runaround. This guide walks you through exactly what B-Khata and A-Khata mean, who qualifies for conversion, what documents you need, and how the online and offline processes work — so you can decide whether to act before the window closes.
+At [Marvel Consultants](https://www.marvelconsultants.co.in/index.html), we've spent over 10 years helping Bengaluru property owners and business owners navigate BBMP and GST paperwork without the runaround. This guide walks you through exactly what B-Khata and A-Khata mean, who qualifies for conversion, what documents you need, and how the online and offline processes work — so you can check your eligibility and prepare before you apply.
 
 Already dealing with a GST notice on the same property or business? See how we help with [GST compliance and dispute resolution](https://www.marvelconsultants.co.in/gst.html), or read our step-by-step breakdown of [what to do when you receive a GST notice](https://www.marvelconsultants.co.in/gst.html).
 
-#### GBA 100-Day Special Drive (16 May – 23 Aug 2026)
+#### Fee now: 5% of guidance value
 
-Betterment/conversion charges reduced to **2% of guidance value**. Applications after 23 Aug 2026 may revert to a higher fee structure.
+The 2% special-drive rate applies only to applications submitted on or before 23 August 2026 (even if approved later). Applications submitted from **24 August 2026** are charged **5% of guidance value**. Confirm the current fee on the GBA portal before you pay.
 
 ## What Is the Difference Between A-Khata and B-Khata?
 
@@ -82,7 +82,7 @@ Get a free 15-minute eligibility check before you spend anything on the applicat
 - Upload documentsUpload the full document set — sale deed, tax receipts, site sketch, and photographs — and self-certify eligibility.
 - Pay the application feePay the &#8377;500 application fee online and download your acknowledgement slip.
 - Ground inspectionBBMP conducts a physical ground inspection of the property.
-- Pay conversion fee & receive A-KhataOn approval, pay the conversion fee (2% of guidance value under the current drive) and receive your digital A-Khata certificate.
+- Pay conversion fee & receive A-KhataOn approval, pay the conversion fee (5% of guidance value for applications submitted from 24 August 2026) and receive your digital A-Khata certificate.
 
 ## How the Offline Application Works
 
@@ -92,11 +92,11 @@ Get a free 15-minute eligibility check before you spend anything on the applicat
 - Scrutiny & verificationBBMP scrutinises the documents and conducts a physical verification.
 - Receive A-KhataOn approval, the A-Khata certificate is typically issued within 4–6 weeks.
 
-## Conversion Fees — And Why the Timing Matters
+## Conversion Fees: What You Pay Now
 
-#### Betterment/conversion charges reduced to 2% of guidance value
+#### Conversion charge: 5% of guidance value for applications from 24 August 2026
 
-On a property with a &#8377;50 lakh guidance value, that is roughly &#8377;1,00,000 in conversion fees — a fraction of what similar regularisation schemes have historically charged. Applications submitted after 23 August 2026 may revert to a higher fee structure, so property owners who qualify have a genuine window to act.
+On a property with a &#8377;50 lakh guidance value, 5% is roughly &#8377;2,50,000 in conversion fees. The 2% special-drive rate (about &#8377;1,00,000 on the same property) applies only to applications submitted on or before 23 August 2026. The fee depends on the date your application is submitted and on your property's guidance value, so check both before you calculate.
 
 Marvel Consultants' professional fee covers eligibility verification, full document preparation, portal filing, Aadhaar E-KYC coordination, guidance through both government payments, and follow-up with BBMP until your A-Khata certificate is in hand. Government fees are always paid directly to BBMP, separately from our service fee.
 
@@ -109,6 +109,10 @@ For property owners who purchased or inherited property and haven't updated owne
 What is the difference between A-Khata and B-Khata?
 
 A-Khata is BBMP's register for fully compliant properties with complete legal ownership recognition. B-Khata is a secondary register for properties with pending approvals or irregularities, which limits resale, mortgage, and construction rights.
+
+What is the B-Khata to A-Khata conversion fee now?
+
+For applications submitted from 24 August 2026, the GBA portal states a fee of 5% of the guidance value. Applications submitted on or before 23 August 2026 were charged 2%, even if they are approved later. A separate application fee applies, and extra charges can apply to unconverted land. Always confirm the current rate on the GBA portal before you pay.
 
 Can flat owners apply for this conversion?
 
@@ -144,7 +148,7 @@ Marvel Consultants handles B-Khata to A-Khata conversion applications end to end
 
 ### &#128222; Ready to Convert Your Property to A-Khata?
 
-The 2% conversion fee window closes on 23 August 2026 — act while it's open. Call Sanjay: [+91 91875 98642](https://www.marvelconsultants.co.in/blog/tel:+919187598642) | Call Kiran: [+91 96635 38037](https://www.marvelconsultants.co.in/blog/tel:+919663538037)
+Not sure which fee applies to your property? We check eligibility and the fee for your application before you pay. Call Sanjay: [+91 91875 98642](https://www.marvelconsultants.co.in/blog/tel:+919187598642) | Call Kiran: [+91 96635 38037](https://www.marvelconsultants.co.in/blog/tel:+919663538037)
 
 [Book Your Free BBMP Consultation Now](https://www.marvelconsultants.co.in/contact.html) [WhatsApp Us](https://wa.me/919187598642?text=Hi%2C%20I%27d%20like%20a%20free%20consultation%20on%20B-Khata%20to%20A-Khata%20conversion.)
 
