@@ -94,7 +94,13 @@ function contentSeo(page: ContentPage): PageSeo {
     provider: { '@id': ORG_ID },
     areaServed: { '@type': 'Country', name: 'India' },
     serviceType: 'Industrial floor care chemical selection',
-  } : null;
+  } : page.slug === 'open-plant-cleaning-opc-buyers-guide' ? {
+    '@type': 'Service',
+    name: 'Open Plant Cleaning (OPC) programme and chemical guidance',
+    description: 'Technical guidance on selecting foam cleaning chemicals and application methods for open surfaces in food and beverage facilities.',
+    provider: { '@id': ORG_ID },
+    areaServed: { '@type': 'Country', name: 'India' },
+    serviceType: 'Open plant cleaning chemical selection and programme guidance',  } : null;
   return {
     title: page.title, description: page.description, path: p,
     type: article ? 'article' : 'website', image, imageAlt: page.bannerAlt,

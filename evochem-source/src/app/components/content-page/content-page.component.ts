@@ -75,6 +75,15 @@ export class ContentPageComponent implements OnInit {
     return this.page?.slug === 'open-plant-cleaning-chemicals';
   }
 
+  get isN005(): boolean {
+    return this.page?.slug === 'open-plant-cleaning-opc-buyers-guide';
+  }
+
+  get n005CtaGroup1() { return this.page?.ctaGroups?.[0]; }
+  get n005CtaGroup2() { return this.page?.ctaGroups?.[1]; }
+  get n005CtaGroup3() { return this.page?.ctaGroups?.[2]; }
+  get n005CtaGroup4() { return this.page?.ctaGroups?.[3]; }
+
   get n011CtaGroup1() { return this.page?.ctaGroups?.[0]; }
   get n004CtaGroup1() { return this.page?.ctaGroups?.[0]; }
   get n004CtaGroup2() { return this.page?.ctaGroups?.[1]; }

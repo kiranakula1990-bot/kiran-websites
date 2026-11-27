@@ -144,6 +144,7 @@
 /resources/foaming-vs-non-foaming-alkaline-detergents
 /resources/cleanroom-disinfectant-validation-guide
 /resources/industrial-floor-cleaner-chemicals-guide
+/resources/open-plant-cleaning-opc-buyers-guide
 /resources/liquid-detergent-manufacturers-india
 /resources/healthcare-cleaning-protocols
 /resources/deep-cleaning-reset-protocols
